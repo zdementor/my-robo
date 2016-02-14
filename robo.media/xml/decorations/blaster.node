@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<!--Saved at 2015/06/13 12:20:56-->
+
+<Scene scene_node_type="ESNT_ANIMATED_MESH_SCENE_NODE" />
+<SceneNodeCoreProperties>
+<Material name="blaster" />
+<Mesh filename="weapons/blaster.md2" animation_fps="0" lod="0" />
+<Shadow on="1" type="ESHT_SHADOW_VOLUME" />
+</SceneNodeCoreProperties>
+</Scene>
+
+<Game game_node_type="EGNT_DECORATION" class_name="Standard" />
+
+<GameNodeCoreProperties>
+<GameParameters mov_speed="0.00" rot_speed="0.00" life="100.00" />
+</GameNodeCoreProperties>
+
+
+</Game>
+

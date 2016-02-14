@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+
+<Scene scene_node_type="ESNT_BILLBOARD_SCENE_NODE" />
+
+<Size width="6" height="40"/>
+
+<Material>
+<Pass>
+<Layer index="0" texture="sprites\bulletflash_2.tga" coords_gen="ETCGT_MANUAL_MAPPING" />
+<Flags qouraud_shading="1" zwrite_enable="0" back_face_culling="1" front_face_ccw="1" fog_enable="1" blending="1" />
+<Ambient red="255" green="255" blue="255" alpha="255" />
+<Diffuse red="50" green="50" blue="50" alpha="50" />
+<Emissive red="0" green="0" blue="0" alpha="0" />
+<Specular red="0" green="0" blue="0" alpha="0" />
+<Shininess value="0.00" />
+<BlendFunc src="ESBF_ONE" dst="EDBF_ONE_MINUS_SRC_COLOR" />
+</Pass>
+</Material>
+
+</Scene>
+
+<Game>
+
+<Parameters fly_time="1250" range="1250" damage="60" damage_radius="0" mass="5" dispersion="50,300,50" dirt_size="5,5,5" dirt_color="0,0,0,200" />
+
+<BindTrace filename="effects\krag_machinegun_bullet_trace.xml" />
+
+<BindBoomEffect filename="effects\bullet_lightings.xml"    scale="1,1,1" offset="0,0,0" air="0" ground="1" wall="1" flesh="0" delay_after_boom="0" life_time="350" />
+<BindBoomEffect filename="effects\bullet_smoke.xml"        scale="1,1,1" offset="0,0,0" air="0" ground="1" wall="1" flesh="0" delay_after_boom="100" life_time="500" />
+
+</Game>
+
+<Sound>
+
+</Sound>

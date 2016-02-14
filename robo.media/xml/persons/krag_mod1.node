@@ -1,0 +1,86 @@
+<?xml version="1.0"?>
+
+<Scene scene_node_type="ESNT_ANIMATED_MESH_SCENE_NODE">
+
+<SceneNodeCoreProperties>
+<Mesh filename="krag_mod1/cal3d_res0.cfg" animation_fps="12" lod="0" />
+<Mesh filename="krag_mod1/cal3d_res1.cfg" animation_fps="10" lod="1" />
+<Mesh filename="krag_mod1/cal3d_res2.cfg" animation_fps="8" lod="2" />
+<Animation speed="1.00" smooth="0" >
+<Register filename="krag_mod1\krag_stand_idle.CAF" speed="1.00" loop="1" />
+<Register filename="krag_mod1\krag_stand_idle_action_a.CAF" speed="1.00" loop="1" />
+<Register filename="krag_mod1\krag_walk_forward.CAF" speed="1.80" loop="1" />
+<Register filename="krag_mod1\krag_stand_hit_chela.CAF" speed="1.50" loop="1" />
+<Register filename="krag_mod1\krag_stand_shoot_plazma.CAF" speed="1.00" loop="1" />
+<Register filename="krag_mod1\krag_plazma_ready_to_go.CAF" speed="1.00" loop="0" />
+<Register filename="krag_mod1\krag_plazma_ready_to_shoot.CAF" speed="1.00" loop="0" />
+<Register filename="krag_mod1\krag_seat_hit_chela.CAF" speed="1.00" loop="1" />
+<Register filename="krag_mod1\krag_seat_shoot_plazma.CAF" speed="1.00" loop="1" />
+<Register filename="krag_mod1\krag_death_c.CAF" speed="1.00" loop="0" />
+<Register filename="krag_mod1\krag_death_d.CAF" speed="1.00" loop="0" />
+<Register filename="krag_mod1\krag_death_e.CAF" speed="1.00" loop="0" />
+<Register filename="krag_mod1\krag_death_seat_plazma_a.CAF" speed="1.00" loop="0" />
+<Register filename="krag_mod1\krag_death_seat_plazma_b.CAF" speed="1.00" loop="0" />
+</Animation>
+<Shadow on="1" type="ESHT_SHADOW_VOLUME" />
+<BindImposter shift_x="0.00" shift_y="-1.00" shift_z="0.00" view_offset="40.00" centered="0" >
+<CreationParams view_count="12" view_angle="20" view_scale_width="1.50" view_scale_height="1.00"
+size_scale_width="1.00" size_scale_height="1.00" tex_res="96.00" frame_step="1.00"
+ambient_color="150,150,150" diffuse_color="255,255,255" specular_color="0,0,0"
+compress="1" />
+</BindImposter>
+</SceneNodeCoreProperties>
+
+</Scene>
+
+<Game game_node_type="EGNT_PERSON" class_name="Krag" >
+
+<GameNodeCoreProperties>
+<GameParameters mov_speed="180.00" rot_speed="25.00" life="700.00" />
+</GameNodeCoreProperties>
+
+<ItemDropTable drop_prob="0.333">
+<ItemDrop filename="items\medkit_large_item.node" prob="0.05" pos="0,40,0" />
+<ItemDrop filename="items\medkit_medium_item.node" prob="0.1" pos="0,40,0" />
+<ItemDrop filename="items\medkit_small_item.node" prob="0.2" pos="0,40,0" />
+<ItemDrop filename="items\ammo_bullet_large_item.node" prob="0.05" pos="0,40,0" />
+<ItemDrop filename="items\ammo_bullet_medium_item.node" prob="0.1" pos="0,40,0" />
+<ItemDrop filename="items\ammo_bullet_small_item.node" prob="0.2" pos="0,40,0" />
+<ItemDrop filename="items\ammo_rocket_large_item.node" prob="0.05" pos="0,40,0" />
+<ItemDrop filename="items\ammo_rocket_medium_item.node" prob="0.1" pos="0,40,0" />
+<ItemDrop filename="items\ammo_rocket_small_item.node" prob="0.2" pos="0,40,0" />
+</ItemDropTable>
+
+<AI 
+view_dist="150"
+mele_attack_range="120" mele_attack_damage="250" mele_attack_angle="90"
+fire_attack_horiz_max_angle="10" fire_attack_vert_max_angle="20"
+armor="100" power="100" dexterity="100" accuracy="100" 
+stand_ready_max_time="10000" memory_time="10000"
+friendly_damage_coeff="0.1"
+blood_color="0,75,0,90"
+/>
+
+<BindWeapon number="0" enabled="1" filename="weapons\krag_plazma.node" target_bone="Bip03 R Forearm" 
+pos="20.0,0.0,0.0" rot="0.0,0.0,0.0" lpos="40.0,40.0,0.0" />
+
+<BindHurtEffect filename="effects\hited_green_bleed.xml" scale="1,1,1" offset="0,0,0" hit="1" death="0" delay_after_hurt="0" life_time="500" />
+<BindHurtEffect filename="effects\death_green_bleed.xml" scale="1,1,1" offset="0,0,0" hit="0" death="1" delay_after_hurt="0" life_time="500" />
+
+</Game>
+
+<Sound>
+
+</Sound>
+
+<Dynamic>
+
+<DynamicObjectCoreProperties>
+<DynamicParameters dynamic_type="EDOT_DYNAMIC" geom_form="EDOGF_YCCYLINDER" mass_value="5.00"
+surf_mu="1.000000" surf_bounce="0.010000" surf_bounce_vel="0.100000" surf_soft="0.000001"
+dynamic_constraints="58" />
+</DynamicObjectCoreProperties>
+
+</Dynamic>
+
+

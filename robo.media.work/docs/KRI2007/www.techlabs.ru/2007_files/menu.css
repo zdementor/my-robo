@@ -1,0 +1,228 @@
+body {
+background: white;
+padding: 0;
+margin: 0;
+}
+
+img {
+border: none;
+}
+
+#redspacer td{
+background: #DB0000;
+height: 2;
+padding: 0;
+margin: 0;
+}
+
+#redspacer div{
+line-height: 1;
+font-size: 1px;
+height: 1;
+padding: 0;
+margin: 0;
+}
+
+#logo {
+position: absolute;
+z-index: 333;
+top: 87;
+left: 1;
+background:url('/i/logo.png') no-repeat; background-image:expression('none'); filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/i/logo.png', sizingMethod='crop');
+}
+
+#element1 {
+position: absolute;
+z-index: 1;
+top: 162;
+left: 0;
+}
+
+table#MainMenu {
+width: 100%;
+padding: 0px;
+margin: 0px;
+border: none;
+border-collapse: collapse;
+border-spacing: 0px;
+}
+
+table#MainMenu #reklama {
+height: 120;
+background: #00363A;
+}
+
+table#MainMenu #reklama a{
+display: block;
+cursor: hand;
+}
+
+table#MainMenu tr#OtherPart td{
+padding: 10;
+background: #EEE;
+}
+
+table#ShadowLine {
+position: absolute;
+top: 116;
+left: 0;
+width: 100%;
+overflow: hidden;
+}
+
+table#ShadowLine img {
+width: 100%;
+height: 4px;
+background:url('/i/shadow-line.png') no-repeat; background-image:expression('none'); filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/i/shadow-line.png', sizingMethod='crop');
+}
+
+
+/*навигация*/
+
+#menu {
+position: absolute;
+z-index: 1;
+top: 91;
+left: 210;
+line-height: 1;
+width: 790;
+}
+
+#menu div div, #menu a {
+position: relative;
+z-index: 1;
+height: 29;
+cursor: hand;
+text-decoration: none;
+display: inline;
+float: left;
+}
+
+#menu a.active div{
+z-index: 3;
+color: black;
+}
+
+#menu #menutext {
+position: absolute;
+z-index: 4;
+top: 10;
+left: 2;
+height: 19;
+padding: 0 6 0 8;
+font-family: Tahoma;
+font-size: 11px;
+font-weight: bold;
+text-transform: uppercase;
+color: #454545;
+background: url(/b/menu-title.gif) bottom repeat-x;
+border: 0px solid black;
+}
+
+#menu .active #menutext {
+background: none;
+}
+
+#menu img#center {
+background:url('/i/menu-title-center.png') no-repeat; background-image:expression('none'); filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/i/menu-title-center.png', sizingMethod='crop');
+width: 57;
+height: 29;
+}
+#menu img#left {
+background:url('/i/menu-title-left.png') no-repeat; background-image:expression('none'); filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/i/menu-title-left.png', sizingMethod='crop');
+width: 6;
+height: 29;
+}
+#menu img#right {
+background:url('/i/menu-title-right.png') no-repeat; background-image:expression('none'); filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/i/menu-title-right.png', sizingMethod='crop');
+width: 6;
+height: 29;
+}
+
+
+
+#menu a.active img#center, #menu a:hover img#center {
+background:url('/i/menu-title-center-active.png') no-repeat; background-image:expression('none'); filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/i/menu-title-center-active.png', sizingMethod='crop');
+}
+#menu a.active img#left, #menu a:hover img#left{
+background:url('/i/menu-title-left-active.png') no-repeat; background-image:expression('none'); filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/i/menu-title-left-active.png', sizingMethod='crop');
+}
+#menu a.active img#right, #menu a:hover img#right{
+background:url('/i/menu-title-right-active.png') no-repeat; background-image:expression('none'); filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/i/menu-title-right-active.png', sizingMethod='crop');
+}
+
+
+#menu #mm1 img#center {
+width: 57;
+}
+#menu #mm2 img#center {
+width: 59;
+}
+#menu #mm3 img#center {
+width: 51;
+}
+#menu #mm3 img#center {
+width: 51;
+}
+#menu #mm4 img#center {
+width: 49;
+}
+#menu #mm5 img#center {
+width: 56;
+}
+#menu #mm6 img#center {
+width: 39;
+}
+#menu #mm7 img#center {
+width: 75;
+}
+#menu #mm8 img#center {
+width: 49;
+}
+#menu #mm10 img#center {
+width: 68;
+}
+
+/*Undermenu*/
+#UnderMenu {
+padding-left: 210;
+height: 109;
+white-space: nowrap;
+}
+
+#UnderMenu a{
+color: black;
+text-decoration: underline;
+font-size: 10px;
+font-weight: bold;
+font-family: Arial;
+line-height: 150%;
+white-space: nowrap;
+
+}
+
+#UnderMenu div {
+padding: 0 10 0 10;
+background: url(/b/red.gif) 0px 4px no-repeat;
+float: left;
+}
+
+/*search*/
+#searchtop {
+border: 0px solid #EEE;
+background: #EEE url(/b/search-line.gif) 0px 17px repeat-x;
+height: 20px;
+width: 140;
+padding-top: 3;
+}
+
+#serachbutton {
+margin-left: 5;
+}
+
+#sponsors {
+font-family: Arial;
+font-size: 10px;
+font-weight: bold;
+color: gray;
+}

@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!--Saved at 2013/12/07 18:39:54-->
+
+<Scene scene_node_type="ESNT_KTREE_SCENE_NODE" />
+<Material name="paralax.material" />
+<SceneNodeCoreProperties>
+<MeshFileName value="room.3ds" />
+<PhysicalMeshFileName value="room.3ds" />
+<MaxTrianglesPerNode value="4096" />
+</SceneNodeCoreProperties>
+</Scene>
+
+<Game game_node_type="EGNT_LEVEL_MAP" class_name="Standard" />
+<GameNodeCoreProperties>
+<GameParameters mov_speed="0.00" rot_speed="0.00" life="100.00" />
+</GameNodeCoreProperties>
+</Game>
+

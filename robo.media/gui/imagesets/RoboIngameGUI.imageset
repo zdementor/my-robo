@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<Imageset Name="RoboIngameGUI" Imagefile="RoboIngameGUI.tga" NativeHorzRes="800" NativeVertRes="600" AutoScaled="true">
+    <Image Name="HeartImage" XPos="0" YPos="0" Width="32" Height="32" />
+    <Image Name="AmmoImage" XPos="33" YPos="0" Width="32" Height="32" />
+    <Image Name="ImageWeapon0_On" XPos="0" YPos="33" Width="239" Height="114" />
+    <Image Name="ImageWeapon1_On" XPos="0" YPos="148" Width="239" Height="114" />
+    <Image Name="ImageWeapon2_On" XPos="0" YPos="263" Width="239" Height="114" />
+    <Image Name="ImageWeapon0_Off" XPos="240" YPos="33" Width="239" Height="114" />
+    <Image Name="ImageWeapon1_Off" XPos="240" YPos="148" Width="239" Height="114" />
+    <Image Name="ImageWeapon2_Off" XPos="240" YPos="263" Width="239" Height="114" />
+    <Image Name="BackGroundImage" XPos="0" YPos="378" Width="160" Height="120" />
+</Imageset>

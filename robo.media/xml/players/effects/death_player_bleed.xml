@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+
+<Scene scene_node_type="ESNT_BILLBOARD_SCENE_NODE" />
+
+<Size width="250" height="150"/>
+
+<UpAxis value="0,1,0"  />
+<AxisAligment type="EAAT_NONE" x="0" y="1" z="0"  />
+
+<Material>
+<Pass>
+<Layer index="0" texture="null" tc_gen="ETCGT_MANUAL_MAPPING" tc_addr="ETCAM_CLAMP" rgb_scale="1" tc_channel="0" />
+<Flags qouraud_shading="1" zwrite_enable="0" back_face_culling="0" front_face_ccw="1" fog_enable="1" blending="1" />
+<Ambient red="0" green="0" blue="0" alpha="0" />
+<Diffuse red="255" green="255" blue="255" alpha="150" />
+<Emissive red="0" green="0" blue="0" alpha="0" />
+<Specular red="0" green="0" blue="0" alpha="0" />
+<Shininess value="0.00" />
+<DepthTest value="ECT_ALWAYS" />
+<AlphaTest value="EAT_ALWAYS" />
+<BlendFunc src="ESBF_SRC_ALPHA" dst="EDBF_ONE_MINUS_SRC_ALPHA" />
+</Pass>
+</Material>
+
+<AnimationSet index="0" loop="1" time_per_frame="100" >
+<TextureFileName value="..\models\weaphits\blood201.tga" />
+<TextureFileName value="..\models\weaphits\blood202.tga" />
+<TextureFileName value="..\models\weaphits\blood203.tga" />
+<TextureFileName value="..\models\weaphits\blood204.tga" />
+<TextureFileName value="..\models\weaphits\blood205.tga" />
+<DirectionSet>
+<Frame tex_index="0" />
+<Frame tex_index="1" />
+<Frame tex_index="2" />
+<Frame tex_index="3" />
+<Frame tex_index="4" />
+</DirectionSet>
+</AnimationSet>
+
+</Scene>
+
+<Game game_node_type="EGNT_DECORATION" class_name="Standard" >
+</Game>
+
+
+
+

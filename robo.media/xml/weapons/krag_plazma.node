@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+
+<Scene scene_node_type="ESNT_DUMMY_TANSFORMATION_SCENE_NODE" />
+
+</Scene>
+
+<Game game_node_type="EGNT_WEAPON" class_name="Standard" >
+
+<GameNodeCoreProperties>
+<GameParameters mov_speed="0.00" rot_speed="0.00" life="0.00" />
+</GameNodeCoreProperties>
+
+<FlashColor red="50" green="250" blue="50" alpha="255" />
+<FlashRadius value="200" />
+<FlashTime value="300" />
+<FirePoint x="0" y="0" z="0" />
+
+<BindFireEffect filename="effects\plazma_fire.xml" x="0" y="0" z="0.0" />
+
+<BindBullet filename="bullets\krag_plazma_bullet.xml" auto_feel_per_second="1" max_ammo_count="5" key_name="" />
+
+<Parameters 
+fire_per_second="2" mass="100" select_speed="0" wait_before_fire="50" 
+/>
+
+</Game>
+
+<Sound>
+
+<SoundEffect filename ="weapons\tmp-1.wav" loop="0" />
+<SoundEffect filename ="weapons\tmp-2.wav" loop="0" />
+
+</Sound>
+

@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+
+<AnimatedTexture time_per_frame="50" loop="1" >
+
+<Frame filename="bloodbig_0000.jpg" />
+<Frame filename="bloodbig_0001.jpg" />
+<Frame filename="bloodbig_0002.jpg" />
+<Frame filename="bloodbig_0003.jpg" />
+<Frame filename="bloodbig_0004.jpg" />
+
+</AnimatedTexture> 

@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+
+<Scene scene_node_type="ESNT_BILLBOARD_SCENE_NODE" />
+
+<Size width="100" height="100"/>
+
+<UpAxis value="0,1,0"  />
+<AxisAligment type="EAAT_BLEND_CAM_POS" x="0" y="1" z="0"  />
+
+<Material name="textures/robo_sfx/flame1_anim" />
+
+</Scene>
+

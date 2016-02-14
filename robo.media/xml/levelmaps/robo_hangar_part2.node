@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+
+<Scene scene_node_type="ESNT_KTREE_SCENE_NODE" />
+
+<Material>
+<Pass>
+<Flags qouraud_shading="1" zwrite_enable="1" back_face_culling="1" front_face_ccw="1" fog_enable="1" mip_map_off="0" blending="0" />
+</Pass>
+</Material>
+
+<SceneNodeCoreProperties>
+<MeshFileName value="maps/robo_hangar_part2.bsp" />
+<PhysicalMeshFileName value="maps/robo_hangar_part2_phys.bsp" />
+<MaxTrianglesPerNode value="4096" />
+</SceneNodeCoreProperties>
+
+</Scene>
+
+<Game game_node_type="EGNT_LEVEL_MAP" class_name="Standard" >
+<GameNodeCoreProperties>
+<GameParameters mov_speed="0.00" rot_speed="0.00" life="0.00" />
+</GameNodeCoreProperties>
+</Game>
+
+<Dynamic>
+
+<DynamicObjectCoreProperties>
+<DynamicParameters dynamic_type="EDOT_MONOLITH" geom_form="EDOGF_MESH" mass_value="50.00"
+surf_mu="1.000000" surf_bounce="0.010000" surf_bounce_vel="0.100000" surf_soft="0.000001"
+dynamic_constraints="0" />
+</DynamicObjectCoreProperties>
+
+</Dynamic>
+
+
+
+
+

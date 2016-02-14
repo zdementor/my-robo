@@ -1,0 +1,2235 @@
+
+// entity 0
+{
+"classname" "worldspawn"
+"_blocksize" "0 0 0"
+// brush 0
+{
+( -720 -152 176 ) ( -720 -288 176 ) ( -832 -152 176 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( -720 -152 176 ) ( -832 -152 176 ) ( -720 -152 96 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( -720 -152 176 ) ( -720 -152 96 ) ( -720 -288 176 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( -832 -288 96 ) ( -720 -288 96 ) ( -832 -152 96 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+( -832 -288 96 ) ( -832 -288 176 ) ( -720 -288 96 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+( -832 -288 96 ) ( -832 -152 96 ) ( -832 -288 176 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+( -720 -184 64 ) ( -808 -152 -64 ) ( -720 -184 -64 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+}
+}
+// entity 1
+{
+"classname" "func_group"
+}
+// entity 2
+{
+"classname" "func_transparent"
+}
+// entity 3
+{
+"classname" "func_transparent"
+}
+// entity 4
+{
+"classname" "func_transparent"
+}
+// entity 5
+{
+"classname" "func_static"
+}
+// entity 6
+{
+"classname" "func_transparent"
+"target" "func_transparent32"
+}
+// entity 7
+{
+"classname" "func_transparent"
+"target" "func_transparent33"
+}
+// entity 8
+{
+"classname" "func_transparent"
+"target" "func_transparent4"
+}
+// entity 9
+{
+"classname" "func_group"
+}
+// entity 10
+{
+"classname" "func_transparent"
+"team" "a9"
+}
+// entity 11
+{
+"classname" "func_transparent"
+"team" "a9"
+}
+// entity 12
+{
+"classname" "func_transparent"
+}
+// entity 13
+{
+"classname" "func_transparent"
+}
+// entity 14
+{
+"classname" "func_transparent"
+}
+// entity 15
+{
+"classname" "func_transparent"
+}
+// entity 16
+{
+"classname" "func_transparent"
+}
+// entity 17
+{
+"classname" "func_transparent"
+}
+// entity 18
+{
+"classname" "func_transparent"
+}
+// entity 19
+{
+"classname" "func_transparent"
+}
+// entity 20
+{
+"classname" "func_transparent"
+}
+// entity 21
+{
+"classname" "func_transparent"
+}
+// entity 22
+{
+"classname" "func_transparent"
+}
+// entity 23
+{
+"classname" "func_group"
+}
+// entity 24
+{
+"classname" "func_group"
+}
+// entity 25
+{
+"classname" "func_group"
+}
+// entity 26
+{
+"classname" "func_transparent"
+"target" "func_transparent57"
+}
+// entity 27
+{
+"classname" "func_door"
+"angle" "-2"
+"lip" "96"
+"speed" "400"
+}
+// entity 28
+{
+"classname" "func_transparent"
+}
+// entity 29
+{
+"classname" "func_transparent"
+}
+// entity 30
+{
+"classname" "func_group"
+}
+// entity 31
+{
+"classname" "func_transparent"
+"target" "func_transparent59"
+}
+// entity 32
+{
+"classname" "func_static"
+}
+// entity 33
+{
+"classname" "func_group"
+}
+// entity 34
+{
+"classname" "func_group"
+}
+// entity 35
+{
+"classname" "func_static"
+}
+// entity 36
+{
+"classname" "func_static"
+}
+// entity 37
+{
+"classname" "func_static"
+}
+// entity 38
+{
+"classname" "func_static"
+}
+// entity 39
+{
+"classname" "func_static"
+}
+// entity 40
+{
+"classname" "func_group"
+}
+// entity 41
+{
+"classname" "func_static"
+}
+// entity 42
+{
+"classname" "func_transparent"
+"target" "func_transparent63"
+}
+// entity 43
+{
+"classname" "func_transparent"
+"target" "func_transparent58"
+}
+// entity 44
+{
+"classname" "func_group"
+}
+// entity 45
+{
+"classname" "func_group"
+}
+// entity 46
+{
+"classname" "func_transparent"
+"team" "a9"
+}
+// entity 47
+{
+"classname" "func_transparent"
+"team" "a8"
+"targetname" "func_transparent57"
+}
+// entity 48
+{
+"classname" "func_transparent"
+"team" "a9"
+"targetname" "func_transparent57"
+}
+// entity 49
+{
+"classname" "func_transparent"
+"team" "a8"
+}
+// entity 50
+{
+"classname" "func_transparent"
+"team" "a8"
+}
+// entity 51
+{
+"classname" "func_transparent"
+"team" "a8"
+}
+// entity 52
+{
+"classname" "func_transparent"
+"team" "a9"
+"targetname" "func_transparent59"
+}
+// entity 53
+{
+"classname" "func_transparent"
+"team" "b9"
+"targetname" "func_transparent59"
+}
+// entity 54
+{
+"classname" "func_transparent"
+"targetname" "func_transparent63"
+"team" "a9"
+}
+// entity 55
+{
+"classname" "func_transparent"
+"targetname" "func_transparent63"
+"team" "a8"
+}
+// entity 56
+{
+"classname" "func_static"
+}
+// entity 57
+{
+"classname" "func_static"
+}
+// entity 58
+{
+"classname" "func_transparent"
+}
+// entity 59
+{
+"classname" "func_transparent"
+}
+// entity 60
+{
+"classname" "func_transparent"
+}
+// entity 61
+{
+"classname" "func_transparent"
+}
+// entity 62
+{
+"classname" "func_transparent"
+}
+// entity 63
+{
+"classname" "func_transparent"
+}
+// entity 64
+{
+"classname" "func_transparent"
+}
+// entity 65
+{
+"classname" "func_transparent"
+"target" "func_transparent67"
+}
+// entity 66
+{
+"classname" "func_transparent"
+"team" "b9"
+"targetname" "func_transparent67"
+}
+// entity 67
+{
+"classname" "func_transparent"
+}
+// entity 68
+{
+"classname" "func_group"
+}
+// entity 69
+{
+"classname" "func_group"
+}
+// entity 70
+{
+"classname" "func_group"
+}
+// entity 71
+{
+"classname" "func_group"
+}
+// entity 72
+{
+"classname" "func_group"
+}
+// entity 73
+{
+"classname" "func_group"
+}
+// entity 74
+{
+"classname" "func_group"
+}
+// entity 75
+{
+"classname" "func_group"
+}
+// entity 76
+{
+"classname" "func_group"
+}
+// entity 77
+{
+"classname" "func_group"
+}
+// entity 78
+{
+"classname" "func_group"
+}
+// entity 79
+{
+"classname" "func_group"
+}
+// entity 80
+{
+"classname" "func_group"
+}
+// entity 81
+{
+"classname" "func_group"
+}
+// entity 82
+{
+"classname" "func_group"
+}
+// entity 83
+{
+"classname" "func_group"
+}
+// entity 84
+{
+"classname" "func_group"
+}
+// entity 85
+{
+"classname" "func_group"
+}
+// entity 86
+{
+"classname" "func_transparent"
+}
+// entity 87
+{
+"classname" "func_group"
+}
+// entity 88
+{
+"classname" "func_transparent"
+}
+// entity 89
+{
+"classname" "func_group"
+}
+// entity 90
+{
+"classname" "func_group"
+}
+// entity 91
+{
+"classname" "func_group"
+}
+// entity 92
+{
+"classname" "func_group"
+}
+// entity 93
+{
+"classname" "func_group"
+}
+// entity 94
+{
+"classname" "func_group"
+}
+// entity 95
+{
+"classname" "func_group"
+}
+// entity 96
+{
+"classname" "func_group"
+}
+// entity 97
+{
+"classname" "func_group"
+}
+// entity 98
+{
+"classname" "func_group"
+}
+// entity 99
+{
+"classname" "func_group"
+}
+// entity 100
+{
+"classname" "func_group"
+}
+// entity 101
+{
+"classname" "func_group"
+}
+// entity 102
+{
+"classname" "func_group"
+}
+// entity 103
+{
+"classname" "func_group"
+}
+// entity 104
+{
+"classname" "func_group"
+}
+// entity 105
+{
+"classname" "func_group"
+}
+// entity 106
+{
+"classname" "func_group"
+}
+// entity 107
+{
+"classname" "func_group"
+}
+// entity 108
+{
+"classname" "func_group"
+}
+// entity 109
+{
+"classname" "func_group"
+}
+// entity 110
+{
+"classname" "func_door"
+}
+// entity 111
+{
+"classname" "func_group"
+}
+// entity 112
+{
+"classname" "func_group"
+}
+// entity 113
+{
+"classname" "func_group"
+}
+// entity 114
+{
+"classname" "func_group"
+}
+// entity 115
+{
+"classname" "func_group"
+}
+// entity 116
+{
+"classname" "func_group"
+}
+// entity 117
+{
+"classname" "func_group"
+}
+// entity 118
+{
+"classname" "func_group"
+}
+// entity 119
+{
+"classname" "func_group"
+}
+// entity 120
+{
+"classname" "func_group"
+}
+// entity 121
+{
+"classname" "func_group"
+}
+// entity 122
+{
+"classname" "func_group"
+}
+// entity 123
+{
+"classname" "func_group"
+}
+// entity 124
+{
+"classname" "func_group"
+}
+// entity 125
+{
+"classname" "func_group"
+}
+// entity 126
+{
+"classname" "func_group"
+}
+// entity 127
+{
+"classname" "func_group"
+}
+// entity 128
+{
+"classname" "func_group"
+}
+// entity 129
+{
+"classname" "func_group"
+}
+// entity 130
+{
+"classname" "func_group"
+}
+// entity 131
+{
+"classname" "func_group"
+}
+// entity 132
+{
+"classname" "func_group"
+}
+// entity 133
+{
+"classname" "func_group"
+}
+// entity 134
+{
+"classname" "func_group"
+}
+// entity 135
+{
+"classname" "func_group"
+// brush 0
+{
+( -738 516 168 ) ( -738 450 168 ) ( -820 516 168 ) robo_floor/clanggrate2 4 0 0 0.5 0.5 0 0 0
+( -736 516 168 ) ( -818 516 168 ) ( -736 516 164 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( -530 516 168 ) ( -530 516 164 ) ( -530 450 168 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( -822 450 96 ) ( -740 450 96 ) ( -822 516 96 ) robo_floor/clanggrate2 8 0 0 0.5 0.5 0 0 0
+( -818 370 164 ) ( -818 370 168 ) ( -736 370 164 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( -820 450 164 ) ( -820 516 164 ) ( -820 450 168 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+}
+// brush 1
+{
+( 876 828 164 ) ( 848 1096 164 ) ( 876 1096 164 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 876 1096 152 ) ( 848 1096 164 ) ( 848 1096 152 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+( 876 832 152 ) ( 876 1100 164 ) ( 876 1100 152 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+( 848 828 152 ) ( 876 1096 152 ) ( 848 1096 152 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+( 880 832 164 ) ( 880 832 160 ) ( 856 832 164 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+( 848 832 164 ) ( 848 1100 152 ) ( 848 1100 164 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+}
+// brush 2
+{
+( 1034 1360 316 ) ( 1226 1360 316 ) ( 1034 1360 328 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+( 1280 1360 328 ) ( 1280 1360 316 ) ( 1280 1326 316 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+( 1280 1330 332 ) ( 1280 1326 316 ) ( 1088 1326 316 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 1034 1360 316 ) ( 1034 1360 328 ) ( 1034 1326 316 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+( 1034 1360 328 ) ( 1226 1360 328 ) ( 1226 1330 332 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 1280 1360 316 ) ( 1088 1360 316 ) ( 1088 1326 316 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+}
+// brush 3
+{
+( 848 828 152 ) ( 820 1096 152 ) ( 848 1096 152 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 820 1096 152 ) ( 848 1096 140 ) ( 848 1096 152 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+( 848 832 140 ) ( 848 1100 152 ) ( 848 1100 140 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+( 820 828 140 ) ( 848 1096 140 ) ( 820 1096 140 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+( 852 832 152 ) ( 852 832 148 ) ( 828 832 152 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+( 820 832 152 ) ( 820 1100 140 ) ( 820 1100 152 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+}
+// brush 4
+{
+( 688 728 48 ) ( 420 700 48 ) ( 420 728 48 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 435 700 48 ) ( 435 728 36 ) ( 435 728 48 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+( 687 728 36 ) ( 419 728 48 ) ( 419 728 36 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+( 688 700 36 ) ( 420 728 36 ) ( 420 700 36 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+( 672 708 44 ) ( 672 708 48 ) ( 672 732 44 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+( 687 700 48 ) ( 419 700 36 ) ( 419 700 48 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+}
+// brush 5
+{
+( 464 652 112 ) ( 392 476 112 ) ( 392 652 112 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 392 652 96 ) ( 392 476 112 ) ( 392 476 96 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 464 616 96 ) ( 392 616 112 ) ( 392 616 96 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 448 476 0 ) ( 376 652 0 ) ( 376 476 0 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 451 468 112 ) ( 451 644 112 ) ( 451 644 96 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 464 472 112 ) ( 392 472 96 ) ( 392 472 112 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+}
+// brush 6
+{
+( 688 700 36 ) ( 420 672 36 ) ( 420 700 36 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 435 672 36 ) ( 435 700 24 ) ( 435 700 36 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+( 687 700 24 ) ( 419 700 36 ) ( 419 700 24 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+( 688 672 24 ) ( 420 700 24 ) ( 420 672 24 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+( 672 680 32 ) ( 672 680 36 ) ( 672 704 32 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+( 687 672 36 ) ( 419 672 24 ) ( 419 672 36 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+}
+// brush 7
+{
+( 492 868 96 ) ( 420 692 96 ) ( 420 868 96 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 420 868 96 ) ( 420 692 112 ) ( 420 692 96 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 492 832 96 ) ( 420 832 112 ) ( 420 832 96 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 476 692 0 ) ( 404 868 0 ) ( 404 692 0 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 435 680 112 ) ( 435 856 112 ) ( 435 856 96 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 488 616 112 ) ( 416 616 96 ) ( 416 616 112 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+}
+// brush 8
+{
+( 1272 -341 340 ) ( 1080 -341 340 ) ( 1272 -341 352 ) common/caulk 4 0 0 -0.5 0.5 0 0 0
+( 1024 -341 352 ) ( 1024 -341 340 ) ( 1024 -307 340 ) common/caulk 62 0 0 -0.5 0.5 0 0 0
+( 1032 -311 356 ) ( 1032 -307 340 ) ( 1224 -307 340 ) robo_floor/clanggrate2 16 0 0 -0.5 0.5 0 0 0
+( 1280 -341 340 ) ( 1280 -341 352 ) ( 1280 -307 340 ) common/caulk 62 0 0 -0.5 0.5 0 0 0
+( 1272 -341 352 ) ( 1080 -341 352 ) ( 1080 -311 356 ) robo_floor/clanggrate2 4 2 180 0.5 0.5 0 0 0
+( 1032 -341 340 ) ( 1224 -341 340 ) ( 1224 -307 340 ) common/caulk 16 2 180 0.5 0.5 0 0 0
+}
+// brush 9
+{
+( 960 -323 576 ) ( 928 -387 576 ) ( 928 -355 576 ) robo_floor/clanggrate2 0 70 180 0.5 0.5 0 0 0
+( 960 -387 96 ) ( 928 -387 576 ) ( 960 -387 576 ) robo_floor/clanggrate2 0 0 0 -0.5 0.5 0 0 0
+( 778 -387 96 ) ( 202 621 96 ) ( 202 -387 96 ) robo_floor/clanggrate2 0 70 180 0.5 0.5 0 0 0
+( 928 -355 96 ) ( 960 -323 576 ) ( 928 -355 576 ) robo_floor/clanggrate2 58 0 0 -0.5 0.5 0 0 0
+( 928 -355 96 ) ( 928 -355 576 ) ( 928 -387 576 ) robo_floor/clanggrate2 58 0 0 -0.5 0.5 0 0 0
+( 960 -387 96 ) ( 960 -387 576 ) ( 960 -323 576 ) common/caulk 58 0 0 -0.5 0.5 0 0 0
+}
+// brush 10
+{
+( 688 672 24 ) ( 420 644 24 ) ( 420 672 24 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 435 644 24 ) ( 435 672 12 ) ( 435 672 24 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+( 687 672 12 ) ( 419 672 24 ) ( 419 672 12 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+( 688 644 12 ) ( 420 672 12 ) ( 420 644 12 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+( 672 652 20 ) ( 672 652 24 ) ( 672 676 20 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+( 687 644 24 ) ( 419 644 12 ) ( 419 644 24 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+}
+// brush 11
+{
+( 441 332 96 ) ( -423 -260 96 ) ( 153 748 96 ) robo_floor/clanggrate2 94 88 0 0.5 0.5 0 0 0
+( 420 726 64 ) ( 420 -282 96 ) ( 420 -282 64 ) common/caulk 20 0 0 0.5 0.5 0 0 0
+( 63 270 64 ) ( -513 270 96 ) ( -513 270 64 ) common/caulk 34 0 0 0.5 0.5 0 0 0
+( -423 748 64 ) ( -423 -260 64 ) ( 153 748 64 ) common/caulk 30 24 0 0.5 0.5 0 0 0
+( -509 -299 -64 ) ( -513 -299 -64 ) ( -509 -299 64 ) common/caulk 42 0 0 0.5 0.5 0 0 0
+( 640 380 64 ) ( 640 388 -64 ) ( 640 380 -64 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+}
+// brush 12
+{
+( 688 644 12 ) ( 420 616 12 ) ( 420 644 12 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 435 616 12 ) ( 435 644 0 ) ( 435 644 12 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+( 688 616 0 ) ( 420 644 0 ) ( 420 616 0 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+( 672 624 12 ) ( 672 624 8 ) ( 672 616 12 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+( 688 616 12 ) ( 420 616 0 ) ( 420 616 12 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 687 644 0 ) ( 419 644 12 ) ( 419 644 0 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+}
+// brush 13
+{
+( 1034 1292 292 ) ( 1226 1292 292 ) ( 1034 1292 304 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+( 1280 1292 304 ) ( 1280 1292 292 ) ( 1280 1258 292 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+( 1280 1262 308 ) ( 1280 1258 292 ) ( 1088 1258 292 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 1034 1292 292 ) ( 1034 1292 304 ) ( 1034 1258 292 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+( 1034 1292 304 ) ( 1226 1292 304 ) ( 1226 1262 308 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 1280 1292 292 ) ( 1088 1292 292 ) ( 1088 1258 292 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+}
+// brush 14
+{
+( 1276 271 312 ) ( 1032 255 312 ) ( 1032 271 312 ) robo_floor/clanggrate2 8 2 0 0.5 -0.5 0 0 0
+( 1276 209 224 ) ( 1276 217 96 ) ( 1276 209 96 ) robo_floor/clanggrate2 126 0 0 -0.5 0.5 0 0 0
+( 1276 255 312 ) ( 1032 255 236 ) ( 1032 255 312 ) robo_floor/clanggrate2 8 0 0 0.5 0.5 0 0 0
+( 1276 255 236 ) ( 1032 271 236 ) ( 1032 255 236 ) robo_floor/clanggrate2 8 2 0 0.5 -0.5 0 0 0
+( 1032 271 312 ) ( 1032 255 236 ) ( 1032 271 236 ) robo_floor/clanggrate2 126 0 0 -0.5 0.5 0 0 0
+( 1276 271 236 ) ( 1032 271 312 ) ( 1032 271 236 ) robo_floor/clanggrate2 8 0 0 0.5 0.5 0 0 0
+}
+// brush 15
+{
+( 420 314 72 ) ( 420 342 72 ) ( 688 314 72 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 435 342 60 ) ( 435 342 72 ) ( 435 314 60 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+( 419 314 60 ) ( 419 314 72 ) ( 687 314 60 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+( 420 342 60 ) ( 420 314 60 ) ( 688 342 60 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+( 672 334 72 ) ( 672 310 68 ) ( 672 310 72 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+( 419 342 72 ) ( 419 342 60 ) ( 687 342 72 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+}
+// brush 16
+{
+( 904 828 176 ) ( 876 1096 176 ) ( 904 1096 176 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 904 1096 164 ) ( 876 1096 176 ) ( 876 1096 164 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+( 876 828 164 ) ( 904 1096 164 ) ( 876 1096 164 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+( 884 832 176 ) ( 884 832 172 ) ( 876 832 176 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+( 876 832 176 ) ( 876 1100 164 ) ( 876 1100 176 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 904 832 164 ) ( 904 1100 176 ) ( 904 1100 164 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+}
+// brush 17
+{
+( 492 508 96 ) ( 420 332 96 ) ( 420 508 96 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 420 508 96 ) ( 420 332 112 ) ( 420 332 96 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 492 472 96 ) ( 420 472 112 ) ( 420 472 96 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 476 332 0 ) ( 404 508 0 ) ( 404 332 0 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 435 320 112 ) ( 435 496 112 ) ( 435 496 96 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 488 278 112 ) ( 416 278 96 ) ( 416 278 112 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+}
+// brush 18
+{
+( 1272 -171 280 ) ( 1080 -171 280 ) ( 1272 -171 292 ) common/caulk 4 0 0 -0.5 0.5 0 0 0
+( 1024 -171 292 ) ( 1024 -171 280 ) ( 1024 -137 280 ) common/caulk 62 0 0 -0.5 0.5 0 0 0
+( 1032 -141 296 ) ( 1032 -137 280 ) ( 1224 -137 280 ) robo_floor/clanggrate2 16 0 0 -0.5 0.5 0 0 0
+( 1280 -171 280 ) ( 1280 -171 292 ) ( 1280 -137 280 ) common/caulk 62 0 0 -0.5 0.5 0 0 0
+( 1272 -171 292 ) ( 1080 -171 292 ) ( 1080 -141 296 ) robo_floor/clanggrate2 4 2 180 0.5 0.5 0 0 0
+( 1032 -171 280 ) ( 1224 -171 280 ) ( 1224 -137 280 ) common/caulk 16 2 180 0.5 0.5 0 0 0
+}
+// brush 19
+{
+( 1028 832 312 ) ( 712 816 180 ) ( 712 832 180 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 1024 878 96 ) ( 1024 870 96 ) ( 1024 878 224 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 1028 832 236 ) ( 712 832 180 ) ( 712 832 104 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 712 832 180 ) ( 712 816 104 ) ( 712 832 104 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 1028 816 312 ) ( 712 816 104 ) ( 712 816 180 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 1024 64 0 ) ( 1016 64 0 ) ( 1024 -64 0 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+}
+// brush 20
+{
+( 1048 866 312 ) ( 1048 882 312 ) ( 1272 866 312 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 1280 878 96 ) ( 1280 870 96 ) ( 1280 878 224 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 1048 832 224 ) ( 1048 832 96 ) ( 1272 832 224 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 1048 882 236 ) ( 1048 866 236 ) ( 1272 882 236 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 1024 882 96 ) ( 1024 882 224 ) ( 1024 866 224 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 1048 816 96 ) ( 1048 816 224 ) ( 1272 816 96 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+}
+// brush 21
+{
+( 1230 -1 232 ) ( 1230 51 232 ) ( 1282 -1 232 ) robo_floor/clanggrate2 4 70 180 0.5 0.5 0 0 0
+( 1228 -1 248 ) ( 1280 -1 248 ) ( 1228 -1 204 ) common/caulk 0 0 0 -0.5 0.5 0 0 0
+( 1032 15 248 ) ( 1032 15 204 ) ( 1032 67 248 ) robo_floor/clanggrate2 90 0 0 -0.5 0.5 0 0 0
+( 1276 51 96 ) ( 1224 51 96 ) ( 1276 -1 96 ) common/caulk 56 6 180 0.5 0.5 0 0 0
+( 1312 271 204 ) ( 1312 271 248 ) ( 1260 271 204 ) robo_floor/clanggrate2 64 0 0 -0.5 0.5 0 0 0
+( 1280 51 204 ) ( 1280 -1 204 ) ( 1280 51 248 ) common/caulk 58 0 0 -0.5 0.5 0 0 0
+}
+// brush 22
+{
+( 1272 -205 292 ) ( 1080 -205 292 ) ( 1272 -205 304 ) common/caulk 4 0 0 -0.5 0.5 0 0 0
+( 1024 -205 304 ) ( 1024 -205 292 ) ( 1024 -171 292 ) common/caulk 62 0 0 -0.5 0.5 0 0 0
+( 1032 -175 308 ) ( 1032 -171 292 ) ( 1224 -171 292 ) robo_floor/clanggrate2 16 0 0 -0.5 0.5 0 0 0
+( 1280 -205 292 ) ( 1280 -205 304 ) ( 1280 -171 292 ) common/caulk 62 0 0 -0.5 0.5 0 0 0
+( 1272 -205 304 ) ( 1080 -205 304 ) ( 1080 -175 308 ) robo_floor/clanggrate2 4 2 180 0.5 0.5 0 0 0
+( 1032 -205 292 ) ( 1224 -205 292 ) ( 1224 -171 292 ) common/caulk 16 2 180 0.5 0.5 0 0 0
+}
+// brush 23
+{
+( 1272 -69 244 ) ( 1080 -69 244 ) ( 1272 -69 256 ) common/caulk 4 0 0 -0.5 0.5 0 0 0
+( 1024 -69 256 ) ( 1024 -69 244 ) ( 1024 -35 244 ) common/caulk 62 0 0 -0.5 0.5 0 0 0
+( 1032 -39 260 ) ( 1032 -35 244 ) ( 1224 -35 244 ) robo_floor/clanggrate2 16 0 0 -0.5 0.5 0 0 0
+( 1280 -69 244 ) ( 1280 -69 256 ) ( 1280 -35 244 ) common/caulk 62 0 0 -0.5 0.5 0 0 0
+( 1272 -69 256 ) ( 1080 -69 256 ) ( 1080 -39 260 ) robo_floor/clanggrate2 4 2 180 0.5 0.5 0 0 0
+( 1032 -69 244 ) ( 1224 -69 244 ) ( 1224 -35 244 ) common/caulk 16 2 180 0.5 0.5 0 0 0
+}
+// brush 24
+{
+( 1032 -355 368 ) ( 1032 -347 368 ) ( 1224 -355 368 ) robo_floor/clanggrate2 16 2 180 0.5 0.5 0 0 0
+( 1024 -343 336 ) ( 1024 -343 352 ) ( 1024 -355 336 ) common/caulk 62 0 0 -0.5 0.5 0 0 0
+( 1032 -345 368 ) ( 1032 -341 352 ) ( 1224 -345 368 ) robo_floor/clanggrate2 16 0 0 -0.5 0.5 0 0 0
+( 1280 -343 352 ) ( 1280 -343 336 ) ( 1280 -355 368 ) common/caulk 62 0 0 -0.5 0.5 0 0 0
+( 1082 -341 352 ) ( 1082 -341 336 ) ( 1274 -341 336 ) common/caulk 4 0 0 -0.5 0.5 0 0 0
+( 1032 -343 340 ) ( 1032 -355 340 ) ( 1224 -343 340 ) common/caulk 16 2 180 0.5 0.5 0 0 0
+( 1032 -387 336 ) ( 1032 -387 368 ) ( 1224 -387 336 ) common/caulk 16 0 0 -0.5 0.5 0 0 0
+}
+// brush 25
+{
+( 1272 -35 232 ) ( 1080 -35 232 ) ( 1272 -35 244 ) common/caulk 4 0 0 -0.5 0.5 0 0 0
+( 1024 -35 244 ) ( 1024 -35 232 ) ( 1024 -1 232 ) common/caulk 62 0 0 -0.5 0.5 0 0 0
+( 1032 -5 248 ) ( 1032 -1 232 ) ( 1224 -1 232 ) robo_floor/clanggrate2 16 0 0 -0.5 0.5 0 0 0
+( 1280 -35 232 ) ( 1280 -35 244 ) ( 1280 -1 232 ) robo_floor/clanggrate2 126 0 0 -0.5 0.5 0 0 0
+( 1272 -35 244 ) ( 1080 -35 244 ) ( 1080 -5 248 ) robo_floor/clanggrate2 4 2 180 0.5 0.5 0 0 0
+( 1032 -35 232 ) ( 1224 -35 232 ) ( 1224 -1 232 ) common/caulk 16 2 180 0.5 0.5 0 0 0
+}
+// brush 26
+{
+( 1272 -137 268 ) ( 1080 -137 268 ) ( 1272 -137 280 ) common/caulk 4 0 0 -0.5 0.5 0 0 0
+( 1024 -137 280 ) ( 1024 -137 268 ) ( 1024 -103 268 ) common/caulk 62 0 0 -0.5 0.5 0 0 0
+( 1032 -107 284 ) ( 1032 -103 268 ) ( 1224 -103 268 ) robo_floor/clanggrate2 16 0 0 -0.5 0.5 0 0 0
+( 1280 -137 268 ) ( 1280 -137 280 ) ( 1280 -103 268 ) common/caulk 62 0 0 -0.5 0.5 0 0 0
+( 1272 -137 280 ) ( 1080 -137 280 ) ( 1080 -107 284 ) robo_floor/clanggrate2 4 2 180 0.5 0.5 0 0 0
+( 1032 -137 268 ) ( 1224 -137 268 ) ( 1224 -103 268 ) common/caulk 16 2 180 0.5 0.5 0 0 0
+}
+// brush 27
+{
+( 1272 -103 256 ) ( 1080 -103 256 ) ( 1272 -103 268 ) common/caulk 4 0 0 -0.5 0.5 0 0 0
+( 1024 -103 268 ) ( 1024 -103 256 ) ( 1024 -69 256 ) common/caulk 62 0 0 -0.5 0.5 0 0 0
+( 1032 -73 272 ) ( 1032 -69 256 ) ( 1224 -69 256 ) robo_floor/clanggrate2 16 0 0 -0.5 0.5 0 0 0
+( 1280 -103 256 ) ( 1280 -103 268 ) ( 1280 -69 256 ) common/caulk 62 0 0 -0.5 0.5 0 0 0
+( 1272 -103 268 ) ( 1080 -103 268 ) ( 1080 -73 272 ) robo_floor/clanggrate2 4 2 180 0.5 0.5 0 0 0
+( 1032 -103 256 ) ( 1224 -103 256 ) ( 1224 -69 256 ) common/caulk 16 2 180 0.5 0.5 0 0 0
+}
+// brush 28
+{
+( 1272 -239 304 ) ( 1080 -239 304 ) ( 1272 -239 316 ) common/caulk 4 0 0 -0.5 0.5 0 0 0
+( 1024 -239 316 ) ( 1024 -239 304 ) ( 1024 -205 304 ) common/caulk 62 0 0 -0.5 0.5 0 0 0
+( 1032 -209 320 ) ( 1032 -205 304 ) ( 1224 -205 304 ) robo_floor/clanggrate2 16 0 0 -0.5 0.5 0 0 0
+( 1280 -239 304 ) ( 1280 -239 316 ) ( 1280 -205 304 ) common/caulk 62 0 0 -0.5 0.5 0 0 0
+( 1272 -239 316 ) ( 1080 -239 316 ) ( 1080 -209 320 ) robo_floor/clanggrate2 4 2 180 0.5 0.5 0 0 0
+( 1032 -239 304 ) ( 1224 -239 304 ) ( 1224 -205 304 ) common/caulk 16 2 180 0.5 0.5 0 0 0
+}
+// brush 29
+{
+( 1080 -307 340 ) ( 1272 -307 340 ) ( 1080 -307 328 ) common/caulk 4 0 0 -0.5 0.5 0 0 0
+( 1024 -307 340 ) ( 1024 -307 328 ) ( 1024 -273 328 ) common/caulk 62 0 0 -0.5 0.5 0 0 0
+( 1032 -277 344 ) ( 1032 -273 328 ) ( 1224 -273 328 ) robo_floor/clanggrate2 16 0 0 -0.5 0.5 0 0 0
+( 1280 -307 328 ) ( 1280 -307 340 ) ( 1280 -273 328 ) common/caulk 62 0 0 -0.5 0.5 0 0 0
+( 1272 -307 340 ) ( 1080 -307 340 ) ( 1080 -277 344 ) robo_floor/clanggrate2 4 2 180 0.5 0.5 0 0 0
+( 1032 -307 328 ) ( 1224 -307 328 ) ( 1224 -273 328 ) common/caulk 16 2 180 0.5 0.5 0 0 0
+}
+// brush 30
+{
+( 420 454 12 ) ( 420 482 12 ) ( 688 454 12 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 435 454 12 ) ( 435 454 0 ) ( 435 482 12 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+( 420 482 0 ) ( 420 454 0 ) ( 688 482 0 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+( 672 482 12 ) ( 672 474 8 ) ( 672 474 12 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+( 420 482 12 ) ( 420 482 0 ) ( 688 482 12 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 419 454 0 ) ( 419 454 12 ) ( 687 454 0 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+}
+// brush 31
+{
+( 420 426 24 ) ( 420 454 24 ) ( 688 426 24 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 435 426 24 ) ( 435 426 12 ) ( 435 454 24 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+( 419 426 12 ) ( 419 426 24 ) ( 687 426 12 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+( 420 454 12 ) ( 420 426 12 ) ( 688 454 12 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+( 672 422 20 ) ( 672 446 24 ) ( 672 446 20 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+( 419 454 24 ) ( 419 454 12 ) ( 687 454 24 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+}
+// brush 32
+{
+( 420 398 36 ) ( 420 426 36 ) ( 688 398 36 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 435 398 36 ) ( 435 398 24 ) ( 435 426 36 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+( 419 398 24 ) ( 419 398 36 ) ( 687 398 24 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+( 420 426 24 ) ( 420 398 24 ) ( 688 426 24 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+( 672 394 32 ) ( 672 418 36 ) ( 672 418 32 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+( 419 426 36 ) ( 419 426 24 ) ( 687 426 36 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+}
+// brush 33
+{
+( 420 370 48 ) ( 420 398 48 ) ( 688 370 48 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 435 370 48 ) ( 435 370 36 ) ( 435 398 48 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+( 419 370 36 ) ( 419 370 48 ) ( 687 370 36 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+( 420 398 36 ) ( 420 370 36 ) ( 688 398 36 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+( 672 366 44 ) ( 672 390 48 ) ( 672 390 44 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+( 419 398 48 ) ( 419 398 36 ) ( 687 398 48 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+}
+// brush 34
+{
+( 420 342 60 ) ( 420 370 60 ) ( 688 342 60 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 435 342 60 ) ( 435 342 48 ) ( 435 370 60 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+( 419 342 48 ) ( 419 342 60 ) ( 687 342 48 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+( 420 370 48 ) ( 420 342 48 ) ( 688 370 48 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+( 672 362 60 ) ( 672 338 56 ) ( 672 338 60 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+( 419 370 60 ) ( 419 370 48 ) ( 687 370 60 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+}
+// brush 35
+{
+( 420 258 96 ) ( 420 286 96 ) ( 688 258 96 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 435 286 84 ) ( 435 286 96 ) ( 435 258 84 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+( 419 278 84 ) ( 419 278 96 ) ( 687 278 84 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+( 420 286 84 ) ( 420 258 84 ) ( 688 286 84 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+( 672 278 96 ) ( 672 254 92 ) ( 672 254 96 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+( 419 286 96 ) ( 419 286 84 ) ( 687 286 96 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+}
+// brush 36
+{
+( 420 286 84 ) ( 420 314 84 ) ( 688 286 84 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 435 314 72 ) ( 435 314 84 ) ( 435 286 72 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+( 420 314 72 ) ( 420 286 72 ) ( 688 314 72 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+( 672 314 84 ) ( 672 306 80 ) ( 672 306 84 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+( 419 314 84 ) ( 419 314 72 ) ( 687 314 84 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 416 286 72 ) ( 416 286 84 ) ( 684 286 72 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+}
+// brush 37
+{
+( 932 828 188 ) ( 904 1096 188 ) ( 932 1096 188 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 932 1096 176 ) ( 904 1096 188 ) ( 904 1096 176 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+( 904 828 176 ) ( 932 1096 176 ) ( 904 1096 176 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+( 912 832 188 ) ( 912 832 184 ) ( 904 832 188 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+( 904 832 188 ) ( 904 1100 176 ) ( 904 1100 188 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 932 832 176 ) ( 932 1100 188 ) ( 932 1100 176 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+}
+// brush 38
+{
+( 960 828 200 ) ( 932 1096 200 ) ( 960 1096 200 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 960 1096 188 ) ( 932 1096 200 ) ( 932 1096 188 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+( 932 828 188 ) ( 960 1096 188 ) ( 932 1096 188 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+( 932 832 196 ) ( 932 832 200 ) ( 940 832 196 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+( 932 832 200 ) ( 932 1100 188 ) ( 932 1100 200 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 960 832 188 ) ( 960 1100 200 ) ( 960 1100 188 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+}
+// brush 39
+{
+( 988 828 212 ) ( 960 1096 212 ) ( 988 1096 212 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 988 1096 200 ) ( 960 1096 212 ) ( 960 1096 200 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+( 960 828 200 ) ( 988 1096 200 ) ( 960 1096 200 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+( 960 832 208 ) ( 960 832 212 ) ( 968 832 208 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+( 960 832 212 ) ( 960 1100 200 ) ( 960 1100 212 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 988 832 200 ) ( 988 1100 212 ) ( 988 1100 200 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+}
+// brush 40
+{
+( 1016 828 224 ) ( 988 1096 224 ) ( 1016 1096 224 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 1016 1096 212 ) ( 988 1096 224 ) ( 988 1096 212 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+( 988 828 212 ) ( 1016 1096 212 ) ( 988 1096 212 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+( 988 832 220 ) ( 988 832 224 ) ( 996 832 220 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+( 988 832 224 ) ( 988 1100 212 ) ( 988 1100 224 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 1016 832 212 ) ( 1016 1100 224 ) ( 1016 1100 212 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+}
+// brush 41
+{
+( 950 247 180 ) ( 950 55 180 ) ( 950 247 192 ) common/caulk 2 48 0 -0.5 0.5 0 0 0
+( 950 -1 192 ) ( 950 -1 180 ) ( 916 -1 180 ) common/caulk 52 48 0 0.5 0.5 0 0 0
+( 920 7 196 ) ( 916 7 180 ) ( 916 199 180 ) robo_floor/clanggrate2 14 112 0 -0.5 0.5 0 0 0
+( 950 255 180 ) ( 950 255 192 ) ( 916 255 180 ) common/caulk 52 48 0 0.5 0.5 0 0 0
+( 950 247 192 ) ( 950 55 192 ) ( 920 55 196 ) robo_floor/clanggrate2 2 76 -90 0.5 0.5 0 0 0
+( 950 7 180 ) ( 950 199 180 ) ( 916 199 180 ) common/caulk 14 12 -90 0.5 0.5 0 0 0
+}
+// brush 42
+{
+( 1018 247 204 ) ( 1018 55 204 ) ( 1018 247 216 ) common/caulk 2 48 0 -0.5 0.5 0 0 0
+( 1018 -1 216 ) ( 1018 -1 204 ) ( 984 -1 204 ) common/caulk 52 48 0 0.5 0.5 0 0 0
+( 988 7 220 ) ( 984 7 204 ) ( 984 199 204 ) robo_floor/clanggrate2 14 112 0 -0.5 0.5 0 0 0
+( 1018 255 204 ) ( 1018 255 216 ) ( 984 255 204 ) common/caulk 52 48 0 0.5 0.5 0 0 0
+( 1018 247 216 ) ( 1018 55 216 ) ( 988 55 220 ) robo_floor/clanggrate2 2 76 -90 0.5 0.5 0 0 0
+( 1018 7 204 ) ( 1018 199 204 ) ( 984 199 204 ) common/caulk 14 12 -90 0.5 0.5 0 0 0
+}
+// brush 43
+{
+( 848 247 144 ) ( 848 55 144 ) ( 848 247 156 ) common/caulk 2 48 0 -0.5 0.5 0 0 0
+( 848 -1 156 ) ( 848 -1 144 ) ( 814 -1 144 ) common/caulk 52 48 0 0.5 0.5 0 0 0
+( 818 7 160 ) ( 814 7 144 ) ( 814 199 144 ) robo_floor/clanggrate2 14 112 0 -0.5 0.5 0 0 0
+( 848 255 144 ) ( 848 255 156 ) ( 814 255 144 ) common/caulk 52 48 0 0.5 0.5 0 0 0
+( 848 247 156 ) ( 848 55 156 ) ( 818 55 160 ) robo_floor/clanggrate2 2 76 -90 0.5 0.5 0 0 0
+( 848 7 144 ) ( 848 199 144 ) ( 814 199 144 ) common/caulk 14 12 -90 0.5 0.5 0 0 0
+}
+// brush 44
+{
+( 984 55 204 ) ( 984 247 204 ) ( 984 55 192 ) common/caulk 2 48 0 -0.5 0.5 0 0 0
+( 984 -1 204 ) ( 984 -1 192 ) ( 950 -1 192 ) common/caulk 52 48 0 0.5 0.5 0 0 0
+( 954 7 208 ) ( 950 7 192 ) ( 950 199 192 ) robo_floor/clanggrate2 14 112 0 -0.5 0.5 0 0 0
+( 984 255 192 ) ( 984 255 204 ) ( 950 255 192 ) common/caulk 52 48 0 0.5 0.5 0 0 0
+( 984 247 204 ) ( 984 55 204 ) ( 954 55 208 ) robo_floor/clanggrate2 2 76 -90 0.5 0.5 0 0 0
+( 984 7 192 ) ( 984 199 192 ) ( 950 199 192 ) common/caulk 14 12 -90 0.5 0.5 0 0 0
+}
+// brush 45
+{
+( 916 247 168 ) ( 916 55 168 ) ( 916 247 180 ) common/caulk 2 48 0 -0.5 0.5 0 0 0
+( 916 -1 180 ) ( 916 -1 168 ) ( 882 -1 168 ) common/caulk 52 48 0 0.5 0.5 0 0 0
+( 886 7 184 ) ( 882 7 168 ) ( 882 199 168 ) robo_floor/clanggrate2 14 112 0 -0.5 0.5 0 0 0
+( 916 255 168 ) ( 916 255 180 ) ( 882 255 168 ) common/caulk 52 48 0 0.5 0.5 0 0 0
+( 916 247 180 ) ( 916 55 180 ) ( 886 55 184 ) robo_floor/clanggrate2 2 76 -90 0.5 0.5 0 0 0
+( 916 7 168 ) ( 916 199 168 ) ( 882 199 168 ) common/caulk 14 12 -90 0.5 0.5 0 0 0
+}
+// brush 46
+{
+( 780 247 120 ) ( 780 55 120 ) ( 780 247 132 ) common/caulk 2 48 0 -0.5 0.5 0 0 0
+( 780 -1 132 ) ( 780 -1 120 ) ( 746 -1 120 ) common/caulk 52 48 0 0.5 0.5 0 0 0
+( 750 7 136 ) ( 746 7 120 ) ( 746 199 120 ) robo_floor/clanggrate2 14 112 0 -0.5 0.5 0 0 0
+( 780 255 120 ) ( 780 255 132 ) ( 746 255 120 ) common/caulk 52 48 0 0.5 0.5 0 0 0
+( 780 247 132 ) ( 780 55 132 ) ( 750 55 136 ) robo_floor/clanggrate2 2 76 -90 0.5 0.5 0 0 0
+( 780 7 120 ) ( 780 199 120 ) ( 746 199 120 ) common/caulk 14 12 -90 0.5 0.5 0 0 0
+}
+// brush 47
+{
+( 814 247 132 ) ( 814 55 132 ) ( 814 247 144 ) common/caulk 2 48 0 -0.5 0.5 0 0 0
+( 814 -1 144 ) ( 814 -1 132 ) ( 780 -1 132 ) common/caulk 52 48 0 0.5 0.5 0 0 0
+( 784 7 148 ) ( 780 7 132 ) ( 780 199 132 ) robo_floor/clanggrate2 14 112 0 -0.5 0.5 0 0 0
+( 814 255 132 ) ( 814 255 144 ) ( 780 255 132 ) common/caulk 52 48 0 0.5 0.5 0 0 0
+( 814 247 144 ) ( 814 55 144 ) ( 784 55 148 ) robo_floor/clanggrate2 2 76 -90 0.5 0.5 0 0 0
+( 814 7 132 ) ( 814 199 132 ) ( 780 199 132 ) common/caulk 14 12 -90 0.5 0.5 0 0 0
+}
+// brush 48
+{
+( 712 247 96 ) ( 712 55 96 ) ( 712 247 108 ) common/caulk 2 48 0 -0.5 0.5 0 0 0
+( 712 -1 108 ) ( 712 -1 96 ) ( 678 -1 96 ) common/caulk 52 48 0 0.5 0.5 0 0 0
+( 682 7 112 ) ( 678 7 96 ) ( 678 199 96 ) robo_floor/clanggrate2 14 112 0 -0.5 0.5 0 0 0
+( 712 255 96 ) ( 712 255 108 ) ( 678 255 96 ) robo_floor/clanggrate2 52 112 0 0.5 0.5 0 0 0
+( 712 247 108 ) ( 712 55 108 ) ( 682 55 112 ) robo_floor/clanggrate2 2 76 -90 0.5 0.5 0 0 0
+( 712 7 96 ) ( 712 199 96 ) ( 678 199 96 ) common/caulk 14 12 -90 0.5 0.5 0 0 0
+}
+// brush 49
+{
+( 1032 7 232 ) ( 1024 7 232 ) ( 1032 199 232 ) robo_floor/clanggrate2 14 76 -90 0.5 0.5 0 0 0
+( 1020 -1 200 ) ( 1020 -1 216 ) ( 1032 -1 200 ) common/caulk 52 48 0 0.5 0.5 0 0 0
+( 1022 7 232 ) ( 1018 7 216 ) ( 1022 199 232 ) robo_floor/clanggrate2 14 112 0 -0.5 0.5 0 0 0
+( 1020 255 216 ) ( 1020 255 200 ) ( 1032 255 232 ) common/caulk 52 48 0 0.5 0.5 0 0 0
+( 1018 57 216 ) ( 1018 57 200 ) ( 1018 249 200 ) common/caulk 2 48 0 -0.5 0.5 0 0 0
+( 1020 7 204 ) ( 1032 7 204 ) ( 1020 199 204 ) common/caulk 14 12 -90 0.5 0.5 0 0 0
+( 1032 861 232 ) ( 1032 733 228 ) ( 1032 733 232 ) common/caulk 58 0 0 -0.5 0.5 0 0 0
+}
+// brush 50
+{
+( 746 247 108 ) ( 746 55 108 ) ( 746 247 120 ) common/caulk 2 48 0 -0.5 0.5 0 0 0
+( 746 -1 120 ) ( 746 -1 108 ) ( 712 -1 108 ) common/caulk 52 48 0 0.5 0.5 0 0 0
+( 716 7 124 ) ( 712 7 108 ) ( 712 199 108 ) robo_floor/clanggrate2 14 112 0 -0.5 0.5 0 0 0
+( 746 255 108 ) ( 746 255 120 ) ( 712 255 108 ) common/caulk 52 48 0 0.5 0.5 0 0 0
+( 746 247 120 ) ( 746 55 120 ) ( 716 55 124 ) robo_floor/clanggrate2 2 76 -90 0.5 0.5 0 0 0
+( 746 7 108 ) ( 746 199 108 ) ( 712 199 108 ) common/caulk 14 12 -90 0.5 0.5 0 0 0
+}
+// brush 51
+{
+( 882 247 156 ) ( 882 55 156 ) ( 882 247 168 ) common/caulk 2 48 0 -0.5 0.5 0 0 0
+( 882 -1 168 ) ( 882 -1 156 ) ( 848 -1 156 ) common/caulk 52 48 0 0.5 0.5 0 0 0
+( 852 7 172 ) ( 848 7 156 ) ( 848 199 156 ) robo_floor/clanggrate2 14 112 0 -0.5 0.5 0 0 0
+( 882 255 156 ) ( 882 255 168 ) ( 848 255 156 ) common/caulk 52 48 0 0.5 0.5 0 0 0
+( 882 247 168 ) ( 882 55 168 ) ( 852 55 172 ) robo_floor/clanggrate2 2 76 -90 0.5 0.5 0 0 0
+( 882 7 156 ) ( 882 199 156 ) ( 848 199 156 ) common/caulk 14 12 -90 0.5 0.5 0 0 0
+}
+// brush 52
+{
+( 1272 890 236 ) ( 1080 890 236 ) ( 1272 1150 236 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 1024 887 232 ) ( 1024 887 200 ) ( 1024 1147 232 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 1082 1096 228 ) ( 1082 1096 196 ) ( 1274 1096 228 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+( 1076 1150 0 ) ( 1076 890 0 ) ( 1268 1150 0 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+( 1280 890 200 ) ( 1280 890 232 ) ( 1280 1150 200 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+( 1078 816 200 ) ( 1078 816 232 ) ( 1270 816 232 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+}
+// brush 53
+{
+( 686 255 184 ) ( 1032 271 310.375 ) ( 1032 255 310.375 ) robo_floor/clanggrate2 8 2 0 0.5 -0.5 0 0 0
+( 1032 255 310.375 ) ( 1032 271 214.375 ) ( 1032 255 214.375 ) robo_floor/clanggrate2 126 0 0 -0.5 0.5 0 0 0
+( 686 255 88 ) ( 1032 255 310.375 ) ( 1032 255 214.375 ) robo_floor/clanggrate2 8 0 0 0.5 0.5 0 0 0
+( 688 271 62 ) ( 1034 255 188.375 ) ( 1034 271 188.375 ) robo_floor/clanggrate2 4 2 0 0.5 -0.5 0 0 0
+( 678 271 184 ) ( 678 255 88 ) ( 678 271 88 ) robo_floor/clanggrate2 126 0 0 -0.5 0.5 0 0 0
+( 686 271 184 ) ( 1032 271 214.375 ) ( 1032 271 310.375 ) robo_floor/clanggrate2 8 0 0 0.5 0.5 0 0 0
+( 678 733 96 ) ( 680 733 96 ) ( 678 861 96 ) common/caulk 0 6 180 0.5 0.5 0 0 0
+}
+// brush 54
+{
+( 392 600 184 ) ( 452 600 184 ) ( 452 488 184 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 452 600 96 ) ( 452 488 184 ) ( 452 600 184 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 452 488 112 ) ( 452 600 112 ) ( 392 600 112 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 392 600 96 ) ( 392 600 184 ) ( 392 488 184 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 452 600 96 ) ( 452 600 184 ) ( 392 600 184 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 392 488 96 ) ( 392 488 184 ) ( 452 488 184 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 452 -64 140 ) ( 416 64 184 ) ( 452 64 140 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+}
+// brush 55
+{
+( 228 488 216 ) ( 228 600 216 ) ( 288 600 216 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 168 600 200 ) ( 168 488 200 ) ( 168 600 112 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 288 600 128 ) ( 228 600 128 ) ( 228 488 128 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 288 488 200 ) ( 288 600 200 ) ( 288 600 112 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 288 600 200 ) ( 228 600 200 ) ( 228 600 112 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 228 488 200 ) ( 288 488 200 ) ( 288 488 112 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 160 64 160 ) ( 196 64 204 ) ( 160 -64 160 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+}
+// brush 56
+{
+( 1034 1428 340 ) ( 1226 1428 340 ) ( 1034 1428 352 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+( 1280 1428 352 ) ( 1280 1428 340 ) ( 1280 1394 340 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+( 1280 1398 356 ) ( 1280 1394 340 ) ( 1088 1394 340 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 1034 1428 340 ) ( 1034 1428 352 ) ( 1034 1394 340 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+( 1034 1428 352 ) ( 1226 1428 352 ) ( 1226 1398 356 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 1280 1428 340 ) ( 1088 1428 340 ) ( 1088 1394 340 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+}
+// brush 57
+{
+( 736 -355 576 ) ( 640 -387 576 ) ( 640 -291 576 ) robo_floor/clanggrate2 0 70 180 0.5 0.5 0 0 0
+( 640 -387 96 ) ( 640 -387 576 ) ( 736 -387 576 ) robo_floor/clanggrate2 0 0 0 -0.5 0.5 0 0 0
+( 1462 -387 96 ) ( 1462 621 96 ) ( 886 -387 96 ) robo_floor/clanggrate2 0 70 180 0.5 0.5 0 0 0
+( 672 -291 96 ) ( 672 -291 576 ) ( 640 -291 576 ) robo_floor/clanggrate2 0 0 0 -0.5 0.5 0 0 0
+( 640 -387 96 ) ( 640 -291 576 ) ( 640 -387 576 ) robo_floor/clanggrate2 58 0 0 -0.5 0.5 0 0 0
+( 672 -291 96 ) ( 736 -355 576 ) ( 672 -291 576 ) robo_floor/clanggrate2 58 0 0 -0.5 0.5 0 0 0
+( 736 -355 96 ) ( 736 -387 576 ) ( 736 -355 576 ) robo_floor/clanggrate2 58 0 0 -0.5 0.5 0 0 0
+}
+// brush 58
+{
+( 688 784 72 ) ( 420 756 72 ) ( 420 784 72 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 435 784 60 ) ( 435 756 72 ) ( 435 756 60 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+( 687 784 60 ) ( 419 784 72 ) ( 419 784 60 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+( 688 756 60 ) ( 420 784 60 ) ( 420 756 60 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+( 672 788 72 ) ( 672 788 68 ) ( 672 764 72 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+( 687 756 72 ) ( 419 756 60 ) ( 419 756 72 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+}
+// brush 59
+{
+( 736 828 104 ) ( 708 1096 104 ) ( 736 1096 104 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 708 1096 104 ) ( 736 1096 92 ) ( 736 1096 104 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+( 708 828 92 ) ( 736 1096 92 ) ( 708 1096 92 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+( 716 832 104 ) ( 716 832 100 ) ( 708 832 104 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 708 828 104 ) ( 708 1096 92 ) ( 708 1096 104 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 736 832 92 ) ( 736 1100 104 ) ( 736 1100 92 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+}
+// brush 60
+{
+( 492 406 96 ) ( 420 230 96 ) ( 420 406 96 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 420 406 96 ) ( 420 230 112 ) ( 420 230 96 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 486 278 96 ) ( 414 278 112 ) ( 414 278 96 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 476 230 0 ) ( 404 406 0 ) ( 404 230 0 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 1280 190 112 ) ( 1280 366 112 ) ( 1280 366 96 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 488 270 112 ) ( 416 270 96 ) ( 416 270 112 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+}
+// brush 61
+{
+( 762 445 0 ) ( 762 281 0 ) ( 440 445 0 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 700 1096 0 ) ( 378 1096 0 ) ( 700 1096 -96 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+( 1280 384 0 ) ( 1280 384 -96 ) ( 1280 220 0 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+( 421 281 -31 ) ( 743 281 -31 ) ( 421 445 -31 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+( 440 278 -96 ) ( 440 278 0 ) ( 762 278 -96 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+( 435 280 -96 ) ( 435 444 -96 ) ( 435 280 0 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+}
+// brush 62
+{
+( 1020 828 236 ) ( 1016 1096 236 ) ( 1020 1096 236 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 1020 1096 224 ) ( 1016 1096 236 ) ( 1016 1096 224 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+( 1024 828 224 ) ( 1024 1096 236 ) ( 1024 1096 224 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+( 1016 828 224 ) ( 1020 1096 224 ) ( 1016 1096 224 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+( 1016 832 232 ) ( 1016 832 236 ) ( 1024 832 232 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+( 1016 832 236 ) ( 1016 1100 224 ) ( 1016 1100 236 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+}
+// brush 63
+{
+( 764 828 116 ) ( 736 1096 116 ) ( 764 1096 116 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 736 1096 116 ) ( 764 1096 104 ) ( 764 1096 116 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+( 764 832 104 ) ( 764 1100 116 ) ( 764 1100 104 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+( 736 828 104 ) ( 764 1096 104 ) ( 736 1096 104 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+( 744 832 112 ) ( 744 832 116 ) ( 768 832 112 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+( 736 832 116 ) ( 736 1100 104 ) ( 736 1100 116 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+}
+// brush 64
+{
+( -224 1152 96 ) ( -224 832 96 ) ( -544 1152 96 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( -224 1184 96 ) ( -544 1184 96 ) ( -224 1184 64 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+( -192 1152 96 ) ( -192 1152 64 ) ( -192 832 96 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+( -544 832 64 ) ( -224 832 64 ) ( -544 1152 64 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+( -576 1096 64 ) ( -576 1096 96 ) ( -256 1096 64 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+( -840 832 64 ) ( -840 1152 64 ) ( -840 832 96 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+}
+// brush 65
+{
+( 160 504 96 ) ( -704 -88 96 ) ( -128 920 96 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( -840 928 64 ) ( -840 -80 96 ) ( -840 -80 64 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+( -136 1096 64 ) ( -712 1096 96 ) ( -712 1096 64 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+( -704 920 64 ) ( -704 -88 64 ) ( -128 920 64 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+( -696 832 -64 ) ( -700 832 -64 ) ( -696 832 64 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+( 732 564 64 ) ( 732 572 -64 ) ( 732 564 -64 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+}
+// brush 66
+{
+( 820 828 140 ) ( 792 1096 140 ) ( 820 1096 140 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 792 1096 140 ) ( 820 1096 128 ) ( 820 1096 140 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+( 820 832 128 ) ( 820 1100 140 ) ( 820 1100 128 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+( 792 828 128 ) ( 820 1096 128 ) ( 792 1096 128 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+( 800 832 136 ) ( 800 832 140 ) ( 824 832 136 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+( 792 832 140 ) ( 792 1100 128 ) ( 792 1100 140 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+}
+// brush 67
+{
+( 792 828 128 ) ( 764 1096 128 ) ( 792 1096 128 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 764 1096 128 ) ( 792 1096 116 ) ( 792 1096 128 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+( 792 832 116 ) ( 792 1100 128 ) ( 792 1100 116 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+( 764 828 116 ) ( 792 1096 116 ) ( 764 1096 116 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+( 772 832 124 ) ( 772 832 128 ) ( 796 832 124 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+( 764 832 128 ) ( 764 1100 116 ) ( 764 1100 128 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+}
+// brush 68
+{
+( 507 868 96 ) ( 435 692 96 ) ( 435 868 96 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 435 868 96 ) ( 435 692 112 ) ( 435 692 96 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 507 832 96 ) ( 435 832 112 ) ( 435 832 96 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 491 692 0 ) ( 419 868 0 ) ( 419 692 0 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 740 645 112 ) ( 740 821 112 ) ( 740 821 96 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 485 820 112 ) ( 413 820 96 ) ( 413 820 112 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+}
+// brush 69
+{
+( 1034 1156 244 ) ( 1226 1156 244 ) ( 1034 1156 256 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+( 1280 1156 256 ) ( 1280 1156 244 ) ( 1280 1122 244 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+( 1280 1126 260 ) ( 1280 1122 244 ) ( 1088 1122 244 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 1034 1156 244 ) ( 1034 1156 256 ) ( 1034 1122 244 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+( 1034 1156 256 ) ( 1226 1156 256 ) ( 1226 1126 260 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 1280 1156 244 ) ( 1088 1156 244 ) ( 1088 1122 244 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+}
+// brush 70
+{
+( 1280 1442 368 ) ( 1280 1434 368 ) ( 1088 1442 368 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 1280 1430 336 ) ( 1280 1430 352 ) ( 1280 1442 336 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+( 1280 1432 368 ) ( 1280 1428 352 ) ( 1088 1432 368 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 1034 1430 352 ) ( 1034 1430 336 ) ( 1034 1442 368 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+( 1224 1428 352 ) ( 1224 1428 336 ) ( 1032 1428 336 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+( 1280 1430 340 ) ( 1280 1442 340 ) ( 1088 1430 340 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+( 1280 1440 336 ) ( 1280 1440 368 ) ( 1088 1440 336 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+}
+// brush 71
+{
+( 1034 1122 232 ) ( 1226 1122 232 ) ( 1034 1122 244 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+( 1280 1122 244 ) ( 1280 1122 232 ) ( 1280 1088 232 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+( 1280 1092 248 ) ( 1280 1088 232 ) ( 1088 1088 232 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 1034 1122 232 ) ( 1034 1122 244 ) ( 1034 1088 232 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 1034 1122 244 ) ( 1226 1122 244 ) ( 1226 1092 248 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 1280 1122 232 ) ( 1088 1122 232 ) ( 1088 1088 232 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+}
+// brush 72
+{
+( 672 278 96 ) ( 672 294 96 ) ( 680 278 96 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 672 278 96 ) ( 680 278 96 ) ( 672 278 80 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+( 672 474 0 ) ( 672 490 0 ) ( 672 170 140 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 680 490 0 ) ( 680 474 0 ) ( 680 186 140 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 672 490 0 ) ( 680 490 0 ) ( 680 490 16 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 672 490 16 ) ( 680 490 16 ) ( 672 294 96 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 680 486 -84 ) ( 672 486 -84 ) ( 680 290 -4 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+( 64 278 0 ) ( -64 286 0 ) ( -64 278 0 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+}
+// brush 73
+{
+( 1034 1224 268 ) ( 1226 1224 268 ) ( 1034 1224 280 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+( 1280 1224 280 ) ( 1280 1224 268 ) ( 1280 1190 268 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+( 1280 1194 284 ) ( 1280 1190 268 ) ( 1088 1190 268 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 1034 1224 268 ) ( 1034 1224 280 ) ( 1034 1190 268 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+( 1034 1224 280 ) ( 1226 1224 280 ) ( 1226 1194 284 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 1280 1224 268 ) ( 1088 1224 268 ) ( 1088 1190 268 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+}
+// brush 74
+{
+( 1034 1190 256 ) ( 1226 1190 256 ) ( 1034 1190 268 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+( 1280 1190 268 ) ( 1280 1190 256 ) ( 1280 1156 256 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+( 1280 1160 272 ) ( 1280 1156 256 ) ( 1088 1156 256 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 1034 1190 256 ) ( 1034 1190 268 ) ( 1034 1156 256 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+( 1034 1190 268 ) ( 1226 1190 268 ) ( 1226 1160 272 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 1280 1190 256 ) ( 1088 1190 256 ) ( 1088 1156 256 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+}
+// brush 75
+{
+( 1034 1326 304 ) ( 1226 1326 304 ) ( 1034 1326 316 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+( 1280 1326 316 ) ( 1280 1326 304 ) ( 1280 1292 304 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+( 1280 1296 320 ) ( 1280 1292 304 ) ( 1088 1292 304 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 1034 1326 304 ) ( 1034 1326 316 ) ( 1034 1292 304 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+( 1034 1326 316 ) ( 1226 1326 316 ) ( 1226 1296 320 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 1280 1326 304 ) ( 1088 1326 304 ) ( 1088 1292 304 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+}
+// brush 76
+{
+( 1226 1394 340 ) ( 1034 1394 340 ) ( 1226 1394 328 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+( 1280 1394 340 ) ( 1280 1394 328 ) ( 1280 1360 328 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+( 1280 1364 344 ) ( 1280 1360 328 ) ( 1088 1360 328 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 1034 1394 328 ) ( 1034 1394 340 ) ( 1034 1360 328 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+( 1034 1394 340 ) ( 1226 1394 340 ) ( 1226 1364 344 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 1280 1394 328 ) ( 1088 1394 328 ) ( 1088 1360 328 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+}
+// brush 77
+{
+( 1034 1258 280 ) ( 1226 1258 280 ) ( 1034 1258 292 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+( 1280 1258 292 ) ( 1280 1258 280 ) ( 1280 1224 280 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+( 1280 1228 296 ) ( 1280 1224 280 ) ( 1088 1224 280 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 1034 1258 280 ) ( 1034 1258 292 ) ( 1034 1224 280 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+( 1034 1258 292 ) ( 1226 1258 292 ) ( 1226 1228 296 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 1280 1258 280 ) ( 1088 1258 280 ) ( 1088 1224 280 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+}
+// brush 78
+{
+( 704 -3 576 ) ( 640 -99 576 ) ( 640 -3 576 ) robo_floor/clanggrate2 0 70 180 0.5 0.5 0 0 0
+( 640 -99 96 ) ( 640 -99 576 ) ( 672 -99 576 ) robo_floor/clanggrate2 0 0 0 -0.5 0.5 0 0 0
+( 1462 -99 96 ) ( 1462 909 96 ) ( 886 -99 96 ) robo_floor/clanggrate2 0 70 180 0.5 0.5 0 0 0
+( 640 -3 96 ) ( 704 -3 576 ) ( 640 -3 576 ) robo_floor/clanggrate2 0 0 0 -0.5 0.5 0 0 0
+( 640 -99 96 ) ( 640 -3 576 ) ( 640 -99 576 ) robo_floor/clanggrate2 58 0 0 -0.5 0.5 0 0 0
+( 704 -67 96 ) ( 672 -99 576 ) ( 704 -67 576 ) robo_floor/clanggrate2 58 0 0 -0.5 0.5 0 0 0
+( 704 -3 96 ) ( 704 -67 576 ) ( 704 -3 576 ) common/caulk 58 0 0 -0.5 0.5 0 0 0
+}
+// brush 79
+{
+( 2458 -387 368 ) ( 2490 -355 368 ) ( 2490 -387 368 ) robo_floor/clanggrate2 0 70 180 0.5 0.5 0 0 0
+( 146 -387 96 ) ( 146 -387 128 ) ( 722 -387 96 ) robo_floor/clanggrate2 0 0 0 -0.5 0.5 0 0 0
+( 928 -387 96 ) ( 928 -355 96 ) ( 896 -387 96 ) robo_floor/clanggrate2 0 70 180 0.5 0.5 0 0 0
+( 894 -339 568 ) ( 926 -339 96 ) ( 926 -339 568 ) robo_floor/clanggrate2 0 0 0 -0.5 0.5 0 0 0
+( 736 -319 64 ) ( 736 -325 -64 ) ( 736 -319 -64 ) robo_floor/clanggrate2 58 0 0 -0.5 0.5 0 0 0
+( 928 -387 96 ) ( 928 -355 568 ) ( 928 -355 96 ) common/caulk 58 0 0 -0.5 0.5 0 0 0
+}
+// brush 80
+{
+( 1024 -3 576 ) ( 960 -387 576 ) ( 960 -3 576 ) robo_floor/clanggrate2 0 70 180 0.5 0.5 0 0 0
+( 1024 -387 96 ) ( 960 -387 576 ) ( 1024 -387 576 ) robo_floor/clanggrate2 0 0 0 -0.5 0.5 0 0 0
+( 778 -67 96 ) ( 202 941 96 ) ( 202 -67 96 ) robo_floor/clanggrate2 0 70 180 0.5 0.5 0 0 0
+( 1024 -387 96 ) ( 1024 -387 576 ) ( 1024 -3 576 ) robo_floor/clanggrate2 58 0 0 -0.5 0.5 0 0 0
+( 1024 -3 96 ) ( 1024 -3 576 ) ( 960 -3 576 ) robo_floor/clanggrate2 0 0 0 -0.5 0.5 0 0 0
+( 960 -387 96 ) ( 960 -3 576 ) ( 960 -387 576 ) robo_floor/clanggrate2 58 0 0 -0.5 0.5 0 0 0
+}
+// brush 81
+{
+( 1272 -273 316 ) ( 1080 -273 316 ) ( 1272 -273 328 ) common/caulk 4 0 0 -0.5 0.5 0 0 0
+( 1024 -273 328 ) ( 1024 -273 316 ) ( 1024 -239 316 ) common/caulk 62 0 0 -0.5 0.5 0 0 0
+( 1032 -243 332 ) ( 1032 -239 316 ) ( 1224 -239 316 ) robo_floor/clanggrate2 16 0 0 -0.5 0.5 0 0 0
+( 1280 -273 316 ) ( 1280 -273 328 ) ( 1280 -239 316 ) common/caulk 62 0 0 -0.5 0.5 0 0 0
+( 1272 -273 328 ) ( 1080 -273 328 ) ( 1080 -243 332 ) robo_floor/clanggrate2 4 2 180 0.5 0.5 0 0 0
+( 1032 -273 316 ) ( 1224 -273 316 ) ( 1224 -239 316 ) common/caulk 16 2 180 0.5 0.5 0 0 0
+}
+// brush 82
+{
+( 960 -3 576 ) ( 704 -67 576 ) ( 704 -3 576 ) robo_floor/clanggrate2 0 70 180 0.5 0.5 0 0 0
+( 960 -67 96 ) ( 704 -67 576 ) ( 960 -67 576 ) robo_floor/clanggrate2 0 0 0 -0.5 0.5 0 0 0
+( 714 -67 96 ) ( 138 941 96 ) ( 138 -67 96 ) robo_floor/clanggrate2 0 70 180 0.5 0.5 0 0 0
+( 960 -67 96 ) ( 960 -67 576 ) ( 960 -3 576 ) robo_floor/clanggrate2 58 0 0 -0.5 0.5 0 0 0
+( 960 -3 96 ) ( 960 -3 576 ) ( 704 -3 576 ) robo_floor/clanggrate2 0 0 0 -0.5 0.5 0 0 0
+( 704 -67 96 ) ( 704 -3 576 ) ( 704 -67 576 ) robo_floor/clanggrate2 58 0 0 -0.5 0.5 0 0 0
+}
+// brush 83
+{
+( 392 720 256 ) ( 392 384 256 ) ( 288 720 256 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 392 720 248 ) ( 392 720 96 ) ( 392 384 248 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 288 384 96 ) ( 392 384 96 ) ( 288 720 96 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 288 384 96 ) ( 288 720 96 ) ( 288 384 248 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 64 720 96 ) ( -64 652 256 ) ( -64 720 96 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 64 452 256 ) ( -64 384 96 ) ( -64 452 256 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+}
+// brush 84
+{
+( 688 756 60 ) ( 420 728 60 ) ( 420 756 60 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 435 728 60 ) ( 435 756 48 ) ( 435 756 60 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+( 687 756 48 ) ( 419 756 60 ) ( 419 756 48 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+( 688 728 48 ) ( 420 756 48 ) ( 420 728 48 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+( 672 760 60 ) ( 672 760 56 ) ( 672 736 60 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+( 687 728 60 ) ( 419 728 48 ) ( 419 728 60 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+}
+// brush 85
+{
+( 688 840 96 ) ( 420 812 96 ) ( 420 840 96 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 435 840 84 ) ( 435 812 96 ) ( 435 812 84 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+( 687 820 84 ) ( 419 820 96 ) ( 419 820 84 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+( 688 812 84 ) ( 420 840 84 ) ( 420 812 84 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+( 672 844 96 ) ( 672 844 92 ) ( 672 820 96 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+( 687 812 96 ) ( 419 812 84 ) ( 419 812 96 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+}
+// brush 86
+{
+( 688 812 84 ) ( 420 784 84 ) ( 420 812 84 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 435 812 72 ) ( 435 784 84 ) ( 435 784 72 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+( 688 784 72 ) ( 420 812 72 ) ( 420 784 72 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+( 672 792 84 ) ( 672 792 80 ) ( 672 784 84 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+( 687 784 84 ) ( 419 784 72 ) ( 419 784 84 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 684 812 72 ) ( 416 812 84 ) ( 416 812 72 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+}
+// brush 87
+{
+( 680 820 96 ) ( 672 804 96 ) ( 672 820 96 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 672 820 80 ) ( 680 820 96 ) ( 672 820 96 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+( 672 928 140 ) ( 672 608 0 ) ( 672 624 0 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 680 912 140 ) ( 680 624 0 ) ( 680 608 0 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 680 608 16 ) ( 680 608 0 ) ( 672 608 0 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 672 804 96 ) ( 680 608 16 ) ( 672 608 16 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 680 808 -4 ) ( 672 612 -84 ) ( 680 612 -84 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+( -64 820 0 ) ( -64 812 0 ) ( 64 820 0 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+}
+// brush 88
+{
+( 507 880 96 ) ( 435 704 96 ) ( 435 880 96 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 727 856 96 ) ( 727 680 112 ) ( 727 680 96 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 523 1096 96 ) ( 451 1096 112 ) ( 451 1096 96 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 491 704 0 ) ( 419 880 0 ) ( 419 704 0 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 740 657 112 ) ( 740 833 112 ) ( 740 833 96 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 485 832 112 ) ( 413 832 96 ) ( 413 832 112 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+}
+// brush 89
+{
+( 32 2080 368 ) ( 288 1824 368 ) ( -1448 2080 368 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 304 1440 368 ) ( 304 1440 344 ) ( -1432 1440 368 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+( -1448 1824 344 ) ( 288 1824 344 ) ( -1448 2080 344 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+( 1312 4968 368 ) ( 1312 4968 344 ) ( 1312 2536 368 ) common/caulk 32 0 0 0.5 0.5 0 0 0
+( -1280 2648 368 ) ( -1280 5080 344 ) ( -1280 5080 368 ) common/caulk 16 0 0 0.5 0.5 0 0 0
+( -232 3576 256 ) ( -224 3576 256 ) ( -232 3576 384 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+}
+// brush 90
+{
+( 640 -299 576 ) ( -832 -387 576 ) ( -832 -299 576 ) robo_floor/clanggrate2 0 70 180 0.5 0.5 0 0 0
+( -832 -387 -128 ) ( -832 -299 576 ) ( -832 -387 576 ) robo_floor/clanggrate2 74 0 0 -0.5 0.5 0 0 0
+( -1600 -635 -128 ) ( -1584 -635 -128 ) ( -1584 -27 -128 ) robo_floor/clanggrate2 0 70 180 0.5 0.5 0 0 0
+( 640 -387 -128 ) ( 640 -387 576 ) ( 640 -299 576 ) robo_floor/clanggrate2 58 0 0 -0.5 0.5 0 0 0
+( -832 -387 -128 ) ( -832 -387 576 ) ( 640 -387 576 ) robo_floor/clanggrate2 0 0 0 -0.5 0.5 0 0 0
+( 640 -299 -128 ) ( 640 -299 576 ) ( -832 -299 576 ) robo_floor/clanggrate2 0 0 0 -0.5 0.5 0 0 0
+}
+// brush 91
+{
+( 256 3576 576 ) ( -256 3544 576 ) ( -256 3576 576 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 256 3576 360 ) ( 256 3544 576 ) ( 256 3576 576 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( -224 1872 360 ) ( -240 1872 360 ) ( -240 1264 360 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( -256 3576 360 ) ( -256 3576 576 ) ( -256 3544 576 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 256 3576 360 ) ( 256 3576 576 ) ( -256 3576 576 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( -256 3544 360 ) ( -256 3544 576 ) ( 256 3544 576 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+}
+// brush 92
+{
+( 288 3576 576 ) ( 256 2744 576 ) ( 256 3576 576 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 288 3576 360 ) ( 288 2744 576 ) ( 288 3576 576 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 248 1872 360 ) ( 232 1872 360 ) ( 232 1264 360 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 256 3576 360 ) ( 256 3576 576 ) ( 256 2744 576 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 288 3576 360 ) ( 288 3576 576 ) ( 256 3576 576 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 256 2744 360 ) ( 256 2744 576 ) ( 288 2744 576 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+}
+// brush 93
+{
+( 1312 2744 576 ) ( 128 2712 576 ) ( 128 2744 576 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 1312 2744 360 ) ( 1312 2712 576 ) ( 1312 2744 576 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 792 1904 360 ) ( 776 1904 360 ) ( 776 1296 360 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 128 2744 360 ) ( 128 2744 576 ) ( 128 2712 576 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 1312 2744 360 ) ( 1312 2744 576 ) ( 128 2744 576 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 128 2712 360 ) ( 128 2712 576 ) ( 1312 2712 576 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+}
+// brush 94
+{
+( -288 3576 576 ) ( -256 3576 576 ) ( -256 2744 576 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( -256 3576 360 ) ( -256 2744 576 ) ( -256 3576 576 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( -296 1872 360 ) ( -312 1872 360 ) ( -312 1264 360 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( -288 3576 360 ) ( -288 3576 576 ) ( -288 2744 576 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( -256 3576 360 ) ( -256 3576 576 ) ( -288 3576 576 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( -288 2744 360 ) ( -288 2744 576 ) ( -256 2744 576 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+}
+// brush 95
+{
+( 32 -1824 576 ) ( -96 -1856 576 ) ( -96 -1824 576 ) robo_floor/clanggrate2 0 64 0 0.5 0.5 0 0 0
+( 32 -1824 360 ) ( 32 -1856 576 ) ( 32 -1824 576 ) robo_floor/clanggrate2 64 0 0 0.5 0.5 0 0 0
+( -24 -408 360 ) ( -24 -1016 360 ) ( -8 -1016 360 ) robo_floor/clanggrate2 0 64 0 0.5 0.5 0 0 0
+( -96 -1856 360 ) ( -96 -1824 576 ) ( -96 -1856 576 ) robo_floor/clanggrate2 64 0 0 0.5 0.5 0 0 0
+( -96 -1856 360 ) ( -96 -1856 576 ) ( 32 -1856 576 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 32 -1824 360 ) ( 32 -1824 576 ) ( -96 -1824 576 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+}
+// brush 96
+{
+( 416 -3520 576 ) ( -96 -3552 576 ) ( -96 -3520 576 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 416 -3520 360 ) ( 416 -3552 576 ) ( 416 -3520 576 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( -80 -1240 360 ) ( -80 -1848 360 ) ( -64 -1848 360 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( -96 -3552 360 ) ( -96 -3520 576 ) ( -96 -3552 576 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( -96 -3552 360 ) ( -96 -3552 576 ) ( 416 -3552 576 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 416 -3520 360 ) ( 416 -3520 576 ) ( -96 -3520 576 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+}
+// brush 97
+{
+( 416 -1824 576 ) ( 288 -1856 576 ) ( 288 -1824 576 ) robo_floor/clanggrate2 0 64 0 0.5 0.5 0 0 0
+( 416 -1824 360 ) ( 416 -1856 576 ) ( 416 -1824 576 ) robo_floor/clanggrate2 64 0 0 0.5 0.5 0 0 0
+( 936 -408 360 ) ( 936 -1016 360 ) ( 952 -1016 360 ) robo_floor/clanggrate2 0 64 0 0.5 0.5 0 0 0
+( 288 -1856 360 ) ( 288 -1824 576 ) ( 288 -1856 576 ) robo_floor/clanggrate2 64 0 0 0.5 0.5 0 0 0
+( 288 -1856 360 ) ( 288 -1856 576 ) ( 416 -1856 576 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 416 -1824 360 ) ( 416 -1824 576 ) ( 288 -1824 576 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+}
+// brush 98
+{
+( 448 -1208 576 ) ( 416 -3552 576 ) ( 416 -1208 576 ) robo_floor/clanggrate2 0 0 0 -0.5 0.5 0 0 0
+( 416 -3552 360 ) ( 416 -1208 576 ) ( 416 -3552 576 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 456 -1848 360 ) ( 472 -1848 360 ) ( 472 -1240 360 ) robo_floor/clanggrate2 0 0 0 -0.5 0.5 0 0 0
+( 448 -3552 360 ) ( 448 -3552 576 ) ( 448 -1208 576 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 416 -3552 360 ) ( 416 -3552 576 ) ( 448 -3552 576 ) robo_floor/clanggrate2 0 0 0 -0.5 0.5 0 0 0
+( 448 -1208 360 ) ( 448 -1208 576 ) ( 416 -1208 576 ) robo_floor/clanggrate2 46 0 0 -0.5 0.5 0 0 0
+}
+// brush 99
+{
+( 1312 1440 576 ) ( 1280 -1408 576 ) ( 1280 1440 576 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 1312 1440 -128 ) ( 1312 -1408 576 ) ( 1312 1440 576 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 2360 1408 -128 ) ( 2344 1408 -128 ) ( 2344 800 -128 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 1280 1440 -128 ) ( 1280 1440 576 ) ( 1280 -1408 576 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 1312 1440 -128 ) ( 1312 1440 576 ) ( 1280 1440 576 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 1280 -1408 -128 ) ( 1280 -1408 576 ) ( 1312 -1408 576 ) robo_floor/clanggrate2 122 0 0 0.5 0.5 0 0 0
+}
+// brush 100
+{
+( 2072 1440 368 ) ( 2088 1440 368 ) ( 2072 832 368 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 1032 688 552 ) ( 1032 688 360 ) ( 1032 80 552 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 2080 1408 -128 ) ( 2064 1408 -128 ) ( 2064 800 -128 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 1000 400 360 ) ( 1000 400 552 ) ( 1000 -208 360 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 2024 1440 552 ) ( 2024 1440 360 ) ( 2040 1440 552 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 1888 1184 360 ) ( 1888 1184 552 ) ( 2544 1184 360 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+}
+// brush 101
+{
+( 1256 2376 456 ) ( 1152 2616 456 ) ( 1256 2616 456 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 1184 2624 56 ) ( 1184 2384 576 ) ( 1184 2624 576 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 1152 2464 576 ) ( 1256 2464 56 ) ( 1256 2464 576 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 1256 2312 360 ) ( 1152 2552 360 ) ( 1152 2312 360 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 1144 2624 56 ) ( 1144 2384 576 ) ( 1144 2384 56 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 1152 2384 576 ) ( 1256 2384 56 ) ( 1152 2384 56 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 1144 2400 376 ) ( 1160 2384 248 ) ( 1144 2400 248 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 1160 2464 376 ) ( 1144 2448 248 ) ( 1160 2464 248 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+}
+// brush 102
+{
+( 1280 2296 456 ) ( 1176 2536 456 ) ( 1280 2536 456 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 1280 2544 56 ) ( 1280 2304 576 ) ( 1280 2544 576 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 1176 2544 576 ) ( 1280 2544 56 ) ( 1280 2544 576 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 1280 2232 360 ) ( 1176 2472 360 ) ( 1176 2232 360 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 1184 2544 56 ) ( 1184 2304 576 ) ( 1184 2304 56 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 1176 2304 576 ) ( 1280 2304 56 ) ( 1176 2304 56 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 1184 2320 376 ) ( 1200 2304 248 ) ( 1184 2320 248 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 1200 2544 376 ) ( 1184 2528 248 ) ( 1200 2544 248 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+}
+// brush 103
+{
+( 1032 2696 456 ) ( 792 2592 456 ) ( 792 2696 456 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 784 2712 56 ) ( 1024 2712 576 ) ( 784 2712 576 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 784 2592 576 ) ( 784 2696 56 ) ( 784 2696 576 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 1096 2696 360 ) ( 856 2592 360 ) ( 1096 2592 360 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 784 2600 56 ) ( 1024 2600 576 ) ( 1024 2600 56 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 1024 2592 576 ) ( 1024 2696 56 ) ( 1024 2592 56 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 1008 2600 376 ) ( 1024 2616 248 ) ( 1008 2600 248 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 784 2616 376 ) ( 800 2600 248 ) ( 784 2616 248 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+}
+// brush 104
+{
+( 952 2672 456 ) ( 712 2568 456 ) ( 712 2672 456 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 704 2600 56 ) ( 944 2600 576 ) ( 704 2600 576 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 864 2568 576 ) ( 864 2672 56 ) ( 864 2672 576 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 1016 2672 360 ) ( 776 2568 360 ) ( 1016 2568 360 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 704 2560 56 ) ( 944 2560 576 ) ( 944 2560 56 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 944 2568 576 ) ( 944 2672 56 ) ( 944 2568 56 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 928 2560 376 ) ( 944 2576 248 ) ( 928 2560 248 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 864 2576 376 ) ( 880 2560 248 ) ( 864 2576 248 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+}
+// brush 105
+{
+( 1312 2712 576 ) ( 1280 1440 576 ) ( 1280 2712 576 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 1312 2712 360 ) ( 1312 1440 576 ) ( 1312 2712 576 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 2360 1872 360 ) ( 2344 1872 360 ) ( 2344 1264 360 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 1280 2712 360 ) ( 1280 2712 576 ) ( 1280 1440 576 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 1312 2712 360 ) ( 1312 2712 576 ) ( 1280 2712 576 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 1280 1440 360 ) ( 1280 1440 576 ) ( 1312 1440 576 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+}
+// brush 106
+{
+( 1004 808 368 ) ( 1004 696 368 ) ( 884 808 368 ) robo_floor/clanggrate2 120 16 0 0.5 0.5 0 0 0
+( 984 -387 368 ) ( 864 -387 368 ) ( 984 -387 344 ) common/caulk 32 0 0 0.5 0.5 0 0 0
+( 1312 598 368 ) ( 1312 598 344 ) ( 1312 486 368 ) common/caulk 20 0 0 0.5 0.5 0 0 0
+( 884 696 344 ) ( 1004 696 344 ) ( 884 808 344 ) common/caulk 56 16 0 0.5 0.5 0 0 0
+( -172 -3552 344 ) ( -172 -3552 368 ) ( -52 -3552 344 ) common/caulk 8 0 0 0.5 0.5 0 0 0
+( -1280 680 344 ) ( -1280 792 344 ) ( -1280 680 368 ) common/caulk 48 0 0 0.5 0.5 0 0 0
+}
+// brush 107
+{
+( -864 1184 576 ) ( -832 1184 576 ) ( -832 -448 576 ) robo_floor/clanggrate2 64 112 0 0.5 0.5 0 0 0
+( -832 1184 -128 ) ( -832 -448 576 ) ( -832 1184 576 ) robo_floor/clanggrate2 64 0 0 0.5 0.5 0 0 0
+( 224 1896 -128 ) ( 208 1896 -128 ) ( 208 1288 -128 ) robo_floor/clanggrate2 48 112 0 0.5 0.5 0 0 0
+( -864 1184 -128 ) ( -864 1184 576 ) ( -864 -448 576 ) robo_floor/clanggrate2 108 0 0 0.5 0.5 0 0 0
+( -832 1184 -128 ) ( -832 1184 576 ) ( -864 1184 576 ) robo_floor/clanggrate2 64 0 0 0.5 0.5 0 0 0
+( -864 -448 -128 ) ( -864 -448 576 ) ( -832 -448 576 ) robo_floor/clanggrate2 56 0 0 0.5 0.5 0 0 0
+}
+// brush 108
+{
+( -1248 2744 576 ) ( -128 2744 576 ) ( -128 2712 576 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( -128 2744 360 ) ( -128 2712 576 ) ( -128 2744 576 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( -168 1904 360 ) ( -184 1904 360 ) ( -184 1296 360 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( -1248 2744 360 ) ( -1248 2744 576 ) ( -1248 2712 576 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( -128 2744 360 ) ( -128 2744 576 ) ( -1248 2744 576 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( -1248 2712 360 ) ( -1248 2712 576 ) ( -128 2712 576 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+}
+// brush 109
+{
+( 448 -864 576 ) ( 416 -1032 576 ) ( 416 -864 576 ) robo_floor/clanggrate2 64 80 0 0.5 -0.5 0 0 0
+( 416 -864 360 ) ( 448 -864 576 ) ( 416 -864 576 ) robo_floor/clanggrate2 64 0 0 0.5 0.5 0 0 0
+( -392 -920 360 ) ( 216 -920 360 ) ( 216 -904 360 ) robo_floor/clanggrate2 64 80 0 0.5 -0.5 0 0 0
+( 448 -1032 360 ) ( 416 -1032 576 ) ( 448 -1032 576 ) robo_floor/clanggrate2 64 0 0 0.5 0.5 0 0 0
+( 448 -1032 360 ) ( 448 -1032 576 ) ( 448 -864 576 ) robo_floor/clanggrate2 48 0 0 -0.5 0.5 0 0 0
+( 416 -864 360 ) ( 416 -864 576 ) ( 416 -1032 576 ) robo_floor/clanggrate2 48 0 0 -0.5 0.5 0 0 0
+}
+// brush 110
+{
+( -448 2712 576 ) ( -416 2712 576 ) ( -416 2512 576 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( -416 2512 360 ) ( -448 2512 576 ) ( -416 2512 576 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 392 2568 360 ) ( -216 2568 360 ) ( -216 2552 360 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( -448 2712 360 ) ( -416 2712 576 ) ( -448 2712 576 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( -448 2712 360 ) ( -448 2712 576 ) ( -448 2512 576 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( -416 2512 360 ) ( -416 2512 576 ) ( -416 2712 576 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+}
+// brush 111
+{
+( -1248 2536 456 ) ( -1144 2536 456 ) ( -1248 2296 456 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( -1248 2544 576 ) ( -1248 2304 576 ) ( -1248 2544 56 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( -1248 2544 576 ) ( -1248 2544 56 ) ( -1144 2544 576 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( -1144 2232 360 ) ( -1144 2472 360 ) ( -1248 2232 360 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( -1152 2304 56 ) ( -1152 2304 576 ) ( -1152 2544 56 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( -1144 2304 56 ) ( -1248 2304 56 ) ( -1144 2304 576 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( -1152 2320 248 ) ( -1168 2304 248 ) ( -1152 2320 376 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( -1168 2544 248 ) ( -1152 2528 248 ) ( -1168 2544 376 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+}
+// brush 112
+{
+( -1224 2616 456 ) ( -1120 2616 456 ) ( -1224 2376 456 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( -1152 2624 576 ) ( -1152 2384 576 ) ( -1152 2624 56 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( -1224 2464 576 ) ( -1224 2464 56 ) ( -1120 2464 576 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( -1120 2312 360 ) ( -1120 2552 360 ) ( -1224 2312 360 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( -1112 2384 56 ) ( -1112 2384 576 ) ( -1112 2624 56 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( -1120 2384 56 ) ( -1224 2384 56 ) ( -1120 2384 576 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( -1112 2400 248 ) ( -1128 2384 248 ) ( -1112 2400 376 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( -1128 2464 248 ) ( -1112 2448 248 ) ( -1128 2464 376 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+}
+// brush 113
+{
+( -760 2696 456 ) ( -760 2592 456 ) ( -1000 2696 456 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( -752 2712 576 ) ( -992 2712 576 ) ( -752 2712 56 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( -752 2696 576 ) ( -752 2696 56 ) ( -752 2592 576 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( -1064 2592 360 ) ( -824 2592 360 ) ( -1064 2696 360 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( -992 2600 56 ) ( -992 2600 576 ) ( -752 2600 56 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( -992 2592 56 ) ( -992 2696 56 ) ( -992 2592 576 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( -976 2600 248 ) ( -992 2616 248 ) ( -976 2600 376 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( -752 2616 248 ) ( -768 2600 248 ) ( -752 2616 376 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+}
+// brush 114
+{
+( -680 2672 456 ) ( -680 2568 456 ) ( -920 2672 456 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( -672 2600 576 ) ( -912 2600 576 ) ( -672 2600 56 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( -832 2672 576 ) ( -832 2672 56 ) ( -832 2568 576 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( -984 2568 360 ) ( -744 2568 360 ) ( -984 2672 360 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( -912 2560 56 ) ( -912 2560 576 ) ( -672 2560 56 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( -912 2568 56 ) ( -912 2672 56 ) ( -912 2568 576 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( -896 2560 248 ) ( -912 2576 248 ) ( -896 2560 376 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( -832 2576 248 ) ( -848 2560 248 ) ( -832 2576 376 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+}
+// brush 115
+{
+( -448 2336 576 ) ( -416 2336 576 ) ( -416 2168 576 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( -416 2168 360 ) ( -448 2168 576 ) ( -416 2168 576 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 392 2224 360 ) ( -216 2224 360 ) ( -216 2208 360 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( -448 2336 360 ) ( -416 2336 576 ) ( -448 2336 576 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( -448 2336 360 ) ( -448 2336 576 ) ( -448 2168 576 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( -416 2168 360 ) ( -416 2168 576 ) ( -416 2336 576 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+}
+// brush 116
+{
+( -788 310 160 ) ( -724 374 160 ) ( -788 374 160 ) robo_floor/clanggrate2 88 124 0 -0.5 0.5 134217728 0 0
+( -788 350 280 ) ( -788 286 -1928 ) ( -788 350 -1928 ) robo_floor/clanggrate2 124 64 0 -0.5 0.5 134217728 0 0
+( -724 382 -1928 ) ( -788 382 280 ) ( -788 382 -1928 ) robo_floor/clanggrate2 88 64 0 -0.5 0.5 134217728 0 0
+( -787 286 224 ) ( -723 350 224 ) ( -723 286 224 ) robo_floor/clanggrate2 88 124 0 -0.5 0.5 134217728 0 0
+( -724 349 280 ) ( -724 285 -1928 ) ( -724 285 280 ) robo_floor/clanggrate2 124 64 0 -0.5 0.5 134217728 0 0
+( -728 318 -1928 ) ( -792 318 280 ) ( -728 318 280 ) robo_floor/clanggrate2 88 64 0 -0.5 0.5 134217728 0 0
+}
+// brush 117
+{
+( -816 284 96 ) ( -752 348 96 ) ( -816 348 96 ) robo_floor/clanggrate2 32 72 0 -0.5 0.5 134217728 0 0
+( -816 324 216 ) ( -816 260 -1992 ) ( -816 324 -1992 ) robo_floor/clanggrate2 72 64 0 -0.5 0.5 134217728 0 0
+( -752 356 -1992 ) ( -816 356 216 ) ( -816 356 -1992 ) robo_floor/clanggrate2 32 64 0 -0.5 0.5 134217728 0 0
+( -815 260 160 ) ( -751 324 160 ) ( -751 260 160 ) robo_floor/clanggrate2 32 72 0 -0.5 0.5 134217728 0 0
+( -752 323 216 ) ( -752 259 -1992 ) ( -752 259 216 ) robo_floor/clanggrate2 72 64 0 -0.5 0.5 134217728 0 0
+( -756 292 -1992 ) ( -820 292 216 ) ( -756 292 216 ) robo_floor/clanggrate2 32 64 0 -0.5 0.5 134217728 0 0
+}
+// brush 118
+{
+( -736 284 96 ) ( -672 348 96 ) ( -736 348 96 ) robo_floor/clanggrate2 64 72 0 -0.5 0.5 134217728 0 0
+( -736 324 216 ) ( -736 260 -1992 ) ( -736 324 -1992 ) robo_floor/clanggrate2 72 64 0 -0.5 0.5 134217728 0 0
+( -672 356 -1992 ) ( -736 356 216 ) ( -736 356 -1992 ) robo_floor/clanggrate2 64 64 0 -0.5 0.5 134217728 0 0
+( -735 260 160 ) ( -671 324 160 ) ( -671 260 160 ) robo_floor/clanggrate2 64 72 0 -0.5 0.5 134217728 0 0
+( -672 323 216 ) ( -672 259 -1992 ) ( -672 259 216 ) robo_floor/clanggrate2 72 64 0 -0.5 0.5 134217728 0 0
+( -676 292 -1992 ) ( -740 292 216 ) ( -676 292 216 ) robo_floor/clanggrate2 64 64 0 -0.5 0.5 134217728 0 0
+}
+// brush 119
+{
+( -824 1138 340 ) ( -632 1138 340 ) ( -824 1138 352 ) common/caulk 4 0 0 0.5 0.5 0 0 0
+( -576 1138 352 ) ( -576 1138 340 ) ( -576 1104 340 ) common/caulk 4 0 0 0.5 0.5 0 0 0
+( -584 1108 356 ) ( -584 1104 340 ) ( -776 1104 340 ) robo_floor/clanggrate2 16 0 0 0.5 0.5 0 0 0
+( -832 1138 340 ) ( -832 1138 352 ) ( -832 1104 340 ) common/caulk 4 0 0 0.5 0.5 0 0 0
+( -824 1138 352 ) ( -632 1138 352 ) ( -632 1108 356 ) robo_floor/clanggrate2 4 60 0 0.5 0.5 0 0 0
+( -584 1138 340 ) ( -776 1138 340 ) ( -776 1104 340 ) common/caulk 16 60 0 0.5 0.5 0 0 0
+}
+// brush 120
+{
+( -512 1120 576 ) ( -480 1184 576 ) ( -480 1152 576 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( -512 1184 96 ) ( -480 1184 576 ) ( -512 1184 576 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( -330 1184 96 ) ( 246 176 96 ) ( 246 1184 96 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( -480 1152 96 ) ( -512 1120 576 ) ( -480 1152 576 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( -480 1152 96 ) ( -480 1152 576 ) ( -480 1184 576 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( -512 1184 96 ) ( -512 1184 576 ) ( -512 1120 576 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+}
+// brush 121
+{
+( -828 526 312 ) ( -584 542 312 ) ( -584 526 312 ) robo_floor/clanggrate2 8 60 0 -0.5 0.5 0 0 0
+( -828 588 224 ) ( -828 580 96 ) ( -828 588 96 ) robo_floor/clanggrate2 68 0 0 0.5 0.5 0 0 0
+( -828 542 312 ) ( -584 542 236 ) ( -584 542 312 ) robo_floor/clanggrate2 8 0 0 -0.5 0.5 0 0 0
+( -828 542 236 ) ( -584 526 236 ) ( -584 542 236 ) robo_floor/clanggrate2 8 60 0 -0.5 0.5 0 0 0
+( -584 526 312 ) ( -584 542 236 ) ( -584 526 236 ) robo_floor/clanggrate2 68 0 0 0.5 0.5 0 0 0
+( -828 526 236 ) ( -584 526 312 ) ( -584 526 236 ) robo_floor/clanggrate2 8 0 0 -0.5 0.5 0 0 0
+}
+// brush 122
+{
+( -824 968 280 ) ( -632 968 280 ) ( -824 968 292 ) common/caulk 4 0 0 0.5 0.5 0 0 0
+( -576 968 292 ) ( -576 968 280 ) ( -576 934 280 ) common/caulk 4 0 0 0.5 0.5 0 0 0
+( -584 938 296 ) ( -584 934 280 ) ( -776 934 280 ) robo_floor/clanggrate2 16 0 0 0.5 0.5 0 0 0
+( -832 968 280 ) ( -832 968 292 ) ( -832 934 280 ) common/caulk 4 0 0 0.5 0.5 0 0 0
+( -824 968 292 ) ( -632 968 292 ) ( -632 938 296 ) robo_floor/clanggrate2 4 60 0 0.5 0.5 0 0 0
+( -584 968 280 ) ( -776 968 280 ) ( -776 934 280 ) common/caulk 16 60 0 0.5 0.5 0 0 0
+}
+// brush 123
+{
+( -782 798 232 ) ( -782 746 232 ) ( -834 798 232 ) robo_floor/clanggrate2 4 0 0 0.5 0.5 0 0 0
+( -780 798 248 ) ( -832 798 248 ) ( -780 798 204 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+( -584 782 248 ) ( -584 782 204 ) ( -584 730 248 ) robo_floor/clanggrate2 32 0 0 0.5 0.5 0 0 0
+( -828 746 96 ) ( -776 746 96 ) ( -828 798 96 ) common/caulk 120 0 0 0.5 0.5 0 0 0
+( -864 526 204 ) ( -864 526 248 ) ( -812 526 204 ) robo_floor/clanggrate2 64 0 0 0.5 0.5 0 0 0
+( -832 746 204 ) ( -832 798 204 ) ( -832 746 248 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+}
+// brush 124
+{
+( -824 1002 292 ) ( -632 1002 292 ) ( -824 1002 304 ) common/caulk 4 0 0 0.5 0.5 0 0 0
+( -576 1002 304 ) ( -576 1002 292 ) ( -576 968 292 ) common/caulk 4 0 0 0.5 0.5 0 0 0
+( -584 972 308 ) ( -584 968 292 ) ( -776 968 292 ) robo_floor/clanggrate2 16 0 0 0.5 0.5 0 0 0
+( -832 1002 292 ) ( -832 1002 304 ) ( -832 968 292 ) common/caulk 4 0 0 0.5 0.5 0 0 0
+( -824 1002 304 ) ( -632 1002 304 ) ( -632 972 308 ) robo_floor/clanggrate2 4 60 0 0.5 0.5 0 0 0
+( -584 1002 292 ) ( -776 1002 292 ) ( -776 968 292 ) common/caulk 16 60 0 0.5 0.5 0 0 0
+}
+// brush 125
+{
+( -824 866 244 ) ( -632 866 244 ) ( -824 866 256 ) common/caulk 4 0 0 0.5 0.5 0 0 0
+( -576 866 256 ) ( -576 866 244 ) ( -576 832 244 ) common/caulk 4 0 0 0.5 0.5 0 0 0
+( -584 836 260 ) ( -584 832 244 ) ( -776 832 244 ) robo_floor/clanggrate2 16 0 0 0.5 0.5 0 0 0
+( -832 866 244 ) ( -832 866 256 ) ( -832 832 244 ) common/caulk 4 0 0 0.5 0.5 0 0 0
+( -824 866 256 ) ( -632 866 256 ) ( -632 836 260 ) robo_floor/clanggrate2 4 60 0 0.5 0.5 0 0 0
+( -584 866 244 ) ( -776 866 244 ) ( -776 832 244 ) common/caulk 16 60 0 0.5 0.5 0 0 0
+}
+// brush 126
+{
+( -584 1152 368 ) ( -584 1144 368 ) ( -776 1152 368 ) robo_floor/clanggrate2 16 60 0 0.5 0.5 0 0 0
+( -576 1140 336 ) ( -576 1140 352 ) ( -576 1152 336 ) common/caulk 4 0 0 0.5 0.5 0 0 0
+( -584 1142 368 ) ( -584 1138 352 ) ( -776 1142 368 ) robo_floor/clanggrate2 16 0 0 0.5 0.5 0 0 0
+( -832 1140 352 ) ( -832 1140 336 ) ( -832 1152 368 ) common/caulk 4 0 0 0.5 0.5 0 0 0
+( -634 1138 352 ) ( -634 1138 336 ) ( -826 1138 336 ) common/caulk 4 0 0 0.5 0.5 0 0 0
+( -584 1140 340 ) ( -584 1152 340 ) ( -776 1140 340 ) common/caulk 16 60 0 0.5 0.5 0 0 0
+( -584 1184 336 ) ( -584 1184 368 ) ( -776 1184 336 ) common/caulk 16 0 0 0.5 0.5 0 0 0
+}
+// brush 127
+{
+( -824 832 232 ) ( -632 832 232 ) ( -824 832 244 ) common/caulk 4 0 0 0.5 0.5 0 0 0
+( -576 832 244 ) ( -576 832 232 ) ( -576 798 232 ) common/caulk 4 0 0 0.5 0.5 0 0 0
+( -584 802 248 ) ( -584 798 232 ) ( -776 798 232 ) robo_floor/clanggrate2 16 0 0 0.5 0.5 0 0 0
+( -832 832 232 ) ( -832 832 244 ) ( -832 798 232 ) robo_floor/clanggrate2 68 0 0 0.5 0.5 0 0 0
+( -824 832 244 ) ( -632 832 244 ) ( -632 802 248 ) robo_floor/clanggrate2 4 60 0 0.5 0.5 0 0 0
+( -584 832 232 ) ( -776 832 232 ) ( -776 798 232 ) common/caulk 16 60 0 0.5 0.5 0 0 0
+}
+// brush 128
+{
+( -824 934 268 ) ( -632 934 268 ) ( -824 934 280 ) common/caulk 4 0 0 0.5 0.5 0 0 0
+( -576 934 280 ) ( -576 934 268 ) ( -576 900 268 ) common/caulk 4 0 0 0.5 0.5 0 0 0
+( -584 904 284 ) ( -584 900 268 ) ( -776 900 268 ) robo_floor/clanggrate2 16 0 0 0.5 0.5 0 0 0
+( -832 934 268 ) ( -832 934 280 ) ( -832 900 268 ) common/caulk 4 0 0 0.5 0.5 0 0 0
+( -824 934 280 ) ( -632 934 280 ) ( -632 904 284 ) robo_floor/clanggrate2 4 60 0 0.5 0.5 0 0 0
+( -584 934 268 ) ( -776 934 268 ) ( -776 900 268 ) common/caulk 16 60 0 0.5 0.5 0 0 0
+}
+// brush 129
+{
+( -824 900 256 ) ( -632 900 256 ) ( -824 900 268 ) common/caulk 4 0 0 0.5 0.5 0 0 0
+( -576 900 268 ) ( -576 900 256 ) ( -576 866 256 ) common/caulk 4 0 0 0.5 0.5 0 0 0
+( -584 870 272 ) ( -584 866 256 ) ( -776 866 256 ) robo_floor/clanggrate2 16 0 0 0.5 0.5 0 0 0
+( -832 900 256 ) ( -832 900 268 ) ( -832 866 256 ) common/caulk 4 0 0 0.5 0.5 0 0 0
+( -824 900 268 ) ( -632 900 268 ) ( -632 870 272 ) robo_floor/clanggrate2 4 60 0 0.5 0.5 0 0 0
+( -584 900 256 ) ( -776 900 256 ) ( -776 866 256 ) common/caulk 16 60 0 0.5 0.5 0 0 0
+}
+// brush 130
+{
+( -824 1036 304 ) ( -632 1036 304 ) ( -824 1036 316 ) common/caulk 4 0 0 0.5 0.5 0 0 0
+( -576 1036 316 ) ( -576 1036 304 ) ( -576 1002 304 ) common/caulk 4 0 0 0.5 0.5 0 0 0
+( -584 1006 320 ) ( -584 1002 304 ) ( -776 1002 304 ) robo_floor/clanggrate2 16 0 0 0.5 0.5 0 0 0
+( -832 1036 304 ) ( -832 1036 316 ) ( -832 1002 304 ) common/caulk 4 0 0 0.5 0.5 0 0 0
+( -824 1036 316 ) ( -632 1036 316 ) ( -632 1006 320 ) robo_floor/clanggrate2 4 60 0 0.5 0.5 0 0 0
+( -584 1036 304 ) ( -776 1036 304 ) ( -776 1002 304 ) common/caulk 16 60 0 0.5 0.5 0 0 0
+}
+// brush 131
+{
+( -632 1104 340 ) ( -824 1104 340 ) ( -632 1104 328 ) common/caulk 4 0 0 0.5 0.5 0 0 0
+( -576 1104 340 ) ( -576 1104 328 ) ( -576 1070 328 ) common/caulk 4 0 0 0.5 0.5 0 0 0
+( -584 1074 344 ) ( -584 1070 328 ) ( -776 1070 328 ) robo_floor/clanggrate2 16 0 0 0.5 0.5 0 0 0
+( -832 1104 328 ) ( -832 1104 340 ) ( -832 1070 328 ) common/caulk 4 0 0 0.5 0.5 0 0 0
+( -824 1104 340 ) ( -632 1104 340 ) ( -632 1074 344 ) robo_floor/clanggrate2 4 60 0 0.5 0.5 0 0 0
+( -584 1104 328 ) ( -776 1104 328 ) ( -776 1070 328 ) common/caulk 16 60 0 0.5 0.5 0 0 0
+}
+// brush 132
+{
+( -502 550 180 ) ( -502 742 180 ) ( -502 550 192 ) common/caulk 8 48 0 0.5 0.5 0 0 0
+( -502 798 192 ) ( -502 798 180 ) ( -468 798 180 ) common/caulk 52 48 0 -0.5 0.5 0 0 0
+( -472 790 196 ) ( -468 790 180 ) ( -468 598 180 ) robo_floor/clanggrate2 84 112 0 0.5 0.5 0 0 0
+( -502 542 180 ) ( -502 542 192 ) ( -468 542 180 ) common/caulk 52 48 0 -0.5 0.5 0 0 0
+( -502 550 192 ) ( -502 742 192 ) ( -472 742 196 ) robo_floor/clanggrate2 72 76 90 0.5 0.5 0 0 0
+( -502 790 180 ) ( -502 598 180 ) ( -468 598 180 ) common/caulk 20 12 90 0.5 0.5 0 0 0
+}
+// brush 133
+{
+( -570 550 204 ) ( -570 742 204 ) ( -570 550 216 ) common/caulk 8 48 0 0.5 0.5 0 0 0
+( -570 798 216 ) ( -570 798 204 ) ( -536 798 204 ) common/caulk 52 48 0 -0.5 0.5 0 0 0
+( -540 790 220 ) ( -536 790 204 ) ( -536 598 204 ) robo_floor/clanggrate2 84 112 0 0.5 0.5 0 0 0
+( -570 542 204 ) ( -570 542 216 ) ( -536 542 204 ) common/caulk 52 48 0 -0.5 0.5 0 0 0
+( -570 550 216 ) ( -570 742 216 ) ( -540 742 220 ) robo_floor/clanggrate2 72 76 90 0.5 0.5 0 0 0
+( -570 790 204 ) ( -570 598 204 ) ( -536 598 204 ) common/caulk 20 12 90 0.5 0.5 0 0 0
+}
+// brush 134
+{
+( -400 550 144 ) ( -400 742 144 ) ( -400 550 156 ) common/caulk 8 48 0 0.5 0.5 0 0 0
+( -400 798 156 ) ( -400 798 144 ) ( -366 798 144 ) common/caulk 52 48 0 -0.5 0.5 0 0 0
+( -370 790 160 ) ( -366 790 144 ) ( -366 598 144 ) robo_floor/clanggrate2 84 112 0 0.5 0.5 0 0 0
+( -400 542 144 ) ( -400 542 156 ) ( -366 542 144 ) common/caulk 52 48 0 -0.5 0.5 0 0 0
+( -400 550 156 ) ( -400 742 156 ) ( -370 742 160 ) robo_floor/clanggrate2 72 76 90 0.5 0.5 0 0 0
+( -400 790 144 ) ( -400 598 144 ) ( -366 598 144 ) common/caulk 20 12 90 0.5 0.5 0 0 0
+}
+// brush 135
+{
+( -536 742 204 ) ( -536 550 204 ) ( -536 742 192 ) common/caulk 8 48 0 0.5 0.5 0 0 0
+( -536 798 204 ) ( -536 798 192 ) ( -502 798 192 ) common/caulk 52 48 0 -0.5 0.5 0 0 0
+( -506 790 208 ) ( -502 790 192 ) ( -502 598 192 ) robo_floor/clanggrate2 84 112 0 0.5 0.5 0 0 0
+( -536 542 192 ) ( -536 542 204 ) ( -502 542 192 ) common/caulk 52 48 0 -0.5 0.5 0 0 0
+( -536 550 204 ) ( -536 742 204 ) ( -506 742 208 ) robo_floor/clanggrate2 72 76 90 0.5 0.5 0 0 0
+( -536 790 192 ) ( -536 598 192 ) ( -502 598 192 ) common/caulk 20 12 90 0.5 0.5 0 0 0
+}
+// brush 136
+{
+( -468 550 168 ) ( -468 742 168 ) ( -468 550 180 ) common/caulk 8 48 0 0.5 0.5 0 0 0
+( -468 798 180 ) ( -468 798 168 ) ( -434 798 168 ) common/caulk 52 48 0 -0.5 0.5 0 0 0
+( -438 790 184 ) ( -434 790 168 ) ( -434 598 168 ) robo_floor/clanggrate2 84 112 0 0.5 0.5 0 0 0
+( -468 542 168 ) ( -468 542 180 ) ( -434 542 168 ) common/caulk 52 48 0 -0.5 0.5 0 0 0
+( -468 550 180 ) ( -468 742 180 ) ( -438 742 184 ) robo_floor/clanggrate2 72 76 90 0.5 0.5 0 0 0
+( -468 790 168 ) ( -468 598 168 ) ( -434 598 168 ) common/caulk 20 12 90 0.5 0.5 0 0 0
+}
+// brush 137
+{
+( -332 550 120 ) ( -332 742 120 ) ( -332 550 132 ) common/caulk 8 48 0 0.5 0.5 0 0 0
+( -332 798 132 ) ( -332 798 120 ) ( -298 798 120 ) common/caulk 52 48 0 -0.5 0.5 0 0 0
+( -302 790 136 ) ( -298 790 120 ) ( -298 598 120 ) robo_floor/clanggrate2 84 112 0 0.5 0.5 0 0 0
+( -332 542 120 ) ( -332 542 132 ) ( -298 542 120 ) common/caulk 52 48 0 -0.5 0.5 0 0 0
+( -332 550 132 ) ( -332 742 132 ) ( -302 742 136 ) robo_floor/clanggrate2 72 76 90 0.5 0.5 0 0 0
+( -332 790 120 ) ( -332 598 120 ) ( -298 598 120 ) common/caulk 20 12 90 0.5 0.5 0 0 0
+}
+// brush 138
+{
+( -366 550 132 ) ( -366 742 132 ) ( -366 550 144 ) common/caulk 8 48 0 0.5 0.5 0 0 0
+( -366 798 144 ) ( -366 798 132 ) ( -332 798 132 ) common/caulk 52 48 0 -0.5 0.5 0 0 0
+( -336 790 148 ) ( -332 790 132 ) ( -332 598 132 ) robo_floor/clanggrate2 84 112 0 0.5 0.5 0 0 0
+( -366 542 132 ) ( -366 542 144 ) ( -332 542 132 ) common/caulk 52 48 0 -0.5 0.5 0 0 0
+( -366 550 144 ) ( -366 742 144 ) ( -336 742 148 ) robo_floor/clanggrate2 72 76 90 0.5 0.5 0 0 0
+( -366 790 132 ) ( -366 598 132 ) ( -332 598 132 ) common/caulk 20 12 90 0.5 0.5 0 0 0
+}
+// brush 139
+{
+( -264 550 96 ) ( -264 742 96 ) ( -264 550 108 ) common/caulk 8 48 0 0.5 0.5 0 0 0
+( -264 798 108 ) ( -264 798 96 ) ( -230 798 96 ) common/caulk 52 48 0 -0.5 0.5 0 0 0
+( -234 790 112 ) ( -230 790 96 ) ( -230 598 96 ) robo_floor/clanggrate2 84 112 0 0.5 0.5 0 0 0
+( -264 542 96 ) ( -264 542 108 ) ( -230 542 96 ) robo_floor/clanggrate2 52 112 0 -0.5 0.5 0 0 0
+( -264 550 108 ) ( -264 742 108 ) ( -234 742 112 ) robo_floor/clanggrate2 72 76 90 0.5 0.5 0 0 0
+( -264 790 96 ) ( -264 598 96 ) ( -230 598 96 ) common/caulk 20 12 90 0.5 0.5 0 0 0
+}
+// brush 140
+{
+( -584 790 232 ) ( -576 790 232 ) ( -584 598 232 ) robo_floor/clanggrate2 84 76 90 0.5 0.5 0 0 0
+( -572 798 200 ) ( -572 798 216 ) ( -584 798 200 ) common/caulk 52 48 0 -0.5 0.5 0 0 0
+( -574 790 232 ) ( -570 790 216 ) ( -574 598 232 ) robo_floor/clanggrate2 84 112 0 0.5 0.5 0 0 0
+( -572 542 216 ) ( -572 542 200 ) ( -584 542 232 ) common/caulk 52 48 0 -0.5 0.5 0 0 0
+( -570 740 216 ) ( -570 740 200 ) ( -570 548 200 ) common/caulk 8 48 0 0.5 0.5 0 0 0
+( -572 790 204 ) ( -584 790 204 ) ( -572 598 204 ) common/caulk 20 12 90 0.5 0.5 0 0 0
+( -584 -64 232 ) ( -584 64 228 ) ( -584 64 232 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+}
+// brush 141
+{
+( -298 550 108 ) ( -298 742 108 ) ( -298 550 120 ) common/caulk 8 48 0 0.5 0.5 0 0 0
+( -298 798 120 ) ( -298 798 108 ) ( -264 798 108 ) common/caulk 52 48 0 -0.5 0.5 0 0 0
+( -268 790 124 ) ( -264 790 108 ) ( -264 598 108 ) robo_floor/clanggrate2 84 112 0 0.5 0.5 0 0 0
+( -298 542 108 ) ( -298 542 120 ) ( -264 542 108 ) common/caulk 52 48 0 -0.5 0.5 0 0 0
+( -298 550 120 ) ( -298 742 120 ) ( -268 742 124 ) robo_floor/clanggrate2 72 76 90 0.5 0.5 0 0 0
+( -298 790 108 ) ( -298 598 108 ) ( -264 598 108 ) common/caulk 20 12 90 0.5 0.5 0 0 0
+}
+// brush 142
+{
+( -434 550 156 ) ( -434 742 156 ) ( -434 550 168 ) common/caulk 8 48 0 0.5 0.5 0 0 0
+( -434 798 168 ) ( -434 798 156 ) ( -400 798 156 ) common/caulk 52 48 0 -0.5 0.5 0 0 0
+( -404 790 172 ) ( -400 790 156 ) ( -400 598 156 ) robo_floor/clanggrate2 84 112 0 0.5 0.5 0 0 0
+( -434 542 156 ) ( -434 542 168 ) ( -400 542 156 ) common/caulk 52 48 0 -0.5 0.5 0 0 0
+( -434 550 168 ) ( -434 742 168 ) ( -404 742 172 ) robo_floor/clanggrate2 72 76 90 0.5 0.5 0 0 0
+( -434 790 156 ) ( -434 598 156 ) ( -400 598 156 ) common/caulk 20 12 90 0.5 0.5 0 0 0
+}
+// brush 143
+{
+( -238 542 184 ) ( -584 526 310.375 ) ( -584 542 310.375 ) robo_floor/clanggrate2 8 60 0 -0.5 0.5 0 0 0
+( -584 542 310.375 ) ( -584 526 214.375 ) ( -584 542 214.375 ) robo_floor/clanggrate2 68 0 0 0.5 0.5 0 0 0
+( -238 542 88 ) ( -584 542 310.375 ) ( -584 542 214.375 ) robo_floor/clanggrate2 8 0 0 -0.5 0.5 0 0 0
+( -240 526 62 ) ( -586 542 188.375 ) ( -586 526 188.375 ) robo_floor/clanggrate2 4 60 0 -0.5 0.5 0 0 0
+( -230 526 184 ) ( -230 542 88 ) ( -230 526 88 ) robo_floor/clanggrate2 68 0 0 0.5 0.5 0 0 0
+( -238 526 184 ) ( -584 526 214.375 ) ( -584 526 310.375 ) robo_floor/clanggrate2 8 0 0 -0.5 0.5 0 0 0
+( -230 64 96 ) ( -232 64 96 ) ( -230 -64 96 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+}
+// brush 144
+{
+( -288 1184 576 ) ( -192 1184 576 ) ( -192 1088 576 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( -192 1184 96 ) ( -192 1184 576 ) ( -288 1184 576 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( -1014 1184 96 ) ( -1014 176 96 ) ( -438 1184 96 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( -224 1088 96 ) ( -224 1088 576 ) ( -192 1088 576 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( -192 1184 96 ) ( -192 1088 576 ) ( -192 1184 576 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( -224 1088 96 ) ( -288 1152 576 ) ( -224 1088 576 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( -288 1152 96 ) ( -288 1184 576 ) ( -288 1152 576 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+}
+// brush 145
+{
+( -256 800 576 ) ( -192 896 576 ) ( -192 800 576 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( -192 896 96 ) ( -192 896 576 ) ( -224 896 576 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( -1014 896 96 ) ( -1014 -112 96 ) ( -438 896 96 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( -192 800 96 ) ( -256 800 576 ) ( -192 800 576 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( -192 896 96 ) ( -192 800 576 ) ( -192 896 576 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( -256 864 96 ) ( -224 896 576 ) ( -256 864 576 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( -256 800 96 ) ( -256 864 576 ) ( -256 800 576 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+}
+// brush 146
+{
+( -2010 1184 368 ) ( -2042 1152 368 ) ( -2042 1184 368 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 302 1184 96 ) ( 302 1184 128 ) ( -274 1184 96 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( -480 1184 96 ) ( -480 1152 96 ) ( -448 1184 96 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( -446 1136 568 ) ( -478 1136 96 ) ( -478 1136 568 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( -288 1116 64 ) ( -288 1122 -64 ) ( -288 1116 -64 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( -480 1184 96 ) ( -480 1152 568 ) ( -480 1152 96 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+}
+// brush 147
+{
+( -576 800 576 ) ( -512 1184 576 ) ( -512 800 576 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( -576 1184 96 ) ( -512 1184 576 ) ( -576 1184 576 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( -330 864 96 ) ( 246 -144 96 ) ( 246 864 96 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( -576 1184 96 ) ( -576 1184 576 ) ( -576 800 576 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( -576 800 96 ) ( -576 800 576 ) ( -512 800 576 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( -512 1184 96 ) ( -512 800 576 ) ( -512 1184 576 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+}
+// brush 148
+{
+( -824 1070 316 ) ( -632 1070 316 ) ( -824 1070 328 ) common/caulk 4 0 0 0.5 0.5 0 0 0
+( -576 1070 328 ) ( -576 1070 316 ) ( -576 1036 316 ) common/caulk 4 0 0 0.5 0.5 0 0 0
+( -584 1040 332 ) ( -584 1036 316 ) ( -776 1036 316 ) robo_floor/clanggrate2 16 0 0 0.5 0.5 0 0 0
+( -832 1070 316 ) ( -832 1070 328 ) ( -832 1036 316 ) common/caulk 4 0 0 0.5 0.5 0 0 0
+( -824 1070 328 ) ( -632 1070 328 ) ( -632 1040 332 ) robo_floor/clanggrate2 4 60 0 0.5 0.5 0 0 0
+( -584 1070 316 ) ( -776 1070 316 ) ( -776 1036 316 ) common/caulk 16 60 0 0.5 0.5 0 0 0
+}
+// brush 149
+{
+( -512 800 576 ) ( -256 864 576 ) ( -256 800 576 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( -512 864 96 ) ( -256 864 576 ) ( -512 864 576 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( -266 864 96 ) ( 310 -144 96 ) ( 310 864 96 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( -512 864 96 ) ( -512 864 576 ) ( -512 800 576 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( -512 800 96 ) ( -512 800 576 ) ( -256 800 576 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( -256 864 96 ) ( -256 800 576 ) ( -256 864 576 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+}
+// brush 150
+{
+( 1032 1184 576 ) ( -192 1096 576 ) ( -192 1184 576 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 1032 1184 -128 ) ( 1032 1096 576 ) ( 1032 1184 576 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 2048 1432 -128 ) ( 2032 1432 -128 ) ( 2032 824 -128 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( -192 1184 -128 ) ( -192 1184 576 ) ( -192 1096 576 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 1032 1184 -128 ) ( 1032 1184 576 ) ( -192 1184 576 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( -192 1096 -128 ) ( -192 1096 576 ) ( 1032 1096 576 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+}
+// brush 151
+{
+( -152 416 96 ) ( -1016 -176 96 ) ( -440 832 96 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( -840 832 64 ) ( -840 -176 96 ) ( -840 -176 64 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+( -464 832 64 ) ( -1040 832 96 ) ( -1040 832 64 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+( -1016 832 64 ) ( -1016 -176 64 ) ( -440 832 64 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+( -1097 -299 -64 ) ( -1101 -299 -64 ) ( -1097 -299 64 ) common/caulk 2 0 0 0.5 0.5 0 0 0
+( 420 476 64 ) ( 420 484 -64 ) ( 420 476 -64 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+}
+// brush 152
+{
+( 654 341 96 ) ( -210 -251 96 ) ( 366 757 96 ) robo_floor/clanggrate2 52 106 0 0.5 0.5 0 0 0
+( 640 735 64 ) ( 640 -273 96 ) ( 640 -273 64 ) common/caulk 2 0 0 0.5 0.5 0 0 0
+( 276 270 64 ) ( -300 270 96 ) ( -300 270 64 ) common/caulk 56 0 0 0.5 0.5 0 0 0
+( -210 757 64 ) ( -210 -251 64 ) ( 366 757 64 ) common/caulk 52 42 0 0.5 0.5 0 0 0
+( -292 -387 -64 ) ( -296 -387 -64 ) ( -292 -387 64 ) common/caulk 56 0 0 0.5 0.5 0 0 0
+( 1280 396 64 ) ( 1280 404 -64 ) ( 1280 396 -64 ) common/caulk 32 0 0 0.5 0.5 0 0 0
+}
+// brush 153
+{
+( -1280 2744 576 ) ( -1248 2744 576 ) ( -1248 -1408 576 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( -1248 2744 360 ) ( -1248 -1408 576 ) ( -1248 2744 576 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( -200 1904 360 ) ( -216 1904 360 ) ( -216 1296 360 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( -1280 2744 360 ) ( -1280 2744 576 ) ( -1280 -1408 576 ) robo_floor/clanggrate2 92 0 0 0.5 0.5 0 0 0
+( -1248 2744 360 ) ( -1248 2744 576 ) ( -1280 2744 576 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( -1280 -1408 360 ) ( -1280 -1408 576 ) ( -1248 -1408 576 ) robo_floor/clanggrate2 54 0 0 0.5 0.5 0 0 0
+}
+// brush 154
+{
+( 1000 1440 368 ) ( 1000 1328 368 ) ( 880 1440 368 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 1000 1440 368 ) ( 880 1440 368 ) ( 1000 1440 344 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+( 1000 1440 368 ) ( 1000 1440 344 ) ( 1000 1328 368 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+( 880 1328 344 ) ( 1000 1328 344 ) ( 880 1440 344 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+( 856 1184 344 ) ( 856 1184 368 ) ( 976 1184 344 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+( -1280 1312 344 ) ( -1280 1424 344 ) ( -1280 1312 368 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+}
+// brush 155
+{
+( 1000 1184 368 ) ( 1000 1072 368 ) ( 880 1184 368 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 1000 1184 368 ) ( 880 1184 368 ) ( 1000 1184 344 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+( -864 1144 368 ) ( -864 1144 344 ) ( -864 1032 368 ) common/caulk 16 0 0 0.5 0.5 0 0 0
+( 880 1072 344 ) ( 1000 1072 344 ) ( 880 1184 344 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+( -48 -387 344 ) ( -48 -387 368 ) ( 72 -387 344 ) common/caulk 16 0 0 0.5 0.5 0 0 0
+( -1280 1056 344 ) ( -1280 1168 344 ) ( -1280 1056 368 ) common/caulk 0 0 0 0.5 0.5 0 0 0
+}
+// brush 156
+{
+( 480 2712 576 ) ( 448 2512 576 ) ( 448 2712 576 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 480 2512 360 ) ( 448 2512 576 ) ( 480 2512 576 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 248 2552 360 ) ( 248 2568 360 ) ( -360 2568 360 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 480 2712 360 ) ( 480 2712 576 ) ( 448 2712 576 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 480 2512 360 ) ( 480 2512 576 ) ( 480 2712 576 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 448 2712 360 ) ( 448 2712 576 ) ( 448 2512 576 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+}
+// brush 157
+{
+( 480 2336 576 ) ( 448 2168 576 ) ( 448 2336 576 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 480 2168 360 ) ( 448 2168 576 ) ( 480 2168 576 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 248 2208 360 ) ( 248 2224 360 ) ( -360 2224 360 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 480 2336 360 ) ( 480 2336 576 ) ( 448 2336 576 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 480 2168 360 ) ( 480 2168 576 ) ( 480 2336 576 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 448 2336 360 ) ( 448 2336 576 ) ( 448 2168 576 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+}
+// brush 158
+{
+( 1288 -832 576 ) ( 416 -864 576 ) ( 416 -832 576 ) robo_floor/clanggrate2 0 80 -90 0.5 -0.5 0 0 0
+( 1288 -832 360 ) ( 1288 -864 576 ) ( 1288 -832 576 ) robo_floor/clanggrate2 0 0 0 -0.5 0.5 0 0 0
+( 1232 -24 360 ) ( 1232 -632 360 ) ( 1248 -632 360 ) robo_floor/clanggrate2 0 80 -90 0.5 -0.5 0 0 0
+( 416 -864 360 ) ( 416 -832 576 ) ( 416 -864 576 ) robo_floor/clanggrate2 50 0 0 -0.5 0.5 0 0 0
+( 416 -864 360 ) ( 416 -864 576 ) ( 1288 -864 576 ) robo_floor/clanggrate2 48 0 0 -0.5 0.5 0 0 0
+( 1288 -832 360 ) ( 1288 -832 576 ) ( 416 -832 576 ) robo_floor/clanggrate2 48 0 0 -0.5 0.5 0 0 0
+}
+// brush 159
+{
+( 1312 -1408 576 ) ( 288 -1440 576 ) ( 288 -1408 576 ) robo_floor/clanggrate2 0 100 -90 0.5 0.5 0 0 0
+( 288 -1440 360 ) ( 288 -1408 576 ) ( 288 -1440 576 ) robo_floor/clanggrate2 116 0 0 -0.5 0.5 0 0 0
+( 274 -1208 360 ) ( 290 -1208 360 ) ( 290 -600 360 ) robo_floor/clanggrate2 0 100 -90 0.5 0.5 0 0 0
+( 1312 -1440 360 ) ( 1312 -1440 576 ) ( 1312 -1408 576 ) robo_floor/clanggrate2 96 0 0 -0.5 0.5 0 0 0
+( 288 -1440 360 ) ( 288 -1440 576 ) ( 1312 -1440 576 ) robo_floor/clanggrate2 28 0 0 0.5 0.5 0 0 0
+( 1312 -1408 360 ) ( 1312 -1408 576 ) ( 288 -1408 576 ) robo_floor/clanggrate2 28 0 0 0.5 0.5 0 0 0
+}
+// brush 160
+{
+( -968 -864 576 ) ( -96 -832 576 ) ( -96 -864 576 ) robo_floor/clanggrate2 0 80 -90 0.5 0.5 0 0 0
+( -968 -864 360 ) ( -968 -832 576 ) ( -968 -864 576 ) robo_floor/clanggrate2 0 0 0 -0.5 0.5 0 0 0
+( -928 -632 360 ) ( -912 -632 360 ) ( -912 -24 360 ) robo_floor/clanggrate2 0 80 -90 0.5 0.5 0 0 0
+( -96 -864 360 ) ( -96 -864 576 ) ( -96 -832 576 ) robo_floor/clanggrate2 50 0 0 -0.5 0.5 0 0 0
+( -968 -864 360 ) ( -968 -864 576 ) ( -96 -864 576 ) robo_floor/clanggrate2 48 0 0 0.5 0.5 0 0 0
+( -96 -832 360 ) ( -96 -832 576 ) ( -968 -832 576 ) robo_floor/clanggrate2 48 0 0 0.5 0.5 0 0 0
+}
+// brush 161
+{
+( -96 -1208 576 ) ( -128 -3552 576 ) ( -128 -1208 576 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( -96 -1208 360 ) ( -96 -3552 576 ) ( -96 -1208 576 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( -152 -1240 360 ) ( -152 -1848 360 ) ( -136 -1848 360 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( -128 -3552 360 ) ( -128 -1208 576 ) ( -128 -3552 576 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( -128 -3552 360 ) ( -128 -3552 576 ) ( -96 -3552 576 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( -96 -1208 360 ) ( -96 -1208 576 ) ( -128 -1208 576 ) robo_floor/clanggrate2 46 0 0 0.5 0.5 0 0 0
+}
+// brush 162
+{
+( -864 -832 576 ) ( -832 -704 576 ) ( -832 -832 576 ) robo_floor/clanggrate2 0 64 180 0.5 0.5 0 0 0
+( -864 -704 360 ) ( -832 -704 576 ) ( -864 -704 576 ) robo_floor/clanggrate2 0 0 0 -0.5 0.5 0 0 0
+( -632 -704 360 ) ( -632 -720 360 ) ( -24 -720 360 ) robo_floor/clanggrate2 0 64 180 0.5 0.5 0 0 0
+( -864 -832 360 ) ( -864 -832 576 ) ( -832 -832 576 ) robo_floor/clanggrate2 0 0 0 -0.5 0.5 0 0 0
+( -864 -704 360 ) ( -864 -704 576 ) ( -864 -832 576 ) robo_floor/clanggrate2 64 0 0 -0.5 0.5 0 0 0
+( -832 -832 360 ) ( -832 -832 576 ) ( -832 -704 576 ) robo_floor/clanggrate2 64 0 0 -0.5 0.5 0 0 0
+}
+// brush 163
+{
+( -96 -1032 576 ) ( -128 -1032 576 ) ( -128 -864 576 ) robo_floor/clanggrate2 64 80 180 0.5 0.5 0 0 0
+( -128 -864 360 ) ( -96 -864 576 ) ( -128 -864 576 ) robo_floor/clanggrate2 64 0 0 -0.5 0.5 0 0 0
+( 104 -904 360 ) ( 104 -920 360 ) ( 712 -920 360 ) robo_floor/clanggrate2 64 80 180 0.5 0.5 0 0 0
+( -128 -1032 360 ) ( -128 -1032 576 ) ( -96 -1032 576 ) robo_floor/clanggrate2 64 0 0 -0.5 0.5 0 0 0
+( -128 -864 360 ) ( -128 -864 576 ) ( -128 -1032 576 ) robo_floor/clanggrate2 48 0 0 -0.5 0.5 0 0 0
+( -96 -1032 360 ) ( -96 -1032 576 ) ( -96 -864 576 ) robo_floor/clanggrate2 48 0 0 -0.5 0.5 0 0 0
+}
+// brush 164
+{
+( -1248 -864 576 ) ( -1144 -832 576 ) ( -1144 -864 576 ) robo_floor/clanggrate2 0 80 -90 0.5 0.5 0 0 0
+( -1248 -864 360 ) ( -1248 -832 576 ) ( -1248 -864 576 ) robo_floor/clanggrate2 116 0 0 -0.5 0.5 0 0 0
+( -1272 -632 360 ) ( -1256 -632 360 ) ( -1256 -24 360 ) robo_floor/clanggrate2 0 80 -90 0.5 0.5 0 0 0
+( -1144 -864 360 ) ( -1144 -864 576 ) ( -1144 -832 576 ) robo_floor/clanggrate2 0 0 0 -0.5 0.5 0 0 0
+( -1248 -864 360 ) ( -1248 -864 576 ) ( -1144 -864 576 ) robo_floor/clanggrate2 48 0 0 0.5 0.5 0 0 0
+( -1144 -832 360 ) ( -1144 -832 576 ) ( -1248 -832 576 ) robo_floor/clanggrate2 48 0 0 0.5 0.5 0 0 0
+}
+// brush 165
+{
+( -1280 -1440 576 ) ( 32 -1408 576 ) ( 32 -1440 576 ) robo_floor/clanggrate2 0 36 -90 0.5 0.5 0 0 0
+( -1280 -1440 360 ) ( -1280 -1408 576 ) ( -1280 -1440 576 ) robo_floor/clanggrate2 116 0 0 -0.5 0.5 0 0 0
+( -1294 -1208 360 ) ( -1278 -1208 360 ) ( -1278 -600 360 ) robo_floor/clanggrate2 0 36 -90 0.5 0.5 0 0 0
+( 32 -1440 360 ) ( 32 -1440 576 ) ( 32 -1408 576 ) robo_floor/clanggrate2 90 0 0 -0.5 0.5 0 0 0
+( -1280 -1440 360 ) ( -1280 -1440 576 ) ( 32 -1440 576 ) robo_floor/clanggrate2 92 0 0 0.5 0.5 0 0 0
+( 32 -1408 360 ) ( 32 -1408 576 ) ( -1280 -1408 576 ) robo_floor/clanggrate2 92 0 0 0.5 0.5 0 0 0
+}
+// brush 166
+{
+( 408 -1240 416 ) ( 424 -1848 416 ) ( 408 -1848 416 ) robo_floor/clanggrate2 48 64 0 0.5 0.5 0 0 0
+( 416 -504 552 ) ( 416 -1112 360 ) ( 416 -1112 552 ) robo_floor/clanggrate2 64 0 0 0.5 0.5 0 0 0
+( 416 -1240 360 ) ( 416 -1848 360 ) ( 432 -1848 360 ) robo_floor/clanggrate2 16 64 0 0.5 0.5 0 0 0
+( 344 -464 360 ) ( 344 -1072 552 ) ( 344 -1072 360 ) robo_floor/clanggrate2 64 0 0 0.5 0.5 0 0 0
+( 336 -2688 552 ) ( 320 -2688 360 ) ( 320 -2688 552 ) robo_floor/clanggrate2 16 0 0 0.5 0.5 0 0 0
+( 1016 -1440 360 ) ( 360 -1440 552 ) ( 360 -1440 360 ) robo_floor/clanggrate2 112 0 0 0.5 0.5 0 0 0
+}
+// brush 167
+{
+( 416 -2688 576 ) ( 288 -2720 576 ) ( 288 -2688 576 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 416 -2688 360 ) ( 416 -2720 576 ) ( 416 -2688 576 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 936 -1272 360 ) ( 936 -1880 360 ) ( 952 -1880 360 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 288 -2720 360 ) ( 288 -2688 576 ) ( 288 -2720 576 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 288 -2720 360 ) ( 288 -2720 576 ) ( 416 -2720 576 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 416 -2688 360 ) ( 416 -2688 576 ) ( 288 -2688 576 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+}
+// brush 168
+{
+( 32 -2272 576 ) ( -96 -2304 576 ) ( -96 -2272 576 ) robo_floor/clanggrate2 0 64 0 0.5 0.5 0 0 0
+( 32 -2272 360 ) ( 32 -2304 576 ) ( 32 -2272 576 ) robo_floor/clanggrate2 64 0 0 0.5 0.5 0 0 0
+( -24 -856 360 ) ( -24 -1464 360 ) ( -8 -1464 360 ) robo_floor/clanggrate2 0 64 0 0.5 0.5 0 0 0
+( -96 -2304 360 ) ( -96 -2272 576 ) ( -96 -2304 576 ) robo_floor/clanggrate2 64 0 0 0.5 0.5 0 0 0
+( -96 -2304 360 ) ( -96 -2304 576 ) ( 32 -2304 576 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 32 -2272 360 ) ( 32 -2272 576 ) ( -96 -2272 576 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+}
+// brush 169
+{
+( 416 -2272 576 ) ( 288 -2304 576 ) ( 288 -2272 576 ) robo_floor/clanggrate2 0 64 0 0.5 0.5 0 0 0
+( 416 -2272 360 ) ( 416 -2304 576 ) ( 416 -2272 576 ) robo_floor/clanggrate2 64 0 0 0.5 0.5 0 0 0
+( 936 -856 360 ) ( 936 -1464 360 ) ( 952 -1464 360 ) robo_floor/clanggrate2 0 64 0 0.5 0.5 0 0 0
+( 288 -2304 360 ) ( 288 -2272 576 ) ( 288 -2304 576 ) robo_floor/clanggrate2 64 0 0 0.5 0.5 0 0 0
+( 288 -2304 360 ) ( 288 -2304 576 ) ( 416 -2304 576 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 416 -2272 360 ) ( 416 -2272 576 ) ( 288 -2272 576 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+}
+// brush 170
+{
+( 32 -2688 576 ) ( -96 -2720 576 ) ( -96 -2688 576 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 32 -2688 360 ) ( 32 -2720 576 ) ( 32 -2688 576 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( -24 -1272 360 ) ( -24 -1880 360 ) ( -8 -1880 360 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( -96 -2720 360 ) ( -96 -2688 576 ) ( -96 -2720 576 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( -96 -2720 360 ) ( -96 -2720 576 ) ( 32 -2720 576 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 32 -2688 360 ) ( 32 -2688 576 ) ( -96 -2688 576 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+}
+// brush 171
+{
+( -32 -1240 416 ) ( -16 -1848 416 ) ( -32 -1848 416 ) robo_floor/clanggrate2 32 64 0 0.5 0.5 0 0 0
+( -24 -504 552 ) ( -24 -1112 360 ) ( -24 -1112 552 ) robo_floor/clanggrate2 64 0 0 0.5 0.5 0 0 0
+( -24 -1240 360 ) ( -24 -1848 360 ) ( -8 -1848 360 ) robo_floor/clanggrate2 0 64 0 0.5 0.5 0 0 0
+( -96 -464 360 ) ( -96 -1072 552 ) ( -96 -1072 360 ) robo_floor/clanggrate2 64 0 0 0.5 0.5 0 0 0
+( -104 -2688 552 ) ( -120 -2688 360 ) ( -120 -2688 552 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 576 -1440 360 ) ( -80 -1440 552 ) ( -80 -1440 360 ) robo_floor/clanggrate2 96 0 0 0.5 0.5 0 0 0
+}
+}
+// entity 136
+{
+"classname" "info_player_start"
+"origin" "160 -3208 392"
+}
+// entity 137
+{
+"classname" "func_group"
+// brush 0
+{
+( 672 -288 576 ) ( 672 -320 576 ) ( -896 -320 576 ) robo_floor/clanggrate2 0 0 -90 0.5 -0.5 0 0 0
+( 669 -299 576 ) ( 669 -299 560 ) ( -899 -299 576 ) robo_floor/clanggrate2 6 0 0 0.5 0.5 0 0 0
+( 640 -288 576 ) ( 640 -288 560 ) ( 640 -320 576 ) robo_floor/clanggrate2 0 0 0 -0.5 0.5 0 0 0
+( 672 -320 560 ) ( 672 -288 560 ) ( -896 -320 560 ) robo_floor/clanggrate2 0 0 0 0.5 -0.5 0 0 0
+( 672 -288 560 ) ( 672 -288 576 ) ( -896 -288 576 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( -832 -288 576 ) ( -832 -320 576 ) ( -832 -320 560 ) robo_floor/clanggrate2 32 0 0 -0.5 0.5 0 0 0
+}
+// brush 1
+{
+( -288 1120 576 ) ( 1280 1120 576 ) ( 1280 1088 576 ) robo_floor/clanggrate2 192 32 90 0.5 0.5 0 0 0
+( -291 1096 576 ) ( 1277 1096 560 ) ( 1277 1096 576 ) robo_floor/clanggrate2 70 0 0 0.5 0.5 0 0 0
+( -288 1120 560 ) ( 1280 1088 560 ) ( 1280 1120 560 ) robo_floor/clanggrate2 64 0 0 0.5 0.5 0 0 0
+( -288 1088 576 ) ( 1280 1088 576 ) ( 1280 1088 560 ) robo_floor/clanggrate2 64 0 0 0.5 0.5 0 0 0
+( -192 1116 560 ) ( -192 1116 576 ) ( -192 1084 576 ) robo_floor/clanggrate2 232 0 0 0.5 0.5 0 0 0
+( 1032 1120 -64 ) ( 1032 1112 -64 ) ( 1032 1120 64 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+}
+}
+// entity 138
+{
+"classname" "func_group"
+// brush 0
+{
+( 864 2168 576 ) ( 32 2136 576 ) ( 32 2168 576 ) robo_floor/clanggrate2 64 0 0 0.5 0.5 0 0 0
+( 864 2136 360 ) ( 32 2136 576 ) ( 864 2136 576 ) robo_floor/clanggrate2 64 0 0 0.5 0.5 0 0 0
+( -168 2176 360 ) ( -168 2192 360 ) ( -776 2192 360 ) robo_floor/clanggrate2 64 0 0 0.5 0.5 0 0 0
+( 864 2168 360 ) ( 864 2168 576 ) ( 32 2168 576 ) robo_floor/clanggrate2 64 0 0 0.5 0.5 0 0 0
+( 712 2128 360 ) ( 712 2128 576 ) ( 712 2160 576 ) robo_floor/clanggrate2 16 0 0 0.5 0.5 0 0 0
+( 448 2144 360 ) ( 448 2144 576 ) ( 448 2112 576 ) robo_floor/clanggrate2 48 0 0 0.5 0.5 0 0 0
+}
+// brush 1
+{
+( -680 2168 576 ) ( 152 2168 576 ) ( 152 2136 576 ) robo_floor/clanggrate2 16 0 0 0.5 0.5 0 0 0
+( 152 2136 360 ) ( -680 2136 576 ) ( 152 2136 576 ) robo_floor/clanggrate2 16 0 0 0.5 0.5 0 0 0
+( 960 2192 360 ) ( 352 2192 360 ) ( 352 2176 360 ) robo_floor/clanggrate2 16 0 0 0.5 0.5 0 0 0
+( -680 2168 360 ) ( 152 2168 576 ) ( -680 2168 576 ) robo_floor/clanggrate2 16 0 0 0.5 0.5 0 0 0
+( -680 2168 360 ) ( -680 2168 576 ) ( -680 2136 576 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( -416 2136 360 ) ( -416 2136 576 ) ( -416 2168 576 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+}
+// brush 2
+{
+( -1248 2168 576 ) ( -416 2168 576 ) ( -416 2136 576 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( -416 2136 360 ) ( -1248 2136 576 ) ( -416 2136 576 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 392 2192 360 ) ( -216 2192 360 ) ( -216 2176 360 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( -1248 2168 360 ) ( -416 2168 576 ) ( -1248 2168 576 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( -1248 2168 360 ) ( -1248 2168 576 ) ( -1248 2136 576 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( -856 2136 360 ) ( -856 2136 576 ) ( -856 2168 576 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+}
+// brush 3
+{
+( 1280 2168 576 ) ( 448 2136 576 ) ( 448 2168 576 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 1280 2136 360 ) ( 448 2136 576 ) ( 1280 2136 576 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 248 2176 360 ) ( 248 2192 360 ) ( -360 2192 360 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 1280 2168 360 ) ( 1280 2168 576 ) ( 448 2168 576 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 1280 2136 360 ) ( 1280 2136 576 ) ( 1280 2168 576 ) robo_floor/clanggrate2 0 0 0 0.5 0.5 0 0 0
+( 888 2144 360 ) ( 888 2144 576 ) ( 888 2112 576 ) robo_floor/clanggrate2 48 0 0 0.5 0.5 0 0 0
+}
+}

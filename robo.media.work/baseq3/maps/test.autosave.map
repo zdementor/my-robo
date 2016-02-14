@@ -1,0 +1,899 @@
+
+// entity 0
+{
+"classname" "worldspawn"
+"_blocksize" "0 0 0"
+// brush 0
+{
+( -528 1008 1024 ) ( 1152 -880 1024 ) ( -528 -880 1024 ) robo_floor/diamond2c 32 32 0 0.5 0.5 0 0 0
+( -512 1024 1024 ) ( 1168 1024 64 ) ( 1168 1024 1024 ) robo_floor/diamond2c 0 0 0 0.5 0.5 0 0 0
+( 1024 1024 1040 ) ( 1024 -864 80 ) ( 1024 -864 1040 ) robo_floor/diamond2c 0 32 0 0.5 0.5 0 0 0
+( 1152 -1024 64 ) ( -528 -1024 1024 ) ( 1152 -1024 1024 ) robo_floor/diamond2c 32 0 0 0.5 0.5 0 0 0
+( -1024 -864 1024 ) ( -1024 1024 64 ) ( -1024 1024 1024 ) robo_floor/diamond2c 0 0 0 0.5 0.5 0 0 0
+( -528 -880 1008 ) ( 1152 -880 1008 ) ( -528 1008 1008 ) robo_floor/diamond2c 32 32 0 0.5 0.5 0 0 0
+}
+// brush 1
+{
+( -528 1008 1024 ) ( 1152 -880 1024 ) ( -528 -880 1024 ) robo_floor/diamond2c 32 32 0 0.5 0.5 0 0 0
+( -512 1024 1024 ) ( 1168 1024 64 ) ( 1168 1024 1024 ) robo_floor/diamond2c 0 0 0 0.5 0.5 0 0 0
+( 1024 1024 1040 ) ( 1024 -864 80 ) ( 1024 -864 1040 ) robo_floor/diamond2c 0 32 0 0.5 0.5 0 0 0
+( 1168 1024 -512 ) ( -512 -864 -512 ) ( 1168 -864 -512 ) robo_floor/diamond2c 0 0 0 0.5 0.5 0 0 0
+( -1024 -864 1024 ) ( -1024 1024 64 ) ( -1024 1024 1024 ) robo_floor/diamond2c 0 0 0 0.5 0.5 0 0 0
+( 1168 1008 1024 ) ( 1168 1008 64 ) ( -512 1008 1024 ) robo_floor/diamond2c 0 0 0 0.5 0.5 0 0 0
+}
+// brush 2
+{
+( -528 1008 1024 ) ( 1152 -880 1024 ) ( -528 -880 1024 ) robo_floor/diamond2c 32 32 0 0.5 0.5 0 0 0
+( -512 1024 1024 ) ( 1168 1024 64 ) ( 1168 1024 1024 ) robo_floor/diamond2c 0 0 0 0.5 0.5 0 0 0
+( 1024 1024 1040 ) ( 1024 -864 80 ) ( 1024 -864 1040 ) robo_floor/diamond2c 0 32 0 0.5 0.5 0 0 0
+( 1168 1024 -512 ) ( -512 -864 -512 ) ( 1168 -864 -512 ) robo_floor/diamond2c 0 0 0 0.5 0.5 0 0 0
+( 1152 -1024 64 ) ( -528 -1024 1024 ) ( 1152 -1024 1024 ) robo_floor/diamond2c 32 0 0 0.5 0.5 0 0 0
+( 1008 -864 1040 ) ( 1008 -864 80 ) ( 1008 1024 1040 ) robo_floor/diamond2c 0 32 0 0.5 0.5 0 0 0
+}
+// brush 3
+{
+( -512 1024 1024 ) ( 1168 1024 64 ) ( 1168 1024 1024 ) robo_floor/diamond2c 0 0 0 0.5 0.5 0 0 0
+( 1024 1024 1040 ) ( 1024 -864 80 ) ( 1024 -864 1040 ) robo_floor/diamond2c 0 32 0 0.5 0.5 0 0 0
+( 1168 1024 -512 ) ( -512 -864 -512 ) ( 1168 -864 -512 ) robo_floor/diamond2c 0 0 0 0.5 0.5 0 0 0
+( 1152 -1024 64 ) ( -528 -1024 1024 ) ( 1152 -1024 1024 ) robo_floor/diamond2c 32 0 0 0.5 0.5 0 0 0
+( -1024 -864 1024 ) ( -1024 1024 64 ) ( -1024 1024 1024 ) robo_floor/diamond2c 0 0 0 0.5 0.5 0 0 0
+( 1168 -864 -496 ) ( -512 -864 -496 ) ( 1168 1024 -496 ) robo_floor/diamond2c 0 0 0 0.5 0.5 0 0 0
+}
+// brush 4
+{
+( -528 1008 1024 ) ( 1152 -880 1024 ) ( -528 -880 1024 ) robo_floor/diamond2c 32 32 0 0.5 0.5 0 0 0
+( 1024 1024 1040 ) ( 1024 -864 80 ) ( 1024 -864 1040 ) robo_floor/diamond2c 0 32 0 0.5 0.5 0 0 0
+( 1168 1024 -512 ) ( -512 -864 -512 ) ( 1168 -864 -512 ) robo_floor/diamond2c 0 0 0 0.5 0.5 0 0 0
+( 1152 -1024 64 ) ( -528 -1024 1024 ) ( 1152 -1024 1024 ) robo_floor/diamond2c 32 0 0 0.5 0.5 0 0 0
+( -1024 -864 1024 ) ( -1024 1024 64 ) ( -1024 1024 1024 ) robo_floor/diamond2c 0 0 0 0.5 0.5 0 0 0
+( 1152 -1008 1024 ) ( -528 -1008 1024 ) ( 1152 -1008 64 ) robo_floor/diamond2c 32 0 0 0.5 0.5 0 0 0
+}
+// brush 5
+{
+( -528 1008 1024 ) ( 1152 -880 1024 ) ( -528 -880 1024 ) robo_floor/diamond2c 32 32 0 0.5 0.5 0 0 0
+( -512 1024 1024 ) ( 1168 1024 64 ) ( 1168 1024 1024 ) robo_floor/diamond2c 0 0 0 0.5 0.5 0 0 0
+( 1168 1024 -512 ) ( -512 -864 -512 ) ( 1168 -864 -512 ) robo_floor/diamond2c 0 0 0 0.5 0.5 0 0 0
+( 1152 -1024 64 ) ( -528 -1024 1024 ) ( 1152 -1024 1024 ) robo_floor/diamond2c 32 0 0 0.5 0.5 0 0 0
+( -1024 -864 1024 ) ( -1024 1024 64 ) ( -1024 1024 1024 ) robo_floor/diamond2c 0 0 0 0.5 0.5 0 0 0
+( -1008 1024 1024 ) ( -1008 1024 64 ) ( -1008 -864 1024 ) robo_floor/diamond2c 0 0 0 0.5 0.5 0 0 0
+}
+// brush 6
+{
+( 432 512 -32 ) ( 432 -512 -32 ) ( -592 512 -32 ) robo_floor/clang_floor2 160 0 0 0.5 0.5 0 0 0
+( 512 512 1024 ) ( -512 512 1024 ) ( 512 512 -512 ) robo_floor/clang_floor2 0 0 0 0.5 0.5 0 0 0
+( 512 512 1024 ) ( 512 512 -512 ) ( 512 -512 1024 ) robo_floor/clang_floor2 0 0 0 0.5 0.5 0 0 0
+( -672 -512 -96 ) ( 352 -512 -96 ) ( -672 512 -96 ) robo_floor/clang_floor2 64 0 0 0.5 0.5 0 0 0
+( -512 -512 -512 ) ( -512 -512 1024 ) ( 512 -512 -512 ) robo_floor/clang_floor2 0 0 0 0.5 0.5 0 0 0
+( -512 -512 -512 ) ( -512 512 -512 ) ( -512 -512 1024 ) robo_floor/clang_floor2 0 0 0 0.5 0.5 0 0 0
+}
+// brush 7
+{
+( 80 112 288 ) ( 80 -144 288 ) ( 0 112 288 ) robo_floor/skylight_spec 32 96 0 0.5 0.5 0 0 0
+( 48 112 112 ) ( -32 112 112 ) ( 48 112 48 ) robo_floor/skylight_spec 96 32 0 0.5 0.5 0 0 0
+( 48 112 112 ) ( 48 112 48 ) ( 48 -144 112 ) robo_floor/skylight_spec 32 32 0 0.5 0.5 0 0 0
+( -32 -144 48 ) ( 48 -144 48 ) ( -32 112 48 ) robo_floor/skylight_spec 96 96 0 0.5 0.5 0 0 0
+( -32 -144 48 ) ( -32 -144 112 ) ( 48 -144 48 ) robo_floor/skylight_spec 96 32 0 0.5 0.5 0 0 0
+( -32 -144 48 ) ( -32 112 48 ) ( -32 -144 112 ) robo_floor/skylight_spec 32 32 0 0.5 0.5 0 0 0
+}
+}
+// entity 1
+{
+"classname" "func_group"
+}
+// entity 2
+{
+"classname" "func_group"
+}
+// entity 3
+{
+"classname" "func_transparent"
+"target" "func_transparent9"
+}
+// entity 4
+{
+"classname" "func_transparent"
+}
+// entity 5
+{
+"classname" "func_transparent"
+}
+// entity 6
+{
+"classname" "func_transparent"
+"target" "func_transparent12"
+}
+// entity 7
+{
+"classname" "func_transparent"
+"target" "func_transparent31"
+}
+// entity 8
+{
+"classname" "func_transparent"
+}
+// entity 9
+{
+"classname" "func_transparent"
+}
+// entity 10
+{
+"classname" "func_group"
+}
+// entity 11
+{
+"classname" "func_group"
+}
+// entity 12
+{
+"classname" "func_group"
+}
+// entity 13
+{
+"classname" "func_transparent"
+}
+// entity 14
+{
+"classname" "func_transparent"
+"target" "func_transparent29"
+}
+// entity 15
+{
+"classname" "func_static"
+}
+// entity 16
+{
+"classname" "func_group"
+}
+// entity 17
+{
+"classname" "func_static"
+}
+// entity 18
+{
+"classname" "func_group"
+}
+// entity 19
+{
+"classname" "func_static"
+}
+// entity 20
+{
+"classname" "func_group"
+}
+// entity 21
+{
+"classname" "func_static"
+}
+// entity 22
+{
+"classname" "func_group"
+}
+// entity 23
+{
+"classname" "func_group"
+}
+// entity 24
+{
+"classname" "func_transparent"
+"target" "func_transparent26"
+}
+// entity 25
+{
+"classname" "func_group"
+"light" "75"
+"team" "b15"
+}
+// entity 26
+{
+"classname" "func_door"
+"angle" "270"
+"team" "a6"
+"speed" "400"
+}
+// entity 27
+{
+"classname" "func_door"
+"angle" "90"
+"speed" "400"
+"team" "a6"
+}
+// entity 28
+{
+"classname" "func_static"
+}
+// entity 29
+{
+"classname" "func_static"
+}
+// entity 30
+{
+"classname" "func_group"
+}
+// entity 31
+{
+"classname" "func_group"
+}
+// entity 32
+{
+"classname" "func_group"
+}
+// entity 33
+{
+"classname" "func_static"
+}
+// entity 34
+{
+"classname" "func_static"
+}
+// entity 35
+{
+"classname" "func_group"
+}
+// entity 36
+{
+"classname" "func_door"
+"angle" "270"
+"team" "a5"
+"speed" "400"
+}
+// entity 37
+{
+"classname" "func_door"
+"angle" "90"
+"speed" "400"
+"team" "a5"
+}
+// entity 38
+{
+"classname" "func_static"
+}
+// entity 39
+{
+"classname" "func_static"
+}
+// entity 40
+{
+"classname" "func_group"
+}
+// entity 41
+{
+"classname" "func_transparent"
+"target" "func_transparent40"
+}
+// entity 42
+{
+"classname" "func_group"
+"light" "75"
+}
+// entity 43
+{
+"classname" "func_static"
+}
+// entity 44
+{
+"classname" "func_group"
+}
+// entity 45
+{
+"classname" "func_transparent"
+}
+// entity 46
+{
+"classname" "func_door"
+"angle" "-2"
+"lip" "96"
+}
+// entity 47
+{
+"classname" "func_group"
+}
+// entity 48
+{
+"classname" "func_static"
+}
+// entity 49
+{
+"classname" "func_static"
+}
+// entity 50
+{
+"classname" "func_group"
+}
+// entity 51
+{
+"classname" "func_group"
+}
+// entity 52
+{
+"classname" "func_group"
+}
+// entity 53
+{
+"classname" "func_transparent"
+"target" "func_transparent38"
+}
+// entity 54
+{
+"classname" "func_static"
+}
+// entity 55
+{
+"classname" "func_transparent"
+"team" "b15"
+"targetname" "func_transparent39"
+}
+// entity 56
+{
+"classname" "func_transparent"
+"target" "func_transparent39"
+}
+// entity 57
+{
+"classname" "func_transparent"
+"team" "b18"
+}
+// entity 58
+{
+"classname" "func_transparent"
+"team" "b18"
+"targetname" "func_transparent39"
+}
+// entity 59
+{
+"classname" "func_transparent"
+"team" "b18"
+"targetname" "func_transparent26"
+}
+// entity 60
+{
+"classname" "func_transparent"
+"team" "b14"
+"targetname" "func_transparent26"
+}
+// entity 61
+{
+"classname" "func_transparent"
+"team" "b18"
+"targetname" "func_transparent34"
+}
+// entity 62
+{
+"classname" "func_transparent"
+"team" "b25"
+"targetname" "func_transparent34"
+}
+// entity 63
+{
+"classname" "func_transparent"
+"team" "b18"
+}
+// entity 64
+{
+"classname" "func_transparent"
+"team" "b18"
+}
+// entity 65
+{
+"classname" "func_transparent"
+"team" "b17"
+}
+// entity 66
+{
+"classname" "func_transparent"
+"team" "b25"
+}
+// entity 67
+{
+"classname" "func_transparent"
+"team" "b18"
+}
+// entity 68
+{
+"classname" "func_transparent"
+"team" "b25"
+}
+// entity 69
+{
+"classname" "func_transparent"
+"team" "b25"
+"spawnflags" "1"
+}
+// entity 70
+{
+"classname" "func_transparent"
+"team" "b25"
+}
+// entity 71
+{
+"classname" "func_transparent"
+"team" "b25"
+"spawnflags" "1"
+}
+// entity 72
+{
+"classname" "func_transparent"
+"team" "b25"
+}
+// entity 73
+{
+"classname" "func_static"
+}
+// entity 74
+{
+"classname" "func_group"
+}
+// entity 75
+{
+"classname" "func_group"
+}
+// entity 76
+{
+"classname" "func_transparent"
+"target" "func_transparent30"
+}
+// entity 77
+{
+"classname" "func_transparent"
+"target" "func_transparent28"
+}
+// entity 78
+{
+"classname" "func_transparent"
+"team" "b18"
+}
+// entity 79
+{
+"classname" "func_transparent"
+"team" "b18"
+}
+// entity 80
+{
+"classname" "func_transparent"
+"team" "b21"
+}
+// entity 81
+{
+"classname" "func_transparent"
+"team" "b18"
+}
+// entity 82
+{
+"classname" "func_transparent"
+"team" "b18"
+}
+// entity 83
+{
+"classname" "func_transparent"
+"team" "b18"
+}
+// entity 84
+{
+"classname" "func_transparent"
+"team" "b18"
+"targetname" "func_transparent29"
+}
+// entity 85
+{
+"classname" "func_transparent"
+"team" "b21"
+"targetname" "func_transparent29"
+}
+// entity 86
+{
+"classname" "func_transparent"
+"team" "b18"
+}
+// entity 87
+{
+"classname" "func_static"
+}
+// entity 88
+{
+"classname" "func_static"
+}
+// entity 89
+{
+"classname" "func_group"
+}
+// entity 90
+{
+"classname" "func_transparent"
+"target" "func_transparent34"
+}
+// entity 91
+{
+"classname" "func_group"
+}
+// entity 92
+{
+"classname" "func_transparent"
+}
+// entity 93
+{
+"classname" "func_transparent"
+}
+// entity 94
+{
+"classname" "func_group"
+}
+// entity 95
+{
+"classname" "func_transparent"
+"target" "func_transparent8"
+}
+// entity 96
+{
+"classname" "func_transparent"
+"target" "func_transparent51"
+}
+// entity 97
+{
+"classname" "func_static"
+}
+// entity 98
+{
+"classname" "func_group"
+}
+// entity 99
+{
+"classname" "func_transparent"
+"target" "func_transparent27"
+}
+// entity 100
+{
+"classname" "func_transparent"
+"target" "func_transparent52"
+}
+// entity 101
+{
+"classname" "func_transparent"
+"target" "func_transparent53"
+}
+// entity 102
+{
+"classname" "func_transparent"
+"team" "b18"
+}
+// entity 103
+{
+"classname" "func_transparent"
+"team" "b18"
+}
+// entity 104
+{
+"classname" "func_transparent"
+"team" "b25"
+}
+// entity 105
+{
+"classname" "func_transparent"
+"team" "b25"
+}
+// entity 106
+{
+"classname" "func_transparent"
+"team" "b18"
+}
+// entity 107
+{
+"classname" "func_transparent"
+"team" "b18"
+}
+// entity 108
+{
+"classname" "func_transparent"
+"target" "func_transparent25"
+}
+// entity 109
+{
+"classname" "func_transparent"
+"team" "b14"
+"targetname" "func_transparent25"
+}
+// entity 110
+{
+"classname" "func_transparent"
+"team" "b11"
+"targetname" "func_transparent25"
+}
+// entity 111
+{
+"classname" "func_transparent"
+"team" "b25"
+"targetname" "func_transparent8"
+}
+// entity 112
+{
+"classname" "func_transparent"
+"team" "b18"
+"targetname" "func_transparent8"
+}
+// entity 113
+{
+"classname" "func_transparent"
+"team" "b18"
+"targetname" "func_transparent9"
+}
+// entity 114
+{
+"classname" "func_transparent"
+"team" "b18"
+"targetname" "func_transparent9"
+}
+// entity 115
+{
+"classname" "func_transparent"
+"team" "b18"
+"targetname" "func_transparent28"
+}
+// entity 116
+{
+"classname" "func_transparent"
+"team" "b25"
+"targetname" "func_transparent28"
+}
+// entity 117
+{
+"classname" "func_transparent"
+"team" "b25"
+"targetname" "func_transparent30"
+}
+// entity 118
+{
+"classname" "func_transparent"
+"team" "b18"
+"targetname" "func_transparent30"
+}
+// entity 119
+{
+"classname" "func_transparent"
+"targetname" "func_transparent27"
+"team" "b18"
+}
+// entity 120
+{
+"classname" "func_transparent"
+"targetname" "func_transparent27"
+"team" "b17"
+}
+// entity 121
+{
+"classname" "func_group"
+}
+// entity 122
+{
+"classname" "func_group"
+}
+// entity 123
+{
+"classname" "func_group"
+}
+// entity 124
+{
+"classname" "func_group"
+}
+// entity 125
+{
+"classname" "func_group"
+}
+// entity 126
+{
+"classname" "func_group"
+}
+// entity 127
+{
+"classname" "func_group"
+}
+// entity 128
+{
+"classname" "func_group"
+}
+// entity 129
+{
+"classname" "func_transparent"
+"target" "func_transparent54"
+}
+// entity 130
+{
+"classname" "func_transparent"
+"target" "func_transparent55"
+}
+// entity 131
+{
+"classname" "func_transparent"
+"team" "b18"
+}
+// entity 132
+{
+"classname" "func_transparent"
+"team" "b21"
+}
+// entity 133
+{
+"classname" "func_transparent"
+"team" "b18"
+}
+// entity 134
+{
+"classname" "func_transparent"
+"targetname" "func_transparent40"
+"team" "b18"
+}
+// entity 135
+{
+"classname" "func_transparent"
+"targetname" "func_transparent40"
+"team" "b18"
+}
+// entity 136
+{
+"classname" "func_transparent"
+"team" "b18"
+"targetname" "func_transparent52"
+}
+// entity 137
+{
+"classname" "func_transparent"
+"team" "b18"
+"targetname" "func_transparent52"
+}
+// entity 138
+{
+"classname" "func_transparent"
+"team" "b18"
+"targetname" "func_transparent53"
+}
+// entity 139
+{
+"classname" "func_transparent"
+"team" "b18"
+"targetname" "func_transparent53"
+}
+// entity 140
+{
+"classname" "func_transparent"
+"team" "b18"
+}
+// entity 141
+{
+"classname" "func_transparent"
+"team" "b25"
+"targetname" "func_transparent54"
+}
+// entity 142
+{
+"classname" "func_transparent"
+"team" "b25"
+"targetname" "func_transparent55"
+}
+// entity 143
+{
+"classname" "func_transparent"
+"team" "b25"
+}
+// entity 144
+{
+"classname" "func_transparent"
+"team" "b17"
+}
+// entity 145
+{
+"classname" "func_static"
+}
+// entity 146
+{
+"classname" "func_group"
+}
+// entity 147
+{
+"classname" "func_static"
+}
+// entity 148
+{
+"classname" "func_transparent"
+}
+// entity 149
+{
+"classname" "func_group"
+}
+// entity 150
+{
+"classname" "func_group"
+}
+// entity 151
+{
+"classname" "func_group"
+}
+// entity 152
+{
+"classname" "func_group"
+}
+// entity 153
+{
+"classname" "func_group"
+}
+// entity 154
+{
+"classname" "func_group"
+}
+// entity 155
+{
+"classname" "func_group"
+}
+// entity 156
+{
+"classname" "func_group"
+}
+// entity 157
+{
+"classname" "func_group"
+}
+// entity 158
+{
+"classname" "func_group"
+}
+// entity 159
+{
+"classname" "func_group"
+}
+// entity 160
+{
+"classname" "func_group"
+}
+// entity 161
+{
+"classname" "func_group"
+}
+// entity 162
+{
+"classname" "func_group"
+}
+// entity 163
+{
+"classname" "func_group"
+}
+// entity 164
+{
+"classname" "func_transparent"
+"target" "func_transparent3"
+}
+// entity 165
+{
+"classname" "func_transparent"
+"targetname" "func_transparent3"
+}
+// entity 166
+{
+"classname" "func_group"
+}
+// entity 167
+{
+"classname" "func_group"
+}
+// entity 168
+{
+"classname" "func_group"
+}
+// entity 169
+{
+"classname" "func_group"
+}
+// entity 170
+{
+"classname" "func_group"
+}
+// entity 171
+{
+"classname" "func_group"
+}
+// entity 172
+{
+"classname" "light"
+"origin" "-304 -192 432"
+"light" "500"
+}
+// entity 173
+{
+"classname" "info_player_start"
+"origin" "-240 48 0"
+}

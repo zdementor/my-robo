@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+
+<Scene scene_node_type="ESNT_BILLBOARD_SCENE_NODE" />
+
+<Size width="60" height="60"/>
+
+<Material>
+<Pass>
+<Layer index="0" texture="sprites\plasmaboom.atex" coords_gen="ETCGT_MANUAL_MAPPING" />
+<Flags qouraud_shading="1" zwrite_enable="0" back_face_culling="0" front_face_ccw="1" fog_enable="1" blending="1" />
+<Ambient red="0" green="0" blue="0" alpha="0" />
+<Diffuse red="10" green="70" blue="10" alpha="30" />
+<Emissive red="0" green="0" blue="0" alpha="0" />
+<Specular red="0" green="0" blue="0" alpha="0" />
+<Shininess value="0.00" />
+<BlendFunc src="ESBF_ONE" dst="EDBF_ONE_MINUS_SRC_COLOR" />
+</Pass>
+</Material>
+
+</Scene>
+

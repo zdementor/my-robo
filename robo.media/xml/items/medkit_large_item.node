@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+
+<Scene scene_node_type="ESNT_ANIMATED_MESH_SCENE_NODE" >
+
+<Mesh filename="medkit\medkit.md2" animation_fps="15" lod="0" />
+
+<Parameters name="medkit_large_item" id="-1" parent_id="-1" />
+
+<Transformation>
+<Scale x="1.5000" y="1.5000" z="1.5000" />
+</Transformation>
+
+<SceneNodeCoreProperties>
+<Material name="medkit_large" />
+<Shadow on="1" type="ESHT_SHADOW_VOLUME" />
+<BindImposter shift_x="0.00" shift_y="0.00" shift_z="0.00" view_offset="0.00" centered="0" >
+<CreationParams view_count="24" view_angle="25" view_scale_width="1.00" view_scale_height="1.00"
+size_scale_width="1.00" size_scale_height="1.00" tex_res="64.00" frame_step="2.00"
+ambient_color="150,150,150" diffuse_color="255,255,255" specular_color="0,0,0"
+compress="1" />
+</BindImposter>
+</SceneNodeCoreProperties>
+
+<BindAnimator filename="effects/item_rotation.animator" />
+
+<BindChild filename="effects/item_rect_blue.xml" pos="0,8,0" rot="0,0,0" scl="1.0,1.0,1.0" />
+
+<BindCaption font="tahoma.ttf" font_size="16" color="255,255,255,255" height="0.025" visible="0" pos="0,25,0" text="+50% life" />
+
+</Scene>
+
+<Game game_node_type="EGNT_ITEM" class_name="Standard" >
+
+<ItemName value="Large Medkit" /> 
+<ItemKeyName value="LargeMedkit" /> 
+<ItemShortDescription value="+50% life" />
+<ItemDescr value="" />
+<ItemImageName value="set:RoboItems0 image:MedkitLarge" /> 
+
+<GameNodeCoreProperties>
+<GameParameters mov_speed="0.00" rot_speed="0.00" life="0.00" />
+</GameNodeCoreProperties>
+
+</Game>
+
+<Dynamic>
+
+<DynamicObjectCoreProperties>
+<DynamicParameters dynamic_type="EDOT_SENSELESS" geom_form="EDOGF_BOX" mass_value="5.00"
+surf_mu="1.000000" surf_bounce="0.010000" surf_bounce_vel="0.100000" surf_soft="0.000001"
+dynamic_constraints="63" />
+</DynamicObjectCoreProperties>
+
+</Dynamic>
+
+<Sound>
+
+<SoundEffect filename ="pickup/medkit_pickup.wav" loop="0" />
+
+</Sound>
+

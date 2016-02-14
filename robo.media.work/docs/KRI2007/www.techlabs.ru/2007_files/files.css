@@ -1,0 +1,107 @@
+div#Files ul
+{
+margin: 20 0 0 0;
+padding: 0 0 5 15;
+display: block;
+list-style: none;
+clear: both;
+background: URL(/b/li3.gif) no-repeat 0 40%;
+border-bottom: gray 1px dotted
+}
+
+div#Files ul li
+{
+list-style: none;
+margin: 0;
+padding: 0;
+display: inline;
+}
+
+div#Files ul li#Size, div#Files ul li#Ds
+{
+float: right;
+color: gray; 
+font-size: 7pt; 
+font-family: Arial; 
+font-weight: bold;
+margin: 0 10 0 10;
+padding: 0 0 2 0;
+border-bottom: #FFCCCC 2px solid;
+}
+
+div#Files ul font
+{
+color: gray; 
+font-size: 7pt; 
+font-family: Arial; 
+font-weight: bold;
+}
+
+#File ul
+{
+padding: 0;
+margin: 0;
+list-style: none;
+font-size: 8pt;
+}
+
+#File ul li
+{
+margin-bottom: 5;
+padding: 0 0 1 5;
+border-bottom: #CCC 1px dotted;
+font-size: 8pt;
+}
+#File ul li font
+{
+font-weight: bold;
+font-size: 8pt;
+}
+#File ul li#name
+{
+border: #CCC 1px solid;
+background: #EEE;
+padding: 5 0 5 5;
+}
+
+#File ul li#Download 
+{
+margin-top: 15;
+text-align: center;
+border: 0;
+}
+#File ul li#Download a
+{
+border: #CCC 1px solid;
+background: #EEE;
+padding: 5;
+display: block;
+width: 100;
+color: black;
+letter-spacing: 1;
+font-size: 7pt;
+}
+
+#File ul li#Download a:hover
+{
+border: #09F 1px solid;
+background: #DDECF7;
+padding: 5;
+display: block;
+width: 100;
+color: black;
+letter-spacing: 1;
+font-size: 7pt;
+text-decoration: none;
+}
+
+li#FileComment ul{
+margin: 10;
+padding: 10;
+list-style: disc;
+}
+li#FileComment ul li{
+margin: 0;
+padding: 0;
+border-bottom: 0;
+}

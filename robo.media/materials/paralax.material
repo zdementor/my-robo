@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<Material name="paralax.material" >
+<Pass>
+<GPUProgram filename="gpu/Paralax.gpu" />
+<Layer index="0" texture="rockwall.jpg" type="ETLT_DIFFUSE_MAP" rgb_scale="1" tc_gen="ETCGT_MANUAL_MAPPING" tc_addr="ETCAM_WRAP" tc_channel="0" filter="1" />
+<Layer index="3" texture="rockwall_height_nmap.tga" type="ETLT_NORMAL_MAP" rgb_scale="1" tc_gen="ETCGT_MANUAL_MAPPING" tc_addr="ETCAM_WRAP" tc_channel="0" filter="1" />
+<Flags qouraud_shading="1" zwrite_enable="1" back_face_culling="1" front_face_ccw="1" fog_enable="1" mip_map_off="0" blending="0" />
+<LightingMode value="1" />
+<Ambient rgba="7,10,19,255" />
+<Diffuse rgba="255,255,255,255" />
+<Emissive rgba="0,0,0,255" />
+<Specular rgba="229,229,229,255" />
+<Shininess value="115.20" />
+<AlphaTest value="EAT_ALWAYS" />
+<DepthTest value="ECT_LESS" />
+<BlendFunc eq="EBE_ADD" src="ESBF_ONE" dst="EDBF_ONE" />
+<ColorGen type="ECGT_VERTEX" />
+<AlphaGen type="EAGT_VERTEX" />
+</Pass>
+</Material>

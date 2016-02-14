@@ -1,0 +1,70 @@
+<?xml version="1.0"?>
+
+<Scene scene_node_type="ESNT_PARTICLE_SYSTEM_SCENE_NODE">
+
+<Material>
+<Pass>
+<Flags qouraud_shading="1" zwrite_enable="0" back_face_culling="1" front_face_ccw="1" fog_enable="1" mip_map_off="0" blending="1" />
+<BlendFunc src="ESBF_ONE" dst="EDBF_ONE_MINUS_SRC_COLOR" />
+</Pass>
+</Material>
+
+<SceneNodeCoreProperties>
+<Emitter type="EPET_BOX" enabled="1" global_transform="1" >
+<Texture filename="particles\fireball_0003.jpg" />
+<ParticleSize width="30" height="50" />
+<AppearVolume xmin="-4" ymin="-4" zmin="-4" xmax="4" ymax="4" zmax="4" />
+<ParticleDirection x="-0.0100" y="-0.0300" z="0.0000" />
+<ParticlesPerSecond min="30" max="50" />
+<LifeTime min="1000" max="1500" />
+<MinStartColor red="255" green="130" blue="4" alpha="255" />
+<MaxStartColor red="255" green="98" blue="98" alpha="255" />
+<AngleDegrees value="38" />
+<Affector type="EPAT_FADEOUT" enabled="1" affect_time_ms="1000" >
+<TargetColor red="0" green="0" blue="0" alpha="0" />
+</Affector>
+<Affector type="EPAT_GRAVITY" enabled="1" affect_time_ms="1000" >
+<GravityValue x="0.0000" y="0.0900" x="0.0000" />
+</Affector>
+</Emitter>
+<Emitter type="EPET_BOX" enabled="1" global_transform="1" >
+<Texture filename="particles\lightings.jpg" />
+<ParticleSize width="5" height="5" />
+<AppearVolume xmin="-5" ymin="-30" zmin="-5" xmax="5" ymax="-10" zmax="5" />
+<ParticleDirection x="0.0000" y="0.0900" z="0.0000" />
+<ParticlesPerSecond min="10" max="30" />
+<LifeTime min="1000" max="2000" />
+<MinStartColor red="255" green="128" blue="0" alpha="255" />
+<MaxStartColor red="128" green="0" blue="0" alpha="255" />
+<AngleDegrees value="100" />
+<Affector type="EPAT_FADEOUT" enabled="1" affect_time_ms="1000" >
+<TargetColor red="0" green="0" blue="0" alpha="0" />
+</Affector>
+<Affector type="EPAT_GRAVITY" enabled="1" affect_time_ms="2000" >
+<GravityValue x="0.0000" y="-0.0630" x="0.0000" />
+</Affector>
+</Emitter>
+<Emitter type="EPET_BOX" enabled="1" global_transform="1" >
+<Texture filename="particles\smoke.atex" />
+<ParticleSize width="40" height="50" />
+<AppearVolume xmin="-10" ymin="22" zmin="-10" xmax="10" ymax="100" zmax="10" />
+<ParticleDirection x="0.0000" y="0.1000" z="0.0100" />
+<ParticlesPerSecond min="30" max="70" />
+<LifeTime min="1000" max="1100" />
+<MinStartColor red="10" green="10" blue="10" alpha="255" />
+<MaxStartColor red="20" green="20" blue="20" alpha="255" />
+<AngleDegrees value="0" />
+<Affector type="EPAT_FADEOUT" enabled="1" affect_time_ms="1000" >
+<TargetColor red="0" green="0" blue="0" alpha="0" />
+</Affector>
+</Emitter>
+</SceneNodeCoreProperties>
+
+</Scene>
+
+<Game game_node_type="EGNT_DECORATION" class_name="Standard" >
+<GameNodeCoreProperties>
+<GameParameters mov_speed="0.00" rot_speed="0.00" life="0.00" />
+</GameNodeCoreProperties>
+</Game>
+

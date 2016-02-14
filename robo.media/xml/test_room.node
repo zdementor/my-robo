@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<!--Saved at 2015/09/27 17:37:06-->
+
+<Scene scene_node_type="ESNT_ANIMATED_MESH_SCENE_NODE" />
+<SceneNodeCoreProperties>
+<Material>
+<Pass>
+<Layer index="0" texture="rockwall.jpg" type="ETLT_DIFFUSE_MAP" rgb_scale="1" tc_gen="ETCGT_ENVIRONMENT_MAPPING" tc_addr="ETCAM_WRAP" tc_channel="0" filter="1" />
+<Layer index="3" texture="rockwall_height_nmap.tga" type="ETLT_NORMAL_MAP" rgb_scale="1" tc_gen="ETCGT_MANUAL_MAPPING" tc_addr="ETCAM_WRAP" tc_channel="0" filter="1" />
+<Flags qouraud_shading="1" zwrite_enable="1" back_face_culling="1" front_face_ccw="1" fog_enable="0" mip_map_off="0" blending="0" />
+<LightingMode value="1" />
+<Ambient rgba="24,26,26,255" />
+<Diffuse rgba="150,150,150,255" />
+<Emissive rgba="0,0,0,255" />
+<Specular rgba="229,229,229,255" />
+<Shininess value="115.20" />
+<AlphaTest value="EAT_ALWAYS" />
+<DepthTest value="ECT_LESS" />
+<BlendFunc eq="EBE_ADD" src="ESBF_ONE" dst="EDBF_ONE" />
+<ColorGen type="ECGT_VERTEX" />
+<AlphaGen type="EAGT_VERTEX" />
+</Pass>
+</Material>
+<Mesh filename="room.3ds" animation_fps="0" lod="0" />
+<Shadow on="0" type="ESHT_SHADOW_FAKE" />
+</SceneNodeCoreProperties>
+</Scene>
+
+<Game game_node_type="EGNT_DECORATION" class_name="Standard" />
+
+<GameNodeCoreProperties>
+<GameParameters mov_speed="0.00" rot_speed="0.00" life="100.00" />
+</GameNodeCoreProperties>
+
+</Game>
+

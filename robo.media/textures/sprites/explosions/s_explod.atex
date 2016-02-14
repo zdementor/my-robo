@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+
+<AnimatedTexture time_per_frame="150" loop="1" >
+
+<Frame filename="s_explod_0.tga" />
+<Frame filename="s_explod_1.tga" />
+<Frame filename="s_explod_2.tga" />
+<Frame filename="s_explod_3.tga" />
+<Frame filename="s_explod_4.tga" />
+<Frame filename="s_explod_5.tga" />
+
+</AnimatedTexture>  

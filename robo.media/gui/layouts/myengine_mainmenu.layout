@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="myengine_mainmenu" >
+        <Property Name="InheritsAlpha" Value="False" />
+        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+        <Window Type="DefaultWindow" Name="BackGroundWnd" >
+            <Property Name="Font" Value="Commonwealth-10" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{-0.001916,0},{1,0},{0.998084,0}}" />
+            <Window Type="TaharezLook/StaticText" Name="BackgrGroup" >
+                <Property Name="Font" Value="Commonwealth-10" />
+                <Property Name="Alpha" Value="0.4" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0.669717,0},{0.0253598,0},{0.939659,0},{0.645858,0}}" />
+            </Window>
+            <Window Type="TaharezLook/Button" Name="LoadGameButton" >
+                <Property Name="Font" Value="Bgothm-18" />
+                <Property Name="Text" Value="Start" />
+                <Property Name="Alpha" Value="0.7" />
+                <Property Name="Tooltip" Value="Start game" />
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="InheritsAlpha" Value="False" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="HoverTextColour" Value="FFC26408" />
+                <Property Name="UnifiedAreaRect" Value="{{0.684328,0},{0.217722,0},{0.925017,0},{0.276166,0}}" />
+                <Property Name="MouseCursorImage" Value="set:TaharezLook image:MouseArrow" />
+                <Property Name="PushedTextColour" Value="FFF5C059" />
+            </Window>
+            <Window Type="TaharezLook/Button" Name="CreditsButton" >
+                <Property Name="Font" Value="Bgothm-18" />
+                <Property Name="Text" Value="Credits" />
+                <Property Name="Alpha" Value="0.7" />
+                <Property Name="Tooltip" Value="Credits information" />
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="InheritsAlpha" Value="False" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="HoverTextColour" Value="FFC26408" />
+                <Property Name="UnifiedAreaRect" Value="{{0.684328,0},{0.382648,0},{0.925017,0},{0.444899,0}}" />
+                <Property Name="MouseCursorImage" Value="set:TaharezLook image:MouseArrow" />
+                <Property Name="PushedTextColour" Value="FFF5C059" />
+            </Window>
+            <Window Type="TaharezLook/Button" Name="AboutButton" >
+                <Property Name="Font" Value="Bgothm-18" />
+                <Property Name="Text" Value="About" />
+                <Property Name="Alpha" Value="0.7" />
+                <Property Name="Tooltip" Value="MyEngine about information" />
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="InheritsAlpha" Value="False" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="HoverTextColour" Value="FFC26408" />
+                <Property Name="UnifiedAreaRect" Value="{{0.684328,0},{0.4491,0},{0.925017,0},{0.511353,0}}" />
+                <Property Name="MouseCursorImage" Value="set:TaharezLook image:MouseArrow" />
+                <Property Name="PushedTextColour" Value="FFF5C059" />
+            </Window>
+            <Window Type="TaharezLook/Button" Name="ExitButton" >
+                <Property Name="Font" Value="Bgothm-18" />
+                <Property Name="Text" Value="Quit" />
+                <Property Name="Alpha" Value="0.7" />
+                <Property Name="Tooltip" Value="Exit to system" />
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="InheritsAlpha" Value="False" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="HoverTextColour" Value="FFC26408" />
+                <Property Name="UnifiedAreaRect" Value="{{0.684328,0},{0.560332,0},{0.925017,0},{0.619488,0}}" />
+                <Property Name="MouseCursorImage" Value="set:TaharezLook image:MouseArrow" />
+                <Property Name="PushedTextColour" Value="FFF5C059" />
+            </Window>
+            <Window Type="TaharezLook/Button" Name="OptionsButton" >
+                <Property Name="Font" Value="Bgothm-18" />
+                <Property Name="Text" Value="Options" />
+                <Property Name="Alpha" Value="0.7" />
+                <Property Name="Tooltip" Value="Video, audio, controls settings" />
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="InheritsAlpha" Value="False" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="HoverTextColour" Value="FFC26408" />
+                <Property Name="UnifiedAreaRect" Value="{{0.684328,0},{0.322856,0},{0.925017,0},{0.381301,0}}" />
+                <Property Name="MouseCursorImage" Value="set:TaharezLook image:MouseArrow" />
+                <Property Name="PushedTextColour" Value="FFF5C059" />
+            </Window>
+            <Window Type="TaharezLook/StaticText" Name="CaptLevelToLoad" >
+                <Property Name="Font" Value="Tahoma-12" />
+                <Property Name="Text" Value="Level to load:" />
+                <Property Name="Alpha" Value="0.7" />
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="InheritsAlpha" Value="False" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0.69,0},{0.0333334,0},{0.832501,0},{0.0683337,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="TaharezLook/Listbox" Name="ListBoxStartLevel" >
+                <Property Name="Alpha" Value="0.7" />
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="InheritsAlpha" Value="False" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0.685001,0},{0.0716667,0},{0.925,0},{0.209999,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

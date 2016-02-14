@@ -1,0 +1,48 @@
+/* Top Banner */
+#topbanner {
+width: 100%;
+height: 60;
+min-width: 1000;
+background: #00363A;
+}
+
+#bbb1 {
+position: absolute;
+z-index: 0;
+top: 0;
+}
+
+#topbanner div{
+min-width: 1000;
+width: 100%;
+height: 60;
+}
+
+#topbanner #good {
+position: absolute;
+margin: 22px 0px 0px 4%;
+width: 335;
+height: 23;
+background:url('/bb/good.png') no-repeat; background-image:expression('none'); filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/bb/good.png', sizingMethod='crop');
+}
+
+#topbanner #cost {
+position: absolute;
+margin: 22px 0 0 70%;
+width: 162;
+height: 52;
+background:url('/bb/cost.png') no-repeat; background-image:expression('none'); filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/bb/cost.png', sizingMethod='crop');
+
+}
+
+#topbanner #book {
+background: url(/bb/book.jpg) 50% 0px no-repeat;
+}
+
+#topbanner #list1 {
+background: url(/bb/l-left.gif) 10% 80px no-repeat;
+}
+
+#topbanner #list2 {
+background: url(/bb/l-right.gif) 90% 106px no-repeat;
+}

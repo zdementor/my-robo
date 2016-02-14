@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+
+<AnimatedTexture time_per_frame="100" loop="1" >
+
+<Frame filename="s_explo3_0.tga" />
+<Frame filename="s_explo3_1.tga" />
+<Frame filename="s_explo3_2.tga" />
+<Frame filename="s_explo3_3.tga" />
+<Frame filename="s_explo3_4.tga" />
+<Frame filename="s_explo3_5.tga" />
+<Frame filename="s_explo3_6.tga" />
+<Frame filename="s_explo3_7.tga" />
+
+</AnimatedTexture>  

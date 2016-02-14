@@ -1,0 +1,830 @@
+<?xml version="1.0"?>
+<!--Saved at 2013/08/17 16:53:21-->
+
+<Scene scene_node_type="ESNT_BILLBOARD_SCENE_NODE" />
+<SceneNodeCoreProperties>
+<Material>
+<Pass>
+<Layer index="0" texture="imposter_akron_node_000.dds" type="ETLT_DIFFUSE_MAP" rgb_scale="1" tc_gen="ETCGT_MANUAL_MAPPING" tc_addr="ETCAM_WRAP" tc_channel="0" filter="1" />
+<Flags qouraud_shading="1" zwrite_enable="1" back_face_culling="0" front_face_ccw="1" fog_enable="1" mip_map_off="0" blending="1" />
+<LightingMode value="0" />
+<Ambient rgba="0,0,0,255" />
+<Diffuse rgba="255,255,255,255" />
+<Emissive rgba="0,0,0,255" />
+<Specular rgba="255,255,255,255" />
+<Shininess value="0.00" />
+<AlphaTest value="EAT_GE_80" />
+<DepthTest value="ECT_LESS" />
+<BlendFunc eq="EBE_ADD" src="ESBF_SRC_ALPHA" dst="EDBF_ONE_MINUS_SRC_ALPHA" />
+<ColorGen type="ECGT_VERTEX" />
+<AlphaGen type="EAGT_VERTEX" />
+</Pass>
+</Material>
+<Size width="134.00" height="124.00" />
+<Flip width="0" height="0" />
+<UpAxis value="0.00,1.00,0.00" />
+<AxisAligment type="EAAT_BLEND_CAM_POS" x="0.00" y="1.00" z="0.00" />
+<FrameResolution width="96" height="96" />
+<SpriteAnimations dir_order_ccw="1">
+<TextureFileName value="imposter_akron_node_000.dds" />
+<TextureFileName value="imposter_akron_node_001.dds" />
+<TextureFileName value="imposter_akron_node_002.dds" />
+<TextureFileName value="imposter_akron_node_003.dds" />
+<TextureFileName value="imposter_akron_node_004.dds" />
+<TextureFileName value="imposter_akron_node_005.dds" />
+<AnimationSet index="0" loop="1" time_per_frame="114">
+<DirectionSet>
+<Frame tex_index="0" tc_left="0" tc_top="939" tc_right="55" tc_bottom="1004" toffs_x="20" toffs_y="16" />
+<Frame tex_index="0" tc_left="887" tc_top="939" tc_right="942" tc_bottom="1004" toffs_x="20" toffs_y="16" />
+<Frame tex_index="1" tc_left="644" tc_top="0" tc_right="699" tc_bottom="64" toffs_x="20" toffs_y="17" />
+<Frame tex_index="1" tc_left="297" tc_top="0" tc_right="352" tc_bottom="64" toffs_x="20" toffs_y="17" />
+<Frame tex_index="1" tc_left="409" tc_top="0" tc_right="464" tc_bottom="64" toffs_x="20" toffs_y="17" />
+<Frame tex_index="1" tc_left="353" tc_top="0" tc_right="408" tc_bottom="64" toffs_x="20" toffs_y="17" />
+<Frame tex_index="1" tc_left="241" tc_top="0" tc_right="296" tc_bottom="64" toffs_x="20" toffs_y="17" />
+<Frame tex_index="0" tc_left="1548" tc_top="871" tc_right="1603" tc_bottom="936" toffs_x="20" toffs_y="16" />
+<Frame tex_index="0" tc_left="1492" tc_top="871" tc_right="1547" tc_bottom="936" toffs_x="20" toffs_y="16" />
+</DirectionSet>
+<DirectionSet>
+<Frame tex_index="0" tc_left="949" tc_top="733" tc_right="1003" tc_bottom="801" toffs_x="23" toffs_y="15" />
+<Frame tex_index="0" tc_left="728" tc_top="733" tc_right="782" tc_bottom="801" toffs_x="23" toffs_y="15" />
+<Frame tex_index="0" tc_left="116" tc_top="871" tc_right="171" tc_bottom="938" toffs_x="22" toffs_y="16" />
+<Frame tex_index="0" tc_left="58" tc_top="871" tc_right="115" tc_bottom="938" toffs_x="21" toffs_y="16" />
+<Frame tex_index="0" tc_left="1965" tc_top="802" tc_right="2022" tc_bottom="869" toffs_x="21" toffs_y="16" />
+<Frame tex_index="0" tc_left="0" tc_top="871" tc_right="57" tc_bottom="938" toffs_x="21" toffs_y="16" />
+<Frame tex_index="0" tc_left="783" tc_top="733" tc_right="838" tc_bottom="801" toffs_x="22" toffs_y="15" />
+<Frame tex_index="0" tc_left="894" tc_top="733" tc_right="948" tc_bottom="801" toffs_x="23" toffs_y="15" />
+<Frame tex_index="0" tc_left="839" tc_top="733" tc_right="893" tc_bottom="801" toffs_x="23" toffs_y="15" />
+</DirectionSet>
+<DirectionSet>
+<Frame tex_index="0" tc_left="110" tc_top="377" tc_right="159" tc_bottom="448" toffs_x="23" toffs_y="14" />
+<Frame tex_index="0" tc_left="1198" tc_top="377" tc_right="1247" tc_bottom="448" toffs_x="23" toffs_y="14" />
+<Frame tex_index="0" tc_left="1818" tc_top="449" tc_right="1867" tc_bottom="519" toffs_x="23" toffs_y="15" />
+<Frame tex_index="0" tc_left="1501" tc_top="449" tc_right="1550" tc_bottom="519" toffs_x="23" toffs_y="15" />
+<Frame tex_index="0" tc_left="263" tc_top="521" tc_right="312" tc_bottom="591" toffs_x="23" toffs_y="15" />
+<Frame tex_index="0" tc_left="1581" tc_top="521" tc_right="1630" tc_bottom="591" toffs_x="23" toffs_y="15" />
+<Frame tex_index="0" tc_left="1013" tc_top="377" tc_right="1062" tc_bottom="448" toffs_x="23" toffs_y="14" />
+<Frame tex_index="0" tc_left="964" tc_top="377" tc_right="1012" tc_bottom="448" toffs_x="24" toffs_y="14" />
+<Frame tex_index="0" tc_left="1063" tc_top="377" tc_right="1112" tc_bottom="448" toffs_x="23" toffs_y="14" />
+</DirectionSet>
+<DirectionSet>
+<Frame tex_index="0" tc_left="134" tc_top="304" tc_right="168" tc_bottom="376" toffs_x="31" toffs_y="14" />
+<Frame tex_index="0" tc_left="205" tc_top="304" tc_right="240" tc_bottom="376" toffs_x="30" toffs_y="14" />
+<Frame tex_index="0" tc_left="169" tc_top="304" tc_right="204" tc_bottom="376" toffs_x="30" toffs_y="14" />
+<Frame tex_index="0" tc_left="732" tc_top="377" tc_right="767" tc_bottom="448" toffs_x="30" toffs_y="15" />
+<Frame tex_index="0" tc_left="873" tc_top="377" tc_right="908" tc_bottom="448" toffs_x="30" toffs_y="15" />
+<Frame tex_index="0" tc_left="837" tc_top="377" tc_right="872" tc_bottom="448" toffs_x="30" toffs_y="15" />
+<Frame tex_index="0" tc_left="1936" tc_top="230" tc_right="1971" tc_bottom="302" toffs_x="30" toffs_y="14" />
+<Frame tex_index="0" tc_left="1901" tc_top="230" tc_right="1935" tc_bottom="302" toffs_x="31" toffs_y="14" />
+<Frame tex_index="0" tc_left="1972" tc_top="230" tc_right="2006" tc_bottom="302" toffs_x="31" toffs_y="14" />
+</DirectionSet>
+<DirectionSet>
+<Frame tex_index="0" tc_left="1388" tc_top="377" tc_right="1436" tc_bottom="448" toffs_x="24" toffs_y="14" />
+<Frame tex_index="0" tc_left="1536" tc_top="377" tc_right="1585" tc_bottom="448" toffs_x="23" toffs_y="14" />
+<Frame tex_index="0" tc_left="1531" tc_top="521" tc_right="1580" tc_bottom="591" toffs_x="23" toffs_y="15" />
+<Frame tex_index="0" tc_left="1631" tc_top="521" tc_right="1681" tc_bottom="591" toffs_x="23" toffs_y="15" />
+<Frame tex_index="0" tc_left="0" tc_top="592" tc_right="50" tc_bottom="662" toffs_x="23" toffs_y="15" />
+<Frame tex_index="0" tc_left="1959" tc_top="521" tc_right="2008" tc_bottom="591" toffs_x="23" toffs_y="15" />
+<Frame tex_index="0" tc_left="209" tc_top="377" tc_right="258" tc_bottom="448" toffs_x="23" toffs_y="14" />
+<Frame tex_index="0" tc_left="160" tc_top="377" tc_right="208" tc_bottom="448" toffs_x="24" toffs_y="14" />
+<Frame tex_index="0" tc_left="1948" tc_top="304" tc_right="1996" tc_bottom="375" toffs_x="24" toffs_y="14" />
+</DirectionSet>
+<DirectionSet>
+<Frame tex_index="0" tc_left="357" tc_top="663" tc_right="411" tc_bottom="732" toffs_x="23" toffs_y="15" />
+<Frame tex_index="0" tc_left="468" tc_top="663" tc_right="523" tc_bottom="731" toffs_x="22" toffs_y="16" />
+<Frame tex_index="0" tc_left="1504" tc_top="663" tc_right="1560" tc_bottom="731" toffs_x="22" toffs_y="16" />
+<Frame tex_index="0" tc_left="1138" tc_top="802" tc_right="1194" tc_bottom="869" toffs_x="21" toffs_y="17" />
+<Frame tex_index="0" tc_left="1081" tc_top="802" tc_right="1137" tc_bottom="869" toffs_x="21" toffs_y="17" />
+<Frame tex_index="0" tc_left="1315" tc_top="802" tc_right="1371" tc_bottom="869" toffs_x="21" toffs_y="17" />
+<Frame tex_index="0" tc_left="1733" tc_top="663" tc_right="1789" tc_bottom="731" toffs_x="22" toffs_y="16" />
+<Frame tex_index="0" tc_left="1790" tc_top="663" tc_right="1844" tc_bottom="731" toffs_x="23" toffs_y="16" />
+<Frame tex_index="0" tc_left="1449" tc_top="663" tc_right="1503" tc_bottom="731" toffs_x="23" toffs_y="16" />
+</DirectionSet>
+<DirectionSet>
+<Frame tex_index="0" tc_left="320" tc_top="939" tc_right="375" tc_bottom="1004" toffs_x="20" toffs_y="17" />
+<Frame tex_index="0" tc_left="612" tc_top="939" tc_right="667" tc_bottom="1004" toffs_x="20" toffs_y="17" />
+<Frame tex_index="1" tc_left="700" tc_top="0" tc_right="755" tc_bottom="64" toffs_x="20" toffs_y="18" />
+<Frame tex_index="1" tc_left="532" tc_top="0" tc_right="587" tc_bottom="64" toffs_x="20" toffs_y="18" />
+<Frame tex_index="1" tc_left="588" tc_top="0" tc_right="643" tc_bottom="64" toffs_x="20" toffs_y="18" />
+<Frame tex_index="0" tc_left="1844" tc_top="939" tc_right="1899" tc_bottom="1003" toffs_x="20" toffs_y="18" />
+<Frame tex_index="0" tc_left="1788" tc_top="939" tc_right="1843" tc_bottom="1003" toffs_x="20" toffs_y="18" />
+<Frame tex_index="0" tc_left="1715" tc_top="871" tc_right="1769" tc_bottom="936" toffs_x="20" toffs_y="17" />
+<Frame tex_index="0" tc_left="1604" tc_top="871" tc_right="1659" tc_bottom="936" toffs_x="20" toffs_y="17" />
+</DirectionSet>
+<DirectionSet>
+<Frame tex_index="0" tc_left="235" tc_top="663" tc_right="289" tc_bottom="732" toffs_x="18" toffs_y="15" />
+<Frame tex_index="0" tc_left="1961" tc_top="663" tc_right="2015" tc_bottom="731" toffs_x="18" toffs_y="16" />
+<Frame tex_index="0" tc_left="548" tc_top="733" tc_right="604" tc_bottom="801" toffs_x="17" toffs_y="16" />
+<Frame tex_index="0" tc_left="426" tc_top="733" tc_right="482" tc_bottom="801" toffs_x="18" toffs_y="16" />
+<Frame tex_index="0" tc_left="369" tc_top="733" tc_right="425" tc_bottom="801" toffs_x="18" toffs_y="16" />
+<Frame tex_index="0" tc_left="47" tc_top="802" tc_right="104" tc_bottom="870" toffs_x="17" toffs_y="16" />
+<Frame tex_index="0" tc_left="159" tc_top="802" tc_right="214" tc_bottom="870" toffs_x="18" toffs_y="16" />
+<Frame tex_index="0" tc_left="991" tc_top="592" tc_right="1045" tc_bottom="661" toffs_x="18" toffs_y="15" />
+<Frame tex_index="0" tc_left="481" tc_top="592" tc_right="535" tc_bottom="661" toffs_x="18" toffs_y="15" />
+</DirectionSet>
+<DirectionSet>
+<Frame tex_index="0" tc_left="953" tc_top="449" tc_right="1001" tc_bottom="520" toffs_x="23" toffs_y="14" />
+<Frame tex_index="0" tc_left="544" tc_top="449" tc_right="592" tc_bottom="520" toffs_x="23" toffs_y="14" />
+<Frame tex_index="0" tc_left="544" tc_top="521" tc_right="593" tc_bottom="591" toffs_x="23" toffs_y="15" />
+<Frame tex_index="0" tc_left="594" tc_top="521" tc_right="644" tc_bottom="591" toffs_x="23" toffs_y="15" />
+<Frame tex_index="0" tc_left="51" tc_top="592" tc_right="102" tc_bottom="662" toffs_x="22" toffs_y="15" />
+<Frame tex_index="0" tc_left="1480" tc_top="521" tc_right="1530" tc_bottom="591" toffs_x="23" toffs_y="15" />
+<Frame tex_index="0" tc_left="494" tc_top="521" tc_right="543" tc_bottom="591" toffs_x="23" toffs_y="15" />
+<Frame tex_index="0" tc_left="1860" tc_top="377" tc_right="1908" tc_bottom="448" toffs_x="23" toffs_y="14" />
+<Frame tex_index="0" tc_left="1811" tc_top="377" tc_right="1859" tc_bottom="448" toffs_x="23" toffs_y="14" />
+</DirectionSet>
+<DirectionSet>
+<Frame tex_index="0" tc_left="1303" tc_top="230" tc_right="1338" tc_bottom="302" toffs_x="30" toffs_y="14" />
+<Frame tex_index="0" tc_left="1459" tc_top="230" tc_right="1494" tc_bottom="302" toffs_x="30" toffs_y="14" />
+<Frame tex_index="0" tc_left="1495" tc_top="230" tc_right="1530" tc_bottom="302" toffs_x="30" toffs_y="14" />
+<Frame tex_index="0" tc_left="760" tc_top="521" tc_right="795" tc_bottom="591" toffs_x="30" toffs_y="15" />
+<Frame tex_index="0" tc_left="1052" tc_top="521" tc_right="1087" tc_bottom="591" toffs_x="30" toffs_y="15" />
+<Frame tex_index="0" tc_left="1016" tc_top="521" tc_right="1051" tc_bottom="591" toffs_x="30" toffs_y="15" />
+<Frame tex_index="0" tc_left="1424" tc_top="230" tc_right="1458" tc_bottom="302" toffs_x="30" toffs_y="14" />
+<Frame tex_index="0" tc_left="1388" tc_top="230" tc_right="1423" tc_bottom="302" toffs_x="30" toffs_y="14" />
+<Frame tex_index="0" tc_left="1805" tc_top="230" tc_right="1840" tc_bottom="302" toffs_x="30" toffs_y="14" />
+</DirectionSet>
+<DirectionSet>
+<Frame tex_index="0" tc_left="107" tc_top="449" tc_right="155" tc_bottom="520" toffs_x="23" toffs_y="14" />
+<Frame tex_index="0" tc_left="57" tc_top="449" tc_right="106" tc_bottom="520" toffs_x="23" toffs_y="14" />
+<Frame tex_index="0" tc_left="210" tc_top="449" tc_right="260" tc_bottom="520" toffs_x="22" toffs_y="14" />
+<Frame tex_index="0" tc_left="1088" tc_top="521" tc_right="1138" tc_bottom="591" toffs_x="23" toffs_y="15" />
+<Frame tex_index="0" tc_left="856" tc_top="521" tc_right="906" tc_bottom="591" toffs_x="23" toffs_y="15" />
+<Frame tex_index="0" tc_left="965" tc_top="521" tc_right="1015" tc_bottom="591" toffs_x="23" toffs_y="15" />
+<Frame tex_index="0" tc_left="1002" tc_top="449" tc_right="1052" tc_bottom="520" toffs_x="22" toffs_y="14" />
+<Frame tex_index="0" tc_left="903" tc_top="449" tc_right="952" tc_bottom="520" toffs_x="23" toffs_y="14" />
+<Frame tex_index="0" tc_left="628" tc_top="377" tc_right="676" tc_bottom="448" toffs_x="23" toffs_y="14" />
+</DirectionSet>
+<DirectionSet>
+<Frame tex_index="0" tc_left="1906" tc_top="663" tc_right="1960" tc_bottom="731" toffs_x="18" toffs_y="15" />
+<Frame tex_index="0" tc_left="1057" tc_top="663" tc_right="1112" tc_bottom="731" toffs_x="18" toffs_y="15" />
+<Frame tex_index="0" tc_left="761" tc_top="802" tc_right="817" tc_bottom="869" toffs_x="17" toffs_y="16" />
+<Frame tex_index="0" tc_left="562" tc_top="802" tc_right="619" tc_bottom="869" toffs_x="17" toffs_y="16" />
+<Frame tex_index="0" tc_left="620" tc_top="802" tc_right="677" tc_bottom="869" toffs_x="17" toffs_y="16" />
+<Frame tex_index="0" tc_left="956" tc_top="802" tc_right="1013" tc_bottom="869" toffs_x="17" toffs_y="16" />
+<Frame tex_index="0" tc_left="412" tc_top="663" tc_right="467" tc_bottom="731" toffs_x="18" toffs_y="15" />
+<Frame tex_index="0" tc_left="753" tc_top="663" tc_right="807" tc_bottom="731" toffs_x="18" toffs_y="15" />
+<Frame tex_index="0" tc_left="808" tc_top="663" tc_right="862" tc_bottom="731" toffs_x="18" toffs_y="15" />
+</DirectionSet>
+</AnimationSet>
+<AnimationSet index="1" loop="1" time_per_frame="122">
+<DirectionSet>
+<Frame tex_index="0" tc_left="498" tc_top="939" tc_right="553" tc_bottom="1004" toffs_x="20" toffs_y="17" />
+<Frame tex_index="0" tc_left="1256" tc_top="521" tc_right="1313" tc_bottom="591" toffs_x="23" toffs_y="12" />
+<Frame tex_index="0" tc_left="1801" tc_top="304" tc_right="1861" tc_bottom="376" toffs_x="23" toffs_y="10" />
+<Frame tex_index="0" tc_left="1176" tc_top="230" tc_right="1238" tc_bottom="303" toffs_x="23" toffs_y="9" />
+<Frame tex_index="0" tc_left="1239" tc_top="230" tc_right="1302" tc_bottom="303" toffs_x="22" toffs_y="9" />
+<Frame tex_index="0" tc_left="1536" tc_top="79" tc_right="1595" tc_bottom="153" toffs_x="22" toffs_y="8" />
+<Frame tex_index="0" tc_left="1196" tc_top="79" tc_right="1255" tc_bottom="153" toffs_x="22" toffs_y="8" />
+<Frame tex_index="0" tc_left="1068" tc_top="230" tc_right="1127" tc_bottom="303" toffs_x="22" toffs_y="9" />
+<Frame tex_index="0" tc_left="1008" tc_top="230" tc_right="1067" tc_bottom="303" toffs_x="22" toffs_y="9" />
+<Frame tex_index="0" tc_left="833" tc_top="230" tc_right="891" tc_bottom="303" toffs_x="22" toffs_y="9" />
+<Frame tex_index="0" tc_left="892" tc_top="230" tc_right="950" tc_bottom="303" toffs_x="21" toffs_y="9" />
+<Frame tex_index="0" tc_left="1112" tc_top="304" tc_right="1168" tc_bottom="376" toffs_x="21" toffs_y="10" />
+<Frame tex_index="0" tc_left="407" tc_top="449" tc_right="462" tc_bottom="520" toffs_x="20" toffs_y="11" />
+<Frame tex_index="0" tc_left="1918" tc_top="592" tc_right="1972" tc_bottom="661" toffs_x="20" toffs_y="13" />
+<Frame tex_index="0" tc_left="863" tc_top="663" tc_right="917" tc_bottom="731" toffs_x="20" toffs_y="14" />
+<Frame tex_index="0" tc_left="1796" tc_top="802" tc_right="1850" tc_bottom="869" toffs_x="20" toffs_y="15" />
+<Frame tex_index="0" tc_left="666" tc_top="871" tc_right="720" tc_bottom="937" toffs_x="20" toffs_y="16" />
+<Frame tex_index="0" tc_left="442" tc_top="939" tc_right="497" tc_bottom="1004" toffs_x="20" toffs_y="17" />
+</DirectionSet>
+<DirectionSet>
+<Frame tex_index="0" tc_left="1612" tc_top="592" tc_right="1666" tc_bottom="661" toffs_x="23" toffs_y="15" />
+<Frame tex_index="0" tc_left="951" tc_top="230" tc_right="1007" tc_bottom="303" toffs_x="25" toffs_y="11" />
+<Frame tex_index="0" tc_left="668" tc_top="230" tc_right="727" tc_bottom="303" toffs_x="26" toffs_y="11" />
+<Frame tex_index="0" tc_left="607" tc_top="230" tc_right="667" tc_bottom="303" toffs_x="27" toffs_y="11" />
+<Frame tex_index="0" tc_left="638" tc_top="155" tc_right="696" tc_bottom="229" toffs_x="27" toffs_y="10" />
+<Frame tex_index="0" tc_left="584" tc_top="155" tc_right="637" tc_bottom="229" toffs_x="27" toffs_y="10" />
+<Frame tex_index="0" tc_left="783" tc_top="230" tc_right="832" tc_bottom="303" toffs_x="27" toffs_y="11" />
+<Frame tex_index="0" tc_left="53" tc_top="155" tc_right="104" tc_bottom="229" toffs_x="27" toffs_y="10" />
+<Frame tex_index="0" tc_left="0" tc_top="155" tc_right="52" tc_bottom="229" toffs_x="26" toffs_y="10" />
+<Frame tex_index="0" tc_left="728" tc_top="230" tc_right="782" tc_bottom="303" toffs_x="26" toffs_y="11" />
+<Frame tex_index="0" tc_left="551" tc_top="230" tc_right="606" tc_bottom="303" toffs_x="25" toffs_y="11" />
+<Frame tex_index="0" tc_left="1388" tc_top="304" tc_right="1443" tc_bottom="376" toffs_x="24" toffs_y="12" />
+<Frame tex_index="0" tc_left="1444" tc_top="304" tc_right="1499" tc_bottom="376" toffs_x="23" toffs_y="12" />
+<Frame tex_index="0" tc_left="1291" tc_top="304" tc_right="1345" tc_bottom="376" toffs_x="22" toffs_y="12" />
+<Frame tex_index="0" tc_left="909" tc_top="377" tc_right="963" tc_bottom="448" toffs_x="22" toffs_y="13" />
+<Frame tex_index="0" tc_left="645" tc_top="521" tc_right="699" tc_bottom="591" toffs_x="23" toffs_y="14" />
+<Frame tex_index="0" tc_left="1105" tc_top="592" tc_right="1159" tc_bottom="661" toffs_x="23" toffs_y="15" />
+<Frame tex_index="0" tc_left="63" tc_top="663" tc_right="117" tc_bottom="732" toffs_x="23" toffs_y="15" />
+</DirectionSet>
+<DirectionSet>
+<Frame tex_index="0" tc_left="1645" tc_top="304" tc_right="1693" tc_bottom="376" toffs_x="24" toffs_y="14" />
+<Frame tex_index="0" tc_left="1821" tc_top="0" tc_right="1871" tc_bottom="75" toffs_x="23" toffs_y="11" />
+<Frame tex_index="0" tc_left="1765" tc_top="0" tc_right="1820" tc_bottom="75" toffs_x="22" toffs_y="11" />
+<Frame tex_index="0" tc_left="208" tc_top="155" tc_right="265" tc_bottom="229" toffs_x="22" toffs_y="12" />
+<Frame tex_index="0" tc_left="1892" tc_top="79" tc_right="1944" tc_bottom="153" toffs_x="23" toffs_y="12" />
+<Frame tex_index="0" tc_left="697" tc_top="155" tc_right="744" tc_bottom="229" toffs_x="23" toffs_y="12" />
+<Frame tex_index="0" tc_left="314" tc_top="155" tc_right="360" tc_bottom="229" toffs_x="24" toffs_y="12" />
+<Frame tex_index="0" tc_left="266" tc_top="155" tc_right="313" tc_bottom="229" toffs_x="23" toffs_y="12" />
+<Frame tex_index="0" tc_left="481" tc_top="155" tc_right="528" tc_bottom="229" toffs_x="22" toffs_y="12" />
+<Frame tex_index="0" tc_left="1020" tc_top="79" tc_right="1070" tc_bottom="153" toffs_x="21" toffs_y="12" />
+<Frame tex_index="0" tc_left="1713" tc_top="0" tc_right="1764" tc_bottom="75" toffs_x="22" toffs_y="11" />
+<Frame tex_index="0" tc_left="1872" tc_top="0" tc_right="1923" tc_bottom="75" toffs_x="22" toffs_y="11" />
+<Frame tex_index="0" tc_left="0" tc_top="79" tc_right="49" tc_bottom="154" toffs_x="23" toffs_y="11" />
+<Frame tex_index="0" tc_left="1965" tc_top="0" tc_right="2013" tc_bottom="75" toffs_x="23" toffs_y="11" />
+<Frame tex_index="0" tc_left="971" tc_top="79" tc_right="1019" tc_bottom="153" toffs_x="23" toffs_y="12" />
+<Frame tex_index="0" tc_left="845" tc_top="304" tc_right="893" tc_bottom="376" toffs_x="23" toffs_y="14" />
+<Frame tex_index="0" tc_left="894" tc_top="304" tc_right="943" tc_bottom="376" toffs_x="23" toffs_y="14" />
+<Frame tex_index="0" tc_left="1169" tc_top="304" tc_right="1217" tc_bottom="376" toffs_x="24" toffs_y="14" />
+</DirectionSet>
+<DirectionSet>
+<Frame tex_index="0" tc_left="1218" tc_top="304" tc_right="1252" tc_bottom="376" toffs_x="31" toffs_y="14" />
+<Frame tex_index="0" tc_left="1924" tc_top="0" tc_right="1964" tc_bottom="75" toffs_x="24" toffs_y="11" />
+<Frame tex_index="0" tc_left="1499" tc_top="0" tc_right="1541" tc_bottom="75" toffs_x="23" toffs_y="11" />
+<Frame tex_index="0" tc_left="1152" tc_top="79" tc_right="1195" tc_bottom="153" toffs_x="22" toffs_y="12" />
+<Frame tex_index="0" tc_left="1108" tc_top="79" tc_right="1151" tc_bottom="153" toffs_x="22" toffs_y="12" />
+<Frame tex_index="0" tc_left="798" tc_top="79" tc_right="842" tc_bottom="153" toffs_x="21" toffs_y="12" />
+<Frame tex_index="0" tc_left="755" tc_top="79" tc_right="797" tc_bottom="153" toffs_x="23" toffs_y="12" />
+<Frame tex_index="0" tc_left="843" tc_top="79" tc_right="886" tc_bottom="153" toffs_x="22" toffs_y="12" />
+<Frame tex_index="0" tc_left="926" tc_top="79" tc_right="970" tc_bottom="153" toffs_x="22" toffs_y="12" />
+<Frame tex_index="0" tc_left="1542" tc_top="0" tc_right="1585" tc_bottom="75" toffs_x="23" toffs_y="11" />
+<Frame tex_index="0" tc_left="1456" tc_top="0" tc_right="1498" tc_bottom="75" toffs_x="24" toffs_y="11" />
+<Frame tex_index="0" tc_left="834" tc_top="0" tc_right="876" tc_bottom="76" toffs_x="23" toffs_y="10" />
+<Frame tex_index="0" tc_left="877" tc_top="0" tc_right="917" tc_bottom="76" toffs_x="25" toffs_y="10" />
+<Frame tex_index="0" tc_left="1586" tc_top="0" tc_right="1620" tc_bottom="75" toffs_x="30" toffs_y="11" />
+<Frame tex_index="0" tc_left="1499" tc_top="79" tc_right="1535" tc_bottom="153" toffs_x="28" toffs_y="12" />
+<Frame tex_index="0" tc_left="1694" tc_top="304" tc_right="1729" tc_bottom="376" toffs_x="30" toffs_y="14" />
+<Frame tex_index="0" tc_left="1730" tc_top="304" tc_right="1765" tc_bottom="376" toffs_x="30" toffs_y="14" />
+<Frame tex_index="0" tc_left="1766" tc_top="304" tc_right="1800" tc_bottom="376" toffs_x="31" toffs_y="14" />
+</DirectionSet>
+<DirectionSet>
+<Frame tex_index="0" tc_left="1437" tc_top="377" tc_right="1485" tc_bottom="448" toffs_x="24" toffs_y="14" />
+<Frame tex_index="0" tc_left="1596" tc_top="79" tc_right="1648" tc_bottom="153" toffs_x="18" toffs_y="11" />
+<Frame tex_index="0" tc_left="1693" tc_top="79" tc_right="1742" tc_bottom="153" toffs_x="18" toffs_y="11" />
+<Frame tex_index="0" tc_left="1649" tc_top="79" tc_right="1692" tc_bottom="153" toffs_x="22" toffs_y="11" />
+<Frame tex_index="0" tc_left="959" tc_top="155" tc_right="996" tc_bottom="228" toffs_x="27" toffs_y="12" />
+<Frame tex_index="0" tc_left="1256" tc_top="79" tc_right="1293" tc_bottom="153" toffs_x="27" toffs_y="11" />
+<Frame tex_index="0" tc_left="801" tc_top="155" tc_right="837" tc_bottom="228" toffs_x="28" toffs_y="12" />
+<Frame tex_index="0" tc_left="1071" tc_top="79" tc_right="1107" tc_bottom="153" toffs_x="28" toffs_y="11" />
+<Frame tex_index="0" tc_left="887" tc_top="79" tc_right="925" tc_bottom="153" toffs_x="27" toffs_y="11" />
+<Frame tex_index="0" tc_left="0" tc_top="230" tc_right="41" tc_bottom="303" toffs_x="25" toffs_y="12" />
+<Frame tex_index="0" tc_left="1294" tc_top="79" tc_right="1340" tc_bottom="153" toffs_x="21" toffs_y="11" />
+<Frame tex_index="0" tc_left="1448" tc_top="79" tc_right="1498" tc_bottom="153" toffs_x="20" toffs_y="11" />
+<Frame tex_index="0" tc_left="1341" tc_top="79" tc_right="1391" tc_bottom="153" toffs_x="21" toffs_y="11" />
+<Frame tex_index="0" tc_left="42" tc_top="230" tc_right="91" tc_bottom="303" toffs_x="23" toffs_y="12" />
+<Frame tex_index="0" tc_left="1569" tc_top="230" tc_right="1615" tc_bottom="302" toffs_x="25" toffs_y="13" />
+<Frame tex_index="0" tc_left="376" tc_top="521" tc_right="423" tc_bottom="591" toffs_x="25" toffs_y="15" />
+<Frame tex_index="0" tc_left="1314" tc_top="521" tc_right="1361" tc_bottom="591" toffs_x="25" toffs_y="15" />
+<Frame tex_index="0" tc_left="756" tc_top="449" tc_right="804" tc_bottom="520" toffs_x="24" toffs_y="14" />
+</DirectionSet>
+<DirectionSet>
+<Frame tex_index="0" tc_left="536" tc_top="592" tc_right="590" tc_bottom="661" toffs_x="23" toffs_y="16" />
+<Frame tex_index="0" tc_left="1824" tc_top="155" tc_right="1878" tc_bottom="228" toffs_x="20" toffs_y="12" />
+<Frame tex_index="0" tc_left="1879" tc_top="155" tc_right="1933" tc_bottom="228" toffs_x="19" toffs_y="12" />
+<Frame tex_index="0" tc_left="1934" tc_top="155" tc_right="1985" tc_bottom="228" toffs_x="21" toffs_y="12" />
+<Frame tex_index="0" tc_left="132" tc_top="230" tc_right="183" tc_bottom="303" toffs_x="20" toffs_y="12" />
+<Frame tex_index="0" tc_left="392" tc_top="230" tc_right="443" tc_bottom="303" toffs_x="21" toffs_y="12" />
+<Frame tex_index="0" tc_left="444" tc_top="230" tc_right="497" tc_bottom="303" toffs_x="18" toffs_y="12" />
+<Frame tex_index="0" tc_left="498" tc_top="230" tc_right="550" tc_bottom="303" toffs_x="19" toffs_y="12" />
+<Frame tex_index="0" tc_left="339" tc_top="230" tc_right="391" tc_bottom="303" toffs_x="20" toffs_y="12" />
+<Frame tex_index="0" tc_left="184" tc_top="230" tc_right="234" tc_bottom="303" toffs_x="23" toffs_y="12" />
+<Frame tex_index="0" tc_left="235" tc_top="230" tc_right="285" tc_bottom="303" toffs_x="24" toffs_y="12" />
+<Frame tex_index="0" tc_left="286" tc_top="230" tc_right="338" tc_bottom="303" toffs_x="23" toffs_y="12" />
+<Frame tex_index="0" tc_left="1217" tc_top="155" tc_right="1271" tc_bottom="228" toffs_x="22" toffs_y="12" />
+<Frame tex_index="0" tc_left="0" tc_top="449" tc_right="56" tc_bottom="520" toffs_x="22" toffs_y="14" />
+<Frame tex_index="0" tc_left="1201" tc_top="521" tc_right="1255" tc_bottom="591" toffs_x="23" toffs_y="15" />
+<Frame tex_index="0" tc_left="881" tc_top="592" tc_right="935" tc_bottom="661" toffs_x="23" toffs_y="16" />
+<Frame tex_index="0" tc_left="936" tc_top="592" tc_right="990" tc_bottom="661" toffs_x="23" toffs_y="16" />
+<Frame tex_index="0" tc_left="825" tc_top="592" tc_right="880" tc_bottom="661" toffs_x="23" toffs_y="16" />
+</DirectionSet>
+<DirectionSet>
+<Frame tex_index="0" tc_left="943" tc_top="939" tc_right="998" tc_bottom="1004" toffs_x="20" toffs_y="18" />
+<Frame tex_index="0" tc_left="907" tc_top="521" tc_right="964" tc_bottom="591" toffs_x="15" toffs_y="13" />
+<Frame tex_index="0" tc_left="796" tc_top="521" tc_right="855" tc_bottom="591" toffs_x="13" toffs_y="13" />
+<Frame tex_index="0" tc_left="1139" tc_top="521" tc_right="1200" tc_bottom="591" toffs_x="11" toffs_y="13" />
+<Frame tex_index="0" tc_left="313" tc_top="521" tc_right="375" tc_bottom="591" toffs_x="10" toffs_y="13" />
+<Frame tex_index="0" tc_left="1965" tc_top="377" tc_right="2023" tc_bottom="448" toffs_x="14" toffs_y="12" />
+<Frame tex_index="0" tc_left="700" tc_top="521" tc_right="759" tc_bottom="591" toffs_x="14" toffs_y="13" />
+<Frame tex_index="0" tc_left="103" tc_top="592" tc_right="163" tc_bottom="662" toffs_x="13" toffs_y="13" />
+<Frame tex_index="0" tc_left="1787" tc_top="521" tc_right="1846" tc_bottom="591" toffs_x="14" toffs_y="13" />
+<Frame tex_index="0" tc_left="1362" tc_top="521" tc_right="1420" tc_bottom="591" toffs_x="15" toffs_y="13" />
+<Frame tex_index="0" tc_left="1421" tc_top="521" tc_right="1479" tc_bottom="591" toffs_x="16" toffs_y="13" />
+<Frame tex_index="0" tc_left="1847" tc_top="521" tc_right="1903" tc_bottom="591" toffs_x="18" toffs_y="13" />
+<Frame tex_index="0" tc_left="1862" tc_top="592" tc_right="1917" tc_bottom="661" toffs_x="20" toffs_y="14" />
+<Frame tex_index="0" tc_left="1478" tc_top="802" tc_right="1532" tc_bottom="869" toffs_x="21" toffs_y="16" />
+<Frame tex_index="0" tc_left="1741" tc_top="802" tc_right="1795" tc_bottom="869" toffs_x="21" toffs_y="16" />
+<Frame tex_index="0" tc_left="356" tc_top="871" tc_right="410" tc_bottom="937" toffs_x="21" toffs_y="17" />
+<Frame tex_index="0" tc_left="1660" tc_top="871" tc_right="1714" tc_bottom="936" toffs_x="21" toffs_y="18" />
+<Frame tex_index="0" tc_left="1846" tc_top="871" tc_right="1901" tc_bottom="936" toffs_x="20" toffs_y="18" />
+</DirectionSet>
+<DirectionSet>
+<Frame tex_index="0" tc_left="1973" tc_top="592" tc_right="2027" tc_bottom="661" toffs_x="18" toffs_y="16" />
+<Frame tex_index="0" tc_left="525" tc_top="304" tc_right="582" tc_bottom="376" toffs_x="13" toffs_y="12" />
+<Frame tex_index="0" tc_left="1710" tc_top="155" tc_right="1767" tc_bottom="228" toffs_x="11" toffs_y="11" />
+<Frame tex_index="0" tc_left="403" tc_top="304" tc_right="462" tc_bottom="376" toffs_x="9" toffs_y="12" />
+<Frame tex_index="0" tc_left="290" tc_top="304" tc_right="348" tc_bottom="376" toffs_x="9" toffs_y="12" />
+<Frame tex_index="0" tc_left="349" tc_top="304" tc_right="402" tc_bottom="376" toffs_x="15" toffs_y="12" />
+<Frame tex_index="0" tc_left="743" tc_top="304" tc_right="792" tc_bottom="376" toffs_x="19" toffs_y="12" />
+<Frame tex_index="0" tc_left="793" tc_top="304" tc_right="844" tc_bottom="376" toffs_x="17" toffs_y="12" />
+<Frame tex_index="0" tc_left="420" tc_top="377" tc_right="472" tc_bottom="448" toffs_x="17" toffs_y="13" />
+<Frame tex_index="0" tc_left="259" tc_top="377" tc_right="312" tc_bottom="448" toffs_x="16" toffs_y="13" />
+<Frame tex_index="0" tc_left="313" tc_top="377" tc_right="367" tc_bottom="448" toffs_x="16" toffs_y="13" />
+<Frame tex_index="0" tc_left="687" tc_top="304" tc_right="742" tc_bottom="376" toffs_x="16" toffs_y="13" />
+<Frame tex_index="0" tc_left="473" tc_top="377" tc_right="528" tc_bottom="448" toffs_x="17" toffs_y="14" />
+<Frame tex_index="0" tc_left="583" tc_top="304" tc_right="637" tc_bottom="376" toffs_x="19" toffs_y="13" />
+<Frame tex_index="0" tc_left="677" tc_top="377" tc_right="731" tc_bottom="448" toffs_x="19" toffs_y="14" />
+<Frame tex_index="0" tc_left="1732" tc_top="521" tc_right="1786" tc_bottom="591" toffs_x="18" toffs_y="15" />
+<Frame tex_index="0" tc_left="1904" tc_top="521" tc_right="1958" tc_bottom="591" toffs_x="18" toffs_y="15" />
+<Frame tex_index="0" tc_left="180" tc_top="663" tc_right="234" tc_bottom="732" toffs_x="18" toffs_y="16" />
+</DirectionSet>
+<DirectionSet>
+<Frame tex_index="0" tc_left="1898" tc_top="304" tc_right="1947" tc_bottom="375" toffs_x="23" toffs_y="14" />
+<Frame tex_index="0" tc_left="50" tc_top="79" tc_right="100" tc_bottom="154" toffs_x="22" toffs_y="10" />
+<Frame tex_index="0" tc_left="777" tc_top="0" tc_right="833" tc_bottom="76" toffs_x="17" toffs_y="9" />
+<Frame tex_index="0" tc_left="549" tc_top="79" tc_right="603" tc_bottom="154" toffs_x="18" toffs_y="10" />
+<Frame tex_index="0" tc_left="495" tc_top="79" tc_right="548" tc_bottom="154" toffs_x="20" toffs_y="10" />
+<Frame tex_index="0" tc_left="447" tc_top="79" tc_right="494" tc_bottom="154" toffs_x="25" toffs_y="10" />
+<Frame tex_index="0" tc_left="708" tc_top="79" tc_right="754" tc_bottom="154" toffs_x="25" toffs_y="10" />
+<Frame tex_index="0" tc_left="660" tc_top="79" tc_right="707" tc_bottom="154" toffs_x="25" toffs_y="10" />
+<Frame tex_index="0" tc_left="1844" tc_top="79" tc_right="1891" tc_bottom="153" toffs_x="25" toffs_y="11" />
+<Frame tex_index="0" tc_left="1743" tc_top="79" tc_right="1791" tc_bottom="153" toffs_x="25" toffs_y="11" />
+<Frame tex_index="0" tc_left="1792" tc_top="79" tc_right="1843" tc_bottom="153" toffs_x="22" toffs_y="11" />
+<Frame tex_index="0" tc_left="105" tc_top="155" tc_right="156" tc_bottom="229" toffs_x="22" toffs_y="11" />
+<Frame tex_index="0" tc_left="157" tc_top="155" tc_right="207" tc_bottom="229" toffs_x="23" toffs_y="12" />
+<Frame tex_index="0" tc_left="1484" tc_top="155" tc_right="1532" tc_bottom="228" toffs_x="24" toffs_y="13" />
+<Frame tex_index="0" tc_left="0" tc_top="304" tc_right="48" tc_bottom="376" toffs_x="24" toffs_y="14" />
+<Frame tex_index="0" tc_left="1148" tc_top="377" tc_right="1197" tc_bottom="448" toffs_x="23" toffs_y="15" />
+<Frame tex_index="0" tc_left="1682" tc_top="521" tc_right="1731" tc_bottom="591" toffs_x="23" toffs_y="15" />
+<Frame tex_index="0" tc_left="1339" tc_top="377" tc_right="1387" tc_bottom="448" toffs_x="23" toffs_y="14" />
+</DirectionSet>
+<DirectionSet>
+<Frame tex_index="0" tc_left="2007" tc_top="230" tc_right="2041" tc_bottom="302" toffs_x="30" toffs_y="14" />
+<Frame tex_index="0" tc_left="562" tc_top="0" tc_right="601" tc_bottom="77" toffs_x="31" toffs_y="9" />
+<Frame tex_index="0" tc_left="39" tc_top="0" tc_right="80" tc_bottom="78" toffs_x="30" toffs_y="8" />
+<Frame tex_index="0" tc_left="645" tc_top="0" tc_right="688" tc_bottom="77" toffs_x="30" toffs_y="8" />
+<Frame tex_index="0" tc_left="689" tc_top="0" tc_right="733" tc_bottom="76" toffs_x="30" toffs_y="9" />
+<Frame tex_index="0" tc_left="602" tc_top="0" tc_right="644" tc_bottom="77" toffs_x="30" toffs_y="8" />
+<Frame tex_index="0" tc_left="734" tc_top="0" tc_right="776" tc_bottom="76" toffs_x="30" toffs_y="9" />
+<Frame tex_index="0" tc_left="1049" tc_top="0" tc_right="1091" tc_bottom="76" toffs_x="30" toffs_y="9" />
+<Frame tex_index="0" tc_left="1092" tc_top="0" tc_right="1135" tc_bottom="76" toffs_x="30" toffs_y="9" />
+<Frame tex_index="0" tc_left="1004" tc_top="0" tc_right="1048" tc_bottom="76" toffs_x="29" toffs_y="9" />
+<Frame tex_index="0" tc_left="918" tc_top="0" tc_right="960" tc_bottom="76" toffs_x="30" toffs_y="9" />
+<Frame tex_index="0" tc_left="961" tc_top="0" tc_right="1003" tc_bottom="76" toffs_x="30" toffs_y="10" />
+<Frame tex_index="0" tc_left="279" tc_top="0" tc_right="319" tc_bottom="77" toffs_x="30" toffs_y="10" />
+<Frame tex_index="0" tc_left="255" tc_top="79" tc_right="290" tc_bottom="154" toffs_x="31" toffs_y="12" />
+<Frame tex_index="0" tc_left="1993" tc_top="79" tc_right="2027" tc_bottom="153" toffs_x="31" toffs_y="13" />
+<Frame tex_index="0" tc_left="1533" tc_top="155" tc_right="1569" tc_bottom="228" toffs_x="30" toffs_y="14" />
+<Frame tex_index="0" tc_left="1570" tc_top="155" tc_right="1605" tc_bottom="228" toffs_x="30" toffs_y="14" />
+<Frame tex_index="0" tc_left="49" tc_top="304" tc_right="83" tc_bottom="376" toffs_x="30" toffs_y="14" />
+</DirectionSet>
+<DirectionSet>
+<Frame tex_index="0" tc_left="84" tc_top="304" tc_right="133" tc_bottom="376" toffs_x="23" toffs_y="14" />
+<Frame tex_index="0" tc_left="509" tc_top="0" tc_right="561" tc_bottom="77" toffs_x="25" toffs_y="9" />
+<Frame tex_index="0" tc_left="460" tc_top="0" tc_right="508" tc_bottom="77" toffs_x="28" toffs_y="8" />
+<Frame tex_index="0" tc_left="196" tc_top="0" tc_right="239" tc_bottom="78" toffs_x="30" toffs_y="7" />
+<Frame tex_index="0" tc_left="81" tc_top="0" tc_right="119" tc_bottom="78" toffs_x="30" toffs_y="7" />
+<Frame tex_index="0" tc_left="0" tc_top="0" tc_right="38" tc_bottom="78" toffs_x="30" toffs_y="7" />
+<Frame tex_index="0" tc_left="158" tc_top="0" tc_right="195" tc_bottom="78" toffs_x="31" toffs_y="7" />
+<Frame tex_index="0" tc_left="120" tc_top="0" tc_right="157" tc_bottom="78" toffs_x="31" toffs_y="7" />
+<Frame tex_index="0" tc_left="240" tc_top="0" tc_right="278" tc_bottom="77" toffs_x="30" toffs_y="8" />
+<Frame tex_index="0" tc_left="371" tc_top="0" tc_right="411" tc_bottom="77" toffs_x="29" toffs_y="8" />
+<Frame tex_index="0" tc_left="412" tc_top="0" tc_right="459" tc_bottom="77" toffs_x="28" toffs_y="8" />
+<Frame tex_index="0" tc_left="320" tc_top="0" tc_right="370" tc_bottom="77" toffs_x="25" toffs_y="9" />
+<Frame tex_index="0" tc_left="1349" tc_top="0" tc_right="1399" tc_bottom="76" toffs_x="24" toffs_y="10" />
+<Frame tex_index="0" tc_left="291" tc_top="79" tc_right="340" tc_bottom="154" toffs_x="23" toffs_y="12" />
+<Frame tex_index="0" tc_left="1945" tc_top="79" tc_right="1992" tc_bottom="153" toffs_x="23" toffs_y="13" />
+<Frame tex_index="0" tc_left="1606" tc_top="155" tc_right="1653" tc_bottom="228" toffs_x="23" toffs_y="14" />
+<Frame tex_index="0" tc_left="241" tc_top="304" tc_right="289" tc_bottom="376" toffs_x="23" toffs_y="14" />
+<Frame tex_index="0" tc_left="638" tc_top="304" tc_right="686" tc_bottom="376" toffs_x="23" toffs_y="14" />
+</DirectionSet>
+<DirectionSet>
+<Frame tex_index="0" tc_left="1807" tc_top="592" tc_right="1861" tc_bottom="661" toffs_x="18" toffs_y="15" />
+<Frame tex_index="0" tc_left="1768" tc_top="155" tc_right="1823" tc_bottom="228" toffs_x="20" toffs_y="10" />
+<Frame tex_index="0" tc_left="529" tc_top="155" tc_right="583" tc_bottom="229" toffs_x="22" toffs_y="9" />
+<Frame tex_index="0" tc_left="1298" tc_top="0" tc_right="1348" tc_bottom="76" toffs_x="24" toffs_y="7" />
+<Frame tex_index="0" tc_left="1136" tc_top="0" tc_right="1188" tc_bottom="76" toffs_x="23" toffs_y="7" />
+<Frame tex_index="0" tc_left="341" tc_top="79" tc_right="392" tc_bottom="154" toffs_x="23" toffs_y="8" />
+<Frame tex_index="0" tc_left="1189" tc_top="0" tc_right="1243" tc_bottom="76" toffs_x="23" toffs_y="7" />
+<Frame tex_index="0" tc_left="1244" tc_top="0" tc_right="1297" tc_bottom="76" toffs_x="23" toffs_y="7" />
+<Frame tex_index="0" tc_left="101" tc_top="79" tc_right="153" tc_bottom="154" toffs_x="23" toffs_y="8" />
+<Frame tex_index="0" tc_left="154" tc_top="79" tc_right="203" tc_bottom="154" toffs_x="23" toffs_y="8" />
+<Frame tex_index="0" tc_left="204" tc_top="79" tc_right="254" tc_bottom="154" toffs_x="21" toffs_y="8" />
+<Frame tex_index="0" tc_left="393" tc_top="79" tc_right="446" tc_bottom="154" toffs_x="19" toffs_y="9" />
+<Frame tex_index="0" tc_left="745" tc_top="155" tc_right="800" tc_bottom="229" toffs_x="18" toffs_y="10" />
+<Frame tex_index="0" tc_left="1654" tc_top="155" tc_right="1709" tc_bottom="228" toffs_x="18" toffs_y="12" />
+<Frame tex_index="0" tc_left="593" tc_top="449" tc_right="647" tc_bottom="520" toffs_x="18" toffs_y="14" />
+<Frame tex_index="0" tc_left="1381" tc_top="592" tc_right="1435" tc_bottom="661" toffs_x="18" toffs_y="15" />
+<Frame tex_index="0" tc_left="1059" tc_top="733" tc_right="1114" tc_bottom="801" toffs_x="17" toffs_y="16" />
+<Frame tex_index="0" tc_left="1557" tc_top="592" tc_right="1611" tc_bottom="661" toffs_x="18" toffs_y="15" />
+</DirectionSet>
+</AnimationSet>
+<AnimationSet index="2" loop="1" time_per_frame="111">
+<DirectionSet>
+<Frame tex_index="0" tc_left="1499" tc_top="592" tc_right="1556" tc_bottom="661" toffs_x="19" toffs_y="12" />
+<Frame tex_index="0" tc_left="1259" tc_top="871" tc_right="1316" tc_bottom="937" toffs_x="20" toffs_y="15" />
+<Frame tex_index="0" tc_left="1317" tc_top="871" tc_right="1373" tc_bottom="937" toffs_x="19" toffs_y="17" />
+<Frame tex_index="0" tc_left="1667" tc_top="592" tc_right="1724" tc_bottom="661" toffs_x="17" toffs_y="13" />
+<Frame tex_index="0" tc_left="1201" tc_top="871" tc_right="1258" tc_bottom="937" toffs_x="18" toffs_y="13" />
+<Frame tex_index="0" tc_left="1212" tc_top="592" tc_right="1269" tc_bottom="661" toffs_x="19" toffs_y="17" />
+<Frame tex_index="0" tc_left="1270" tc_top="592" tc_right="1328" tc_bottom="661" toffs_x="18" toffs_y="17" />
+<Frame tex_index="0" tc_left="146" tc_top="521" tc_right="203" tc_bottom="591" toffs_x="19" toffs_y="14" />
+</DirectionSet>
+<DirectionSet>
+<Frame tex_index="0" tc_left="1420" tc_top="155" tc_right="1483" tc_bottom="228" toffs_x="19" toffs_y="11" />
+<Frame tex_index="0" tc_left="1902" tc_top="871" tc_right="1965" tc_bottom="936" toffs_x="19" toffs_y="14" />
+<Frame tex_index="1" tc_left="294" tc_top="65" tc_right="356" tc_bottom="128" toffs_x="20" toffs_y="17" />
+<Frame tex_index="0" tc_left="0" tc_top="733" tc_right="58" tc_bottom="801" toffs_x="23" toffs_y="12" />
+<Frame tex_index="0" tc_left="118" tc_top="663" tc_right="179" tc_bottom="732" toffs_x="20" toffs_y="11" />
+<Frame tex_index="0" tc_left="463" tc_top="304" tc_right="524" tc_bottom="376" toffs_x="20" toffs_y="15" />
+<Frame tex_index="0" tc_left="1100" tc_top="155" tc_right="1164" tc_bottom="228" toffs_x="18" toffs_y="15" />
+<Frame tex_index="0" tc_left="361" tc_top="155" tc_right="425" tc_bottom="229" toffs_x="18" toffs_y="13" />
+</DirectionSet>
+<DirectionSet>
+<Frame tex_index="0" tc_left="604" tc_top="79" tc_right="659" tc_bottom="154" toffs_x="25" toffs_y="11" />
+<Frame tex_index="0" tc_left="721" tc_top="871" tc_right="785" tc_bottom="937" toffs_x="17" toffs_y="14" />
+<Frame tex_index="1" tc_left="465" tc_top="0" tc_right="531" tc_bottom="64" toffs_x="22" toffs_y="16" />
+<Frame tex_index="0" tc_left="314" tc_top="733" tc_right="368" tc_bottom="801" toffs_x="25" toffs_y="12" />
+<Frame tex_index="0" tc_left="1600" tc_top="449" tc_right="1654" tc_bottom="519" toffs_x="24" toffs_y="11" />
+<Frame tex_index="0" tc_left="1044" tc_top="155" tc_right="1099" tc_bottom="228" toffs_x="23" toffs_y="14" />
+<Frame tex_index="0" tc_left="426" tc_top="155" tc_right="480" tc_bottom="229" toffs_x="24" toffs_y="15" />
+<Frame tex_index="0" tc_left="1400" tc_top="0" tc_right="1455" tc_bottom="76" toffs_x="24" toffs_y="12" />
+</DirectionSet>
+<DirectionSet>
+<Frame tex_index="0" tc_left="2014" tc_top="0" tc_right="2047" tc_bottom="73" toffs_x="36" toffs_y="13" />
+<Frame tex_index="0" tc_left="1340" tc_top="449" tc_right="1399" tc_bottom="519" toffs_x="20" toffs_y="15" />
+<Frame tex_index="1" tc_left="127" tc_top="130" tc_right="184" tc_bottom="192" toffs_x="28" toffs_y="18" />
+<Frame tex_index="0" tc_left="1977" tc_top="449" tc_right="2016" tc_bottom="519" toffs_x="34" toffs_y="14" />
+<Frame tex_index="0" tc_left="0" tc_top="802" tc_right="46" tc_bottom="870" toffs_x="26" toffs_y="12" />
+<Frame tex_index="0" tc_left="164" tc_top="592" tc_right="225" tc_bottom="661" toffs_x="23" toffs_y="15" />
+<Frame tex_index="0" tc_left="1165" tc_top="155" tc_right="1216" tc_bottom="228" toffs_x="31" toffs_y="15" />
+<Frame tex_index="0" tc_left="1621" tc_top="0" tc_right="1659" tc_bottom="75" toffs_x="35" toffs_y="13" />
+</DirectionSet>
+<DirectionSet>
+<Frame tex_index="0" tc_left="1909" tc_top="377" tc_right="1964" tc_bottom="448" toffs_x="25" toffs_y="14" />
+<Frame tex_index="0" tc_left="1868" tc_top="449" tc_right="1923" tc_bottom="519" toffs_x="24" toffs_y="17" />
+<Frame tex_index="0" tc_left="105" tc_top="802" tc_right="158" tc_bottom="870" toffs_x="25" toffs_y="19" />
+<Frame tex_index="0" tc_left="1641" tc_top="377" tc_right="1693" tc_bottom="448" toffs_x="26" toffs_y="15" />
+<Frame tex_index="0" tc_left="544" tc_top="871" tc_right="602" tc_bottom="937" toffs_x="22" toffs_y="14" />
+<Frame tex_index="0" tc_left="819" tc_top="939" tc_right="886" tc_bottom="1004" toffs_x="19" toffs_y="17" />
+<Frame tex_index="0" tc_left="215" tc_top="802" tc_right="274" tc_bottom="870" toffs_x="25" toffs_y="17" />
+<Frame tex_index="0" tc_left="1586" tc_top="377" tc_right="1640" tc_bottom="448" toffs_x="26" toffs_y="15" />
+</DirectionSet>
+<DirectionSet>
+<Frame tex_index="0" tc_left="275" tc_top="802" tc_right="335" tc_bottom="870" toffs_x="21" toffs_y="16" />
+<Frame tex_index="0" tc_left="761" tc_top="592" tc_right="824" tc_bottom="661" toffs_x="19" toffs_y="19" />
+<Frame tex_index="0" tc_left="1479" tc_top="733" tc_right="1539" tc_bottom="801" toffs_x="21" toffs_y="21" />
+<Frame tex_index="0" tc_left="699" tc_top="592" tc_right="760" tc_bottom="661" toffs_x="22" toffs_y="17" />
+<Frame tex_index="0" tc_left="1540" tc_top="733" tc_right="1602" tc_bottom="801" toffs_x="21" toffs_y="16" />
+<Frame tex_index="0" tc_left="172" tc_top="871" tc_right="235" tc_bottom="937" toffs_x="19" toffs_y="19" />
+<Frame tex_index="1" tc_left="879" tc_top="65" tc_right="937" tc_bottom="128" toffs_x="23" toffs_y="19" />
+<Frame tex_index="0" tc_left="1533" tc_top="802" tc_right="1591" tc_bottom="869" toffs_x="23" toffs_y="17" />
+</DirectionSet>
+<DirectionSet>
+<Frame tex_index="1" tc_left="183" tc_top="0" tc_right="240" tc_bottom="64" toffs_x="19" toffs_y="18" />
+<Frame tex_index="0" tc_left="786" tc_top="871" tc_right="843" tc_bottom="937" toffs_x="18" toffs_y="20" />
+<Frame tex_index="0" tc_left="704" tc_top="939" tc_right="760" tc_bottom="1004" toffs_x="20" toffs_y="23" />
+<Frame tex_index="0" tc_left="761" tc_top="939" tc_right="818" tc_bottom="1004" toffs_x="21" toffs_y="19" />
+<Frame tex_index="0" tc_left="1603" tc_top="733" tc_right="1660" tc_bottom="801" toffs_x="20" toffs_y="18" />
+<Frame tex_index="0" tc_left="236" tc_top="871" tc_right="293" tc_bottom="937" toffs_x="19" toffs_y="22" />
+<Frame tex_index="1" tc_left="236" tc_top="65" tc_right="293" tc_bottom="128" toffs_x="19" toffs_y="22" />
+<Frame tex_index="1" tc_left="466" tc_top="130" tc_right="523" tc_bottom="192" toffs_x="19" toffs_y="19" />
+</DirectionSet>
+<DirectionSet>
+<Frame tex_index="1" tc_left="414" tc_top="65" tc_right="478" tc_bottom="128" toffs_x="12" toffs_y="16" />
+<Frame tex_index="0" tc_left="411" tc_top="871" tc_right="475" tc_bottom="937" toffs_x="13" toffs_y="18" />
+<Frame tex_index="0" tc_left="1126" tc_top="939" tc_right="1187" tc_bottom="1004" toffs_x="14" toffs_y="20" />
+<Frame tex_index="0" tc_left="1630" tc_top="802" tc_right="1688" tc_bottom="869" toffs_x="14" toffs_y="17" />
+<Frame tex_index="0" tc_left="1694" tc_top="377" tc_right="1754" tc_bottom="448" toffs_x="14" toffs_y="17" />
+<Frame tex_index="0" tc_left="1360" tc_top="733" tc_right="1421" tc_bottom="801" toffs_x="14" toffs_y="21" />
+<Frame tex_index="0" tc_left="1663" tc_top="939" tc_right="1727" tc_bottom="1003" toffs_x="13" toffs_y="21" />
+<Frame tex_index="0" tc_left="1061" tc_top="939" tc_right="1125" tc_bottom="1004" toffs_x="13" toffs_y="18" />
+</DirectionSet>
+<DirectionSet>
+<Frame tex_index="0" tc_left="1188" tc_top="939" tc_right="1243" tc_bottom="1004" toffs_x="16" toffs_y="14" />
+<Frame tex_index="0" tc_left="132" tc_top="939" tc_right="197" tc_bottom="1004" toffs_x="14" toffs_y="15" />
+<Frame tex_index="0" tc_left="198" tc_top="939" tc_right="264" tc_bottom="1004" toffs_x="7" toffs_y="18" />
+<Frame tex_index="0" tc_left="648" tc_top="449" tc_right="701" tc_bottom="520" toffs_x="16" toffs_y="15" />
+<Frame tex_index="0" tc_left="1986" tc_top="155" tc_right="2040" tc_bottom="228" toffs_x="17" toffs_y="15" />
+<Frame tex_index="0" tc_left="1931" tc_top="733" tc_right="1986" tc_bottom="801" toffs_x="17" toffs_y="19" />
+<Frame tex_index="0" tc_left="265" tc_top="939" tc_right="319" tc_bottom="1004" toffs_x="17" toffs_y="19" />
+<Frame tex_index="0" tc_left="637" tc_top="663" tc_right="692" tc_bottom="731" toffs_x="16" toffs_y="16" />
+</DirectionSet>
+<DirectionSet>
+<Frame tex_index="0" tc_left="1442" tc_top="802" tc_right="1477" tc_bottom="869" toffs_x="25" toffs_y="12" />
+<Frame tex_index="0" tc_left="693" tc_top="663" tc_right="752" tc_bottom="731" toffs_x="16" toffs_y="13" />
+<Frame tex_index="0" tc_left="423" tc_top="592" tc_right="480" tc_bottom="661" toffs_x="10" toffs_y="16" />
+<Frame tex_index="0" tc_left="92" tc_top="230" tc_right="131" tc_bottom="303" toffs_x="22" toffs_y="13" />
+<Frame tex_index="0" tc_left="997" tc_top="155" tc_right="1043" tc_bottom="228" toffs_x="23" toffs_y="14" />
+<Frame tex_index="0" tc_left="1966" tc_top="871" tc_right="2027" tc_bottom="936" toffs_x="11" toffs_y="18" />
+<Frame tex_index="1" tc_left="524" tc_top="130" tc_right="575" tc_bottom="192" toffs_x="13" toffs_y="17" />
+<Frame tex_index="0" tc_left="2009" tc_top="521" tc_right="2047" tc_bottom="589" toffs_x="22" toffs_y="14" />
+</DirectionSet>
+<DirectionSet>
+<Frame tex_index="0" tc_left="1195" tc_top="802" tc_right="1250" tc_bottom="869" toffs_x="15" toffs_y="11" />
+<Frame tex_index="0" tc_left="352" tc_top="449" tc_right="406" tc_bottom="520" toffs_x="16" toffs_y="12" />
+<Frame tex_index="0" tc_left="156" tc_top="449" tc_right="209" tc_bottom="520" toffs_x="16" toffs_y="15" />
+<Frame tex_index="0" tc_left="1660" tc_top="0" tc_right="1712" tc_bottom="75" toffs_x="16" toffs_y="12" />
+<Frame tex_index="0" tc_left="838" tc_top="155" tc_right="896" tc_bottom="228" toffs_x="15" toffs_y="12" />
+<Frame tex_index="1" tc_left="0" tc_top="130" tc_right="67" tc_bottom="193" toffs_x="9" toffs_y="17" />
+<Frame tex_index="0" tc_left="1728" tc_top="939" tc_right="1787" tc_bottom="1003" toffs_x="11" toffs_y="16" />
+<Frame tex_index="0" tc_left="1084" tc_top="871" tc_right="1137" tc_bottom="937" toffs_x="16" toffs_y="13" />
+</DirectionSet>
+<DirectionSet>
+<Frame tex_index="0" tc_left="1845" tc_top="663" tc_right="1905" tc_bottom="731" toffs_x="14" toffs_y="11" />
+<Frame tex_index="0" tc_left="1106" tc_top="449" tc_right="1169" tc_bottom="519" toffs_x="13" toffs_y="13" />
+<Frame tex_index="0" tc_left="1756" tc_top="449" tc_right="1817" tc_bottom="519" toffs_x="13" toffs_y="15" />
+<Frame tex_index="0" tc_left="897" tc_top="155" tc_right="958" tc_bottom="228" toffs_x="12" toffs_y="12" />
+<Frame tex_index="0" tc_left="304" tc_top="592" tc_right="366" tc_bottom="661" toffs_x="12" toffs_y="12" />
+<Frame tex_index="0" tc_left="1251" tc_top="802" tc_right="1314" tc_bottom="869" toffs_x="13" toffs_y="16" />
+<Frame tex_index="0" tc_left="1390" tc_top="663" tc_right="1448" tc_bottom="731" toffs_x="14" toffs_y="15" />
+<Frame tex_index="0" tc_left="1046" tc_top="592" tc_right="1104" tc_bottom="661" toffs_x="14" toffs_y="13" />
+</DirectionSet>
+</AnimationSet>
+<AnimationSet index="3" loop="1" time_per_frame="113">
+<DirectionSet>
+<Frame tex_index="0" tc_left="1900" tc_top="939" tc_right="1955" tc_bottom="1003" toffs_x="20" toffs_y="17" />
+<Frame tex_index="1" tc_left="626" tc_top="194" tc_right="697" tc_bottom="252" toffs_x="12" toffs_y="23" />
+<Frame tex_index="1" tc_left="229" tc_top="194" tc_right="282" tc_bottom="254" toffs_x="21" toffs_y="24" />
+<Frame tex_index="1" tc_left="56" tc_top="0" tc_right="122" tc_bottom="64" toffs_x="15" toffs_y="17" />
+<Frame tex_index="0" tc_left="554" tc_top="939" tc_right="611" tc_bottom="1004" toffs_x="19" toffs_y="16" />
+</DirectionSet>
+<DirectionSet>
+<Frame tex_index="0" tc_left="1234" tc_top="663" tc_right="1288" tc_bottom="731" toffs_x="23" toffs_y="15" />
+<Frame tex_index="1" tc_left="327" tc_top="130" tc_right="396" tc_bottom="192" toffs_x="19" toffs_y="22" />
+<Frame tex_index="1" tc_left="875" tc_top="130" tc_right="922" tc_bottom="190" toffs_x="16" toffs_y="23" />
+<Frame tex_index="0" tc_left="1171" tc_top="663" tc_right="1233" tc_bottom="731" toffs_x="22" toffs_y="15" />
+<Frame tex_index="0" tc_left="1113" tc_top="663" tc_right="1170" tc_bottom="731" toffs_x="22" toffs_y="15" />
+</DirectionSet>
+<DirectionSet>
+<Frame tex_index="0" tc_left="1006" tc_top="304" tc_right="1054" tc_bottom="376" toffs_x="24" toffs_y="14" />
+<Frame tex_index="1" tc_left="123" tc_top="0" tc_right="182" tc_bottom="64" toffs_x="23" toffs_y="22" />
+<Frame tex_index="0" tc_left="964" tc_top="871" tc_right="1019" tc_bottom="937" toffs_x="7" toffs_y="20" />
+<Frame tex_index="0" tc_left="1552" tc_top="304" tc_right="1609" tc_bottom="376" toffs_x="20" toffs_y="14" />
+<Frame tex_index="0" tc_left="1500" tc_top="304" tc_right="1551" tc_bottom="376" toffs_x="23" toffs_y="14" />
+</DirectionSet>
+<DirectionSet>
+<Frame tex_index="0" tc_left="1610" tc_top="304" tc_right="1644" tc_bottom="376" toffs_x="31" toffs_y="14" />
+<Frame tex_index="0" tc_left="668" tc_top="939" tc_right="703" tc_bottom="1004" toffs_x="32" toffs_y="21" />
+<Frame tex_index="0" tc_left="204" tc_top="521" tc_right="262" tc_bottom="591" toffs_x="1" toffs_y="16" />
+<Frame tex_index="0" tc_left="1346" tc_top="304" tc_right="1387" tc_bottom="376" toffs_x="24" toffs_y="14" />
+<Frame tex_index="0" tc_left="1253" tc_top="304" tc_right="1290" tc_bottom="376" toffs_x="29" toffs_y="14" />
+</DirectionSet>
+<DirectionSet>
+<Frame tex_index="0" tc_left="0" tc_top="377" tc_right="48" tc_bottom="448" toffs_x="24" toffs_y="14" />
+<Frame tex_index="0" tc_left="1956" tc_top="939" tc_right="2015" tc_bottom="1003" toffs_x="23" toffs_y="21" />
+<Frame tex_index="0" tc_left="1055" tc_top="304" tc_right="1111" tc_bottom="376" toffs_x="6" toffs_y="13" />
+<Frame tex_index="0" tc_left="1755" tc_top="377" tc_right="1810" tc_bottom="448" toffs_x="20" toffs_y="14" />
+<Frame tex_index="0" tc_left="0" tc_top="521" tc_right="52" tc_bottom="591" toffs_x="22" toffs_y="15" />
+</DirectionSet>
+<DirectionSet>
+<Frame tex_index="0" tc_left="524" tc_top="663" tc_right="578" tc_bottom="731" toffs_x="23" toffs_y="16" />
+<Frame tex_index="1" tc_left="397" tc_top="130" tc_right="465" tc_bottom="192" toffs_x="19" toffs_y="22" />
+<Frame tex_index="0" tc_left="1339" tc_top="230" tc_right="1387" tc_bottom="302" toffs_x="16" toffs_y="12" />
+<Frame tex_index="0" tc_left="0" tc_top="663" tc_right="62" tc_bottom="732" toffs_x="22" toffs_y="15" />
+<Frame tex_index="0" tc_left="579" tc_top="663" tc_right="636" tc_bottom="731" toffs_x="22" toffs_y="16" />
+</DirectionSet>
+<DirectionSet>
+<Frame tex_index="1" tc_left="0" tc_top="0" tc_right="55" tc_bottom="64" toffs_x="20" toffs_y="18" />
+<Frame tex_index="1" tc_left="485" tc_top="194" tc_right="556" tc_bottom="252" toffs_x="12" toffs_y="24" />
+<Frame tex_index="0" tc_left="1160" tc_top="592" tc_right="1211" tc_bottom="661" toffs_x="22" toffs_y="13" />
+<Frame tex_index="0" tc_left="376" tc_top="939" tc_right="441" tc_bottom="1004" toffs_x="15" toffs_y="17" />
+<Frame tex_index="1" tc_left="756" tc_top="0" tc_right="811" tc_bottom="64" toffs_x="20" toffs_y="18" />
+</DirectionSet>
+<DirectionSet>
+<Frame tex_index="0" tc_left="1561" tc_top="663" tc_right="1615" tc_bottom="731" toffs_x="18" toffs_y="16" />
+<Frame tex_index="1" tc_left="185" tc_top="130" tc_right="252" tc_bottom="192" toffs_x="8" toffs_y="22" />
+<Frame tex_index="0" tc_left="1128" tc_top="230" tc_right="1175" tc_bottom="303" toffs_x="32" toffs_y="12" />
+<Frame tex_index="0" tc_left="1436" tc_top="592" tc_right="1498" tc_bottom="661" toffs_x="11" toffs_y="15" />
+<Frame tex_index="0" tc_left="1675" tc_top="663" tc_right="1732" tc_bottom="731" toffs_x="16" toffs_y="16" />
+</DirectionSet>
+<DirectionSet>
+<Frame tex_index="0" tc_left="1486" tc_top="377" tc_right="1535" tc_bottom="448" toffs_x="23" toffs_y="14" />
+<Frame tex_index="1" tc_left="176" tc_top="65" tc_right="235" tc_bottom="129" toffs_x="13" toffs_y="21" />
+<Frame tex_index="0" tc_left="1392" tc_top="79" tc_right="1447" tc_bottom="153" toffs_x="33" toffs_y="13" />
+<Frame tex_index="0" tc_left="1283" tc_top="377" tc_right="1338" tc_bottom="448" toffs_x="20" toffs_y="14" />
+<Frame tex_index="0" tc_left="1924" tc_top="449" tc_right="1976" tc_bottom="519" toffs_x="21" toffs_y="15" />
+</DirectionSet>
+<DirectionSet>
+<Frame tex_index="0" tc_left="1616" tc_top="230" tc_right="1650" tc_bottom="302" toffs_x="30" toffs_y="14" />
+<Frame tex_index="1" tc_left="773" tc_top="65" tc_right="807" tc_bottom="128" toffs_x="28" toffs_y="21" />
+<Frame tex_index="0" tc_left="1841" tc_top="230" tc_right="1900" tc_bottom="302" toffs_x="36" toffs_y="16" />
+<Frame tex_index="0" tc_left="261" tc_top="449" tc_right="301" tc_bottom="520" toffs_x="30" toffs_y="13" />
+<Frame tex_index="0" tc_left="1531" tc_top="230" tc_right="1568" tc_bottom="302" toffs_x="29" toffs_y="14" />
+</DirectionSet>
+<DirectionSet>
+<Frame tex_index="0" tc_left="302" tc_top="449" tc_right="351" tc_bottom="520" toffs_x="23" toffs_y="14" />
+<Frame tex_index="1" tc_left="576" tc_top="130" tc_right="634" tc_bottom="191" toffs_x="14" toffs_y="22" />
+<Frame tex_index="0" tc_left="918" tc_top="663" tc_right="974" tc_bottom="731" toffs_x="33" toffs_y="20" />
+<Frame tex_index="0" tc_left="591" tc_top="592" tc_right="648" tc_bottom="661" toffs_x="18" toffs_y="14" />
+<Frame tex_index="0" tc_left="1053" tc_top="449" tc_right="1105" tc_bottom="520" toffs_x="21" toffs_y="14" />
+</DirectionSet>
+<DirectionSet>
+<Frame tex_index="0" tc_left="1987" tc_top="733" tc_right="2041" tc_bottom="801" toffs_x="18" toffs_y="15" />
+<Frame tex_index="1" tc_left="415" tc_top="194" tc_right="484" tc_bottom="253" toffs_x="7" toffs_y="22" />
+<Frame tex_index="1" tc_left="938" tc_top="65" tc_right="986" tc_bottom="128" toffs_x="31" toffs_y="23" />
+<Frame tex_index="0" tc_left="1138" tc_top="871" tc_right="1200" tc_bottom="937" toffs_x="11" toffs_y="15" />
+<Frame tex_index="0" tc_left="336" tc_top="802" tc_right="393" tc_bottom="870" toffs_x="16" toffs_y="15" />
+</DirectionSet>
+</AnimationSet>
+<AnimationSet index="4" loop="1" time_per_frame="119">
+<DirectionSet>
+<Frame tex_index="1" tc_left="67" tc_top="65" tc_right="122" tc_bottom="129" toffs_x="20" toffs_y="15" />
+<Frame tex_index="1" tc_left="0" tc_top="65" tc_right="66" tc_bottom="129" toffs_x="15" toffs_y="15" />
+<Frame tex_index="1" tc_left="123" tc_top="65" tc_right="175" tc_bottom="129" toffs_x="28" toffs_y="18" />
+<Frame tex_index="1" tc_left="68" tc_top="130" tc_right="126" tc_bottom="193" toffs_x="14" toffs_y="19" />
+<Frame tex_index="0" tc_left="1244" tc_top="939" tc_right="1313" tc_bottom="1004" toffs_x="14" toffs_y="15" />
+<Frame tex_index="0" tc_left="999" tc_top="939" tc_right="1060" tc_bottom="1004" toffs_x="20" toffs_y="14" />
+<Frame tex_index="1" tc_left="812" tc_top="0" tc_right="867" tc_bottom="64" toffs_x="20" toffs_y="15" />
+</DirectionSet>
+<DirectionSet>
+<Frame tex_index="0" tc_left="1718" tc_top="733" tc_right="1772" tc_bottom="801" toffs_x="23" toffs_y="14" />
+<Frame tex_index="0" tc_left="1819" tc_top="733" tc_right="1874" tc_bottom="801" toffs_x="25" toffs_y="14" />
+<Frame tex_index="1" tc_left="868" tc_top="0" tc_right="936" tc_bottom="64" toffs_x="19" toffs_y="18" />
+<Frame tex_index="1" tc_left="937" tc_top="0" tc_right="982" tc_bottom="64" toffs_x="18" toffs_y="18" />
+<Frame tex_index="0" tc_left="1014" tc_top="802" tc_right="1080" tc_bottom="869" toffs_x="13" toffs_y="15" />
+<Frame tex_index="0" tc_left="1291" tc_top="733" tc_right="1359" tc_bottom="801" toffs_x="17" toffs_y="14" />
+<Frame tex_index="0" tc_left="1422" tc_top="733" tc_right="1478" tc_bottom="801" toffs_x="22" toffs_y="14" />
+</DirectionSet>
+<DirectionSet>
+<Frame tex_index="0" tc_left="579" tc_top="377" tc_right="627" tc_bottom="448" toffs_x="24" toffs_y="13" />
+<Frame tex_index="0" tc_left="1655" tc_top="449" tc_right="1694" tc_bottom="519" toffs_x="34" toffs_y="14" />
+<Frame tex_index="0" tc_left="678" tc_top="802" tc_right="760" tc_bottom="869" toffs_x="5" toffs_y="17" />
+<Frame tex_index="0" tc_left="1875" tc_top="733" tc_right="1930" tc_bottom="801" toffs_x="10" toffs_y="16" />
+<Frame tex_index="0" tc_left="1451" tc_top="449" tc_right="1500" tc_bottom="519" toffs_x="19" toffs_y="14" />
+<Frame tex_index="0" tc_left="49" tc_top="377" tc_right="109" tc_bottom="448" toffs_x="19" toffs_y="13" />
+<Frame tex_index="0" tc_left="1997" tc_top="304" tc_right="2047" tc_bottom="375" toffs_x="23" toffs_y="13" />
+</DirectionSet>
+<DirectionSet>
+<Frame tex_index="0" tc_left="1248" tc_top="377" tc_right="1282" tc_bottom="448" toffs_x="31" toffs_y="13" />
+<Frame tex_index="0" tc_left="483" tc_top="733" tc_right="547" tc_bottom="801" toffs_x="26" toffs_y="16" />
+<Frame tex_index="0" tc_left="237" tc_top="733" tc_right="313" tc_bottom="801" toffs_x="0" toffs_y="16" />
+<Frame tex_index="0" tc_left="1219" tc_top="449" tc_right="1287" tc_bottom="519" toffs_x="0" toffs_y="14" />
+<Frame tex_index="0" tc_left="53" tc_top="521" tc_right="105" tc_bottom="591" toffs_x="18" toffs_y="14" />
+<Frame tex_index="0" tc_left="106" tc_top="521" tc_right="145" tc_bottom="591" toffs_x="29" toffs_y="14" />
+<Frame tex_index="0" tc_left="1113" tc_top="377" tc_right="1147" tc_bottom="448" toffs_x="31" toffs_y="13" />
+</DirectionSet>
+<DirectionSet>
+<Frame tex_index="0" tc_left="1170" tc_top="449" tc_right="1218" tc_bottom="519" toffs_x="24" toffs_y="13" />
+<Frame tex_index="1" tc_left="808" tc_top="65" tc_right="878" tc_bottom="128" toffs_x="25" toffs_y="20" />
+<Frame tex_index="0" tc_left="109" tc_top="733" tc_right="168" tc_bottom="801" toffs_x="3" toffs_y="15" />
+<Frame tex_index="0" tc_left="1725" tc_top="592" tc_right="1806" tc_bottom="661" toffs_x="0" toffs_y="14" />
+<Frame tex_index="0" tc_left="605" tc_top="733" tc_right="671" tc_bottom="801" toffs_x="15" toffs_y="15" />
+<Frame tex_index="0" tc_left="1329" tc_top="592" tc_right="1380" tc_bottom="661" toffs_x="22" toffs_y="14" />
+<Frame tex_index="0" tc_left="1551" tc_top="449" tc_right="1599" tc_bottom="519" toffs_x="24" toffs_y="13" />
+</DirectionSet>
+<DirectionSet>
+<Frame tex_index="0" tc_left="1004" tc_top="733" tc_right="1058" tc_bottom="801" toffs_x="23" toffs_y="14" />
+<Frame tex_index="1" tc_left="78" tc_top="194" tc_right="150" tc_bottom="254" toffs_x="22" toffs_y="22" />
+<Frame tex_index="0" tc_left="1245" tc_top="733" tc_right="1290" tc_bottom="801" toffs_x="18" toffs_y="14" />
+<Frame tex_index="0" tc_left="1170" tc_top="733" tc_right="1244" tc_bottom="801" toffs_x="11" toffs_y="15" />
+<Frame tex_index="0" tc_left="818" tc_top="802" tc_right="886" tc_bottom="869" toffs_x="17" toffs_y="15" />
+<Frame tex_index="0" tc_left="445" tc_top="802" tc_right="502" tc_bottom="869" toffs_x="20" toffs_y="15" />
+<Frame tex_index="0" tc_left="672" tc_top="733" tc_right="727" tc_bottom="801" toffs_x="22" toffs_y="14" />
+</DirectionSet>
+<DirectionSet>
+<Frame tex_index="0" tc_left="1374" tc_top="871" tc_right="1429" tc_bottom="936" toffs_x="20" toffs_y="16" />
+<Frame tex_index="1" tc_left="283" tc_top="194" tc_right="348" tc_bottom="253" toffs_x="14" toffs_y="22" />
+<Frame tex_index="0" tc_left="394" tc_top="802" tc_right="444" tc_bottom="869" toffs_x="16" toffs_y="14" />
+<Frame tex_index="0" tc_left="503" tc_top="802" tc_right="561" tc_bottom="869" toffs_x="23" toffs_y="14" />
+<Frame tex_index="1" tc_left="633" tc_top="65" tc_right="701" tc_bottom="128" toffs_x="13" toffs_y="18" />
+<Frame tex_index="0" tc_left="1430" tc_top="871" tc_right="1491" tc_bottom="936" toffs_x="14" toffs_y="16" />
+<Frame tex_index="0" tc_left="844" tc_top="871" tc_right="899" tc_bottom="937" toffs_x="20" toffs_y="15" />
+</DirectionSet>
+<DirectionSet>
+<Frame tex_index="0" tc_left="1115" tc_top="733" tc_right="1169" tc_bottom="801" toffs_x="18" toffs_y="14" />
+<Frame tex_index="1" tc_left="694" tc_top="130" tc_right="748" tc_bottom="191" toffs_x="16" toffs_y="21" />
+<Frame tex_index="0" tc_left="169" tc_top="733" tc_right="236" tc_bottom="801" toffs_x="8" toffs_y="15" />
+<Frame tex_index="0" tc_left="1773" tc_top="733" tc_right="1818" tc_bottom="801" toffs_x="32" toffs_y="14" />
+<Frame tex_index="0" tc_left="476" tc_top="871" tc_right="543" tc_bottom="937" toffs_x="15" toffs_y="16" />
+<Frame tex_index="0" tc_left="887" tc_top="802" tc_right="955" tc_bottom="869" toffs_x="10" toffs_y="15" />
+<Frame tex_index="0" tc_left="1661" tc_top="733" tc_right="1717" tc_bottom="801" toffs_x="17" toffs_y="14" />
+</DirectionSet>
+<DirectionSet>
+<Frame tex_index="0" tc_left="529" tc_top="377" tc_right="578" tc_bottom="448" toffs_x="23" toffs_y="12" />
+<Frame tex_index="1" tc_left="983" tc_top="0" tc_right="1022" tc_bottom="63" toffs_x="22" toffs_y="20" />
+<Frame tex_index="0" tc_left="463" tc_top="449" tc_right="543" tc_bottom="520" toffs_x="9" toffs_y="13" />
+<Frame tex_index="0" tc_left="702" tc_top="449" tc_right="755" tc_bottom="520" toffs_x="30" toffs_y="14" />
+<Frame tex_index="0" tc_left="649" tc_top="592" tc_right="698" tc_bottom="661" toffs_x="26" toffs_y="14" />
+<Frame tex_index="0" tc_left="1695" tc_top="449" tc_right="1755" tc_bottom="519" toffs_x="15" toffs_y="13" />
+<Frame tex_index="0" tc_left="1400" tc_top="449" tc_right="1450" tc_bottom="519" toffs_x="22" toffs_y="13" />
+</DirectionSet>
+<DirectionSet>
+<Frame tex_index="0" tc_left="1651" tc_top="230" tc_right="1686" tc_bottom="302" toffs_x="30" toffs_y="12" />
+<Frame tex_index="0" tc_left="1380" tc_top="939" tc_right="1443" tc_bottom="1003" toffs_x="6" toffs_y="18" />
+<Frame tex_index="0" tc_left="1687" tc_top="230" tc_right="1764" tc_bottom="302" toffs_x="18" toffs_y="13" />
+<Frame tex_index="0" tc_left="768" tc_top="377" tc_right="836" tc_bottom="448" toffs_x="27" toffs_y="15" />
+<Frame tex_index="0" tc_left="1288" tc_top="449" tc_right="1339" tc_bottom="519" toffs_x="24" toffs_y="14" />
+<Frame tex_index="0" tc_left="1765" tc_top="230" tc_right="1804" tc_bottom="302" toffs_x="27" toffs_y="12" />
+<Frame tex_index="0" tc_left="1862" tc_top="304" tc_right="1897" tc_bottom="376" toffs_x="30" toffs_y="12" />
+</DirectionSet>
+<DirectionSet>
+<Frame tex_index="0" tc_left="805" tc_top="449" tc_right="853" tc_bottom="520" toffs_x="23" toffs_y="13" />
+<Frame tex_index="1" tc_left="702" tc_top="65" tc_right="772" tc_bottom="128" toffs_x="0" toffs_y="17" />
+<Frame tex_index="0" tc_left="944" tc_top="304" tc_right="1005" tc_bottom="376" toffs_x="33" toffs_y="13" />
+<Frame tex_index="0" tc_left="975" tc_top="663" tc_right="1056" tc_bottom="731" toffs_x="14" toffs_y="17" />
+<Frame tex_index="0" tc_left="290" tc_top="663" tc_right="356" tc_bottom="732" toffs_x="13" toffs_y="14" />
+<Frame tex_index="0" tc_left="368" tc_top="377" tc_right="419" tc_bottom="448" toffs_x="22" toffs_y="12" />
+<Frame tex_index="0" tc_left="854" tc_top="449" tc_right="902" tc_bottom="520" toffs_x="23" toffs_y="13" />
+</DirectionSet>
+<DirectionSet>
+<Frame tex_index="0" tc_left="1289" tc_top="663" tc_right="1343" tc_bottom="731" toffs_x="18" toffs_y="14" />
+<Frame tex_index="1" tc_left="253" tc_top="130" tc_right="326" tc_bottom="192" toffs_x="1" toffs_y="16" />
+<Frame tex_index="0" tc_left="1344" tc_top="663" tc_right="1389" tc_bottom="731" toffs_x="32" toffs_y="16" />
+<Frame tex_index="0" tc_left="56" tc_top="939" tc_right="131" tc_bottom="1004" toffs_x="9" toffs_y="18" />
+<Frame tex_index="0" tc_left="1372" tc_top="802" tc_right="1441" tc_bottom="869" toffs_x="10" toffs_y="14" />
+<Frame tex_index="0" tc_left="1616" tc_top="663" tc_right="1674" tc_bottom="731" toffs_x="17" toffs_y="13" />
+<Frame tex_index="0" tc_left="367" tc_top="592" tc_right="422" tc_bottom="661" toffs_x="18" toffs_y="13" />
+</DirectionSet>
+</AnimationSet>
+<AnimationSet index="5" loop="0" time_per_frame="118">
+<DirectionSet>
+<Frame tex_index="1" tc_left="151" tc_top="194" tc_right="228" tc_bottom="254" toffs_x="9" toffs_y="23" />
+<Frame tex_index="0" tc_left="1272" tc_top="155" tc_right="1336" tc_bottom="228" toffs_x="16" toffs_y="12" />
+<Frame tex_index="0" tc_left="1689" tc_top="802" tc_right="1740" tc_bottom="869" toffs_x="23" toffs_y="4" />
+<Frame tex_index="4" tc_left="0" tc_top="0" tc_right="56" tc_bottom="33" toffs_x="19" toffs_y="43" />
+<Frame tex_index="2" tc_left="445" tc_top="154" tc_right="510" tc_bottom="195" toffs_x="17" toffs_y="39" />
+<Frame tex_index="2" tc_left="0" tc_top="107" tc_right="66" tc_bottom="153" toffs_x="16" toffs_y="38" />
+</DirectionSet>
+<DirectionSet>
+<Frame tex_index="1" tc_left="556" tc_top="65" tc_right="632" tc_bottom="128" toffs_x="5" toffs_y="22" />
+<Frame tex_index="0" tc_left="1337" tc_top="155" tc_right="1419" tc_bottom="228" toffs_x="7" toffs_y="13" />
+<Frame tex_index="0" tc_left="1520" tc_top="939" tc_right="1586" tc_bottom="1003" toffs_x="25" toffs_y="9" />
+<Frame tex_index="2" tc_left="446" tc_top="199" tc_right="504" tc_bottom="235" toffs_x="16" toffs_y="39" />
+<Frame tex_index="2" tc_left="155" tc_top="154" tc_right="225" tc_bottom="197" toffs_x="10" toffs_y="41" />
+<Frame tex_index="2" tc_left="302" tc_top="107" tc_right="377" tc_bottom="151" toffs_x="7" toffs_y="40" />
+</DirectionSet>
+<DirectionSet>
+<Frame tex_index="0" tc_left="603" tc_top="871" tc_right="665" tc_bottom="937" toffs_x="13" toffs_y="21" />
+<Frame tex_index="0" tc_left="226" tc_top="592" tc_right="303" tc_bottom="661" toffs_x="9" toffs_y="15" />
+<Frame tex_index="2" tc_left="79" tc_top="154" tc_right="154" tc_bottom="197" toffs_x="20" toffs_y="31" />
+<Frame tex_index="2" tc_left="292" tc_top="154" tc_right="368" tc_bottom="197" toffs_x="19" toffs_y="33" />
+<Frame tex_index="2" tc_left="320" tc_top="0" tc_right="403" tc_bottom="52" toffs_x="12" toffs_y="38" />
+<Frame tex_index="2" tc_left="397" tc_top="55" tc_right="482" tc_bottom="102" toffs_x="10" toffs_y="43" />
+</DirectionSet>
+<DirectionSet>
+<Frame tex_index="0" tc_left="1592" tc_top="802" tc_right="1629" tc_bottom="869" toffs_x="28" toffs_y="21" />
+<Frame tex_index="1" tc_left="635" tc_top="130" tc_right="693" tc_bottom="191" toffs_x="20" toffs_y="19" />
+<Frame tex_index="2" tc_left="0" tc_top="154" tc_right="78" tc_bottom="198" toffs_x="17" toffs_y="29" />
+<Frame tex_index="2" tc_left="130" tc_top="55" tc_right="201" tc_bottom="105" toffs_x="24" toffs_y="28" />
+<Frame tex_index="1" tc_left="923" tc_top="130" tc_right="996" tc_bottom="190" toffs_x="22" toffs_y="32" />
+<Frame tex_index="1" tc_left="773" tc_top="194" tc_right="846" tc_bottom="250" toffs_x="22" toffs_y="37" />
+</DirectionSet>
+<DirectionSet>
+<Frame tex_index="0" tc_left="294" tc_top="871" tc_right="355" tc_bottom="937" toffs_x="13" toffs_y="21" />
+<Frame tex_index="2" tc_left="197" tc_top="0" tc_right="250" tc_bottom="53" toffs_x="22" toffs_y="23" />
+<Frame tex_index="2" tc_left="202" tc_top="55" tc_right="278" tc_bottom="104" toffs_x="12" toffs_y="26" />
+<Frame tex_index="1" tc_left="698" tc_top="194" tc_right="772" tc_bottom="252" toffs_x="21" toffs_y="26" />
+<Frame tex_index="0" tc_left="1314" tc_top="939" tc_right="1379" tc_bottom="1003" toffs_x="30" toffs_y="28" />
+<Frame tex_index="1" tc_left="557" tc_top="194" tc_right="625" tc_bottom="252" toffs_x="27" toffs_y="35" />
+</DirectionSet>
+<DirectionSet>
+<Frame tex_index="0" tc_left="1587" tc_top="939" tc_right="1662" tc_bottom="1003" toffs_x="6" toffs_y="22" />
+<Frame tex_index="2" tc_left="346" tc_top="55" tc_right="396" tc_bottom="102" toffs_x="23" toffs_y="24" />
+<Frame tex_index="2" tc_left="251" tc_top="0" tc_right="319" tc_bottom="53" toffs_x="12" toffs_y="27" />
+<Frame tex_index="0" tc_left="1770" tc_top="871" tc_right="1845" tc_bottom="936" toffs_x="17" toffs_y="27" />
+<Frame tex_index="1" tc_left="749" tc_top="130" tc_right="820" tc_bottom="191" toffs_x="20" toffs_y="30" />
+<Frame tex_index="1" tc_left="847" tc_top="194" tc_right="918" tc_bottom="250" toffs_x="20" toffs_y="35" />
+</DirectionSet>
+<DirectionSet>
+<Frame tex_index="1" tc_left="0" tc_top="194" tc_right="77" tc_bottom="254" toffs_x="9" toffs_y="24" />
+<Frame tex_index="2" tc_left="226" tc_top="154" tc_right="291" tc_bottom="197" toffs_x="14" toffs_y="25" />
+<Frame tex_index="2" tc_left="0" tc_top="55" tc_right="51" tc_bottom="106" toffs_x="21" toffs_y="31" />
+<Frame tex_index="1" tc_left="357" tc_top="65" tc_right="413" tc_bottom="128" toffs_x="20" toffs_y="32" />
+<Frame tex_index="1" tc_left="349" tc_top="194" tc_right="414" tc_bottom="253" toffs_x="13" toffs_y="35" />
+<Frame tex_index="2" tc_left="59" tc_top="0" tc_right="125" tc_bottom="54" toffs_x="13" toffs_y="41" />
+</DirectionSet>
+<DirectionSet>
+<Frame tex_index="0" tc_left="1444" tc_top="939" tc_right="1519" tc_bottom="1003" toffs_x="14" toffs_y="22" />
+<Frame tex_index="2" tc_left="219" tc_top="107" tc_right="301" tc_bottom="152" toffs_x="6" toffs_y="23" />
+<Frame tex_index="2" tc_left="279" tc_top="55" tc_right="345" tc_bottom="103" toffs_x="4" toffs_y="35" />
+<Frame tex_index="1" tc_left="919" tc_top="194" tc_right="977" tc_bottom="250" toffs_x="21" toffs_y="38" />
+<Frame tex_index="2" tc_left="126" tc_top="0" tc_right="196" tc_bottom="53" toffs_x="15" toffs_y="40" />
+<Frame tex_index="2" tc_left="67" tc_top="107" tc_right="141" tc_bottom="153" toffs_x="13" toffs_y="47" />
+</DirectionSet>
+<DirectionSet>
+<Frame tex_index="0" tc_left="1020" tc_top="871" tc_right="1083" tc_bottom="937" toffs_x="20" toffs_y="21" />
+<Frame tex_index="2" tc_left="52" tc_top="55" tc_right="129" tc_bottom="105" toffs_x="9" toffs_y="20" />
+<Frame tex_index="2" tc_left="369" tc_top="154" tc_right="444" tc_bottom="196" toffs_x="0" toffs_y="38" />
+<Frame tex_index="2" tc_left="142" tc_top="107" tc_right="218" tc_bottom="152" toffs_x="0" toffs_y="42" />
+<Frame tex_index="2" tc_left="378" tc_top="107" tc_right="462" tc_bottom="151" toffs_x="0" toffs_y="46" />
+<Frame tex_index="2" tc_left="360" tc_top="199" tc_right="445" tc_bottom="235" toffs_x="0" toffs_y="54" />
+</DirectionSet>
+<DirectionSet>
+<Frame tex_index="0" tc_left="1851" tc_top="802" tc_right="1887" tc_bottom="869" toffs_x="30" toffs_y="21" />
+<Frame tex_index="2" tc_left="0" tc_top="0" tc_right="58" tc_bottom="54" toffs_x="17" toffs_y="21" />
+<Frame tex_index="2" tc_left="404" tc_top="0" tc_right="482" tc_bottom="52" toffs_x="0" toffs_y="28" />
+<Frame tex_index="2" tc_left="72" tc_top="199" tc_right="143" tc_bottom="238" toffs_x="0" toffs_y="45" />
+<Frame tex_index="3" tc_left="0" tc_top="73" tc_right="73" tc_bottom="106" toffs_x="0" toffs_y="53" />
+<Frame tex_index="3" tc_left="0" tc_top="37" tc_right="73" tc_bottom="72" toffs_x="0" toffs_y="56" />
+</DirectionSet>
+<DirectionSet>
+<Frame tex_index="0" tc_left="900" tc_top="871" tc_right="963" tc_bottom="937" toffs_x="20" toffs_y="21" />
+<Frame tex_index="1" tc_left="821" tc_top="130" tc_right="874" tc_bottom="191" toffs_x="20" toffs_y="18" />
+<Frame tex_index="0" tc_left="1888" tc_top="802" tc_right="1964" tc_bottom="869" toffs_x="7" toffs_y="10" />
+<Frame tex_index="3" tc_left="0" tc_top="0" tc_right="74" tc_bottom="36" toffs_x="0" toffs_y="47" />
+<Frame tex_index="5" tc_left="0" tc_top="0" tc_right="65" tc_bottom="29" toffs_x="0" toffs_y="52" />
+<Frame tex_index="2" tc_left="144" tc_top="199" tc_right="212" tc_bottom="236" toffs_x="0" toffs_y="52" />
+</DirectionSet>
+<DirectionSet>
+<Frame tex_index="1" tc_left="479" tc_top="65" tc_right="555" tc_bottom="128" toffs_x="14" toffs_y="22" />
+<Frame tex_index="0" tc_left="59" tc_top="733" tc_right="108" tc_bottom="801" toffs_x="22" toffs_y="14" />
+<Frame tex_index="0" tc_left="424" tc_top="521" tc_right="493" tc_bottom="591" toffs_x="15" toffs_y="4" />
+<Frame tex_index="2" tc_left="213" tc_top="199" tc_right="288" tc_bottom="236" toffs_x="3" toffs_y="44" />
+<Frame tex_index="2" tc_left="289" tc_top="199" tc_right="359" tc_bottom="235" toffs_x="5" toffs_y="44" />
+<Frame tex_index="2" tc_left="0" tc_top="199" tc_right="71" tc_bottom="241" toffs_x="4" toffs_y="43" />
+</DirectionSet>
+</AnimationSet>
+</SpriteAnimations>
+</SceneNodeCoreProperties>
+</Scene>
+

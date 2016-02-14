@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+
+<AnimatedTexture time_per_frame="100" loop="1" >
+
+<Frame filename="bulletflash_1.tga" />
+<Frame filename="bulletflash_2.tga" />
+<Frame filename="bulletflash_3.tga" />
+<Frame filename="bulletflash_2.tga" />
+
+</AnimatedTexture>

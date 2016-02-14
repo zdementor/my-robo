@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+
+<Scene scene_node_type="ESNT_ANIMATED_MESH_SCENE_NODE" />
+
+<SceneNodeCoreProperties>
+<Material>
+<Pass>
+<Layer index="0" texture="blaster.jpg" tc_gen="ETCGT_MANUAL_MAPPING" tc_addr="ETCAM_WRAP" type="ETLT_DIFFUSE_MAP" rgb_scale="1" tc_channel="0" />
+<Layer index="1" texture="refmap.bmp" tc_gen="ETCGT_ENVIRONMENT_MAPPING" tc_addr="ETCAM_WRAP" type="ETLT_DIFFUSE_MAP" rgb_scale="1" tc_channel="0" />
+<Flags qouraud_shading="1" zwrite_enable="1" back_face_culling="1" front_face_ccw="1" fog_enable="1" mip_map_off="0" blending="0" />
+<LightingMode value="1" />
+<Ambient rgba="50,50,50,255" />
+<Diffuse rgba="200,200,200,255" />
+<Emissive rgba="0,0,0,0" />
+<Specular rgba="0,0,0,255" />
+<Shininess value="0.00" />
+<AlphaTest value="EAT_ALWAYS" />
+<DepthTest value="ECT_LESS" />
+<BlendFunc src="ESBF_ONE" dst="EDBF_ONE" />
+</Pass>
+</Material>
+<Mesh filename="weapons\blaster.md2" animation_fps="0" lod="0" />
+<Shadow on="1" type="ESHT_SHADOW_VOLUME" />
+</SceneNodeCoreProperties>
+
+</Scene>
+
+<Game game_node_type="EGNT_WEAPON" class_name="Standard" >
+
+<GameNodeCoreProperties>
+<GameParameters mov_speed="0.00" rot_speed="0.00" life="0.00" />
+</GameNodeCoreProperties>
+
+<FlashColor red="255" green="255" blue="150" alpha="255" />
+<FlashRadius value="200" />
+<FlashTime value="300" />
+<FirePoint x="0" y="0" z="0" />
+
+<BindFireEffect filename="effects\blaster_fire.xml" x="0" y="0" z="0" />
+<BindFireEffect filename="effects\blaster_smoke.xml" x="0" y="0" z="15" />
+<BindFireEffect filename="effects\blaster_axisflash.xml" x="0" y="0" z="0" />
+
+<BindBullet filename="bullets\blaster_bullet.xml" auto_feel_per_second="0.5" max_ammo_count="16" key_name="" />
+
+<Parameters fire_per_second="2" mass="100" select_speed="10" wait_before_fire="250" />
+
+<WeaponImageName value="set:RoboIngameGUI image:ImageWeapon0_Off" />
+<WeaponSelectedImageName value="set:RoboIngameGUI image:ImageWeapon0_On" />
+
+<WeaponItemKeyName value="Blaster" />
+
+</Game>
+
+<Sound>
+<SoundEffect filename ="weapons\machgf1b.wav" loop="0" />
+<SoundEffect filename ="weapons\machgf2b.wav" loop="0" />
+<SoundEffect filename ="weapons\machgf3b.wav" loop="0" />
+<SoundEffect filename ="weapons\machgf4b.wav" loop="0" />
+<SoundEffect filename ="weapons\machgf5b.wav" loop="0" />
+</Sound>
+

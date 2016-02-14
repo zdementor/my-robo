@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+
+<Scene scene_node_type="ESNT_PARTICLE_SYSTEM_SCENE_NODE" />
+
+<Material>
+<Pass>
+<Flags qouraud_shading="1" zwrite_enable="0" back_face_culling="1" front_face_ccw="1" fog_enable="1" mip_map_off="0" blending="1" />
+<Ambient red="255" green="255" blue="255" alpha="255" />
+<Diffuse red="255" green="255" blue="255" alpha="255" />
+<Emissive red="0" green="0" blue="0" alpha="0" />
+<Specular red="255" green="255" blue="255" alpha="255" />
+<Shininess value="0.00" />
+<BlendFunc src="ESBF_ONE" dst="EDBF_ONE_MINUS_SRC_COLOR" />
+</Pass>
+</Material>
+
+<SceneNodeCoreProperties>
+<Emitter type="EPET_BOX" enabled="1" >
+<Texture filename="particles\smoke.atex" />
+<ParticleSize width="21" height="46" />
+<AppearVolume xmin="-7" ymin="0" zmin="-7" xmax="7" ymax="1" zmax="7" />
+<ParticleDirection x="0.0000" y="0.0300" z="0.0000" />
+<ParticlesPerSecond min="80" max="100" />
+<LifeTime min="800" max="2000" />
+<MinStartColor red="0" green="0" blue="0" alpha="0" />
+<MaxStartColor red="50" green="50" blue="50" alpha="0" />
+<AngleDegrees value="180" />
+<Affector type="EPAT_FADEOUT" enabled="1" affect_time_ms="2714" >
+<TargetColor red="10" green="10" blue="10" alpha="0" />
+</Affector>
+<Affector type="EPAT_GRAVITY" enabled="1" affect_time_ms="857" >
+<GravityValue x="0.0100" y="0.0900" x="0.0100" />
+</Affector>
+</Emitter>
+</SceneNodeCoreProperties>
+
+</Scene>
+
+<Game game_node_type="EGNT_DECORATION" class_name="Standard" >
+<GameNodeCoreProperties>
+<GameParameters mov_speed="0.0" rot_speed="0.0" life="0.0" />
+</GameNodeCoreProperties>
+</Game>

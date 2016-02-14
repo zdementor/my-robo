@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+
+<AnimatedTexture time_per_frame="200" loop="1" >
+
+<Frame filename="smoke_0000.jpg" />
+<Frame filename="smoke_0001.jpg" />
+
+</AnimatedTexture> 

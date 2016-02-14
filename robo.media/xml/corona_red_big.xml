@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+
+<Scene scene_node_type="ESNT_LENS_FLARE_SCENE_NODE" />
+
+<Material>
+<Pass>
+<Flags qouraud_shading="1" zwrite_enable="0" back_face_culling="1" front_face_ccw="1" fog_enable="1" mip_map_off="1" blending="1" />
+<Ambient red="255" green="255" blue="255" alpha="255" />
+<Diffuse red="255" green="100" blue="100" alpha="255" />
+<Emissive red="0" green="0" blue="0" alpha="0" />
+<Specular red="255" green="255" blue="255" alpha="255" />
+<Shininess value="0.00" />
+<AlphaTest value="EAT_ALWAYS" />
+<DepthTest value="ECT_ALWAYS" />
+<BlendFunc src="ESBF_ONE" dst="EDBF_ONE_MINUS_SRC_COLOR" />
+</Pass>
+</Material>
+
+<SceneNodeCoreProperties>
+<Corona filename="sprites\corona_white.jpg"/>
+<EtalonScreen width="1024" height="768"/>
+</SceneNodeCoreProperties>
+
+</Scene>
+

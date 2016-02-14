@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="RootCEGUISceneEd" >
+        <Property Name="Font" Value="Tahoma-10" />
+        <Property Name="InheritsAlpha" Value="False" />
+        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+        <Window Type="TaharezLook/FrameWindow" Name="NodeExplorer" >
+            <Property Name="Text" Value="Node Explorer" />
+            <Property Name="Alpha" Value="0.8" />
+            <Property Name="TitlebarFont" Value="Tahoma-12" />
+            <Property Name="CaptionColour" Value="00FFFFFF" />
+            <Property Name="SizingEnabled" Value="False" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="TitlebarEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0.725149,0},{0.008264,0},{0.995461,0},{0.991735,0}}" />
+            <Property Name="MouseCursorImage" Value="set:TaharezLook image:MouseTarget" />
+            <Property Name="DragMovingEnabled" Value="False" />
+            <Property Name="CloseButtonEnabled" Value="False" />
+            <Window Type="TaharezLook/Combobox" Name="NodeTypeExplorerCombo" >
+                <Property Name="Font" Value="Tahoma-10" />
+                <Property Name="ReadOnly" Value="True" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0.052023,0},{0.073416,0},{0.953757,0},{0.552582,0}}" />
+                <Property Name="MaxEditTextLength" Value="1073741823" />
+            </Window>
+            <Window Type="TaharezLook/Button" Name="CloneNodeExplorerBtn" >
+                <Property Name="Font" Value="Tahoma-10" />
+                <Property Name="Text" Value="Clone" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0.05,0},{0.181764,0},{0.26,0},{0.219264,0}}" />
+                <Property Name="MouseCursorImage" Value="set:TaharezLook image:MouseArrow" />
+            </Window>
+            <Window Type="TaharezLook/Button" Name="LoadNodeExplorerBtn" >
+                <Property Name="Font" Value="Tahoma-10" />
+                <Property Name="Text" Value="Load" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0.275,0},{0.181764,0},{0.5,0},{0.219264,0}}" />
+                <Property Name="MouseCursorImage" Value="set:TaharezLook image:MouseArrow" />
+            </Window>
+            <Window Type="TaharezLook/Button" Name="DropNodeExplorerBtn" >
+                <Property Name="Font" Value="Tahoma-10" />
+                <Property Name="Text" Value="Drop" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0.763006,0},{0.181764,0},{0.947977,0},{0.219264,0}}" />
+                <Property Name="MouseCursorImage" Value="set:TaharezLook image:MouseArrow" />
+            </Window>
+            <Window Type="TaharezLook/Button" Name="ReloadNodeXMLExplorerBtn" >
+                <Property Name="Font" Value="Tahoma-10" />
+                <Property Name="Text" Value="Reload" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0.52,0},{0.181764,0},{0.75,0},{0.219264,0}}" />
+            </Window>
+            <Window Type="DefaultWindow" Name="MainTabWnd" >
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0.035557,0},{0.231782,0},{0.970223,0},{0.985419,0}}" />
+            </Window>
+            <Window Type="TaharezLook/StaticText" Name="NodeNameCaption" >
+                <Property Name="Font" Value="Tahoma-8" />
+                <Property Name="Text" Value="Name" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0.104046,0},{0.107816,0},{0.265896,0},{0.132816,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="TaharezLook/StaticText" Name="NodeTypeCaption" >
+                <Property Name="Font" Value="Tahoma-8" />
+                <Property Name="Text" Value="Type Filter" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0.104046,0},{0.0505,0},{0.352601,0},{0.073416,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="TaharezLook/Combobox" Name="NodeNameExplorerCombo" >
+                <Property Name="Font" Value="Tahoma-10" />
+                <Property Name="ReadOnly" Value="True" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0.052023,0},{0.134883,0},{0.953757,0},{0.966735,0}}" />
+                <Property Name="MaxEditTextLength" Value="1073741823" />
+            </Window>
+        </Window>
+        <Window Type="TaharezLook/Button" Name="LoadSceneBtn" >
+            <Property Name="Font" Value="Tahoma-12" />
+            <Property Name="Text" Value="Load" />
+            <Property Name="Alpha" Value="0.8" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0.635938,0},{0.875,0},{0.717188,0},{0.927083,0}}" />
+            <Property Name="MouseCursorImage" Value="set:TaharezLook image:MouseArrow" />
+        </Window>
+        <Window Type="TaharezLook/Button" Name="SaveSceneBtn" >
+            <Property Name="Font" Value="Tahoma-12" />
+            <Property Name="Text" Value="Save" />
+            <Property Name="Alpha" Value="0.8" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0.635938,0},{0.93125,0},{0.717188,0},{0.983333,0}}" />
+            <Property Name="MouseCursorImage" Value="set:TaharezLook image:MouseArrow" />
+        </Window>
+        <Window Type="TaharezLook/StaticText" Name="SceneCaption" >
+            <Property Name="Font" Value="Tahoma-12" />
+            <Property Name="Text" Value="Scene:" />
+            <Property Name="Alpha" Value="0.8" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0.635938,0},{0.829167,0},{0.704688,0},{0.864583,0}}" />
+            <Property Name="BackgroundEnabled" Value="False" />
+        </Window>
+    </Window>
+</GUILayout>

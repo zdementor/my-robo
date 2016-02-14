@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="myengine_credits" >
+        <Property Name="Text" Value="io;p " />
+        <Property Name="InheritsAlpha" Value="False" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+        <Window Type="TaharezLook/FrameWindow" Name="CreditsMainFrame" >
+            <Property Name="Text" Value="Credits" />
+            <Property Name="Alpha" Value="0.8" />
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="TitlebarFont" Value="Tahoma-12" />
+            <Property Name="SizingEnabled" Value="False" />
+            <Property Name="TitlebarEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0.275902,0},{0.114089,0},{0.691526,0},{0.800534,0}}" />
+            <Property Name="MouseCursorImage" Value="set:TaharezLook image:MouseTarget" />
+            <Window Type="TaharezLook/Button" Name="CreditsOKButton" >
+                <Property Name="Font" Value="Bgothm-18" />
+                <Property Name="Text" Value="OK" />
+                <Property Name="Alpha" Value="0.8" />
+                <Property Name="InheritsAlpha" Value="False" />
+                <Property Name="HoverTextColour" Value="FFC26408" />
+                <Property Name="UnifiedAreaRect" Value="{{0.303445,0},{0.864582,0},{0.679411,0},{0.958692,0}}" />
+                <Property Name="MouseCursorImage" Value="set:TaharezLook image:MouseArrow" />
+                <Property Name="PushedTextColour" Value="FFF5C059" />
+            </Window>
+            <Window Type="TaharezLook/StaticText" Name="CreditsInfo" >
+                <Property Name="Font" Value="Tahoma-12" />
+                <Property Name="Text" Value=" " />
+                <Property Name="InheritsAlpha" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0480389,0},{0.0389008,0},{0.955086,0},{0.83526,0}}" />
+                <Window Type="TaharezLook/StaticText" Name="CreditsInfo14" >
+                    <Property Name="Font" Value="Tahoma-14" />
+                    <Property Name="Text" Value="Zhuck Dimitry" />
+                    <Property Name="Alpha" Value="0.8" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="VertFormatting" Value="TopAligned" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0796587,0},{0.0853545,0},{0.944097,0},{0.169973,0}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="TaharezLook/StaticText" Name="CreditsInfo146" >
+                    <Property Name="Font" Value="Tahoma-14" />
+                    <Property Name="Text" Value="Anton Efremenkov" />
+                    <Property Name="Alpha" Value="0.8" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="VertFormatting" Value="TopAligned" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0796587,0},{0.625952,0},{0.944097,0},{0.71057,0}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="TaharezLook/StaticText" Name="CreditsInfo147" >
+                    <Property Name="Font" Value="Tahoma-14" />
+                    <Property Name="Text" Value="Ilia Vink" />
+                    <Property Name="Alpha" Value="0.8" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="VertFormatting" Value="TopAligned" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0796587,0},{0.440379,0},{0.944097,0},{0.524997,0}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="TaharezLook/StaticText" Name="CreditsInfo148" >
+                    <Property Name="Font" Value="Tahoma-14" />
+                    <Property Name="Text" Value="Denis Ponomarev" />
+                    <Property Name="Alpha" Value="0.8" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="VertFormatting" Value="TopAligned" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0796587,0},{0.266319,0},{0.944097,0},{0.350938,0}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="TaharezLook/StaticText" Name="CreditsInfo46" >
+                    <Property Name="Font" Value="Tahoma-10" />
+                    <Property Name="Text" Value="Level Design" />
+                    <Property Name="Alpha" Value="0.8" />
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="TextColours" Value="tl:FFFFFFA0 tr:FFFFFFA0 bl:FFFFFFA0 br:FFFFFFA0" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="VertFormatting" Value="TopAligned" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0796587,0},{0.567972,0},{0.944097,0},{0.640213,0}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="TaharezLook/StaticText" Name="CreditsInfo47" >
+                    <Property Name="Font" Value="Tahoma-10" />
+                    <Property Name="Text" Value="Modeling / Animation" />
+                    <Property Name="Alpha" Value="0.8" />
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="TextColours" Value="tl:FFFFFFA0 tr:FFFFFFA0 bl:FFFFFFA0 br:FFFFFFA0" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="VertFormatting" Value="TopAligned" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0796587,0},{0.385379,0},{0.944097,0},{0.457621,0}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="TaharezLook/StaticText" Name="CreditsInfo48" >
+                    <Property Name="Font" Value="Tahoma-10" />
+                    <Property Name="Text" Value="Art / Texturing" />
+                    <Property Name="Alpha" Value="0.8" />
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="TextColours" Value="tl:FFFFFFA0 tr:FFFFFFA0 bl:FFFFFFA0 br:FFFFFFA0" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="VertFormatting" Value="TopAligned" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0796587,0},{0.207298,0},{0.944097,0},{0.27954,0}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="TaharezLook/StaticText" Name="CreditsInfo4" >
+                    <Property Name="Font" Value="Tahoma-10" />
+                    <Property Name="Text" Value="Programming / Design" />
+                    <Property Name="Alpha" Value="0.8" />
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="TextColours" Value="tl:FFFFFFA0 tr:FFFFFFA0 bl:FFFFFFA0 br:FFFFFFA0" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="VertFormatting" Value="TopAligned" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0796587,0},{0.020957,0},{0.944097,0},{0.0931986,0}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="TaharezLook/StaticText" Name="CreditsInfo1469" >
+                    <Property Name="Font" Value="Tahoma-14" />
+                    <Property Name="Text" Value="Zhuck Vladimir" />
+                    <Property Name="Alpha" Value="0.8" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="VertFormatting" Value="TopAligned" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0796587,0},{0.862368,0},{0.944097,0},{0.946986,0}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="TaharezLook/StaticText" Name="CreditsInfo469" >
+                    <Property Name="Font" Value="Tahoma-10" />
+                    <Property Name="Text" Value="Soundtracks" />
+                    <Property Name="Alpha" Value="0.8" />
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="TextColours" Value="tl:FFFFFFA0 tr:FFFFFFA0 bl:FFFFFFA0 br:FFFFFFA0" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="VertFormatting" Value="TopAligned" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0796587,0},{0.804389,0},{0.944097,0},{0.876631,0}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="TaharezLook/StaticText" Name="CreditsInfo141" >
+                    <Property Name="Font" Value="Tahoma-14" />
+                    <Property Name="Text" Value="Zhuck Dimitry" />
+                    <Property Name="Alpha" Value="0.8" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="VertFormatting" Value="TopAligned" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0796587,0},{0.688171,0},{0.944097,0},{0.772789,0}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

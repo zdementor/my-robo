@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+
+<Scene scene_node_type="ESNT_LENS_FLARE_SCENE_NODE" />
+
+<SceneNodeCoreProperties>
+<Material>
+<Pass>
+<Layer index="0" texture="null" type="ETLT_DIFFUSE_MAP" rgb_scale="1" tc_gen="ETCGT_MANUAL_MAPPING" tc_addr="ETCAM_WRAP" tc_channel="0" filter="1" />
+<Flags qouraud_shading="1" zwrite_enable="0" back_face_culling="1" front_face_ccw="1" fog_enable="1" mip_map_off="0" blending="1" />
+<LightingMode value="0" />
+<Ambient rgba="255,255,255,255" />
+<Diffuse rgba="255,255,255,255" />
+<Emissive rgba="0,0,0,0" />
+<Specular rgba="255,255,255,255" />
+<Shininess value="0.00" />
+<AlphaTest value="EAT_ALWAYS" />
+<DepthTest value="ECT_LESS" />
+<BlendFunc eq="EBE_ADD" src="ESBF_ONE" dst="EDBF_ONE_MINUS_SRC_COLOR" />
+<ColorGen type="ECGT_VERTEX" />
+<AlphaGen type="EAGT_VERTEX" />
+</Pass>
+</Material>
+<Corona filename="sprites\lf01_mainlight.jpg" />
+<Lens filename="sprites\lf01_far01.jpg" space="1.300"/>
+<Lens filename="sprites\lf01_near01.jpg" space="0.509"/>
+<Lens filename="sprites\lf01_near02.jpg" space="0.461"/>
+<Lens filename="sprites\lf01_near03.jpg" space="0.416"/>
+<Lens filename="sprites\lf01_near04.jpg" space="0.200"/>
+<Lens filename="sprites\lf01_near05.jpg" space="0.000"/>
+<Lens filename="sprites\lf01_near06.jpg" space="-0.271"/>
+<Lens filename="sprites\lf01_near07.jpg" space="-0.416"/>
+<Lens filename="sprites\lf01_near08.jpg" space="-0.447"/>
+<Lens filename="sprites\lf01_near09.jpg" space="-0.475"/>
+<Lens filename="sprites\lf01_near10.jpg" space="-0.643"/>
+<Lens filename="sprites\lf01_near11.jpg" space="-0.674"/>
+<Lens filename="sprites\lf01_near12.jpg" space="-1.000"/>
+<Lens filename="sprites\lf01_near13.jpg" space="-1.333"/>
+<EtalonScreen width="1024" height="768" />
+</SceneNodeCoreProperties>
+
+</Scene>
+
+<Game game_node_type="EGNT_DECORATION" class_name="Standard" >
+<GameNodeCoreProperties>
+<GameParameters mov_speed="0.00" rot_speed="0.00" life="0.00" />
+</GameNodeCoreProperties>
+</Game>
+
+<Sound>
+</Sound>

@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+
+<Type value="ESNAT_TEXTURE_ANIMATOR" />
+
+<Loop value="0" />
+<TimePerFrame value="100" />
+<TextureFileName value="r_explode1.jpg" />
+<TextureFileName value="r_explode2.jpg" />
+<TextureFileName value="r_explode3.jpg" />
+<TextureFileName value="r_explode4.jpg" />
+<TextureFileName value="r_explode5.jpg" />
+<TextureFileName value="r_explode6.jpg" />
+<TextureFileName value="r_explode7.jpg" />

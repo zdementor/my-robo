@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+
+<AnimatedTexture time_per_frame="100" loop="1" />
+
+<Frame filename="muzzleflash1_1.tga" />
+<Frame filename="muzzleflash1_2.tga" />
+<Frame filename="muzzleflash1_3.tga" />
+
+</AnimatedTexture>

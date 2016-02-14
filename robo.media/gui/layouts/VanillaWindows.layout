@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="Vanilla/StaticImage" Name="root" >
+        <Property Name="FrameEnabled" Value="False" />
+        <Property Name="InheritsAlpha" Value="False" />
+        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+        <Property Name="BackgroundEnabled" Value="False" />
+        <Window Type="Vanilla/FrameWindow" Name="Demo/NewNode" >
+            <Property Name="Text" Value="New Node" />
+            <Property Name="TitlebarFont" Value="Bgothm-18" />
+            <Property Name="UnifiedMaxSize" Value="{{0.8,0},{0.8,0}}" />
+            <Property Name="UnifiedMinSize" Value="{{0.2,0},{0.2,0}}" />
+            <Property Name="TitlebarEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0.6,0},{0.1,0},{0.9,0},{0.6,0}}" />
+            <Property Name="CloseButtonEnabled" Value="False" />
+            <Window Type="Vanilla/Listbox" Name="Demo7/Window2/Listbox" >
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,7},{0,35},{1,-7},{1,-73}}" />
+            </Window>
+            <Window Type="Vanilla/StaticText" Name="Demo/NewNode/label1" >
+                <Property Name="Text" Value="Name:" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,7},{0,-45},{0,67},{0,-15}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="VerticalAlignment" Value="Bottom" />
+            </Window>
+            <Window Type="Vanilla/Editbox" Name="Demo/NewNode/Editbox" >
+                <Property Name="MaxTextLength" Value="1073741823" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,-7},{0,-40},{1,-81},{0,-10}}" />
+                <Property Name="VerticalAlignment" Value="Bottom" />
+                <Property Name="HorizontalAlignment" Value="Right" />
+            </Window>
+            <Window Type="Vanilla/Button" Name="Demo/NewNode/Okay" >
+                <Property Name="Text" Value="Okay" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,7},{0,-7},{0,67},{0,23}}" />
+                <Property Name="VerticalAlignment" Value="Bottom" />
+            </Window>
+            <Window Type="Vanilla/Button" Name="Demo/NewNode/Cancel" >
+                <Property Name="Text" Value="Cancel" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,-7},{0,-7},{0,53},{0,23}}" />
+                <Property Name="VerticalAlignment" Value="Bottom" />
+                <Property Name="HorizontalAlignment" Value="Right" />
+            </Window>
+        </Window>
+        <Window Type="Vanilla/FrameWindow" Name="Demo/NamespaceViewer" >
+            <Property Name="Text" Value="Namespace Viewer" />
+            <Property Name="TitlebarFont" Value="Bgothm-18" />
+            <Property Name="UnifiedMaxSize" Value="{{0.8,0},{0.8,0}}" />
+            <Property Name="UnifiedMinSize" Value="{{0.2,0},{0.2,0}}" />
+            <Property Name="TitlebarEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.5,0},{0.5,0}}" />
+            <Property Name="CloseButtonEnabled" Value="False" />
+            <Window Type="Vanilla/StaticText" Name="Demo/NamespaceViewer/area1" >
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,7},{0,52},{1,-7},{0,100}}" />
+            </Window>
+            <Window Type="Vanilla/Listbox" Name="Demo/NamespaceViewer/area2" >
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,7},{0,-7},{1,-7},{1,-117}}" />
+                <Property Name="VerticalAlignment" Value="Bottom" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

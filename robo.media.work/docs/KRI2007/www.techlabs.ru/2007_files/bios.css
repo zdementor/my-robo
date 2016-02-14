@@ -1,0 +1,225 @@
+#ABC {text-align: center}
+
+#ABC ul
+{
+margin: 30 0 20 0;
+padding: 0;
+list-type: none;
+border-left: #DB0000 10px solid
+}
+
+#ABC li 
+{
+display: inline;
+margin-right: 3;
+font-size: 8pt;
+font-weight: bold;
+}
+
+#BiosMain {margin-top: 20}
+
+#BiosMain td
+{
+border-bottom: #c0c0c0 1px solid;
+text-align: center;
+vertical-align: middle;
+padding: 5;
+}
+
+#BiosMain #AMIcode
+{
+font-size: 7pt;
+border-right: #c0c0c0 1px solid;
+border-left: #c0c0c0 1px solid;
+}
+
+#BiosMain #AwardCode
+{
+font-size: 7pt;
+}
+
+#BiosMain #Name
+{
+font-size: 8pt;
+background: #EEE;
+text-align: left;
+border-top: #0099FF 2px solid;
+}
+
+#BiosMain #Link
+{
+font-size: 8pt;
+text-align: left;
+}
+
+#BiosComment
+{
+margin: 0 0 10 0;
+padding: 0 0 0 0;
+list-type: none;
+width: 100%;
+border-bottom: black 1px solid
+}
+
+#BiosComment td
+{
+text-align: center;
+display: inline;
+padding: 5;
+height: 30;
+font-size: 7pt;
+font-weight: bold;
+font-family: Arial;
+border-left: white 1px solid;
+border-right: white 1px solid;
+}
+
+#BiosComment td#Logo, #BiosMain #Logo {width: 20%}
+
+#BiosComment td#AMIcode, #BiosMain #AMIcode {width: 10%}
+
+#BiosComment td#AwardCode, #BiosMain #AwardCode {width: 10%}
+
+#BiosComment td#Name, #BiosMain #Name {width: 30%}
+
+#BiosComment td#Link, #BiosMain #Link {width: 30%}
+
+#BiosMain {margin-top: 20}
+
+
+
+#Bios1Main
+{
+margin-bottom: 20;
+}
+
+#Bios1Main td
+{
+border-bottom: #c0c0c0 1px solid;
+text-align: center;
+vertical-align: middle;
+padding: 5;
+}
+
+#Bios1Main #Model
+{
+font-size: 8pt;
+background: #EEE;
+text-align: left;
+border-top: #0099FF 2px solid;
+font-weight: bold
+}
+
+#Bios1Main #Chip
+{
+font-size: 7pt;
+}
+
+#Bios1Main #Bios
+{
+font-size: 7pt;
+border-left: #c0c0c0 1px solid;
+}
+
+#Bios1Main #Ver
+{
+font-size: 7pt;
+text-align: left;
+border-left: #c0c0c0 1px solid;
+color: #999;
+}
+
+
+#Bios1Main #RomVer
+{
+font-size: 7pt;
+text-align: left;
+border-left: #c0c0c0 1px solid;
+color: #999;
+}
+
+
+#Bios1Main #Comment
+{
+font-size: 7pt;
+text-align: left;
+border-left: #c0c0c0 1px solid;
+}
+
+#Bios1Main #Type
+{
+font-size: 8pt;
+text-align: center;
+border-left: #DB0000 10px solid;
+font-weight: bold;
+padding: 2 2 2 15;
+}
+
+
+#Bios1Comment
+{
+border-bottom: black 1px solid;
+}
+
+#Bios1Comment td
+{
+text-align: center;
+vertical-align: middle;
+font-size: 7pt;
+font-weight: bold;
+font-family: Arial;
+background: #EEE;
+}
+
+#Bios1Comment td#Model, #Bios1Main #Model{width: 15%}
+
+#Bios1Comment td#Chip, #Bios1Main #Chip {width: 10%}
+
+#Bios1Comment td#Bios, #Bios1Main #Bios {width: 15%}
+
+#Bios1Comment td#Ver, #Bios1Main #Ver {width: 15%}
+
+#Bios1Comment td#RomVer, #Bios1Main #RomVer {width: 15%}
+
+#Bios1Comment td#Comment, #Bios1Main #Comment {width: 30%}
+
+.OnlyTitlesBios div
+{
+font-size: 8pt;
+font-weight: bold;
+padding-bottom: 10;
+letter-spacing: 1;
+}
+
+.OnlyTitlesBios ul
+{
+list-style: none;
+padding: 0;
+margin: 0;
+font-size: 8pt
+}
+
+
+.OnlyTitlesBios ul font
+{
+padding-left: 10;
+font-size: 7pt;
+color: gray;
+font-family: Arial;
+font-weight: bold;
+}
+
+.OnlyTitlesBios td
+{
+padding: 10;
+border: #c0c0c0 1px solid;
+background-color: #F0F0F0;
+width: 50%;
+}
+
+.OnlyTitlesBios ul li
+{
+list-style: none;
+margin-left: 10;
+background: URL(/i/li.gif) no-repeat 0 50%
+}

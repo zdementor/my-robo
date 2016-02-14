@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!--Saved at 2013/08/25 13:49:55-->
+
+<Scene scene_node_type="ESNT_ANIMATED_MESH_SCENE_NODE" />
+<SceneNodeCoreProperties>
+<Material name="paralax.material" />
+<Mesh filename="room.3ds" animation_fps="0" lod="0" />
+<Shadow on="0" type="ESHT_SHADOW_FAKE" />
+</SceneNodeCoreProperties>
+</Scene>
+

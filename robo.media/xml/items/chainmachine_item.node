@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+
+<Scene scene_node_type="ESNT_ANIMATED_MESH_SCENE_NODE" >
+
+<Material name="chainmachine" />
+
+<Mesh filename="weapons\chainmachine_item.md2" animation_fps="15" lod="0" />
+
+<Parameters name="chainmachine_item" id="-1" parent_id="-1" />
+
+<SceneNodeCoreProperties>
+<Shadow on="1" type="ESHT_SHADOW_VOLUME" />
+<BindImposter shift_x="0.00" shift_y="0.00" shift_z="0.00" view_offset="0.00" centered="0" >
+<CreationParams view_count="24" view_angle="25" view_scale_width="1.00" view_scale_height="1.00"
+size_scale_width="1.00" size_scale_height="1.00" tex_res="64.00" frame_step="2"
+ambient_color="150,150,150" diffuse_color="255,255,255" specular_color="0,0,0" />
+</BindImposter>
+</SceneNodeCoreProperties>
+
+<BindAnimator filename="effects/item_rotation.animator" />
+
+<BindChild filename="effects/item_rect_green.xml" pos="0,0,0" rot="0,0,0" scl="1.0,1.0,1.0" />
+
+<BindCaption font="tahoma.ttf" font_size="16" color="255,255,255,255" height="0.025" visible="0" pos="0,25,0" text="Chainmachine" />
+
+</Scene>
+
+<Game game_node_type="EGNT_ITEM" class_name="Standard" >
+
+<ItemName value="Chainmachine" /> 
+<ItemKeyName value="Chainmachine" /> 
+<ItemShortDescription value="Mega Weapon" />
+<ItemDescr value="This is a very powerfull weapon" />
+<ItemImageName value="set:RoboItems0 image:Chainmachine" /> 
+
+<GameNodeCoreProperties>
+<GameParameters mov_speed="0.00" rot_speed="0.00" life="0.00" />
+</GameNodeCoreProperties>
+
+</Game>
+
+<Dynamic>
+
+<DynamicObjectCoreProperties>
+<DynamicParameters dynamic_type="EDOT_SENSELESS" geom_form="EDOGF_BOX" mass_value="5.00"
+surf_mu="1.000000" surf_bounce="0.010000" surf_bounce_vel="0.100000" surf_soft="0.000001"
+dynamic_constraints="63" />
+</DynamicObjectCoreProperties>
+
+</Dynamic>
+
+<Sound>
+
+<SoundEffect filename ="pickup/weapon_pickup.wav" loop="0" />
+
+</Sound>
+

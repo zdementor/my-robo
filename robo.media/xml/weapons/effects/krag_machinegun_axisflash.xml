@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+
+<Scene scene_node_type="ESNT_ANIMATED_MESH_SCENE_NODE" />
+
+<Mesh filename="weapons\krag_machinegun_flash.md2" animation_fps="0" lod="0" />
+
+<SceneNodeCoreProperties>
+<Material>
+<Pass>
+<Layer index="0" texture="bullet_axisflash.atex" tc_gen="ETCGT_MANUAL_MAPPING" tc_addr="ETCAM_WRAP" type="ETLT_DIFFUSE_MAP" rgb_scale="1" tc_channel="0" />
+<Flags qouraud_shading="1" zwrite_enable="0" back_face_culling="0" front_face_ccw="1" fog_enable="1" mip_map_off="1" blending="1" />
+<LightingMode value="0" />
+<Ambient rgba="255,255,255,255" />
+<Diffuse rgba="255,255,255,255" />
+<Emissive rgba="0,0,0,0" />
+<Specular rgba="0,0,0,0" />
+<Shininess value="0.00" />
+<AlphaTest value="EAT_ALWAYS" />
+<DepthTest value="ECT_LESS" />
+<BlendFunc src="ESBF_ONE" dst="EDBF_ONE_MINUS_SRC_COLOR" />
+</Pass>
+</Material>
+<Shadow on="0" type="ESHT_SHADOW_FAKE" />
+</SceneNodeCoreProperties>
+
+</Scene>

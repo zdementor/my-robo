@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+
+<Scene scene_node_type="ESNT_LIGHT_SCENE_NODE" >
+
+<SceneNodeCoreProperties>
+<LightParameters enabled="1" cast_shadows="0" radius="150" type="ELT_POINT" dynamic="1" >
+<DiffuseColorF red="1.00" green="0.50" blue="0.25" alpha="1.00" />
+<AmbientColorF red="0.00" green="0.00" blue="0.00" alpha="1.00" />
+<SpecularColorF red="1.00" green="0.50" blue="0.25" alpha="1.00" />
+<IntensityWave enabled="0" type="EFT_SIN" base="0.600" ampl="0.400" phase="0.5000" freq="2.0000" />
+</LightParameters>
+<LightedVolumeCenterOffset value="0.00,-30.00,0.00" />
+<LightedVolumeSizeChange value="0.00,0.00,0.00" />
+</SceneNodeCoreProperties>
+
+</Scene>

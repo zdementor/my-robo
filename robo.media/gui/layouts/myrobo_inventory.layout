@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="Root" >
+        <Property Name="InheritsAlpha" Value="False" />
+        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+        <Window Type="TaharezLook/FrameWindow" Name="InventoryFrame" >
+            <Property Name="Font" Value="Tahoma-12" />
+            <Property Name="Text" Value="Inventory" />
+            <Property Name="Alpha" Value="0.6" />
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="TitlebarFont" Value="Tahoma-12" />
+            <Property Name="SizingEnabled" Value="False" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="TitlebarEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0.14375,0},{0.120001,0},{0.857499,0},{0.855,0}}" />
+            <Window Type="TaharezLook/Listbox" Name="InventoryItemsList" >
+                <Property Name="Font" Value="Tahoma-12" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0.025896,0},{0.124671,0},{0.326361,0},{0.943149,0}}" />
+            </Window>
+            <Window Type="TaharezLook/StaticImage" Name="InventoryItemImage" >
+                <Property Name="Font" Value="Tahoma-12" />
+                <Property Name="Text" >ItemImage
+</Property>
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0.356817,0},{0.126724,0},{0.517851,0},{0.340632,0}}" />
+            </Window>
+            <Window Type="TaharezLook/StaticText" Name="InventoryItemShortDescr" >
+                <Property Name="Font" Value="Tahoma-10" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0.532709,0},{0.185626,0},{0.969664,0},{0.340641,0}}" />
+            </Window>
+            <Window Type="TaharezLook/StaticText" Name="InventoryItemDescr" >
+                <Property Name="Font" Value="Tahoma-10" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0.356817,0},{0.362091,0},{0.969664,0},{0.828844,0}}" />
+            </Window>
+            <Window Type="TaharezLook/StaticText" Name="InventoryItemName" >
+                <Property Name="Font" Value="Tahoma-12" />
+                <Property Name="Text" >ItemNameText
+</Property>
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="VertFormatting" Value="TopAligned" />
+                <Property Name="UnifiedAreaRect" Value="{{0.534382,0},{0.127927,0},{0.971336,0},{0.186607,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="TaharezLook/StaticText" Name="ItemListCapt" >
+                <Property Name="Font" Value="Tahoma-12" />
+                <Property Name="Text" >Items list:
+</Property>
+                <Property Name="TextColours" Value="tl:FFFFFFA0 tr:FFFFFFA0 bl:FFFFFFA0 br:FFFFFFA0" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="VertFormatting" Value="TopAligned" />
+                <Property Name="UnifiedAreaRect" Value="{{0.025432,0},{0.067367,0},{0.325896,0},{0.117224,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="TaharezLook/Button" Name="InventoryCloseButton" >
+                <Property Name="Font" Value="Bgothm-18" />
+                <Property Name="Text" Value="Close" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="HoverTextColour" Value="FFC26408" />
+                <Property Name="UnifiedAreaRect" Value="{{0.781537,0},{0.854094,0},{0.969664,0},{0.943149,0}}" />
+                <Property Name="PushedTextColour" Value="FFF5C059" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

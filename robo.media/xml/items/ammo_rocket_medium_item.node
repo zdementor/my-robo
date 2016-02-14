@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+
+<Scene scene_node_type="ESNT_ANIMATED_MESH_SCENE_NODE" >
+
+<Mesh filename="ammo\rocket_ammo.md2" animation_fps="15" lod="0" />
+
+<Parameters name="ammo_rocket_medium_item" id="-1" parent_id="-1" />
+
+<Transformation>
+<Scale x="1.2500" y="1.2500" z="1.2500" />
+</Transformation>
+
+<SceneNodeCoreProperties>
+<Material name="ammo_rocket_medium" />
+<Shadow on="1" type="ESHT_SHADOW_VOLUME" />
+<BindImposter shift_x="0.00" shift_y="0.00" shift_z="0.00" view_offset="0.00" centered="0" >
+<CreationParams view_count="24" view_angle="25" view_scale_width="1.00" view_scale_height="1.00"
+size_scale_width="1.00" size_scale_height="1.00" tex_res="64.00" frame_step="2.00"
+ambient_color="150,150,150" diffuse_color="255,255,255" specular_color="0,0,0"
+compress="1" />
+</BindImposter>
+</SceneNodeCoreProperties>
+
+<BindAnimator filename="effects/item_rotation.animator" />
+
+<BindChild filename="effects/item_rect_white.xml" pos="0,12,0" rot="0,0,0" scl="0.75,0.75,0.75" />
+
+<BindCaption font="tahoma.ttf" font_size="16" color="255,255,255,255" height="0.025" visible="0" pos="0,25,0" text="+5 rockets" />
+
+</Scene>
+
+<Game game_node_type="EGNT_ITEM" class_name="Standard" >
+
+<ItemName value="Medium Rocket Ammo" /> 
+<ItemKeyName value="MediumRocketAmmo" /> 
+<ItemShortDescription value="+5 rockets" />
+<ItemDescr value="Ammo for the bullets weapon, such as chainmachine" />
+<ItemImageName value="set:RoboItems0 image:AmmoRocketMedium" /> 
+
+<GameNodeCoreProperties>
+<GameParameters mov_speed="0.00" rot_speed="0.00" life="0.00" />
+</GameNodeCoreProperties>
+
+</Game>
+
+<Dynamic>
+
+<DynamicObjectCoreProperties>
+<DynamicParameters dynamic_type="EDOT_SENSELESS" geom_form="EDOGF_BOX" mass_value="5.00"
+surf_mu="1.000000" surf_bounce="0.010000" surf_bounce_vel="0.100000" surf_soft="0.000001"
+dynamic_constraints="63" />
+</DynamicObjectCoreProperties>
+
+</Dynamic>
+
+<Sound>
+
+<SoundEffect filename ="pickup/ammo_pickup.wav" loop="0" />
+
+</Sound>
+

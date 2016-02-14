@@ -1,0 +1,178 @@
+#version 120
+
+#define FLOAT float
+#define INT   int
+#define MAT3  mat3
+#define MAT4  mat4
+#define VEC2  vec2
+#define VEC3  vec3
+#define VEC4  vec4
+#define SAMPLER2D sampler2D
+#define TEXTURE2D texture2D
+#define VS_IN(vvv) gl_##vvv
+#define VS_OUT(vvv) vvv
+#define PS_IN(vvv) vvv
+#define PS_OUT(vvv) gl_##vvv
+#define VARYING varying
+#define UNIFORM uniform
+#define MIX mix
+
+#define M_DIFFUSE(mat)  mat[0].rgba
+#define M_AMBIENT(mat)  mat[1].rgba
+#define M_SPECULAR(mat) mat[2].rgba
+#define M_EMISSIVE(mat) mat[3].rgba
+
+#define L_DIFFUSE(lig)   lig[0].rgba
+#define L_AMBIENT(lig)   lig[1].rgba
+#define L_SPECULAR(lig)  lig[2].rgba
+#define L_POSITION(lig)  lig[3].xyz
+#define L_RADIUS(lig)    lig[3].w
+
+#define PARALAX_SCALE 0.03
+#define PARALAX_BIAS -PARALAX_SCALE/2.0
+
+#define FOG_START(fog)    fog.x
+#define FOG_END(fog)      fog.y
+#define FOG_DENSITY(fog)  fog.z
+
+UNIFORM VEC4 GlobalAmbientColor;
+UNIFORM VEC4 MaterialColors[4];
+UNIFORM FLOAT MaterialShininess;
+UNIFORM MAT4 Lighting[4];
+UNIFORM SAMPLER2D Texture0;
+UNIFORM SAMPLER2D Texture3;
+UNIFORM VEC3 FogParams;
+UNIFORM VEC3 FogColor;
+
+VARYING VEC4 TexCoord0;
+VARYING VEC4 TexCoord1;
+VARYING VEC3 EyeVec;
+VARYING VEC4 Position;
+VARYING VEC4 LightVec0;
+VARYING VEC4 LightVec1;
+VARYING VEC4 LightVec2;
+
+void main(void)
+{
+    VEC3 position = PS_IN(Position.xyz);
+    VEC3 eyeVec = normalize(PS_IN(EyeVec));
+
+    VEC2 tc0 = PS_IN(TexCoord0).xy;
+    VEC2 tcnmap = PS_IN(TexCoord1).xy;
+    FLOAT height = PARALAX_SCALE * (TEXTURE2D(Texture3, tcnmap).a) + PARALAX_BIAS;
+    // texcoord offset (paralax effect)
+    tc0 += VEC2(eyeVec.x,-eyeVec.y) * height;
+
+    VEC4 tcol0 = TEXTURE2D(Texture0, tc0.xy);
+
+    VEC4 tnmap = TEXTURE2D(Texture3, tc0.xy);
+
+    VEC4 tcol = VEC4(1.0,1.0,1.0, 1.0);
+    tcol *= tcol0;
+
+    VEC3 normal = normalize((tnmap*2.0-1.0).xyz);
+
+    VEC4 mDiffuse = M_DIFFUSE(MaterialColors);
+    VEC4 mAmbient = M_AMBIENT(MaterialColors);
+    VEC4 mSpecular = M_SPECULAR(MaterialColors);
+    VEC4 mEmissive = M_EMISSIVE(MaterialColors);
+
+    VEC3 specular = VEC3(0.0,0.0,0.0);
+    VEC4 color = VEC4(0.0, 0.0, 0.0, mDiffuse.a);
+    color.rgb = GlobalAmbientColor.rgb * mAmbient.rgb + mEmissive.rgb;
+    // calculating lighting from Light 0
+    {
+        VEC4 lDiffuse  = L_DIFFUSE(Lighting[0]);
+        VEC4 lAmbient  = L_AMBIENT(Lighting[0]);
+        VEC4 lSpecular = L_SPECULAR(Lighting[0]);
+        VEC3 lPosition = L_POSITION(Lighting[0]);
+        float lRadius  = L_RADIUS(Lighting[0]);
+        VEC3 lightVec = normalize(PS_IN(LightVec0).xyz);
+        float lDist = length(lPosition - position.xyz);
+        float NdotL = max(dot(normal, lightVec), 0.0);
+        float idx = min(lDist / lRadius, 1.0);
+        float atten = -idx * idx + 1.0;
+        color.rgb += atten * (
+            NdotL * mDiffuse.rgb * lDiffuse.rgb + // diffuse component
+            mAmbient.rgb * lAmbient.rgb // ambient component
+            );
+        VEC3 reflVec = reflect(-lightVec, normal);
+        float specPow = pow(max(dot(eyeVec, reflVec),0.0), MaterialShininess);
+        // separate specular component
+        specular += atten * specPow * mSpecular.rgb * lSpecular.rgb;
+    }
+    // calculating lighting from Light 1
+    {
+        VEC4 lDiffuse  = L_DIFFUSE(Lighting[1]);
+        VEC4 lAmbient  = L_AMBIENT(Lighting[1]);
+        VEC4 lSpecular = L_SPECULAR(Lighting[1]);
+        VEC3 lPosition = L_POSITION(Lighting[1]);
+        float lRadius  = L_RADIUS(Lighting[1]);
+        VEC3 lightVec = normalize(PS_IN(LightVec1).xyz);
+        float lDist = length(lPosition - position.xyz);
+        float NdotL = max(dot(normal, lightVec), 0.0);
+        float idx = min(lDist / lRadius, 1.0);
+        float atten = -idx * idx + 1.0;
+        color.rgb += atten * (
+            NdotL * mDiffuse.rgb * lDiffuse.rgb + // diffuse component
+            mAmbient.rgb * lAmbient.rgb // ambient component
+            );
+        VEC3 reflVec = reflect(-lightVec, normal);
+        float specPow = pow(max(dot(eyeVec, reflVec),0.0), MaterialShininess);
+        // separate specular component
+        specular += atten * specPow * mSpecular.rgb * lSpecular.rgb;
+    }
+    // calculating lighting from Light 2
+    {
+        VEC4 lDiffuse  = L_DIFFUSE(Lighting[2]);
+        VEC4 lAmbient  = L_AMBIENT(Lighting[2]);
+        VEC4 lSpecular = L_SPECULAR(Lighting[2]);
+        VEC3 lPosition = L_POSITION(Lighting[2]);
+        float lRadius  = L_RADIUS(Lighting[2]);
+        VEC3 lightVec = normalize(PS_IN(LightVec2).xyz);
+        float lDist = length(lPosition - position.xyz);
+        float NdotL = max(dot(normal, lightVec), 0.0);
+        float idx = min(lDist / lRadius, 1.0);
+        float atten = -idx * idx + 1.0;
+        color.rgb += atten * (
+            NdotL * mDiffuse.rgb * lDiffuse.rgb + // diffuse component
+            mAmbient.rgb * lAmbient.rgb // ambient component
+            );
+        VEC3 reflVec = reflect(-lightVec, normal);
+        float specPow = pow(max(dot(eyeVec, reflVec),0.0), MaterialShininess);
+        // separate specular component
+        specular += atten * specPow * mSpecular.rgb * lSpecular.rgb;
+    }
+    // calculating lighting from Light 3
+    {
+        VEC4 lDiffuse  = L_DIFFUSE(Lighting[3]);
+        VEC4 lAmbient  = L_AMBIENT(Lighting[3]);
+        VEC4 lSpecular = L_SPECULAR(Lighting[3]);
+        VEC3 lPosition = L_POSITION(Lighting[3]);
+        float lRadius  = L_RADIUS(Lighting[3]);
+        VEC3 lightVec = normalize(VEC3(PS_IN(LightVec0).w, PS_IN(LightVec1).w, PS_IN(LightVec2).w));
+        float lDist = length(lPosition - position.xyz);
+        float NdotL = max(dot(normal, lightVec), 0.0);
+        float idx = min(lDist / lRadius, 1.0);
+        float atten = -idx * idx + 1.0;
+        color.rgb += atten * (
+            NdotL * mDiffuse.rgb * lDiffuse.rgb + // diffuse component
+            mAmbient.rgb * lAmbient.rgb // ambient component
+            );
+        VEC3 reflVec = reflect(-lightVec, normal);
+        float specPow = pow(max(dot(eyeVec, reflVec),0.0), MaterialShininess);
+        // separate specular component
+        specular += atten * specPow * mSpecular.rgb * lSpecular.rgb;
+    }
+
+    PS_OUT(FragColor) = tcol;
+    PS_OUT(FragColor) *= color;
+    PS_OUT(FragColor).rgb += specular;
+
+    // fogging
+    FLOAT fdepth = PS_IN(Position.z) / PS_IN(Position.w);
+    FLOAT fstart = FOG_START(FogParams);
+    FLOAT fend = FOG_END(FogParams);
+    FLOAT fog = clamp((fend - fdepth) / (fend - fstart), 0., 1.);
+    PS_OUT(FragColor).rgb = MIX(FogColor, PS_OUT(FragColor).rgb, fog);
+}

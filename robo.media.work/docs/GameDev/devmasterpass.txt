@@ -1,0 +1,7 @@
+логин - daj_zdimitor
+пароль - 77htuvK22t
+
+файлы будут доступны как www.devmaster.ru/ZDimitor/имяфайла
+FTP.сервер:
+srv008.infobox.ru 
+

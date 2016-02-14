@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+
+<Scene scene_node_type="ESNT_PARTICLE_SYSTEM_SCENE_NODE" >
+
+<Material>
+<Pass>
+<Flags qouraud_shading="1" zwrite_enable="0" back_face_culling="1" front_face_ccw="1" fog_enable="1" mip_map_off="0" blending="1" />
+<BlendFunc src="ESBF_ONE" dst="EDBF_ONE_MINUS_SRC_COLOR" />
+</Pass>
+</Material>
+
+<SceneNodeCoreProperties>
+<Emitter type="EPET_BOX" enabled="1" global_transform="0" >
+<Texture filename="particles\fireball.bmp" />
+<ParticleSize width="20" height="20" />
+<AppearVolume xmin="-2" ymin="-2" zmin="-2" xmax="2" ymax="2" zmax="2" />
+<ParticleDirection x="0.0000" y="0.7500" z="0.0000" />
+<ParticlesPerSecond min="350" max="350" />
+<LifeTime min="700" max="700" />
+<MinStartColor red="5" green="5" blue="5" alpha="5" />
+<MaxStartColor red="20" green="20" blue="20" alpha="20" />
+<AngleDegrees value="4" />
+<Affector type="EPAT_FADEOUT" enabled="1" affect_time_ms="1000" >
+<TargetColor red="0" green="0" blue="0" alpha="0" />
+</Affector>
+<Affector type="EPAT_GRAVITY" enabled="1" affect_time_ms="1000" >
+<GravityValue x="0.0000" y="0.0800" x="0.0000" />
+</Affector>
+</Emitter>
+</SceneNodeCoreProperties>
+
+</Scene>
+
+

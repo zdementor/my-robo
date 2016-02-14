@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<Imageset Name="RoboItems0" Imagefile="RoboItems0.tga" NativeHorzRes="800" NativeVertRes="600" AutoScaled="true">
+    <Image Name="Blaster" XPos="0" YPos="0" Width="128" Height="128" />
+    <Image Name="Chainmachine" XPos="128" YPos="0" Width="128" Height="128" />
+    <Image Name="Rocketlauncher" XPos="256" YPos="0" Width="128" Height="128" />
+    <Image Name="AmmoBulletSmall" XPos="0" YPos="128" Width="128" Height="128" />
+    <Image Name="AmmoBulletMedium" XPos="128" YPos="128" Width="128" Height="128" />
+    <Image Name="AmmoBulletLarge" XPos="256" YPos="128" Width="128" Height="128" />
+    <Image Name="AmmoRocketSmall" XPos="0" YPos="256" Width="128" Height="128" />
+    <Image Name="AmmoRocketMedium" XPos="128" YPos="256" Width="128" Height="128" />
+    <Image Name="AmmoRocketLarge" XPos="256" YPos="256" Width="128" Height="128" />
+    <Image Name="MedkitSmall" XPos="0" YPos="384" Width="128" Height="128" />
+    <Image Name="MedkitMedium" XPos="128" YPos="384" Width="128" Height="128" />
+    <Image Name="MedkitLarge" XPos="256" YPos="384" Width="128" Height="128" />
+</Imageset>

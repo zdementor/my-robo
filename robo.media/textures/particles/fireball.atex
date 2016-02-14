@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+
+<AnimatedTexture time_per_frame="75" loop="1" >
+
+<Frame filename="fireball_0000.jpg" />
+<Frame filename="fireball_0001.jpg" />
+<Frame filename="fireball_0002.jpg" />
+<Frame filename="fireball_0003.jpg" />
+
+</AnimatedTexture> 

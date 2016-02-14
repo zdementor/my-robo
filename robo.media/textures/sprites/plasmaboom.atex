@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+
+<AnimatedTexture time_per_frame="50" loop="1" />
+
+<Frame filename="plasmaboom0.jpg" />
+<Frame filename="plasmaboom1.jpg" />
+<Frame filename="plasmaboom2.jpg" />
+<Frame filename="plasmaboom3.jpg" />
+
+</AnimatedTexture>

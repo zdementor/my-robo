@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+
+<Scene scene_node_type="ESNT_LENS_FLARE_SCENE_NODE" />
+
+<Material>
+<Pass>
+<Flags qouraud_shading="1" zwrite_enable="0" back_face_culling="1" front_face_ccw="1" fog_enable="1" mip_map_off="0" />
+<Ambient red="255" green="255" blue="255" alpha="255" />
+<Diffuse red="255" green="255" blue="255" alpha="255" />
+<Emissive red="0" green="0" blue="0" alpha="0" />
+<Specular red="255" green="255" blue="255" alpha="255" />
+<Shininess value="0.00" />
+<BlendFunc src="ESBF_ONE" dst="EDBF_ONE_MINUS_SRC_COLOR" />
+</Pass>
+</Material>
+
+<SceneNodeCoreProperties>
+<Corona filename="sprites\lf02_mainlight.jpg" />
+<Lens filename="sprites\lf02_far02.jpg" space="1.666"/>
+<Lens filename="sprites\lf02_far01.jpg" space="1.527"/>
+<Lens filename="sprites\lf02_near01.jpg" space="0.708"/>
+<Lens filename="sprites\lf02_near02.jpg" space="0.319"/>
+<Lens filename="sprites\lf02_near03.jpg" space="0.181"/>
+<Lens filename="sprites\lf02_near04.jpg" space="0.028"/>
+<Lens filename="sprites\lf02_near05.jpg" space="0.000"/>
+<Lens filename="sprites\lf02_near06.jpg" space="-0.486"/>
+<Lens filename="sprites\lf02_near07.jpg" space="-0.527"/>
+<Lens filename="sprites\lf02_near08.jpg" space="-0.583"/>
+<Lens filename="sprites\lf02_near09.jpg" space="-0.611"/>
+<Lens filename="sprites\lf02_near10.jpg" space="-0.652"/>
+<Lens filename="sprites\lf02_near11.jpg" space="-0.681"/>
+<Lens filename="sprites\lf02_near12.jpg" space="-1.277"/>
+<Lens filename="sprites\lf02_near13.jpg" space="-1.319"/>
+<Lens filename="sprites\lf02_near14.jpg" space="-1.500"/>
+<Lens filename="sprites\lf02_near15.jpg" space="-1.542"/>
+<Lens filename="sprites\lf02_near16.jpg" space="-1.583"/>
+<Lens filename="sprites\lf02_near17.jpg" space="-2.055"/>
+<Lens filename="sprites\lf02_near18.jpg" space="-2.097"/>
+<Lens filename="sprites\lf02_near19.jpg" space="-2.222"/>
+<EtalonScreen width="1024" height="768" />
+</SceneNodeCoreProperties>
+
+<BindCaption font="tahoma.ttf" color="255,255,255,175" height="0.025" visible="1" pos="0,25,0" text="Lens Flare" />
+
+</Scene>
+
+<Game game_node_type="EGNT_DECORATION" class_name="Standard" >
+<GameNodeCoreProperties>
+<GameParameters mov_speed="0.0" rot_speed="0.0" life="0.0" />
+</GameNodeCoreProperties>
+</Game>
+
+<Sound>
+</Sound>

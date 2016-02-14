@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+
+<Scene scene_node_type="ESNT_BILLBOARD_SCENE_NODE" />
+
+<Size width="50" height="50"/>
+
+<UpAxis value="0,1,0"  />
+<AxisAligment type="EAAT_NONE" x="0" y="1" z="0"  />
+
+<Material>
+<Pass>
+<Layer index="0" texture="sprites\item_rect.tga" tc_gen="ETCGT_MANUAL_MAPPING" tc_addr="ETCAM_WRAP" rgb_scale="1" tc_channel="0" />
+<Flags qouraud_shading="1" zwrite_enable="1" back_face_culling="0" front_face_ccw="1" fog_enable="1" mip_map_off="0" blending="1" />
+<Ambient red="0" green="0" blue="0" alpha="0" />
+<Diffuse red="200" green="200" blue="0" alpha="200" />
+<Emissive red="0" green="0" blue="0" alpha="0" />
+<Specular red="0" green="0" blue="0" alpha="0" />
+<Shininess value="0.00" />
+<DepthTest value="ECT_LESS" />
+<AlphaTest value="EAT_ALWAYS" />
+<BlendFunc src="ESBF_ONE" dst="EDBF_ONE" />
+</Pass>
+</Material>
+
+</Scene>
+
+<Game game_node_type="EGNT_DECORATION" class_name="Standard" >
+</Game>
+
+<Sound>
+</Sound>

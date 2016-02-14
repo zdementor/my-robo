@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="myengine_about" >
+        <Property Name="InheritsAlpha" Value="False" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+        <Window Type="TaharezLook/FrameWindow" Name="AboutMainFrame" >
+            <Property Name="Text" Value="About" />
+            <Property Name="Alpha" Value="0.8" />
+            <Property Name="TitlebarFont" Value="Tahoma-12" />
+            <Property Name="SizingEnabled" Value="False" />
+            <Property Name="TitlebarEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0.275902,0},{0.189089,0},{0.691526,0},{0.750534,0}}" />
+            <Property Name="MouseCursorImage" Value="set:TaharezLook image:MouseTarget" />
+            <Window Type="TaharezLook/Button" Name="AboutOKButton" >
+                <Property Name="Font" Value="Bgothm-18" />
+                <Property Name="Text" Value="OK" />
+                <Property Name="Alpha" Value="0.8" />
+                <Property Name="InheritsAlpha" Value="False" />
+                <Property Name="HoverTextColour" Value="FFC26408" />
+                <Property Name="UnifiedAreaRect" Value="{{0.299686,0},{0.849169,0},{0.675652,0},{0.955419,0}}" />
+                <Property Name="MouseCursorImage" Value="set:TaharezLook image:MouseArrow" />
+                <Property Name="PushedTextColour" Value="FFF5C059" />
+            </Window>
+            <Window Type="TaharezLook/StaticImage" Name="MyEngineLogo" >
+                <Property Name="Text" Value=" " />
+                <Property Name="UnifiedAreaRect" Value="{{0.0570611,0},{0.0393062,0},{0.950472,0},{0.366164,0}}" />
+            </Window>
+            <Window Type="TaharezLook/StaticText" Name="AboutInfo" >
+				<Property Name="Font" Value="Tahoma-10" />
+                <Property Name="Text" Value="About Text" />
+                <Property Name="Alpha" Value="0.8" />
+                <Property Name="InheritsAlpha" Value="False" />
+                <Property Name="VertScrollbar" Value="True" />
+                <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0570611,0},{0.403639,0},{0.952081,0},{0.79426,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

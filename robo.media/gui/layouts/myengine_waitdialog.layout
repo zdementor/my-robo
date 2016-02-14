@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="myengine_waitdialog" >
+        <Property Name="InheritsAlpha" Value="False" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+        <Window Type="TaharezLook/FrameWindow" Name="WaitMainFrame" >
+            <Property Name="Text" Value="Please wait . . ." />
+            <Property Name="Alpha" Value="0.8" />
+            <Property Name="TitlebarFont" Value="Tahoma-12" />
+            <Property Name="SizingEnabled" Value="False" />
+            <Property Name="TitlebarEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0.312812,0},{0.342917,0},{0.665938,0},{0.545417,0}}" />
+            <Property Name="MouseCursorImage" Value="set:TaharezLook image:MouseTarget" />
+            <Window Type="TaharezLook/StaticText" Name="MessageText" >
+                <Property Name="Font" Value="Tahoma-12" />
+                <Property Name="Text" >New scene is loading . . .
+fgdfgdfg</Property>
+                <Property Name="Alpha" Value="0.8" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0355717,0},{0.109436,0},{0.962438,0},{0.756087,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

@@ -1,0 +1,20 @@
+
+// entity 0
+{
+"classname" "worldspawn"
+// brush 0
+{
+( 4 8 0 ) ( 4 -8 0 ) ( -12 8 0 ) robo_trim/metalsupport4g 8 0 0 0.5 0.5 0 0 0
+( 8 32 60 ) ( -8 32 60 ) ( 8 32 -12 ) robo_trim/metalsupport4g 0 32 0 0.5 0.5 0 0 0
+( 32 8 60 ) ( 32 8 -12 ) ( 32 -8 60 ) robo_trim/metalsupport4g 0 32 0 0.5 0.5 0 0 0
+( -10 -8 -8 ) ( 6 -8 -8 ) ( -10 8 -8 ) robo_trim/metalsupport4g 4 0 0 0.5 0.5 0 0 0
+( -10 -32 -12 ) ( -10 -32 60 ) ( 6 -32 -12 ) robo_trim/metalsupport4g 4 32 0 0.5 0.5 0 0 0
+( -32 -8 -12 ) ( -32 8 -12 ) ( -32 -8 60 ) robo_trim/metalsupport4g 0 32 0 0.5 0.5 0 0 0
+}
+}
+// entity 1
+{
+"classname" "light"
+"origin" "24 -20 30"
+"light" "500"
+}

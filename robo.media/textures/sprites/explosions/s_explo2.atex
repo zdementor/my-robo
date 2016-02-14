@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+
+<AnimatedTexture time_per_frame="75" loop="1" >
+
+<Frame filename="s_explo2_00.tga" />
+<Frame filename="s_explo2_01.tga" />
+<Frame filename="s_explo2_02.tga" />
+<Frame filename="s_explo2_03.tga" />
+<Frame filename="s_explo2_04.tga" />
+<Frame filename="s_explo2_05.tga" />
+<Frame filename="s_explo2_06.tga" />
+<Frame filename="s_explo2_07.tga" />
+<Frame filename="s_explo2_08.tga" />
+<Frame filename="s_explo2_09.tga" />
+<Frame filename="s_explo2_10.tga" />
+<Frame filename="s_explo2_11.tga" />
+<Frame filename="s_explo2_12.tga" />
+
+</AnimatedTexture>  

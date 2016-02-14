@@ -1,0 +1,70 @@
+<?xml version="1.0" ?>
+<GUIScheme Name="TaharezLookHelperAliases">
+	<WindowAlias Alias="MyHelper/Button"						Target="TaharezLook/Button"						/>
+	<WindowAlias Alias="MyHelper/Checkbox"						Target="TaharezLook/Checkbox"					/>
+	<WindowAlias Alias="MyHelper/ImageButton"					Target="TaharezLook/ImageButton"				/>
+	<WindowAlias Alias="MyHelper/RadioButton"					Target="TaharezLook/RadioButton"				/>
+	<WindowAlias Alias="MyHelper/FrameWindow"					Target="TaharezLook/FrameWindow"				/>
+	<WindowAlias Alias="MyHelper/Titlebar"						Target="TaharezLook/Titlebar"					/>
+	<WindowAlias Alias="MyHelper/SystemButton"					Target="TaharezLook/SystemButton"				/>
+	<WindowAlias Alias="MyHelper/Editbox"						Target="TaharezLook/Editbox"					/>
+	<WindowAlias Alias="MyHelper/MultiLineEditbox"				Target="TaharezLook/MultiLineEditbox"			/>
+	<WindowAlias Alias="MyHelper/Menubar"						Target="TaharezLook/Menubar"					/>
+	<WindowAlias Alias="MyHelper/PopupMenu"						Target="TaharezLook/PopupMenu"					/>
+	<WindowAlias Alias="MyHelper/MenuItem"						Target="TaharezLook/MenuItem"					/>
+	<WindowAlias Alias="MyHelper/AlternateProgressBar"			Target="TaharezLook/AlternateProgressBar"		/>
+	<WindowAlias Alias="MyHelper/ProgressBar"					Target="TaharezLook/ProgressBar"				/>
+	<WindowAlias Alias="MyHelper/VUMeter"						Target="TaharezLook/VUMeter"					/>
+	<WindowAlias Alias="MyHelper/VerticalScrollbar"				Target="TaharezLook/VerticalScrollbar"			/>
+	<WindowAlias Alias="MyHelper/HorizontalScrollbar"			Target="TaharezLook/HorizontalScrollbar"		/>
+	<WindowAlias Alias="MyHelper/VerticalScrollbarThumb"		Target="TaharezLook/VerticalScrollbarThumb"		/>
+	<WindowAlias Alias="MyHelper/HorizontalScrollbarThumb"		Target="TaharezLook/HorizontalScrollbarThumb"	/>
+	<WindowAlias Alias="MyHelper/LargeVerticalScrollbar"		Target="TaharezLook/LargeVerticalScrollbar"		/>
+	<WindowAlias Alias="MyHelper/LargeVerticalScrollbarThumb"	Target="TaharezLook/LargeVerticalScrollbarThumb"/>
+	<WindowAlias Alias="MyHelper/TabButton"						Target="TaharezLook/TabButton"					/>
+	<WindowAlias Alias="MyHelper/TabControl"					Target="TaharezLook/TabControl"					/>
+	<WindowAlias Alias="MyHelper/TabContentPane"				Target="TaharezLook/TabContentPane"				/>
+	<WindowAlias Alias="MyHelper/TabButtonPane"					Target="TaharezLook/TabButtonPane"				/>
+	<WindowAlias Alias="MyHelper/ComboDropList"					Target="TaharezLook/ComboDropList"				/>
+	<WindowAlias Alias="MyHelper/ComboEditbox"					Target="TaharezLook/ComboEditbox"				/>
+	<WindowAlias Alias="MyHelper/Combobox"						Target="TaharezLook/Combobox"					/>
+	<WindowAlias Alias="MyHelper/Listbox"						Target="TaharezLook/Listbox"					/>
+	<WindowAlias Alias="MyHelper/ListHeader"					Target="TaharezLook/ListHeader"					/>
+	<WindowAlias Alias="MyHelper/ListHeaderSegment"				Target="TaharezLook/ListHeaderSegment"			/>
+	<WindowAlias Alias="MyHelper/MultiColumnList"				Target="TaharezLook/MultiColumnList"			/>
+	<WindowAlias Alias="MyHelper/Slider"						Target="TaharezLook/Slider"						/>
+	<WindowAlias Alias="MyHelper/SliderThumb"					Target="TaharezLook/SliderThumb"				/>
+	<WindowAlias Alias="MyHelper/ScrollablePane"				Target="TaharezLook/ScrollablePane"				/>
+	<WindowAlias Alias="MyHelper/Spinner"						Target="TaharezLook/Spinner"					/>
+	<WindowAlias Alias="MyHelper/Tooltip"						Target="TaharezLook/Tooltip"					/>
+	<WindowAlias Alias="MyHelper/StaticImage"					Target="TaharezLook/StaticImage"				/>
+	<WindowAlias Alias="MyHelper/StaticText"					Target="TaharezLook/StaticText"					/>
+	<WindowAlias Alias="MyHelper/ItemListbox"					Target="TaharezLook/ItemListbox"				/>
+	<WindowAlias Alias="MyHelper/ListboxItem"					Target="TaharezLook/ListboxItem"				/>
+	<WindowAlias Alias="MyHelper/GroupBox"						Target="TaharezLook/GroupBox"					/>
+    <WindowAlias Alias="MyHelper/Tree"							Target="TaharezLook/Tree"						/>
+</GUIScheme>                                                        
+                                                                    
+                                                                    
+                                                                    
+                                                                    
+                                                                    
+                                                                    
+                                                                    
+                                                                    
+                                                                    
+                                                                    
+                                                                    
+                                                                    
+                                                                    
+                                                                    
+                                                                    
+                                                                    
+                                                                    
+                                                                    
+                                                                    
+                                                                    
+                                                                    
+                                                                    
+                                                                    
+                                                                    

@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+
+<Scene scene_node_type="ESNT_ANIMATED_MESH_SCENE_NODE" >
+
+<Parameters name="box_wood" id="-1" parent_id="-1" />
+
+<Transformation>
+<Scale x="4.0000" y="4.0000" z="4.0000" />
+</Transformation>
+
+<SceneNodeCoreProperties>
+<Material name="divan_leather_brown" />
+<Mesh filename="furniture\divan_leather_large.md2" animation_fps="0" lod="0" />
+<Shadow on="1" type="ESHT_SHADOW_VOLUME" />
+</SceneNodeCoreProperties>
+
+</Scene>
+
+<Game game_node_type="EGNT_DECORATION" class_name="Standard" >
+
+<GameNodeCoreProperties>
+<GameParameters mov_speed="0.00" rot_speed="0.00" life="0.00" />
+</GameNodeCoreProperties>
+
+</Game>
+
+<Dynamic>
+
+<DynamicObjectCoreProperties>
+<DynamicParameters dynamic_type="EDOT_MONOLITH" geom_form="EDOGF_MESH" mass_value="5.00"
+surf_mu="1.000000" surf_bounce="0.010000" surf_bounce_vel="0.100000" surf_soft="0.000001"
+dynamic_constraints="0" />
+</DynamicObjectCoreProperties>
+
+</Dynamic>
+
+<Sound>
+</Sound>
+

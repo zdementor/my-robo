@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+
+<Scene scene_node_type="ESNT_TERRAIN_SCENE_NODE" >
+
+<SceneNodeCoreProperties>
+<TileSet>
+<Tile0TextureFileName value="terrains\tile1.jpg" />
+<Tile1TextureFileName value="terrains\tile2.jpg" />
+<Tile2TextureFileName value="terrains\tile3.jpg" />
+<SplattingMapFileName value="terrains\splatmap1.tga" />
+</TileSet>
+<TileSet>
+<Tile0TextureFileName value="terrains\tile4.jpg" />
+<Tile1TextureFileName value="null" />
+<Tile2TextureFileName value="null" />
+<SplattingMapFileName value="terrains\splatmap2.tga" />
+</TileSet>
+<TileRepeatNumber value="15" />
+<HeightMapFileName value="terrains\heightmap.bmp" />
+<HeightScale value="0.1000" />
+<GridPointSpacing value="92.00" />
+</SceneNodeCoreProperties>
+
+</Scene>
+
+<Game game_node_type="EGNT_TERRAIN" class_name="Standard" >
+<GameNodeCoreProperties>
+<GameParameters mov_speed="0.00" rot_speed="0.00" life="0.00" />
+</GameNodeCoreProperties>
+</Game>
+
+<Dynamic>
+
+<DynamicObjectCoreProperties>
+<DynamicParameters dynamic_type="EDOT_MONOLITH" geom_form="EDOGF_MESH" mass_value="50.00"
+surf_mu="1.000000" surf_bounce="0.010000" surf_bounce_vel="0.100000" surf_soft="0.000001"
+dynamic_constraints="0" />
+</DynamicObjectCoreProperties>
+
+</Dynamic>
+
+
+
+
+
+

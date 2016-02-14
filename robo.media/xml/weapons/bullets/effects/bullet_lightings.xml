@@ -1,0 +1,90 @@
+<?xml version="1.0"?>
+
+<Scene scene_node_type="ESNT_PARTICLE_SYSTEM_SCENE_NODE" />
+
+<Material>
+<Pass>
+<Flags qouraud_shading="1" zwrite_enable="0" back_face_culling="1" front_face_ccw="1" fog_enable="1" blending="1" />
+<BlendFunc src="ESBF_ONE" dst="EDBF_ONE_MINUS_SRC_COLOR" />
+</Pass>
+</Material>
+
+<SceneNodeCoreProperties>
+<Emitter type="EPET_BOX" enabled="1" >
+<Texture filename="particles\lightings.jpg" />
+<ParticleSize width="4" height="4" />
+<AppearVolume xmin="-3" ymin="-3" zmin="-3" xmax="3" ymax="3" zmax="3" />
+<ParticleDirection x="0.0000" y="0.1000" z="0.2000" />
+<ParticlesPerSecond min="20" max="25" />
+<LifeTime min="200" max="200" />
+<MinStartColor red="164" green="114" blue="4" alpha="255" />
+<MaxStartColor red="84" green="34" blue="4" alpha="255" />
+<AngleDegrees value="90" />
+<Affector type="EPAT_FADEOUT" enabled="1" affect_time_ms="250" >
+<TargetColor red="0" green="0" blue="0" alpha="0" />
+</Affector>
+<Affector type="EPAT_GRAVITY" enabled="1" affect_time_ms="100" >
+<GravityValue x="0.0000" y="-0.1250" x="0.0000" />
+</Affector>
+</Emitter>
+</SceneNodeCoreProperties>
+
+<!--P a r t i c l e s    P a r a m e t e r s:-->
+
+<!--Particle Size-->
+<ParticleSize width="4.00" height="4.00" />
+
+<!--Minimal Particle Life Time-->
+<LifeTimeMin value="200" />
+
+<!--Maximal Particle Life Time-->
+<LifeTimeMax value="250" />
+
+<!--E m i t t e r    P a r a m e t e r s:-->
+
+<!--Particles Appearing Diapason-->
+<AppearBox xmin="-2.5" ymin="-2.5" zmin="-2.5" xmax="2.5" ymax="2.5" zmax="2.5" />
+
+<!--Particles Moving Main Direction-->
+<ParticleDirection x="0" y="0.1" z="0.2" />
+
+<!--Minimum Particles Appearing Per Second-->
+<MinParticlesPerSecond value="20" />
+
+<!--Maximum Particles Appearing Per Second-->
+<MaxParticlePerSecond value="25" />
+
+<!--Minimum Color In The Begining Of The Particle Life Time-->
+<MinStartColor red="164" green="114" blue="4" alpha="255" />
+
+<!--Maximum Color In The Begining Of The Particle Life Time-->
+<MaxStartColor red="84" green="34" blue="4" alpha="255" />
+
+<!--Maximum Angle Between Particles-->
+<MaxAngleDegrees value="90" />
+
+<!--G r a v i t y    P a r a m e t e r s:-->
+
+<!--Gravity On/Off-->
+<GravityEnabled value="1" />
+
+<!--Gravity-->
+<GravityValue x="0.0" y="-0.125" z="0.0" />
+
+<!--Time Of Initial Force Lost Under Gravity-->
+<TimeForceLost value="100.00" />
+
+<!--F a d e o u t    P a r a m e t e r s:-->
+
+<!--Time Needed To Fadeout-->
+<TimeNeededToFadeOut  value="250.00" />
+
+<!--Color In The End Of Life Time Of The Particles-->
+<TargetColor   red="0" green="0" blue="0" alpha="0" />
+
+</Scene>
+
+<Game game_node_type="EGNT_DECORATION" class_name="Standard" >
+</Game>
+
+

@@ -1,0 +1,200 @@
+<?xml version="1.0"?>
+
+<Scene scene_node_type="ESNT_ANIMATED_MESH_SCENE_NODE" >
+
+<SceneNodeCoreProperties>
+<Mesh filename="max_stainer/cal3d.cfg" animation_fps="14" lod="0" />
+<Animation speed="1.00" smooth="1" >
+<Register filename="max_stainer\max_stand_idle_pistols.caf" speed="0.50" loop="1" />
+<Register filename="max_stainer\max_stand_idle_action_pistols.caf" speed="1.00" loop="1" />
+<Register filename="max_stainer\max_stand_ready_pistols.caf" speed="1.00" loop="1" />
+<Register filename="max_stainer\max_stand_shoot_pistols.caf" speed="1.00" loop="1" />
+<Register filename="max_stainer\max_walk_forward_shoot_pistols.caf" speed="1.00" loop="1" />
+<Register filename="max_stainer\max_walk_strafe_right_shoot_pistols.caf" speed="1.00" loop="1" />
+<Register filename="max_stainer\max_walk_strafe_left_shoot_pistols.caf" speed="1.00" loop="1" />
+<Register filename="max_stainer\max_walk_strafe_right_shoot_pistols.caf" speed="1.00" loop="1" />
+<Register filename="max_stainer\max_walk_strafe_left_shoot_pistols.caf" speed="1.00" loop="1" />
+<Register filename="max_stainer\max_walk_back_shoot_pistols.caf" speed="1.00" loop="1" />
+<Register filename="max_stainer\max_walk_strafe_right_back_shoot_pistols.caf" speed="1.00" loop="1" />
+<Register filename="max_stainer\max_walk_strafe_left_back_shoot_pistols.caf" speed="1.00" loop="1" />
+<Register filename="max_stainer\max_run_forward_pistols.caf" speed="1.00" loop="1" />
+<Register filename="max_stainer\max_run_strafe_right_pistols.caf" speed="1.00" loop="1" />
+<Register filename="max_stainer\max_run_strafe_left_pistols.caf" speed="1.00" loop="1" />
+<Register filename="max_stainer\max_run_strafe_right_pistols.caf" speed="1.00" loop="1" />
+<Register filename="max_stainer\max_run_strafe_left_pistols.caf" speed="1.00" loop="1" />
+<Register filename="max_stainer\max_run_back_pistols.caf" speed="1.00" loop="1" />
+<Register filename="max_stainer\max_run_strafe_right_back_pistols.caf" speed="1.00" loop="1" />
+<Register filename="max_stainer\max_run_strafe_left_back_pistols.caf" speed="1.00" loop="1" />
+<Register filename="max_stainer\max_death_a.caf" speed="1.00" loop="0" />
+<Register filename="max_stainer\max_death_b.caf" speed="1.00" loop="0" />
+<Register filename="max_stainer\max_death_c.caf" speed="1.00" loop="0" />
+<Register filename="max_stainer\max_death_d.caf" speed="1.00" loop="0" />
+<Register filename="max_stainer\max_stand_idle_chainmachine.caf" speed="0.50" loop="1" />
+<Register filename="max_stainer\max_stand_idle_action_chainmachine.caf" speed="1.00" loop="1" />
+<Register filename="max_stainer\max_stand_ready_chainmachine.caf" speed="1.00" loop="1" />
+<Register filename="max_stainer\max_stand_shoot_chainmachine.caf" speed="1.00" loop="1" />
+<Register filename="max_stainer\max_walk_forward_shoot_chainmachine.caf" speed="1.00" loop="1" />
+<Register filename="max_stainer\max_walk_strafe_right_shoot_chainmachine.caf" speed="1.00" loop="1" />
+<Register filename="max_stainer\max_walk_forward_shoot_chainmachine.caf" speed="1.00" loop="1" />
+<Register filename="max_stainer\max_walk_strafe_right_shoot_chainmachine.caf" speed="1.00" loop="1" />
+<Register filename="max_stainer\max_walk_strafe_left_shoot_chainmachine.caf" speed="1.00" loop="1" />
+<Register filename="max_stainer\max_walk_back_shoot_chainmachine.caf" speed="1.00" loop="1" />
+<Register filename="max_stainer\max_walk_back_shoot_chainmachine.caf" speed="1.00" loop="1" />
+<Register filename="max_stainer\max_walk_strafe_left_shoot_chainmachine.caf" speed="1.00" loop="1" />
+<Register filename="max_stainer\max_run_forward_chainmachine.caf" speed="1.00" loop="1" />
+<Register filename="max_stainer\max_run_strafe_right_chainmachine.caf" speed="1.00" loop="1" />
+<Register filename="max_stainer\max_run_forward_chainmachine.caf" speed="1.00" loop="1" />
+<Register filename="max_stainer\max_run_strafe_right_chainmachine.caf" speed="1.00" loop="1" />
+<Register filename="max_stainer\max_run_strafe_left_chainmachine.caf" speed="1.00" loop="1" />
+<Register filename="max_stainer\max_run_back_chainmachine.caf" speed="1.00" loop="1" />
+<Register filename="max_stainer\max_run_back_chainmachine.caf" speed="1.00" loop="1" />
+<Register filename="max_stainer\max_run_strafe_left_chainmachine.caf" speed="1.00" loop="1" />
+<Register filename="max_stainer\max_death_a.caf" speed="1.00" loop="0" />
+<Register filename="max_stainer\max_death_b.caf" speed="1.00" loop="0" />
+<Register filename="max_stainer\max_death_c.caf" speed="1.00" loop="0" />
+<Register filename="max_stainer\max_death_d.caf" speed="1.00" loop="0" />
+<Register filename="max_stainer\max_stand_idle_rocket.caf" speed="0.50" loop="1" />
+<Register filename="max_stainer\max_stand_idle_action_rocket.caf" speed="1.00" loop="1" />
+<Register filename="max_stainer\max_stand_ready_rocket.caf" speed="1.00" loop="1" />
+<Register filename="max_stainer\max_stand_shoot_rocket.caf" speed="1.00" loop="1" />
+<Register filename="max_stainer\max_walk_forward_shoot_rocket.caf" speed="1.00" loop="1" />
+<Register filename="max_stainer\max_walk_strafe_right_shoot_rocket.caf" speed="1.00" loop="1" />
+<Register filename="max_stainer\max_walk_forward_shoot_rocket.caf" speed="1.00" loop="1" />
+<Register filename="max_stainer\max_walk_strafe_right_shoot_rocket.caf" speed="1.00" loop="1" />
+<Register filename="max_stainer\max_walk_strafe_left_shoot_rocket.caf" speed="1.00" loop="1" />
+<Register filename="max_stainer\max_walk_back_shoot_rocket.caf" speed="1.00" loop="1" />
+<Register filename="max_stainer\max_walk_back_shoot_rocket.caf" speed="1.00" loop="1" />
+<Register filename="max_stainer\max_walk_strafe_left_shoot_rocket.caf" speed="1.00" loop="1" />
+<Register filename="max_stainer\max_run_forward_rocket.caf" speed="1.00" loop="1" />
+<Register filename="max_stainer\max_run_strafe_right_rocket.caf" speed="1.00" loop="1" />
+<Register filename="max_stainer\max_run_forward_rocket.caf" speed="1.00" loop="1" />
+<Register filename="max_stainer\max_run_strafe_right_rocket.caf" speed="1.00" loop="1" />
+<Register filename="max_stainer\max_run_strafe_left_rocket.caf" speed="1.00" loop="1" />
+<Register filename="max_stainer\max_run_back_rocket.caf" speed="1.00" loop="1" />
+<Register filename="max_stainer\max_run_back_rocket.caf" speed="1.00" loop="1" />
+<Register filename="max_stainer\max_run_strafe_left_rocket.caf" speed="1.00" loop="1" />
+<Register filename="max_stainer\max_death_a.caf" speed="1.00" loop="0" />
+<Register filename="max_stainer\max_death_b.caf" speed="1.00" loop="0" />
+<Register filename="max_stainer\max_death_c.caf" speed="1.00" loop="0" />
+<Register filename="max_stainer\max_death_d.caf" speed="1.00" loop="0" />
+</Animation>
+<Shadow on="1" type="ESHT_SHADOW_VOLUME" />
+</SceneNodeCoreProperties>
+
+</Scene>
+
+<Game game_node_type="EGNT_MAIN_PLAYER" class_name="IronWarrior" >
+
+<GameNodeCoreProperties>
+<GameParameters mov_speed="600.00" rot_speed="50.00" life="5000000.00" />
+</GameNodeCoreProperties>
+
+<AI 
+view_dist="0"
+mele_attack_range="0" mele_attack_damage="0" mele_attack_angle="0"
+fire_attack_horiz_max_angle="10" fire_attack_vert_max_angle="20"
+armor="0" power="0" dexterity="0" accuracy="0" 
+stand_ready_max_time="3000" memory_time="0" 
+friendly_damage_coeff="0.2"
+blood_color="75,0,0,90"
+/>
+
+<BindWeapon number="0" enabled="1" filename="weapons\blaster_left.node" target_bone="Bip01 R Hand" 
+pos="22.29,5.03,7.0" rot="-90.0,180.0,-85.0" lpos="40.0,45.0,0.0" />
+<BindWeapon number="0" enabled="1" filename="weapons\blaster_right.node" target_bone="Bip01 L Hand" 
+pos="22.29,5.03,-7.0" rot="270.0,0.0,-85.0" lpos="40.0,45.0,0.0" />
+
+<BindWeapon number="1" enabled="1" filename="weapons\chainmachine.node" target_bone="Bip01 R Hand" 
+pos="66.46,41.27,24.56" rot="-117.0,180.0,-58.0" lpos="60.0,80.0,10.0" />
+
+<BindWeapon number="2" enabled="1" filename="weapons\rocketlauncher.node" target_bone="Bip01 R Hand" 
+pos="55,-8,20" rot="70,0,85" lpos="60.0,80.0,10.0" />
+
+<BindHurtEffect filename="effects\hited_player_bleed.xml" scale="1,1,1" offset="0,0,0" hit="1" death="0" delay_after_hurt="0" life_time="500" />
+<BindHurtEffect filename="effects\death_player_bleed.xml" scale="1,1,1" offset="0,0,0" hit="0" death="1" delay_after_hurt="0" life_time="500" />
+
+<Camera>
+<Style name="ShadowGround" rot_speed="20" move_speed="0" zoom_speed="10" min_zoom="350" max_zoom="800" mouse_sense_x="0.5" mouse_sense_y="0.25" >
+	<Projection type="ECPT_PERSPECTIVE" up_vec="0,1,0" />
+	<CursorLockRect left="0.499" top="0.025" right="0.501" bottom="0.5" >		
+		<ActiveRectRel left="0.0" top="0.0" right="1.0" bottom="1.0" />
+		<FirstZoom value="300" use_center="0" view_width="1000" view_height="1000" near_clip="1" far_clip="2500.0" fov_deg="80" >
+			<Center      lookat_transl="0,0,0" pos_transl="0,0,0" />
+			<LeftTop     lookat_transl="210,20,0" pos_transl="-20,-50,0" />
+			<RightTop    lookat_transl="210,20,0" pos_transl="-20,-50,0" />
+			<LeftBottom  lookat_transl="220,20,0" pos_transl="0,50,0" />
+			<RightBottom lookat_transl="220,20,0" pos_transl="0,50,0" />
+		</FirstZoom>
+		<SecondZoom value="1000" use_center="0" view_width="1000" view_height="1000" near_clip="1" far_clip="2500.0" fov_deg="80" >
+			<Center      lookat_transl="0,0,0" pos_transl="0,0,0" />
+			<LeftTop     lookat_transl="400,20,0" pos_transl="0,-250,0" />
+			<RightTop    lookat_transl="400,20,0" pos_transl="0,-250,0" />
+			<LeftBottom  lookat_transl="200,20,0" pos_transl="50,-50,0" />
+			<RightBottom lookat_transl="200,20,0" pos_transl="50,-50,0" />
+		</SecondZoom>
+	</CursorLockRect>
+</Style>
+<Style name="AlienShooter3D" rot_speed="20" move_speed="10" zoom_speed="10" min_zoom="350" max_zoom="550" mouse_sense_x="0.5" mouse_sense_y="0.5" >
+	<Projection type="ECPT_PERSPECTIVE" up_vec="0,0,1" />
+	<CursorLockRect left="0.025" top="0.025" right="0.975" bottom="0.87" >		
+		<ActiveRectRel left="0.333" top="0.333" right="0.666" bottom="0.666" />
+		<FirstZoom value="300" use_center="1" view_width="1000" view_height="1000" near_clip="1" far_clip="1000.0" fov_deg="80" >
+			<Center      lookat_transl="0,0,0" pos_transl="0,0,0" />
+			<LeftTop     lookat_transl="-200,0,200" pos_transl="-200,0,0" />
+			<RightTop    lookat_transl="200,0,200" pos_transl="200,0,0" />
+			<LeftBottom  lookat_transl="-250,0,-150" pos_transl="-250,0,-200" />
+			<RightBottom lookat_transl="250,0,-150" pos_transl="250,0,-200" />
+		</FirstZoom>
+		<SecondZoom value="900" use_center="1" view_width="1000" view_height="1000" near_clip="1" far_clip="2300.0" fov_deg="80" >
+			<Center      lookat_transl="0,0,0" pos_transl="0,0,0" />
+			<LeftTop     lookat_transl="-800,0,600" pos_transl="-800,0,-100" />
+			<RightTop    lookat_transl="800,0,600" pos_transl="800,0,-100" />
+			<LeftBottom  lookat_transl="-1100,0,-600" pos_transl="-1100,0,-750" />
+			<RightBottom lookat_transl="1100,0,-600" pos_transl="1100,0,-750" />
+		</SecondZoom>
+	</CursorLockRect>
+</Style>
+<Style name="CrimsonLand" rot_speed="20" move_speed="10" zoom_speed="10" min_zoom="400" max_zoom="800" mouse_sense_x="0.5" mouse_sense_y="0.5" >
+	<Projection type="ECPT_ORTHOGONAL" width="800" height="600" near_clip="1" far_clip="3500.0" up_vec="0,1,0" fov_deg="80" />
+	<CursorLockRect left="0.025" top="0.025" right="0.975" bottom="0.87" >		
+		<ActiveRectRel left="0.333" top="0.333" right="0.666" bottom="0.666" />
+		<FirstZoom value="400" use_center="0" view_width="800" view_height="600" near_clip="-500" far_clip="2500.0" fov_deg="80" >
+			<Center      lookat_transl="0,0,0" pos_transl="0,0,0" />
+			<LeftTop     lookat_transl="-380,0,-100" pos_transl="-330,0,-150" />
+			<RightTop    lookat_transl="100,0,380" pos_transl="150,0,330" />
+			<LeftBottom  lookat_transl="-70,0,-400" pos_transl="-20,0,-450" />
+			<RightBottom lookat_transl="400,0,70" pos_transl="450,0,20" />
+		</FirstZoom>
+		<SecondZoom value="800" use_center="0" view_width="1600" view_height="1200" near_clip="1" far_clip="3000.0" fov_deg="80" >
+			<Center      lookat_transl="0,0,0" pos_transl="0,0,0" />
+			<LeftTop     lookat_transl="-380,0,-100" pos_transl="-330,0,-150" />
+			<RightTop    lookat_transl="100,0,380" pos_transl="150,0,330" />
+			<LeftBottom  lookat_transl="-70,0,-400" pos_transl="-20,0,-450" />
+			<RightBottom lookat_transl="400,0,70" pos_transl="450,0,20" />
+		</SecondZoom>
+	</CursorLockRect>
+</Style>
+</Camera>
+
+</Game>
+
+<Dynamic>
+
+<DynamicObjectCoreProperties>
+<DynamicParameters dynamic_type="EDOT_DYNAMIC" geom_form="EDOGF_YCCYLINDER" mass_value="5.00"
+surf_mu="1.000000" surf_bounce="0.010000" surf_bounce_vel="0.100000" surf_soft="0.000001"
+dynamic_constraints="56" />
+</DynamicObjectCoreProperties>
+
+</Dynamic>
+
+<Sound>
+<SoundEffect filename ="player\footsteps\boot1.wav" loop="0" />
+<SoundEffect filename ="player\footsteps\boot2.wav" loop="0" />
+<SoundEffect filename ="player\footsteps\boot3.wav" loop="0" />
+<SoundEffect filename ="player\footsteps\boot4.wav" loop="0" />
+<SoundEffect filename ="weapons\change.wav" loop="0" />
+<SoundEffect filename ="weapons\change.wav" loop="0" />
+</Sound>
+
+

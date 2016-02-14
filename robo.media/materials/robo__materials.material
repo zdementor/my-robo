@@ -1,0 +1,277 @@
+<?xml version="1.0"?>
+
+<Material name="blaster">
+<Pass>
+<Layer index="0" texture="blaster.jpg" tc_gen="ETCGT_MANUAL_MAPPING" tc_addr="ETCAM_WRAP" rgb_scale="1" tc_channel="0" />
+<Layer index="1" texture="refmap.bmp" tc_gen="ETCGT_ENVIRONMENT_MAPPING" tc_addr="ETCAM_WRAP" rgb_scale="1" tc_channel="0" />
+<Flags qouraud_shading="1" zwrite_enable="1" back_face_culling="1" front_face_ccw="1" fog_enable="1" mip_map_off="0" blending="0" />
+<LightingMode value="1" />
+<AlphaTest value="EAT_ALWAYS" />
+<Ambient red="50" green="50" blue="50" alpha="255" />
+<Diffuse red="200" green="200" blue="200" alpha="255" />
+<Emissive red="0" green="0" blue="0" alpha="0" />
+<Specular red="0" green="0" blue="0" alpha="0" />
+<Shininess value="0.00" />
+<BlendFunc src="ESBF_ONE" dst="EDBF_ONE" />
+</Pass>
+</Material>
+
+<Material name="chainmachine">
+<Pass>
+<Layer index="0" texture="chainmachine_final_256.tga" tc_gen="ETCGT_MANUAL_MAPPING" tc_addr="ETCAM_WRAP" rgb_scale="1" tc_channel="0" />
+<Layer index="1" texture="refmap.bmp" tc_gen="ETCGT_ENVIRONMENT_MAPPING" tc_addr="ETCAM_WRAP" rgb_scale="1" tc_channel="0" />
+<Flags qouraud_shading="1" zwrite_enable="1" back_face_culling="1" front_face_ccw="1" fog_enable="1" mip_map_off="0" blending="0" />
+<LightingMode value="1" />
+<AlphaTest value="EAT_GE_80" />
+<Ambient red="40" green="40" blue="40" alpha="255" />
+<Diffuse red="200" green="200" blue="200" alpha="255" />
+<Emissive red="0" green="0" blue="0" alpha="0" />
+<Specular red="20" green="20" blue="20" alpha="0" />
+<Shininess value="0.00" />
+<BlendFunc src="ESBF_ONE" dst="EDBF_ONE" />
+</Pass>
+</Material>
+
+<Material name="rocketlauncher">
+<Pass>
+<Layer index="0" texture="rocketlauncher_final_256.tga" tc_gen="ETCGT_MANUAL_MAPPING" tc_addr="ETCAM_WRAP" rgb_scale="1" tc_channel="0" />
+<Layer index="1" texture="refmap.bmp" tc_gen="ETCGT_ENVIRONMENT_MAPPING" tc_addr="ETCAM_WRAP" rgb_scale="1" tc_channel="0" />
+<Flags qouraud_shading="1" zwrite_enable="1" back_face_culling="1" front_face_ccw="1" fog_enable="1" mip_map_off="0" blending="0" />
+<LightingMode value="1" />
+<AlphaTest value="EAT_GE_80" />
+<Ambient red="40" green="40" blue="40" alpha="255" />
+<Diffuse red="200" green="200" blue="200" alpha="255" />
+<Emissive red="0" green="0" blue="0" alpha="0" />
+<Specular red="20" green="20" blue="20" alpha="0" />
+<Shininess value="0.00" />
+<BlendFunc src="ESBF_ONE" dst="EDBF_ONE" />
+</Pass>
+</Material>
+
+<Material name="ammo_bullet_small">
+<Pass>
+<Layer index="0" texture="bullet_ammo_small.jpg" tc_gen="ETCGT_MANUAL_MAPPING" tc_addr="ETCAM_WRAP" rgb_scale="1" tc_channel="0" />
+<Flags qouraud_shading="1" zwrite_enable="1" back_face_culling="1" front_face_ccw="1" fog_enable="1" mip_map_off="0" blending="0" />
+<LightingMode value="1" />
+<AlphaTest value="EAT_ALWAYS" />
+<Ambient red="100" green="100" blue="100" alpha="255" />
+<Diffuse red="255" green="255" blue="255" alpha="255" />
+<Emissive red="0" green="0" blue="0" alpha="0" />
+<Specular red="0" green="0" blue="0" alpha="0" />
+<Shininess value="0.00" />
+<BlendFunc src="ESBF_ONE" dst="EDBF_ONE" />
+</Pass>
+</Material>
+
+<Material name="ammo_bullet_medium">
+<Pass>
+<Layer index="0" texture="bullet_ammo_medium.jpg" tc_gen="ETCGT_MANUAL_MAPPING" tc_addr="ETCAM_WRAP" rgb_scale="1" tc_channel="0" />
+<Flags qouraud_shading="1" zwrite_enable="1" back_face_culling="1" front_face_ccw="1" fog_enable="1" mip_map_off="0" blending="0" />
+<LightingMode value="1" />
+<AlphaTest value="EAT_ALWAYS" />
+<Ambient red="100" green="100" blue="100" alpha="255" />
+<Diffuse red="255" green="255" blue="255" alpha="255" />
+<Emissive red="0" green="0" blue="0" alpha="0" />
+<Specular red="0" green="0" blue="0" alpha="0" />
+<Shininess value="0.00" />
+<BlendFunc src="ESBF_ONE" dst="EDBF_ONE" />
+</Pass>
+</Material>
+
+<Material name="ammo_bullet_large">
+<Pass>
+<Layer index="0" texture="bullet_ammo_large.jpg" tc_gen="ETCGT_MANUAL_MAPPING" tc_addr="ETCAM_WRAP" rgb_scale="1" tc_channel="0" />
+<Flags qouraud_shading="1" zwrite_enable="1" back_face_culling="1" front_face_ccw="1" fog_enable="1" mip_map_off="0" blending="0" />
+<LightingMode value="1" />
+<AlphaTest value="EAT_ALWAYS" />
+<Ambient red="100" green="100" blue="100" alpha="255" />
+<Diffuse red="255" green="255" blue="255" alpha="255" />
+<Emissive red="0" green="0" blue="0" alpha="0" />
+<Specular red="0" green="0" blue="0" alpha="0" />
+<Shininess value="0.00" />
+<BlendFunc src="ESBF_ONE" dst="EDBF_ONE" />
+</Pass>
+</Material>
+
+<Material name="ammo_rocket_small">
+<Pass>
+<Layer index="0" texture="rocket_ammo_small.jpg" tc_gen="ETCGT_MANUAL_MAPPING" tc_addr="ETCAM_WRAP" rgb_scale="1" tc_channel="0" />
+<Flags qouraud_shading="1" zwrite_enable="1" back_face_culling="1" front_face_ccw="1" fog_enable="1" mip_map_off="0" blending="0" />
+<LightingMode value="1" />
+<AlphaTest value="EAT_ALWAYS" />
+<Ambient red="100" green="100" blue="100" alpha="255" />
+<Diffuse red="255" green="255" blue="255" alpha="255" />
+<Emissive red="0" green="0" blue="0" alpha="0" />
+<Specular red="0" green="0" blue="0" alpha="0" />
+<Shininess value="0.00" />
+<BlendFunc src="ESBF_ONE" dst="EDBF_ONE" />
+</Pass>
+</Material>
+
+<Material name="ammo_rocket_medium">
+<Pass>
+<Layer index="0" texture="rocket_ammo_medium.jpg" tc_gen="ETCGT_MANUAL_MAPPING" tc_addr="ETCAM_WRAP" rgb_scale="1" tc_channel="0" />
+<Flags qouraud_shading="1" zwrite_enable="1" back_face_culling="1" front_face_ccw="1" fog_enable="1" mip_map_off="0" blending="0" />
+<LightingMode value="1" />
+<AlphaTest value="EAT_ALWAYS" />
+<Ambient red="100" green="100" blue="100" alpha="255" />
+<Diffuse red="255" green="255" blue="255" alpha="255" />
+<Emissive red="0" green="0" blue="0" alpha="0" />
+<Specular red="0" green="0" blue="0" alpha="0" />
+<Shininess value="0.00" />
+<BlendFunc src="ESBF_ONE" dst="EDBF_ONE" />
+</Pass>
+</Material>
+
+<Material name="ammo_rocket_large">
+<Pass>
+<Layer index="0" texture="rocket_ammo_large.jpg" tc_gen="ETCGT_MANUAL_MAPPING" tc_addr="ETCAM_WRAP" rgb_scale="1" tc_channel="0" />
+<Flags qouraud_shading="1" zwrite_enable="1" back_face_culling="1" front_face_ccw="1" fog_enable="1" mip_map_off="0" blending="0" />
+<LightingMode value="1" />
+<AlphaTest value="EAT_ALWAYS" />
+<Ambient red="100" green="100" blue="100" alpha="255" />
+<Diffuse red="255" green="255" blue="255" alpha="255" />
+<Emissive red="0" green="0" blue="0" alpha="0" />
+<Specular red="0" green="0" blue="0" alpha="0" />
+<Shininess value="0.00" />
+<BlendFunc src="ESBF_ONE" dst="EDBF_ONE" />
+</Pass>
+</Material>
+
+<Material name="medkit_small">
+<Pass>
+<Layer index="0" texture="medkit_small.jpg" tc_gen="ETCGT_MANUAL_MAPPING" tc_addr="ETCAM_WRAP" rgb_scale="1" tc_channel="0" />
+<Flags qouraud_shading="1" zwrite_enable="1" back_face_culling="1" front_face_ccw="1" fog_enable="1" mip_map_off="0" blending="0" />
+<LightingMode value="1" />
+<AlphaTest value="EAT_ALWAYS" />
+<Ambient red="100" green="100" blue="100" alpha="255" />
+<Diffuse red="255" green="255" blue="255" alpha="255" />
+<Emissive red="0" green="0" blue="0" alpha="0" />
+<Specular red="0" green="0" blue="0" alpha="0" />
+<Shininess value="0.00" />
+<BlendFunc src="ESBF_ONE" dst="EDBF_ONE" />
+</Pass>
+</Material>
+
+<Material name="medkit_medium">
+<Pass>
+<Layer index="0" texture="medkit_medium.jpg" tc_gen="ETCGT_MANUAL_MAPPING" tc_addr="ETCAM_WRAP" rgb_scale="1" tc_channel="0" />
+<Flags qouraud_shading="1" zwrite_enable="1" back_face_culling="1" front_face_ccw="1" fog_enable="1" mip_map_off="0" blending="0" />
+<LightingMode value="1" />
+<AlphaTest value="EAT_ALWAYS" />
+<Ambient red="100" green="100" blue="100" alpha="255" />
+<Diffuse red="255" green="255" blue="255" alpha="255" />
+<Emissive red="0" green="0" blue="0" alpha="0" />
+<Specular red="0" green="0" blue="0" alpha="0" />
+<Shininess value="0.00" />
+<BlendFunc src="ESBF_ONE" dst="EDBF_ONE" />
+</Pass>
+</Material>
+
+<Material name="medkit_large">
+<Pass>
+<Layer index="0" texture="medkit_large.jpg" tc_gen="ETCGT_MANUAL_MAPPING" tc_addr="ETCAM_WRAP" rgb_scale="1" tc_channel="0" />
+<Flags qouraud_shading="1" zwrite_enable="1" back_face_culling="1" front_face_ccw="1" fog_enable="1" mip_map_off="0" blending="0" />
+<LightingMode value="1" />
+<AlphaTest value="EAT_ALWAYS" />
+<Ambient red="100" green="100" blue="100" alpha="255" />
+<Diffuse red="255" green="255" blue="255" alpha="255" />
+<Emissive red="0" green="0" blue="0" alpha="0" />
+<Specular red="0" green="0" blue="0" alpha="0" />
+<Shininess value="0.00" />
+<BlendFunc src="ESBF_ONE" dst="EDBF_ONE" />
+</Pass>
+</Material>
+
+<Material name="box_wood">
+<Pass>
+<Layer index="0" texture="robo_box_wood_1_front_sides_128_256.jpg" tc_gen="ETCGT_MANUAL_MAPPING" tc_addr="ETCAM_WRAP" rgb_scale="1" tc_channel="0" />
+<Flags qouraud_shading="1" zwrite_enable="1" back_face_culling="1" front_face_ccw="1" fog_enable="1" mip_map_off="0" blending="0" />
+<LightingMode value="1" />
+<AlphaTest value="EAT_ALWAYS" />
+<Ambient red="50" green="50" blue="50" alpha="255" />
+<Diffuse red="255" green="255" blue="255" alpha="255" />
+<Emissive red="0" green="0" blue="0" alpha="0" />
+<Specular red="0" green="0" blue="0" alpha="0" />
+<Shininess value="0.00" />
+<BlendFunc src="ESBF_ONE" dst="EDBF_ONE" />
+</Pass>
+</Material>
+
+<Material name="box_grey">
+<Pass>
+<Layer index="0" texture="robo_box_grey_1_front_sides_128_256.jpg" tc_gen="ETCGT_MANUAL_MAPPING" tc_addr="ETCAM_WRAP" rgb_scale="1" tc_channel="0" />
+<Flags qouraud_shading="1" zwrite_enable="1" back_face_culling="1" front_face_ccw="1" fog_enable="1" mip_map_off="0" blending="0" />
+<LightingMode value="1" />
+<AlphaTest value="EAT_ALWAYS" />
+<Ambient red="50" green="50" blue="50" alpha="255" />
+<Diffuse red="255" green="255" blue="255" alpha="255" />
+<Emissive red="0" green="0" blue="0" alpha="0" />
+<Specular red="0" green="0" blue="0" alpha="0" />
+<Shininess value="0.00" />
+<BlendFunc src="ESBF_ONE" dst="EDBF_ONE" />
+</Pass>
+</Material>
+
+<Material name="box_iron">
+<Pass>
+<Layer index="0" texture="robo_box_iron_1_front_sides_128_256.jpg" tc_gen="ETCGT_MANUAL_MAPPING" tc_addr="ETCAM_WRAP" rgb_scale="1" tc_channel="0" />
+<Flags qouraud_shading="1" zwrite_enable="1" back_face_culling="1" front_face_ccw="1" fog_enable="1" mip_map_off="0" blending="0" />
+<LightingMode value="1" />
+<AlphaTest value="EAT_ALWAYS" />
+<Ambient red="50" green="50" blue="50" alpha="255" />
+<Diffuse red="255" green="255" blue="255" alpha="255" />
+<Emissive red="0" green="0" blue="0" alpha="0" />
+<Specular red="0" green="0" blue="0" alpha="0" />
+<Shininess value="0.00" />
+<BlendFunc src="ESBF_ONE" dst="EDBF_ONE" />
+</Pass>
+</Material>
+
+<Material name="barrel_metal">
+<Pass>
+<Layer index="0" texture="robo_barrel_metal_1_sides_cap_128_256.jpg" tc_gen="ETCGT_MANUAL_MAPPING" tc_addr="ETCAM_WRAP" rgb_scale="1" tc_channel="0" />
+<Flags qouraud_shading="1" zwrite_enable="1" back_face_culling="1" front_face_ccw="1" fog_enable="1" mip_map_off="0" blending="0" />
+<LightingMode value="1" />
+<AlphaTest value="EAT_ALWAYS" />
+<Ambient red="100" green="100" blue="100" alpha="255" />
+<Diffuse red="255" green="255" blue="255" alpha="255" />
+<Emissive red="0" green="0" blue="0" alpha="0" />
+<Specular red="0" green="0" blue="0" alpha="0" />
+<Shininess value="0.00" />          
+<BlendFunc src="ESBF_ONE" dst="EDBF_ONE" />
+</Pass>
+</Material>
+
+<Material name="divan_leather_brown">
+<Pass>
+<Layer index="0" texture="divan_leather_brown_256.jpg" tc_gen="ETCGT_MANUAL_MAPPING" tc_addr="ETCAM_WRAP" rgb_scale="1" tc_channel="0" />
+<Flags qouraud_shading="1" zwrite_enable="1" back_face_culling="1" front_face_ccw="1" fog_enable="1" mip_map_off="0" blending="0" />
+<LightingMode value="1" />
+<AlphaTest value="EAT_ALWAYS" />
+<Ambient red="50" green="50" blue="50" alpha="255" />
+<Diffuse red="255" green="255" blue="255" alpha="255" />
+<Emissive red="0" green="0" blue="0" alpha="0" />
+<Specular red="0" green="0" blue="0" alpha="0" />
+<Shininess value="0.00" />
+<BlendFunc src="ESBF_ONE" dst="EDBF_ONE" />
+</Pass>
+</Material>
+
+<Material name="bench_wood">
+<Pass>
+<Layer index="0" texture="bench_wood_256.jpg" tc_gen="ETCGT_MANUAL_MAPPING" tc_addr="ETCAM_WRAP" rgb_scale="1" tc_channel="0" />
+<Flags qouraud_shading="1" zwrite_enable="1" back_face_culling="1" front_face_ccw="1" fog_enable="1" mip_map_off="0" blending="0" />
+<LightingMode value="1" />
+<AlphaTest value="EAT_ALWAYS" />
+<Ambient red="50" green="50" blue="50" alpha="255" />
+<Diffuse red="255" green="255" blue="255" alpha="255" />
+<Emissive red="0" green="0" blue="0" alpha="0" />
+<Specular red="0" green="0" blue="0" alpha="0" />
+<Shininess value="0.00" />
+<BlendFunc src="ESBF_ONE" dst="EDBF_ONE" />
+</Pass>
+</Material>
+
+
+

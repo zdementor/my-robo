@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+
+<Scene scene_node_type="ESNT_LENS_FLARE_SCENE_NODE" />
+
+<SceneNodeCoreProperties>
+<Material>
+<Pass>
+<Layer index="0" texture="null" tc_gen="ETCGT_MANUAL_MAPPING" tc_addr="ETCAM_WRAP" type="ETLT_DIFFUSE_MAP" rgb_scale="1" tc_channel="0" />
+<Flags qouraud_shading="1" zwrite_enable="0" back_face_culling="1" front_face_ccw="1" fog_enable="1" mip_map_off="1" blending="1" />
+<LightingMode value="0" />
+<Ambient rgba="255,255,255,255" />
+<Diffuse rgba="255,255,128,255" />
+<Emissive rgba="0,0,0,0" />
+<Specular rgba="255,255,255,255" />
+<Shininess value="0.00" />
+<AlphaTest value="EAT_ALWAYS" />
+<DepthTest value="ECT_ALWAYS" />
+<BlendFunc src="ESBF_ONE" dst="EDBF_ONE_MINUS_SRC_COLOR" />
+</Pass>
+</Material>
+<Corona filename="sprites\corona_white.jpg" />
+<EtalonScreen width="800" height="600" />
+</SceneNodeCoreProperties>
+
+</Scene>

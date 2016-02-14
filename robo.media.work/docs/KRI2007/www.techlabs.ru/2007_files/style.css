@@ -1,0 +1,959 @@
+body {font-family: Verdana, Tahoma}
+a {color: #0099FF; text-decoration: none}
+a:hover {color: #0099FF; text-decoration: underline}
+td {vertical-align: top; font-size: 8pt}
+img {border: 0}
+select {background-color: white}
+
+#h3
+{
+color: #FBE6E6;
+font-size: 20px;
+margin-bottom:0px;
+font-weight: normal;
+background-image: URL(/b/part-middle-red.gif);
+height: 60px;
+float: left;
+}
+
+#h3 div
+{
+background: URL(/b/part-left-red.jpg) no-repeat 0 0;
+height: 60px;
+float: left;
+padding-left: 28;
+}
+
+#h3 div div
+{
+background: URL(/b/part-right-red.jpg) no-repeat 100% 0;
+height: 60px;
+text-align: left;
+float: left;
+padding-right: 20;
+padding-top: 15px;
+}
+
+#h31
+{
+color: #FBE6E6;
+font-size: 17px;
+margin-bottom:0px;
+font-weight: normal;
+background-image: URL(/b/part-middle-red.gif);
+height: 60px;
+float: left;
+}
+
+#h31 div
+{
+background: URL(/b/part-left-red.jpg) no-repeat 0 0;
+height: 60px;
+float: left;
+padding-left: 28;
+}
+
+#h31 div div
+{
+background: URL(/b/part-right-red.jpg) no-repeat 100% 0;
+height: 60px;
+text-align: left;
+float: left;
+padding-right: 20;
+padding-top: 15px;
+}
+
+#h3black
+{
+color: #333;
+font-size: 20px;
+margin-bottom: 0px;
+font-weight: normal;
+background-image: URL(/b/part-middle.gif);
+height: 60px;
+float: left;
+}
+
+#h3black div
+{
+background: URL(/b/part-left.jpg) no-repeat 0 0;
+height: 60px;
+float: left;
+padding-left: 28;
+}
+
+#h3black div div
+{
+background: URL(/b/part-right.jpg) no-repeat 100% 0;
+height: 60px;
+text-align: left;
+float: left;
+padding-right: 20;
+padding-top: 15px;
+}
+
+#h3black1
+{
+color: #333;
+font-size: 17px;
+margin-bottom: 0px;
+font-weight: normal;
+background-image: URL(/b/part-middle.gif);
+height: 60px;
+float: left;
+}
+
+#h3black1 div
+{
+background: URL(/b/part-left.jpg) no-repeat 0 0;
+height: 60px;
+float: left;
+padding-left: 28;
+}
+
+#h3black1 div div
+{
+background: URL(/b/part-right.jpg) no-repeat 100% 0;
+height: 60px;
+text-align: left;
+float: left;
+padding-right: 20;
+padding-top: 15px;
+}
+
+div div#Long
+{
+font-size: 9pt;
+font-weight: bold;
+line-height: 1em;
+}
+
+#PartEnd_old
+{
+clear: both;
+position: relative;
+z-index: -1;
+top: -50;
+left: -178;
+width: 178;
+height: 62;
+background: white URL(/b/part-end.jpg) no-repeat
+}
+
+#PartEnd
+{
+clear: both;
+position: relative;
+width: 178;
+height: 62;
+}
+
+#PartEndPrint
+{
+clear: both;
+position: relative;
+z-index: -1;
+top: -50;
+left: -178;
+width: 178;
+height: 62;
+}
+
+#BannerTop
+{
+background: #4C4C4C;
+height: 89;
+min-width: 750;
+width: 100%;
+padding-left: 60 ;
+padding-bottom: 20;
+}
+#LogoTop
+{
+z-index: 1;
+position: absolute;
+top: 0;
+left: 0
+}
+#Search
+{
+z-index: 2;
+position: absolute;
+top: 145;
+left: 6;
+}
+#MainBottomPadding td {padding: 5}
+
+#BottomLineGray
+{
+border-bottom: #D9D9D9 2px solid;
+padding-bottom: 10;
+}
+#TopLineGray
+{
+border-top: #D9D9D9 2px solid;
+padding-bottom: 10;
+}
+
+input.SearchTop
+{
+height: 16px;
+width: 105px;
+background-color: white;
+border: #909090 1px solid;
+font-size: 8pt;
+background: transparent;
+}
+div.DivSpacer,  div.DivSpacer spacer{width: 750; height: 1}
+div.DivSpacer2,  div.DivSpacer2 spacer{width: 570; height: 1}
+tr.TopSpacer div, tr.TopSpacer spacer {width: 182; height: 1}
+tr.TopSpacer1 div, tr.TopSpacer1 spacer {width: 190; height: 0}
+tr.TopSpacer .Spacer160 div, tr.TopSpacer .Spacer160 spacer {width: 160; height: 1}
+tr.TopSpacer .Spacer120 div, tr.TopSpacer .Spacer120 spacer {width: 120; height: 1}
+tr.TopSpacer1 .Spacer120 div, tr.TopSpacer1 .Spacer120 spacer {width: 120; height: 0}
+tr.TopSpacer1 .TopSpacer2 div, tr.TopSpacer1 .TopSpacer2 spacer {width: 99; height: 0}
+
+tr.BottomLineGray td
+{
+background: URL(/b/line-gray.gif) repeat-x bottom;
+padding-bottom: 10
+}
+.OnlyTitles font
+{
+color: gray;
+font-size: 7pt;
+font-family: Arial;
+font-weight: bold;
+}
+.OnlyTitles font font
+{
+color: black;
+font-size: 7.8pt;
+font-family: Verdana;
+font-weight: bold;
+}
+.OnlyTitles div
+{
+font-size: 7.8pt;
+font-weight: bold;
+padding-bottom: 10;
+letter-spacing: 1
+}
+.OnlyTitles font font dont
+{
+font-size: 7.8pt;
+font-weight: bold;
+padding-bottom: 10;
+font-family: Arial;
+letter-spacing: 1
+}
+.OnlyTitles ul
+{
+list-style: none;
+padding: 0;
+margin: 0;
+}
+
+.OnlyTitles ul#gray
+{
+list-style: none;
+padding: 5;
+margin: 0;
+background: #F0F0F0;
+border: #CCC 1px solid
+}
+
+.OnlyTitles ul li
+{
+display: block;
+background: url(/i/li.gif) no-repeat 0 50%;
+padding-left: 10px;
+}
+
+.OnlyTitles2 div
+{
+font-size: 7.8pt;
+font-weight: bold;
+padding-bottom: 10;
+letter-spacing: 1
+}
+.OnlyTitles2 ul
+{
+list-style: none;
+padding: 0; margin: 0;
+font-size: 7pt
+}
+.OnlyTitles2 ul li
+{
+display: block;
+background: url(/i/li.gif) no-repeat 0 7px;
+padding-left: 7px;
+font-size: 7pt;
+}
+
+.OnlyTitles3 div
+{
+font-size: 8pt;
+font-weight: bold;
+padding-bottom: 10;
+letter-spacing: 1
+}
+.OnlyTitles3 ul
+{
+list-style:  none;
+padding: 0;
+margin: 0;
+font-size: 8pt
+}
+.OnlyTitles3 ul#top
+{
+list-style: decimal;
+padding: 0 0 0 25;
+margin: 0 0 0 5;
+font-size: 7pt;
+font-weight: bold;
+}
+.OnlyTitles3 ul#top a
+{
+list-style:  decimal-leading-zero;
+font-size: 8pt;
+font-weight: normal;
+}
+.OnlyTitles3 ul#gray ul
+{
+list-style: none;
+background: #F0F0F0;
+padding: 5 5 15 15;
+border: #CCC 1px solid
+}
+.OnlyTitles3 ul#gray ul li
+{
+background: url(/i/li.gif) no-repeat 0 7px;
+padding-left: 7px;
+}
+
+.OnlyTitles4 div
+{
+font-size: 8pt;
+font-weight: bold;
+padding-bottom: 10;
+letter-spacing: 1;
+}
+
+.OnlyTitles4 ul
+{
+list-style:  none;
+padding: 0;
+margin: 0;
+font-size: 8pt
+}
+
+.OnlyTitles4 ul li#day
+{
+margin: 15 0 5 0;
+padding: 2 0 2 10;
+color: black;
+border-left: gray 3px solid;
+border-bottom: gray 1px solid;
+font-weight: bold;
+list-style:  none;
+font-size: 8pt;
+width: 300;
+}
+
+.OnlyTitles4 ul font
+{
+font-family: Arial;
+color: gray;
+font-size: 7pt
+}
+
+.OnlyTitles4 ul#gray font {color: #333}
+
+.OnlyTitles4 ul#gray ul
+{
+list-style: none;
+float: left;
+background: #F0F0F0;
+width: 48%;
+padding: 5 5 15 15;
+margin: 0 1% 0 0;
+border: #c0c0c0 1px solid;
+}
+
+div.title
+{
+font-size: 8pt;
+font-weight: bold;
+padding-bottom: 5;
+}
+div.text{
+text-align: justify;
+font-size: 9pt;
+}
+tr a.text
+{
+color: black;
+text-decoration: none;
+}
+tr a:hover.text
+{
+color: black;
+text-decoration: none
+}
+div.texthome{
+text-align: justify;
+font-size: 8pt;
+}
+tr a.texthome
+{
+color: black;
+text-decoration: none;
+}
+tr a:hoverhome.text
+{
+color: black;
+text-decoration: none
+}
+tr.TopLineGray td
+{
+background: URL(/b/line-gray.gif) repeat-x top;
+padding-top: 5;
+padding-bottom: 10;
+}
+.VoteTitle
+{
+font-size: 7.8pt;
+font-weight: bold;
+letter-spacing: 1;
+text-align: center;
+padding-bottom: 10
+}
+#PrewContent
+{
+margin-top: -60;
+font-size: 8pt;
+clear: both;
+}
+#PrewContent #Content
+{
+margin-bottom: 30;
+clear: both;
+}
+#PrewContent div#hr {padding: 15 0 15 0}
+
+#PrewContent div#Date
+{
+color: black;
+list-style: none;
+font-size: 8pt;
+font-weight: bold;
+margin: 30 0 2 0;
+padding: 3 0 3 10;
+border-bottom: gray 1px solid;
+border-left: gray 3px solid;
+clear: both;
+}
+
+#PrewContent div#Date1
+{
+color: black;
+list-style: none;
+font-size: 8pt;
+font-weight: bold;
+margin: 0 0 2 0;
+padding: 3 0 3 10;
+border-bottom: gray 1px solid;
+border-left: gray 3px solid;
+clear: both;
+}
+
+#PrewContent div#Title
+{
+align: left;
+}
+
+#PrewContent div#time
+{
+float: right;
+font-size: 7pt;
+padding: 7 0 0 0;
+}
+
+#PrewContent #vote td
+{
+font-size: 9pt;
+font-weight: bold;
+vertical-align: bottom;
+height: 15;
+}
+
+#PrewContent #vote td div#other
+{
+height: 10;
+background: URL(/b/vote-line.gif) repeat-x left middle
+}
+
+#PrewContent #vote td div#1st
+{
+height: 10;
+background: URL(/b/vote-line1.gif) repeat-x left middle
+}
+
+#PrewContent #vote font
+{
+font-size: 7pt;
+font-weight: bold;
+color: gray;
+}
+
+#PrewContent #msearch ul
+{
+margin: 0 0 0 25;
+padding: 0;
+list-style-type: disc;
+}
+
+#PrewContent #msearch ul li#text
+{
+margin: 0;
+padding: 0;
+color: #999;
+list-style: none;
+margin-bottom: 0px;
+}
+
+#PrewContent #msearch ul li#text font
+{
+color: black;
+font-weight: bold;
+}
+
+#Calendar
+{
+font-weight: normal;
+border: #CCC 1px solid;
+float: right;
+background: #F0F0F0;
+margin: 0 0 5 5;
+padding: 0
+}
+#Calendar select
+{
+font-size: 7pt;
+font-family: Verdana
+}
+#Calendar ul
+{
+background: white;
+padding: 3 0 3 0;
+margin: 0;
+display: block;
+list-style: none;
+}
+#Calendar div#Number
+{
+font-weight: normal;
+background: white;
+padding: 5;
+margin: 0;
+}
+#Calendar ul li
+{
+display: inline;
+margin: 0;
+padding: 0;
+}
+#Calendar ul#day
+{
+background: #F0F0F0;
+padding-left: 3;
+}
+#Calendar ul#day li
+{
+color: black;
+font-weight: bold;
+margin: 0;
+padding: 3;
+}
+#Calendar ul#day li#red {color: #db0000}
+#Calendar tr td
+{
+vertical-align: center;
+text-align: center;
+}
+#Calendar tr td a
+{
+width: 22;
+height: 19;
+padding: 2;
+display: block;
+border: #F0F0F0 1px solid;
+background: white;
+color: gray;
+}
+#Calendar tr td a:hover
+{
+border: #CCC 1px solid;
+background: #EEE;
+color: black;
+text-decoration: none;
+}
+#Calendar tr td#active a
+{
+padding: 2;
+border: #800000 1px solid;
+background: #fCCCCC;
+color: black;
+}
+
+#ListContent1
+{
+border-top: #D9D9D9 0px solid
+}
+#ListContent1 div
+{
+padding-bottom: 10;
+
+margin-top: 20px;
+margin-bottom: 20px;
+}
+#ListContent1 strong
+{
+font-size: 18px;
+color: black;
+border: 0 0 20px 0;
+margin: 0;
+font-weight: bold;
+}
+#ListContent1 ul{
+border: 0;
+margin: 0;
+margin-left: 45px;
+list-style: disc;
+}
+#ListContent1 h2
+{
+list-style: disc;
+color: #000;
+font-size: 8pt;
+font-family: Verdana;
+margin-left: 5px;
+padding: 0 0 0 0;
+margin: 0 0 0 0;
+display: block;
+}
+#ListContent1 ul li
+{
+padding: 10px 0 0 0;
+margin: 0;
+font-weight: bold;
+display: block;
+}
+#ListContent1 ul ul
+{
+margin: 10px 0 0 0;
+padding: 0;
+font-weight: normal;
+list-style: none;
+}
+#ListContent1 ul ul li
+{
+margin: 0;
+padding: 0;
+font-weight: normal;
+list-style: none;
+color: gray;
+font-size: 7pt;
+font-family: Arial;
+}
+#ListContent1 ul ul li a
+{
+color: #09F;
+font-size: 8pt;
+font-family: Verdana;
+margin-left: 5px;
+}
+
+#ListContent
+{
+border-top: #D9D9D9 2px solid
+}
+
+#ListContent div
+{
+padding-bottom: 10;
+background: URL(/b/dot-line.gif) repeat-x bottom;
+margin-top: 20px;
+margin-bottom: 20px;
+}
+#ListContent h2
+{
+font-size: 18px;
+color: black;
+border: 0 0 20px 0;
+margin: 0;
+font-weight: bold;
+}
+#ListContent ul{
+border: 0;
+margin: 0;
+margin-left: 45px;
+list-style: disc;
+}
+#ListContent ul li
+{
+padding: 10px 0 0 0;
+margin: 0;
+font-weight: bold;
+display: block;
+}
+#ListContent ul ul
+{
+margin: 10px 0 0 0;
+padding: 0;
+font-weight: normal;
+list-style: none;
+}
+#ListContent ul ul li
+{
+margin: 0;
+padding: 0;
+font-weight: normal;
+list-style: none;
+color: gray;
+font-size: 7pt;
+font-family: Arial;
+}
+#ListContent ul ul li a
+{
+color: #09F;
+font-size: 8pt;
+font-family: Verdana;
+margin-left: 5px;
+}
+
+#FullContentText div#writer
+{
+font-size: 7pt;
+padding-bottom: 20px;
+}
+#FullContentText div#text
+{
+font-size: 9pt;
+padding-bottom: 10px;
+text-align: justify;
+border-bottom: #D9D9D9 2px solid;
+margin-bottom: 10px;
+}
+
+#FullContentTextA div#writer
+{
+font-size: 7pt;
+padding-bottom: 20px;
+}
+#FullContentTextA div#text
+{
+font-size: 9pt;
+padding-bottom: 10px;
+text-align: justify;
+margin-bottom: 10px;
+}
+
+div#vote input{
+font-size: 8pt;
+margin-top: 10px
+}
+
+div#Files ul
+{
+margin: 0 0 20 0;
+padding: 0 0 5 15;
+display: block;
+list-style: none;
+clear: both;
+background: URL(/b/li3.gif) no-repeat 0 40%;
+border-bottom: gray 1px dotted
+}
+
+div#Files ul li
+{
+list-style: none;
+margin: 0;
+padding: 0;
+display: inline;
+}
+
+div#Files ul li#Size, div#Files ul li#Ds
+{
+float: right;
+color: gray;
+font-size: 7pt;
+font-family: Arial;
+font-weight: bold;
+margin: 0 10 0 10;
+padding: 0 0 2 0;
+border-bottom: #FFCCCC 2px solid;
+}
+
+div#Files ul font
+{
+color: gray;
+font-size: 7pt;
+font-family: Arial;
+font-weight: bold;
+}
+
+
+div#Bu ul
+{
+margin: 0 0 0 0;
+padding: 0 0 5 15;
+display: block;
+list-style: none;
+clear: both;
+background: URL(/b/li3.gif) no-repeat 0 40%;
+border-bottom: gray 1px dotted
+}
+
+div#Bu ul li
+{
+list-style: none;
+margin: 0;
+padding: 0;
+display: inline;
+}
+
+ul li#Ds
+{
+float: right;
+color: gray;
+font-size: 7pt;
+font-family: Arial;
+font-weight: bold;
+margin: 0 10 0 10;
+padding: 0 0 2 0;
+border-bottom: #FFCCCC 2px solid;
+}
+
+ul li#Size
+{
+float: right;
+color: gray;
+font-size: 8pt;
+font-family: Verdana;
+font-weight: bold;
+margin: 0 5 0 10;
+padding: 0 0 2 0;
+border-bottom: #DB0000 2px solid;
+}
+
+div#Bu ul li#Ds
+{
+float: right;
+color: gray;
+font-size: 7pt;
+font-family: Arial;
+font-weight: bold;
+margin: 0 10 0 10;
+padding: 0 0 2 0;
+border-bottom: #FFCCCC 2px solid;
+}
+
+div#Bu ul li#Size
+{
+float: right;
+color: gray;
+font-size: 8pt;
+font-family: Verdana;
+font-weight: bold;
+margin: 0 5 0 10;
+padding: 0 0 2 0;
+border-bottom: #DB0000 2px solid;
+}
+
+div#Bu ul font
+{
+color: gray;
+font-size: 7pt;
+font-family: Arial;
+font-weight: bold;
+}
+
+#Bu
+{
+margin: 0 0 0 0;
+padding: 0 0 5 15;
+display: block;
+list-style: none;
+clear: both;
+background: URL(/b/li3.gif) no-repeat 0 40%;
+border-bottom: gray 1px dotted
+}
+
+#Bu td
+{
+list-style: none;
+margin: 0;
+padding: 0;
+display: inline;
+}
+
+.BuDs
+{
+color: gray;
+font-size: 7pt;
+font-family: Arial;
+font-weight: bold;
+margin: 0 0 0 0;
+padding: 0 0 2 0;
+border-bottom: #FFCCCC 2px solid;
+}
+
+.BuSize
+{
+color: gray;
+font-size: 7pt;
+font-family: Verdana;
+font-weight: bold;
+margin: 0 5 0 10;
+padding: 0 0 2 0;
+border-bottom: #DB0000 2px solid;
+}
+
+.Bufont
+{
+color: gray;
+font-size: 7pt;
+font-family: Arial;
+font-weight: bold;
+}
+
+#DsTitle
+{
+float: right;
+margin: 0 5 0 5;
+font-size: 7pt;
+text-transform: none;
+}
+
+#DsTitle1
+{
+font-size: 8pt;
+text-transform: none;
+border-bottom: gray 1px solid;
+clear: both;
+margin: 0 0 2 0;
+padding: 3 0 3 10;
+font-weight: bold;
+float: center;
+}
+
+td#Gray1
+{
+list-style: none;
+padding: 5;
+margin: 0;
+background: #F0F0F0;
+border: #CCC 1px solid
+}

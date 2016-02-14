@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+
+<Scene scene_node_type="ESNT_ANIMATED_MESH_SCENE_NODE" >
+
+<Material name="chainmachine" />
+
+<Mesh filename="weapons\chainmachine.md2" animation_fps="15" lod="0" />
+
+<Parameters name="chainmachine" id="-1" parent_id="-1" />
+
+<Animation speed="1.0" smooth="0" >
+<Register start_frame="0" end_frame="0"  speed="0.1" loop="1" />
+<Register start_frame="0" end_frame="12" speed="0.1" loop="1" />
+</Animation>
+
+<SceneNodeCoreProperties>
+<Shadow on="1" type="ESHT_SHADOW_VOLUME" />
+</SceneNodeCoreProperties>
+
+</Scene>
+
+<Game game_node_type="EGNT_WEAPON" class_name="Standard" >
+
+<GameNodeCoreProperties>
+<GameParameters mov_speed="0.00" rot_speed="0.00" life="0.00" />
+</GameNodeCoreProperties>
+
+<FlashColor red="255" green="255" blue="150" alpha="255" />
+<FlashRadius value="250" />
+<FlashTime value="200" />
+<FirePoint x="0" y="0" z="-20" />
+
+<BindFireEffect filename="effects\chainmachine_fire.xml" x="0" y="0" z="0.0" />
+<BindFireEffect filename="effects\chainmachine_smoke.xml" x="0" y="0" z="5.0" />
+<BindFireEffect filename="effects\chainmachine_axisflash.xml" x="0" y="0" z="0" />
+
+<BindBullet filename="bullets\chainmachine_bullet.xml" auto_feel_per_second="0" max_ammo_count="500" key_name="SmallBulletAmmo,MediumBulletAmmo,LargeBulletAmmo" />
+
+<Parameters fire_per_second="16" mass="100" select_speed="500" wait_before_fire="300" />
+
+<WeaponImageName value="set:RoboIngameGUI image:ImageWeapon1_Off" />
+<WeaponSelectedImageName value="set:RoboIngameGUI image:ImageWeapon1_On" />
+
+<WeaponItemKeyName value="Chainmachine" />
+
+</Game>
+
+<Sound>
+
+<SoundEffect filename ="weapons\vulcanf1b.wav" loop="0" />
+<SoundEffect filename ="weapons\vulcanf2b.wav" loop="0" />
+<SoundEffect filename ="weapons\vulcanf3b.wav" loop="0" />
+<SoundEffect filename ="weapons\vulcanf4b.wav" loop="0" />
+
+</Sound>
+
