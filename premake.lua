@@ -12,8 +12,8 @@ project.path = MY_PRJ_DIR
 
 package = newpackage()
 InitPackage("RoboGame", MY_PRJ_DIR, "c++", "dll", "",
-	{ "MyCore", "MyEngine", },
-		{},
+	{},
+		{"MyCore", "MyEngine",},
 			{},
 	{"__MY_BUILD_ROBOGAME_LIB__"}, {}, {},
 	{
@@ -29,8 +29,8 @@ InitPackage("RoboGame", MY_PRJ_DIR, "c++", "dll", "",
 
 package = newpackage()
 InitPackage("RoboTroopers", MY_PRJ_DIR, "c++", "exe", "",
-	{ "MyCore", "MyCoreScript", },
-		{},
+	{},
+		{"MyCore", "MyCoreScript",},
 			{},
 	{}, {}, {},
 	{
