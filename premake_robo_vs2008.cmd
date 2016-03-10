@@ -1,2 +1,2 @@
 cd .
-premake.cmd
+premake.cmd vs2008
