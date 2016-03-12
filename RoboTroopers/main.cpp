@@ -16,7 +16,7 @@
 #	include <stdlib.h>
 #	include <crtdbg.h>
 #	include <time.h>
-#	define MY_ALOC_HOOK 0
+#	define MY_ALOC_HOOK 1
 #endif
 
 using namespace my;
@@ -33,7 +33,7 @@ int __cdecl MyAllocHook(
 	long					lRequest,
 	const unsigned char		*szFileName,
 	int						nLine)
-{
+{/*
    char *operation[] = { "", "Alloc", "Realloc", "Free" };
    char *blockType[] = { "FREE", "NORMAL", "CRT", "IGNORE", "CLIENT" };
 
@@ -46,7 +46,7 @@ int __cdecl MyAllocHook(
 	else
 		fprintf(logAllocFile, "%s %d-byte '%s' block (#%ld)\n",
 			operation[nAllocType], nSize, blockType[nBlockUse], lRequest);
-
+*/
 	return (TRUE); // Allow the memory operation to proceed
 }
 #endif
