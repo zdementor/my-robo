@@ -16,7 +16,7 @@
 #	include <stdlib.h>
 #	include <crtdbg.h>
 #	include <time.h>
-#	define MY_ALOC_HOOK 1
+//#	define MY_ALOC_HOOK 1
 #endif
 
 using namespace my;
