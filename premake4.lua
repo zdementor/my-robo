@@ -26,6 +26,13 @@ InitPackage4("RoboGame", MY_PRJ_DIR, "c++", "dll", "",
 		{},
 	BASE_INC_PATH, BASE_LIB_PATH)
 
+
+local releaseMainEntry = "main"
+local debugMainEntry = "main"
+if os.is("windows") then
+	releaseMainEntry = "WinMain"
+end
+
 InitPackage4("RoboTroopers", MY_PRJ_DIR, "c++", "exe", "",
 	{},
 		{"MyCore", "MyCoreScript",},
@@ -40,5 +47,7 @@ InitPackage4("RoboTroopers", MY_PRJ_DIR, "c++", "exe", "",
 	},
 		{},
 	{BASE_INC_PATH, CEGUI_INC_DIR}, BASE_LIB_PATH,
-	{}, {"/SUBSYSTEM:WINDOWS"},
-	{}, {"/SUBSYSTEM:CONSOLE"})	
+	{}, {},
+	{}, {},
+	releaseMainEntry, debugMainEntry
+)	
