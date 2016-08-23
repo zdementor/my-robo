@@ -106,7 +106,7 @@ int APIENTRY WinMain(
 #endif
 
 	scr::ICoreScriptManager *scrmgr = scr::createCoreScriptManager();
-	scrmgr->runScript("../robo/robotroopers.lua");
+	scrmgr->runScript("../../robo/robotroopers.lua");
 	scrmgr->drop();
 
 #if MY_ALOC_HOOK

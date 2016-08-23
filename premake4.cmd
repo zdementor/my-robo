@@ -3,4 +3,4 @@ del .\*.sln
 del .\*.ncb
 del .\*.suo
 ..\bin\premake4 %1 --os windows
-..\build\MyEngine_Robo.sln
+..\build\x32\MyEngine_Robo_x32.sln

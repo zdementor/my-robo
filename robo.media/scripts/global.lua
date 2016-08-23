@@ -1,8 +1,8 @@
 
 GUI_SCHEME_NAME = "TaharezLook"
 
-local MediaRoot       = "../robo/robo.media/"
-local CommonMediaRoot = "../base/base.media/"
+local MediaRoot       = "../../robo/robo.media/"
+local CommonMediaRoot = "../../base/base.media/"
 
 OPTIONS =
 {

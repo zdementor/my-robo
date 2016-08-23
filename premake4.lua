@@ -3,14 +3,13 @@ rootdir = ".."
 
 dofile(rootdir.."/deps/premake_common.lua")
 
-local MY_PRJ_DIR = rootdir.."/build"
+local ROBO_PRJ_DIR  = rootdir.."/build"
+local ROBO_PRJ_NAME = "MyEngine_Robo"
 
 local ROBO_DIR  = rootdir.."/robo"
-
-solution("MyEngine_Robo")
-basedir(MY_PRJ_DIR)
-
-InitPackage4("RoboGame", MY_PRJ_DIR, "c++", "dll", "",
+ 
+InitPackage4(ROBO_PRJ_NAME, ROBO_PRJ_DIR,
+	"RoboGame", "c++", "dll", "",
 	{},
 		{"MyCore", "MyEngine",},
 			{},
@@ -26,14 +25,14 @@ InitPackage4("RoboGame", MY_PRJ_DIR, "c++", "dll", "",
 		{},
 	BASE_INC_PATH, BASE_LIB_PATH)
 
-
 local releaseMainEntry = "main"
 local debugMainEntry = "main"
 if os.is("windows") then
 	releaseMainEntry = "WinMain"
 end
 
-InitPackage4("RoboTroopers", MY_PRJ_DIR, "c++", "exe", "",
+InitPackage4(ROBO_PRJ_NAME, ROBO_PRJ_DIR,
+	"RoboTroopers", "c++", "exe", "",
 	{},
 		{"MyCore", "MyCoreScript",},
 			{},
