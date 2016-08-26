@@ -8,7 +8,7 @@ local ROBO_PRJ_NAME = "MyEngine_Robo"
 
 local ROBO_DIR  = rootdir.."/robo"
  
-InitPackage4(ROBO_PRJ_NAME, ROBO_PRJ_DIR,
+InitPackage(ROBO_PRJ_NAME, ROBO_PRJ_DIR,
 	"RoboGame", "c++", "dll", "",
 	{},
 		{"MyCore", "MyEngine",},
@@ -31,7 +31,7 @@ if os.is("windows") then
 	releaseMainEntry = "WinMain"
 end
 
-InitPackage4(ROBO_PRJ_NAME, ROBO_PRJ_DIR,
+InitPackage(ROBO_PRJ_NAME, ROBO_PRJ_DIR,
 	"RoboTroopers", "c++", "exe", "",
 	{},
 		{"MyCore", "MyCoreScript",},
