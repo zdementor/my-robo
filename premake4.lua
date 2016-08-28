@@ -1,13 +1,18 @@
 
-rootdir = ".."
+ROOT_DIR = ".."
 
-dofile(rootdir.."/deps/premake_common.lua")
+dofile(ROOT_DIR.."/deps/premake_common.lua")
 
-local ROBO_PRJ_DIR  = rootdir.."/build"
+local SRC_DIR  = ROOT_DIR.."/base/src"
+local SRC_INC_DIR  = SRC_DIR.."/inc"
+
+local ROBO_PRJ_DIR  = ROOT_DIR.."/build"
 local ROBO_PRJ_NAME = "MyEngine_Robo"
 
-local ROBO_DIR  = rootdir.."/robo"
- 
+local ROBO_DIR  = ROOT_DIR.."/robo"
+local ROBO_INC_DIR = { SRC_INC_DIR }
+local ROBO_LIB_DIR = { LIBS_DIR }
+
 InitPackage(ROBO_PRJ_NAME, ROBO_PRJ_DIR,
 	"RoboGame", "c++", "dll", "",
 	{},
@@ -23,10 +28,13 @@ InitPackage(ROBO_PRJ_NAME, ROBO_PRJ_DIR,
 		SRC_DIR.."/MySingletons.cpp",
 	},
 		{},
-	BASE_INC_PATH, BASE_LIB_PATH)
+	{ ROBO_INC_DIR }, { ROBO_LIB_DIR },
+	{}, {},  nil, nil,
+	nil, nil
+)
 
-local releaseMainEntry = "main"
-local debugMainEntry = "main"
+local releaseMainEntry = nil
+local debugMainEntry = nil
 if os.is("windows") then
 	releaseMainEntry = "WinMain"
 end
@@ -45,8 +53,7 @@ InitPackage(ROBO_PRJ_NAME, ROBO_PRJ_DIR,
 		ROBO_DIR.."/RoboTroopers/**.manifest",
 	},
 		{},
-	{BASE_INC_PATH, CEGUI_INC_DIR}, BASE_LIB_PATH,
-	{}, {},
-	{}, {},
+	{ROBO_INC_DIR, CEGUI_INC_DIR}, { ROBO_LIB_DIR },
+	{}, {}, nil, nil,
 	releaseMainEntry, debugMainEntry
 )	
