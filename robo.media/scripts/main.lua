@@ -361,7 +361,7 @@ end
 
 function OnDeleteNode(arg)
 	local game_node = tolua.cast(arg, "game::IGameNode")
-	--MyLogger:logInfo("~GAME NODE "..tostring(game_node).." "..
+	--LOG_INFO("~GAME NODE "..tostring(game_node).." "..
 	--	game.getGameNodeTypeReadableName(game_node:getGameNodeType()))
 end
 
@@ -369,7 +369,7 @@ end
 
 function OnCreateNode(arg)
 	local game_node = tolua.cast(arg, "game::IGameNode") 
-	--MyLogger:logInfo("GAME NODE "..tostring(game_node).." "..
+	--LOG_INFO("GAME NODE "..tostring(game_node).." "..
 	--	game.getGameNodeTypeReadableName(game_node:getGameNodeType()))
 end
 
