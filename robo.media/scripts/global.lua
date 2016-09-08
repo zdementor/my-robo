@@ -66,7 +66,6 @@ OPTIONS =
 	LogLevel				= io.ELL_INFORMATION,
 	ConsoleLogLevel			= io.ELL_INFORMATION,
 	CacheShaders			= true,
-	UseMultiThreadRendering	= false,
 }
 
 CameraStyle = 0

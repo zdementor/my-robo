@@ -347,8 +347,10 @@ function ShowMessage(show, capt_msg)
 		RoboGUI.WaitDlg:setVisible(true)
 		RoboGUI.WaitDlg:moveToFront()
 		MyCEGUI.registerForRendering()
-		MyDriver:render()
-		MyDriver:swapBuffers()
+		if MyDriver:beginRendering() then
+			MyDriver:renderAll()
+			MyDriver:endRendering()
+		end		
 	else        
 		RoboGUI.WaitDlg:setVisible(false)
 	end
@@ -1076,21 +1078,26 @@ while MyDevice:run() do
 			robomaterial, viewport_f, rect_tc, color_white)
 	end
 
+	-- render
+	if MyDriver:beginRendering() then
 
-	if MyRT then
-		MyDriver:setRenderTarget(MyRT)
-		MyDriver:setRenderTarget(rt)
+		if MyRT then
+			MyDriver:setRenderTarget(MyRT)
+			MyDriver:setRenderTarget(rt)
+		end
+
+		-- render ALL (GUI + 2D + 3D)
+		for i = 0, vid.E_RENDER_PASS_COUNT - 1 do
+			MyDriver:renderPass(i)
+		end
+
+		MyDriver:endRendering()
 	end
-
-	-- render ALL (GUI + 2D + 3D)
-	MyDriver:render()
 
 	-- do game
 	if gui_state>0 then
 		MyGameMgr:doGame()
 	end
-
-	MyDriver:swapBuffers()	
 	
 	-- post render stuff
 	if gui_state>0 then
