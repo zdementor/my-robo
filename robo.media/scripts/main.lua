@@ -1047,6 +1047,8 @@ local color_white = img.SColor(255,255,255,255)
 local viewport_f = core.rectf()
 
 while MyDevice:run() do
+
+	local rt = MyDriver:getRenderTarget()
 	
 	-- update GUI state
 	UpdateIngameGUI(MyDevice:getDeviceTime())
@@ -1072,6 +1074,12 @@ while MyDevice:run() do
 			viewport.LowerRightCorner.X, viewport.LowerRightCorner.Y)
 		MyDriver:register2DImageForRendering(
 			robomaterial, viewport_f, rect_tc, color_white)
+	end
+
+
+	if MyRT then
+		MyDriver:setRenderTarget(MyRT)
+		MyDriver:setRenderTarget(rt)
 	end
 
 	-- render ALL (GUI + 2D + 3D)
