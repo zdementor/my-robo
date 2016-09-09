@@ -1050,8 +1050,6 @@ local viewport_f = core.rectf()
 
 while MyDevice:run() do
 
-	local rt = MyDriver:getRenderTarget()
-	
 	-- update GUI state
 	UpdateIngameGUI(MyDevice:getDeviceTime())
 	
@@ -1082,6 +1080,7 @@ while MyDevice:run() do
 	if MyDriver:beginRendering() then
 
 		if MyRT then
+			local rt = MyDriver:getRenderTarget()
 			MyDriver:setRenderTarget(MyRT)
 			MyDriver:setRenderTarget(rt)
 		end
