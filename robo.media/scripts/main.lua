@@ -1027,9 +1027,16 @@ end
 
 local rtmaterial = vid.SMaterial()
 if MyRT then
-	local rtpass = rtmaterial:getPass(0)
-	rtpass:setDepthTest(vid.ECT_ALWAYS)
-	rtpass.Layers[0]:setTexture(MyRT:getColorTexture())
+	local pass = rtmaterial:getPass(0)
+	pass:setDepthTest(vid.ECT_ALWAYS)
+	pass:setAlphaTest(vid.ECT_ALWAYS)
+	pass:setFlag(vid.EMF_BLENDING, false)
+	pass:setFlag(vid.EMF_BACK_FACE_CULLING, true)
+	pass:setFlag(vid.EMF_ZWRITE_ENABLE, false)
+	pass:setFlag(vid.EMF_FRONT_FACE_CCW, true)
+	pass:setFlag(vid.EMF_FOG_ENABLE, false)
+	pass:setFlag(vid.EMF_GOURAUD_SHADING, false)
+	pass.Layers[0]:setTexture(MyRT:getColorTexture())
 end
 
 ----------------------------------------------------------
@@ -1082,26 +1089,10 @@ while MyDevice:run() do
 	else
 		-- register custom rendering
 		local viewport = MyDriver:getViewPort()
-
-		if MyRT then
-			viewport_f:set(
-				viewport.UpperLeftCorner.X, viewport.LowerRightCorner.Y/2,
-				viewport.LowerRightCorner.X, viewport.LowerRightCorner.Y)
-			if MyDriver:getDriverFamily() == vid.EDF_OPENGL then
-			-- swap TCoords vertically, because texture in OpenGL FBO Y-inversed
-				rect_tc:set(0, 1, 1, 0)
-			end
-			MyDriver:register2DImageForRendering(
-				rtmaterial, viewport_f, rect_tc, color_white)
-			viewport_f:set(
-				viewport.UpperLeftCorner.X, viewport.UpperLeftCorner.Y,
-				viewport.LowerRightCorner.X, viewport.LowerRightCorner.Y/2)
-			rect_tc:set(0, 0, 1, 1)
-		else
-			viewport_f:set(
-				viewport.UpperLeftCorner.X, viewport.UpperLeftCorner.Y,
-				viewport.LowerRightCorner.X, viewport.LowerRightCorner.Y)
-		end
+		viewport_f:set(
+			viewport.UpperLeftCorner.X, viewport.UpperLeftCorner.Y,
+			viewport.LowerRightCorner.X, viewport.LowerRightCorner.Y)
+		rect_tc:set(0, 0, 1, 1)
 		MyDriver:register2DImageForRendering(
 			robomaterial, viewport_f, rect_tc, color_white)
 	end
@@ -1113,20 +1104,39 @@ while MyDevice:run() do
 			local msk = MyDriver:getColorMask()
 			local rt = MyDriver:getRenderTarget()
 
+			---------------------------------
+			-- render 3D into RT
+
 			MyDriver:setRenderTarget(MyRT)
 			MyDriver:setColorMask(true, true, true, true)
-			MyDriver:clearColor(
-				math.random(0, 255), math.random(0, 255), math.random(0, 255), 255)
-			viewport_f:set(0.01, 0.01, 0.75, 0.75)
-			MyDriver:render2DRect(robomaterial, viewport_f, rect_tc)
+			MyDriver:clearColor(MyDriver:getBackgroundColor())
+			MyDriver:clearDepth()
+			MyDriver:clearStencil()
 			MyDriver:setColorMask(msk)
-
+			for i = 0, vid.ERP_2D_PASS - 1 do
+				MyDriver:renderPass(i)
+			end
 			MyDriver:setRenderTarget(rt)
-		end
 
-		-- render ALL (GUI + 2D + 3D)
-		for i = 0, vid.E_RENDER_PASS_COUNT - 1 do
-			MyDriver:renderPass(i)
+			---------------------------------
+			-- render into main FB
+
+			-- render 3D
+			if MyDriver:getDriverFamily() == vid.EDF_OPENGL then
+			-- swap TCoords vertically, because texture in OpenGL FBO Y-inversed
+				rect_tc:set(0, 1, 1, 0)
+			else
+				rect_tc:set(0, 0, 1, 1)
+			end
+			viewport_f:set(0, 0, 1, 1)
+			MyDriver:render2DRect(rtmaterial, viewport_f, rect_tc)
+
+			-- render 2D + GUI
+			for i = vid.ERP_2D_PASS, vid.E_RENDER_PASS_COUNT - 1 do
+				MyDriver:renderPass(i)
+			end
+		else
+			MyDriver:renderAll()
 		end
 
 		MyDriver:endRendering()
