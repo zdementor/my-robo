@@ -1019,6 +1019,19 @@ for p = 0, pass_cnt - 1 do
 	pass:setFlag ( vid.EMF_ZWRITE_ENABLE,	false )
 end
 
+local MyRT = nil
+if MyDriver:queryFeature(vid.EVDF_RENDER_TO_TARGET) then
+	MyRT = MyDriver:addRenderTarget(MyDriver:getScreenSize(),
+		img.ECF_A8R8G8B8, vid.ERTDF_DEPTH24_STENCIL8)
+end
+
+local rtmaterial = vid.SMaterial()
+if MyRT then
+	local rtpass = rtmaterial:getPass(0)
+	rtpass:setDepthTest(vid.ECT_ALWAYS)
+	rtpass.Layers[0]:setTexture(MyRT:getColorTexture())
+end
+
 ----------------------------------------------------------
 -- setup engine
 ----------------------------------------------------------
@@ -1069,9 +1082,26 @@ while MyDevice:run() do
 	else
 		-- register custom rendering
 		local viewport = MyDriver:getViewPort()
-		viewport_f:set(
-			viewport.UpperLeftCorner.X, viewport.UpperLeftCorner.Y,
-			viewport.LowerRightCorner.X, viewport.LowerRightCorner.Y)
+
+		if MyRT then
+			viewport_f:set(
+				viewport.UpperLeftCorner.X, viewport.LowerRightCorner.Y/2,
+				viewport.LowerRightCorner.X, viewport.LowerRightCorner.Y)
+			if MyDriver:getDriverFamily() == vid.EDF_OPENGL then
+			-- swap TCoords vertically, because texture in OpenGL FBO Y-inversed
+				rect_tc:set(0, 1, 1, 0)
+			end
+			MyDriver:register2DImageForRendering(
+				rtmaterial, viewport_f, rect_tc, color_white)
+			viewport_f:set(
+				viewport.UpperLeftCorner.X, viewport.UpperLeftCorner.Y,
+				viewport.LowerRightCorner.X, viewport.LowerRightCorner.Y/2)
+			rect_tc:set(0, 0, 1, 1)
+		else
+			viewport_f:set(
+				viewport.UpperLeftCorner.X, viewport.UpperLeftCorner.Y,
+				viewport.LowerRightCorner.X, viewport.LowerRightCorner.Y)
+		end
 		MyDriver:register2DImageForRendering(
 			robomaterial, viewport_f, rect_tc, color_white)
 	end
@@ -1080,8 +1110,17 @@ while MyDevice:run() do
 	if MyDriver:beginRendering() then
 
 		if MyRT then
+			local msk = MyDriver:getColorMask()
 			local rt = MyDriver:getRenderTarget()
+
 			MyDriver:setRenderTarget(MyRT)
+			MyDriver:setColorMask(true, true, true, true)
+			MyDriver:clearColor(
+				math.random(0, 255), math.random(0, 255), math.random(0, 255), 255)
+			viewport_f:set(0.01, 0.01, 0.75, 0.75)
+			MyDriver:render2DRect(robomaterial, viewport_f, rect_tc)
+			MyDriver:setColorMask(msk)
+
 			MyDriver:setRenderTarget(rt)
 		end
 
@@ -1113,4 +1152,9 @@ while MyDevice:run() do
 	
 	MyGameMgr:postRenderFrame()
 
+end
+
+if MyRT then
+	MyDriver:removeRenderTarget(MyRT)
+	MyRT = nil
 end
