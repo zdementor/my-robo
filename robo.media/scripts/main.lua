@@ -1022,7 +1022,7 @@ end
 local MyRT = nil
 if MyDriver:queryFeature(vid.EVDF_RENDER_TO_TARGET) then
 	MyRT = MyDriver:addRenderTarget(MyDriver:getScreenSize(),
-		img.ECF_A8R8G8B8, vid.ERTDF_DEPTH24_STENCIL8)
+		img.ECF_A8R8G8B8, img.ECF_DEPTH24_STENCIL8)
 end
 
 local rtmaterial = vid.SMaterial()
@@ -1037,6 +1037,7 @@ if MyRT then
 	pass:setFlag(vid.EMF_FOG_ENABLE, false)
 	pass:setFlag(vid.EMF_GOURAUD_SHADING, false)
 	pass.Layers[0]:setTexture(MyRT:getColorTexture())
+	--pass.Layers[0]:setTexture(MyRT:getDepthTexture())
 end
 
 ----------------------------------------------------------
