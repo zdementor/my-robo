@@ -1104,6 +1104,7 @@ while MyDevice:run() do
 		if MyRT then
 			local msk = MyDriver:getColorMask()
 			local rt = MyDriver:getRenderTarget()
+			local fillMode = MyDriver:getPolygonFillMode()
 
 			---------------------------------
 			-- render 3D into RT
@@ -1122,6 +1123,8 @@ while MyDevice:run() do
 			---------------------------------
 			-- render into main FB
 
+			MyDriver:setPolygonFillMode(vid.EPFM_SOLID)
+
 			-- render 3D
 			if MyDriver:getDriverFamily() == vid.EDF_OPENGL then
 			-- swap TCoords vertically, because texture in OpenGL FBO Y-inversed
@@ -1136,6 +1139,8 @@ while MyDevice:run() do
 			for i = vid.ERP_2D_PASS, vid.E_RENDER_PASS_COUNT - 1 do
 				MyDriver:renderPass(i)
 			end
+
+			MyDriver:setPolygonFillMode(fillMode)
 		else
 			MyDriver:renderAll()
 		end
