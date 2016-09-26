@@ -1019,10 +1019,20 @@ for p = 0, pass_cnt - 1 do
 	pass:setFlag ( vid.EMF_ZWRITE_ENABLE,	false )
 end
 
+local MAIN_COLOR_RTT_NAME = "MainColorRenderTargetTexture"
+local MAIN_DEPTH_RTT_NAME = "MainDepthRenderTargetTexture"
+
 local MyRT = nil
+
 if MyDriver:queryFeature(vid.EVDF_RENDER_TO_TARGET) then
-	MyRT = MyDriver:addRenderTarget(MyDriver:getScreenSize(),
-		img.ECF_A8R8G8B8, img.ECF_DEPTH24_STENCIL8)
+	local colorRT = MyDriver:addRenderTargetTexture(MAIN_COLOR_RTT_NAME,
+		MyDriver:getScreenSize(), img.ECF_A8R8G8B8)
+	local depthRT = MyDriver:addRenderTargetTexture(MAIN_DEPTH_RTT_NAME,
+		MyDriver:getScreenSize(), img.ECF_DEPTH24_STENCIL8)
+	MyRT = MyDriver:addRenderTarget(nil, nil)
+	MyRT:bindColorTexture(colorRT, false)
+	MyRT:bindDepthTexture(depthRT, false)
+	MyRT:rebuild()
 end
 
 local rtmaterial = vid.SMaterial()
@@ -1036,8 +1046,7 @@ if MyRT then
 	pass:setFlag(vid.EMF_FRONT_FACE_CCW, true)
 	pass:setFlag(vid.EMF_FOG_ENABLE, false)
 	pass:setFlag(vid.EMF_GOURAUD_SHADING, false)
-	pass.Layers[0]:setTexture(MyRT:getColorTexture())
-	--pass.Layers[0]:setTexture(MyRT:getDepthTexture())
+	pass.Layers[0]:setTexture(MyDriver:findTexture(MAIN_COLOR_RTT_NAME))
 end
 
 ----------------------------------------------------------
@@ -1102,45 +1111,49 @@ while MyDevice:run() do
 	if MyDriver:beginRendering() then
 
 		if MyRT then
+
 			local msk = MyDriver:getColorMask()
 			local rt = MyDriver:getRenderTarget()
 			local fillMode = MyDriver:getPolygonFillMode()
 
-			---------------------------------
-			-- render 3D into RT
+			if MyDriver:setRenderTarget(MyRT) then
 
-			MyDriver:setRenderTarget(MyRT)
-			MyDriver:setColorMask(true, true, true, true)
-			MyDriver:clearColor(MyDriver:getBackgroundColor())
-			MyDriver:clearDepth()
-			MyDriver:clearStencil()
-			MyDriver:setColorMask(msk)
-			for i = 0, vid.ERP_2D_PASS - 1 do
-				MyDriver:renderPass(i)
-			end
-			MyDriver:setRenderTarget(rt)
+				---------------------------------
+				-- render 3D into RT
+				MyDriver:setColorMask(true, true, true, true)
+				MyDriver:clearColor(MyDriver:getBackgroundColor())
+				MyDriver:clearDepth()
+				MyDriver:clearStencil()
+				MyDriver:setColorMask(msk)
+				for i = 0, vid.ERP_2D_PASS - 1 do
+					MyDriver:renderPass(i)
+				end
+				MyDriver:setRenderTarget(rt)
 
-			---------------------------------
-			-- render into main FB
+				---------------------------------
+				-- render into main FB
+				MyDriver:setPolygonFillMode(vid.EPFM_SOLID)
 
-			MyDriver:setPolygonFillMode(vid.EPFM_SOLID)
+				-- render 3D
+				if MyDriver:getDriverFamily() == vid.EDF_OPENGL then
+				-- swap TCoords vertically, because texture in OpenGL FBO Y-inversed
+					rect_tc:set(0, 1, 1, 0)
+				else
+					rect_tc:set(0, 0, 1, 1)
+				end
+				viewport_f:set(0, 0, 1, 1)
+				MyDriver:render2DRect(rtmaterial, viewport_f, rect_tc)
 
-			-- render 3D
-			if MyDriver:getDriverFamily() == vid.EDF_OPENGL then
-			-- swap TCoords vertically, because texture in OpenGL FBO Y-inversed
-				rect_tc:set(0, 1, 1, 0)
+				-- render 2D + GUI
+				for i = vid.ERP_2D_PASS, vid.E_RENDER_PASS_COUNT - 1 do
+					MyDriver:renderPass(i)
+				end
+
+				MyDriver:setPolygonFillMode(fillMode)
+
 			else
-				rect_tc:set(0, 0, 1, 1)
+				MyDriver:renderAll()
 			end
-			viewport_f:set(0, 0, 1, 1)
-			MyDriver:render2DRect(rtmaterial, viewport_f, rect_tc)
-
-			-- render 2D + GUI
-			for i = vid.ERP_2D_PASS, vid.E_RENDER_PASS_COUNT - 1 do
-				MyDriver:renderPass(i)
-			end
-
-			MyDriver:setPolygonFillMode(fillMode)
 		else
 			MyDriver:renderAll()
 		end
@@ -1168,9 +1181,4 @@ while MyDevice:run() do
 	
 	MyGameMgr:postRenderFrame()
 
-end
-
-if MyRT then
-	MyDriver:removeRenderTarget(MyRT)
-	MyRT = nil
 end
