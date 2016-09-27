@@ -1019,22 +1019,6 @@ for p = 0, pass_cnt - 1 do
 	pass:setFlag ( vid.EMF_ZWRITE_ENABLE,	false )
 end
 
-local MAIN_COLOR_RTT_NAME = "MainColorRenderTargetTexture"
-local MAIN_DEPTH_RTT_NAME = "MainDepthRenderTargetTexture"
-
-local MyRT = nil
-
-if MyDriver:queryFeature(vid.EVDF_RENDER_TO_TARGET) then
-	local colorRT = MyDriver:addRenderTargetTexture(MAIN_COLOR_RTT_NAME,
-		MyDriver:getScreenSize(), img.ECF_A8R8G8B8)
-	local depthRT = MyDriver:addRenderTargetTexture(MAIN_DEPTH_RTT_NAME,
-		MyDriver:getScreenSize(), img.ECF_DEPTH24_STENCIL8)
-	MyRT = MyDriver:addRenderTarget(nil, nil)
-	MyRT:bindColorTexture(colorRT, false)
-	MyRT:bindDepthTexture(depthRT, false)
-	MyRT:rebuild()
-end
-
 local rtmaterial = vid.SMaterial()
 if MyRT then
 	local pass = rtmaterial:getPass(0)
