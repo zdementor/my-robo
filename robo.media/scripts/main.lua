@@ -1104,6 +1104,7 @@ while MyDevice:run() do
 
 				---------------------------------
 				-- render 3D into RT
+
 				MyDriver:setColorMask(true, true, true, true)
 				MyDriver:clearColor(MyDriver:getBackgroundColor())
 				MyDriver:clearDepth()
@@ -1112,20 +1113,17 @@ while MyDevice:run() do
 				for i = 0, vid.ERP_2D_PASS - 1 do
 					MyDriver:renderPass(i)
 				end
+
 				MyDriver:setRenderTarget(rt)
 
 				---------------------------------
 				-- render into main FB
+
 				MyDriver:setPolygonFillMode(vid.EPFM_SOLID)
 
-				-- render 3D
-				if MyDriver:getDriverFamily() == vid.EDF_OPENGL then
-				-- swap TCoords vertically, because texture in OpenGL FBO Y-inversed
-					rect_tc:set(0, 1, 1, 0)
-				else
-					rect_tc:set(0, 0, 1, 1)
-				end
+				-- render RT with 3D
 				viewport_f:set(0, 0, 1, 1)
+				rect_tc:set(0, 0, 1, 1)
 				MyDriver:render2DRect(rtmaterial, viewport_f, rect_tc)
 
 				-- render 2D + GUI
