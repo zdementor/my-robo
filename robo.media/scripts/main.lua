@@ -868,6 +868,11 @@ function OnEvent(args)
 				end
 				return true
 			end
+			if event.KeyInput.Key == io.EKC_F8
+					and event.KeyInput.Control then
+				Scened.makeScreenShot()
+				return true
+			end
 		end
 	end
 	if not Console:isVisible() and Scened.isStarted() then
