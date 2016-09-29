@@ -870,7 +870,7 @@ function OnEvent(args)
 			end
 			if event.KeyInput.Key == io.EKC_F8
 					and event.KeyInput.Control then
-				Scened.makeScreenShot()
+				Helper.makeScreenShot()
 				return true
 			end
 		end
