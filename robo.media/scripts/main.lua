@@ -350,7 +350,8 @@ function ShowMessage(show, capt_msg)
 		if MyDriver:beginRendering() then
 			MyDriver:renderAll()
 			MyDriver:endRendering()
-		end		
+		end
+		MyDriver:swapBuffers()
 	else        
 		RoboGUI.WaitDlg:setVisible(false)
 	end
@@ -1157,6 +1158,8 @@ while MyDevice:run() do
 	if gui_state>0 then
 		MyScnMgr:postRenderScene()
 	end	
+
+	MyDriver:swapBuffers()
 
 	local fps = MyDriver:getCurrentFPS()
 	if last_fps ~= fps then
