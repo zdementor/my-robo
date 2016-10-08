@@ -1036,7 +1036,7 @@ if MyRT then
 	pass:setFlag(vid.EMF_FRONT_FACE_CCW, true)
 	pass:setFlag(vid.EMF_FOG_ENABLE, false)
 	pass:setFlag(vid.EMF_GOURAUD_SHADING, false)
-	pass.Layers[0]:setTexture(MyDriver:findTexture(MAIN_COLOR_RTT_NAME))
+	pass.Layers[0]:setTexture(MyRT:getColorTexture(0))
 end
 
 ----------------------------------------------------------
