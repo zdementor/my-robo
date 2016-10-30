@@ -15,6 +15,7 @@
 #define VS_OUT(vvv) output.vvv
 #define PS_IN(vvv) input.vvv
 #define PS_OUT(vvv) output.vvv
+#define ATTRIBUTE
 #define VARYING
 #define UNIFORM uniform
 #define MIX lerp
@@ -32,18 +33,18 @@
 #define FOG_END(fog)      fog.y
 #define FOG_DENSITY(fog)  fog.z
 
-UNIFORM MAT4 ModelViewProjMatrix;
-UNIFORM MAT4 ModelViewMatrix;
-UNIFORM MAT3 NormalMatrix;
-UNIFORM MAT4 Lighting[4];
+UNIFORM MAT4 uModelViewProjMatrix;
+UNIFORM MAT4 uModelViewMatrix;
+UNIFORM MAT3 uNormalMatrix;
+UNIFORM MAT4 uLighting[4];
 
 struct VS_INPUT
 {
-    VEC4 Vertex : POSITION;
-    VEC3 Normal : NORMAL;
-    VEC2 MultiTexCoord0 : TEXCOORD0;
-    VEC3 MultiTexCoord2 : TEXCOORD1;
-    VEC3 MultiTexCoord3 : TEXCOORD2;
+ATTRIBUTE VEC4 aPosition : POSITION;
+ATTRIBUTE VEC3 aNormal : NORMAL;
+ATTRIBUTE VEC2 aTCoord0 : TEXCOORD0;
+ATTRIBUTE VEC3 aTCoord2 : TEXCOORD1;
+ATTRIBUTE VEC3 aTCoord3 : TEXCOORD2;
 };
 
 struct VS_OUTPUT
@@ -62,18 +63,18 @@ VS_OUTPUT main(VS_INPUT input)
 {
     VS_OUTPUT output;
 
-    VEC4 vertex = VS_IN(Vertex);
-    VEC4 positionMVP = mul(vertex, ModelViewProjMatrix);
+    VEC4 vertex = VS_IN(aPosition);
+    VEC4 positionMVP = mul(vertex, uModelViewProjMatrix);
 
-    VEC4 position = mul(vertex, ModelViewMatrix);
+    VEC4 position = mul(vertex, uModelViewMatrix);
     VEC3 eyeVec = -position.xyz;
-    VEC3 normal = VS_IN(Normal);
-    normal = mul(normal, NormalMatrix);
+    VEC3 normal = VS_IN(aNormal);
+    normal = mul(normal, uNormalMatrix);
 
-    VEC3 tangent  = VS_IN(MultiTexCoord2).xyz;
-    VEC3 binormal = VS_IN(MultiTexCoord3).xyz;
-    tangent  = mul(tangent, NormalMatrix);
-    binormal = mul(binormal, NormalMatrix);
+    VEC3 tangent  = VS_IN(aTCoord2).xyz;
+    VEC3 binormal = VS_IN(aTCoord3).xyz;
+    tangent  = mul(tangent, uNormalMatrix);
+    binormal = mul(binormal, uNormalMatrix);
     VS_OUT(EyeVec) = VEC3(
         dot(eyeVec, tangent),
         dot(eyeVec, binormal),
@@ -81,7 +82,7 @@ VS_OUTPUT main(VS_INPUT input)
     // transforming lights into TBN space
     {
     // Light 0
-        VEC3 lPosition = L_POSITION(Lighting[0]);
+        VEC3 lPosition = L_POSITION(uLighting[0]);
         VEC3 lightVec = lPosition - position.xyz;
         VS_OUT(LightVec0) = VEC4(
             dot(lightVec, tangent),
@@ -91,7 +92,7 @@ VS_OUTPUT main(VS_INPUT input)
     }
     {
     // Light 1
-        VEC3 lPosition = L_POSITION(Lighting[1]);
+        VEC3 lPosition = L_POSITION(uLighting[1]);
         VEC3 lightVec = lPosition - position.xyz;
         VS_OUT(LightVec1) = VEC4(
             dot(lightVec, tangent),
@@ -101,7 +102,7 @@ VS_OUTPUT main(VS_INPUT input)
     }
     {
     // Light 2
-        VEC3 lPosition = L_POSITION(Lighting[2]);
+        VEC3 lPosition = L_POSITION(uLighting[2]);
         VEC3 lightVec = lPosition - position.xyz;
         VS_OUT(LightVec2) = VEC4(
             dot(lightVec, tangent),
@@ -111,7 +112,7 @@ VS_OUTPUT main(VS_INPUT input)
     }
     {
     // Light 3
-        VEC3 lPosition = L_POSITION(Lighting[3]);
+        VEC3 lPosition = L_POSITION(uLighting[3]);
         VEC3 lightVec = lPosition - position.xyz;
         VS_OUT(LightVec0).w = dot(lightVec, tangent);
         VS_OUT(LightVec1).w = dot(lightVec, binormal);
@@ -119,7 +120,7 @@ VS_OUTPUT main(VS_INPUT input)
     }
     VS_OUT(Position) = position;
 
-    VEC4 tc0 = VEC4(VS_IN(MultiTexCoord0).xy, 1.0, 1.0);
+    VEC4 tc0 = VEC4(VS_IN(aTCoord0).xy, 1.0, 1.0);
     VS_OUT(TexCoord0) = VEC4(tc0.xy, 0.0, 0.0);
 
     VEC4 tc3 = tc0;
