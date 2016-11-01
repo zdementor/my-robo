@@ -43,8 +43,8 @@ struct VS_INPUT
 ATTRIBUTE VEC4 aPosition : POSITION;
 ATTRIBUTE VEC3 aNormal : NORMAL;
 ATTRIBUTE VEC2 aTCoord0 : TEXCOORD0;
-ATTRIBUTE VEC3 aTCoord2 : TEXCOORD1;
-ATTRIBUTE VEC3 aTCoord3 : TEXCOORD2;
+ATTRIBUTE VEC3 aTangent : TANGENT;
+ATTRIBUTE VEC3 aBinormal : BINORMAL;
 };
 
 struct VS_OUTPUT
@@ -71,8 +71,8 @@ VS_OUTPUT main(VS_INPUT input)
     VEC3 normal = VS_IN(aNormal);
     normal = mul(normal, uNormalMatrix);
 
-    VEC3 tangent  = VS_IN(aTCoord2).xyz;
-    VEC3 binormal = VS_IN(aTCoord3).xyz;
+    VEC3 tangent  = VS_IN(aTangent).xyz;
+    VEC3 binormal = VS_IN(aBinormal).xyz;
     tangent  = mul(tangent, uNormalMatrix);
     binormal = mul(binormal, uNormalMatrix);
     VS_OUT(EyeVec) = VEC3(

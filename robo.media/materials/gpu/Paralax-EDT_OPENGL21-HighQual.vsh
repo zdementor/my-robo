@@ -34,8 +34,8 @@
 ATTRIBUTE VEC4 aPosition;
 ATTRIBUTE VEC3 aNormal;
 ATTRIBUTE VEC2 aTCoord0;
-ATTRIBUTE VEC3 aTCoord2;
-ATTRIBUTE VEC3 aTCoord3;
+ATTRIBUTE VEC3 aTangent;
+ATTRIBUTE VEC3 aBinormal;
 
 UNIFORM MAT4 uModelViewProjMatrix;
 UNIFORM MAT4 uModelViewMatrix;
@@ -60,8 +60,8 @@ void main(void)
     VEC3 normal = VS_IN(aNormal);
     normal = uNormalMatrix * normal;
 
-    VEC3 tangent  = VS_IN(aTCoord2).xyz;
-    VEC3 binormal = VS_IN(aTCoord3).xyz;
+    VEC3 tangent  = VS_IN(aTangent).xyz;
+    VEC3 binormal = VS_IN(aBinormal).xyz;
     tangent  = uNormalMatrix * tangent;
     binormal = uNormalMatrix * binormal;
     VS_OUT(EyeVec) = VEC3(
