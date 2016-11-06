@@ -1014,6 +1014,9 @@ MyMatMgr:loadMaterialsFromDir(mat_dir, true, false)
 
 -- getting background material
 
+local dsProg = MyDriver:getGPUProgram(string.format("%s/%s",
+	MyResMgr:getCommonMediaDirFull(res.EMT_GPU_PROGRAMS), "Deferred.gpu"))
+
 local robomaterial = vid.SMaterial()
 robomaterial:set(MyMatMgr:getMaterialByName("textures/robo_sfx/robo_title"))
 local pass_cnt = robomaterial:getPassesCount()          
@@ -1037,6 +1040,69 @@ if MyRT then
 	pass:setFlag(vid.EMF_FOG_ENABLE, false)
 	pass:setFlag(vid.EMF_GOURAUD_SHADING, false)
 	pass.Layers[0]:setTexture(MyRT:getColorTexture(0))
+end
+
+local rtmaterial1 = vid.SMaterial()
+if MyRT then
+	local pass = rtmaterial1:getPass(0)
+	pass:setDepthTest(vid.ECT_ALWAYS)
+	pass:setAlphaTest(vid.ECT_ALWAYS)
+	pass:setFlag(vid.EMF_BLENDING, false)
+	pass:setFlag(vid.EMF_BACK_FACE_CULLING, true)
+	pass:setFlag(vid.EMF_ZWRITE_ENABLE, false)
+	pass:setFlag(vid.EMF_FRONT_FACE_CCW, true)
+	pass:setFlag(vid.EMF_FOG_ENABLE, false)
+	pass:setFlag(vid.EMF_GOURAUD_SHADING, false)
+	pass.Layers[0]:setTexture(MyRT:getColorTexture(1))
+end
+
+local rtmaterial2 = vid.SMaterial()
+if MyRT then
+	local pass = rtmaterial2:getPass(0)
+	pass:setDepthTest(vid.ECT_ALWAYS)
+	pass:setAlphaTest(vid.ECT_ALWAYS)
+	pass:setFlag(vid.EMF_BLENDING, false)
+	pass:setFlag(vid.EMF_BACK_FACE_CULLING, true)
+	pass:setFlag(vid.EMF_ZWRITE_ENABLE, false)
+	pass:setFlag(vid.EMF_FRONT_FACE_CCW, true)
+	pass:setFlag(vid.EMF_FOG_ENABLE, false)
+	pass:setFlag(vid.EMF_GOURAUD_SHADING, false)
+	pass.Layers[0]:setTexture(MyRT:getColorTexture(2))
+end
+
+local rtmaterialDS = vid.SMaterial()
+if MyRT then
+	local pass = rtmaterialDS:getPass(0)
+	pass:setDepthTest(vid.ECT_ALWAYS)
+	pass:setAlphaTest(vid.ECT_ALWAYS)
+	pass:setFlag(vid.EMF_BLENDING, false)
+	pass:setFlag(vid.EMF_BACK_FACE_CULLING, true)
+	pass:setFlag(vid.EMF_ZWRITE_ENABLE, false)
+	pass:setFlag(vid.EMF_FRONT_FACE_CCW, true)
+	pass:setFlag(vid.EMF_FOG_ENABLE, false)
+	pass:setFlag(vid.EMF_GOURAUD_SHADING, false)
+	pass.Layers[0]:setTexture(MyRT:getColorTexture(0))
+	pass.Layers[1]:setTexture(MyRT:getColorTexture(1))
+	pass.Layers[2]:setTexture(MyRT:getColorTexture(2))
+	pass:setGPUProgram(dsProg)
+end
+
+local rtmaterialDSSec = vid.SMaterial()
+if MyRT then
+	local pass = rtmaterialDSSec:getPass(0)
+	pass:setDepthTest(vid.ECT_ALWAYS)
+	pass:setAlphaTest(vid.ECT_ALWAYS)
+	pass:setFlag(vid.EMF_BLENDING, true)
+	pass:setBlendFuncs(vid.ESBF_ONE, vid.EDBF_ONE)
+	pass:setFlag(vid.EMF_BACK_FACE_CULLING, true)
+	pass:setFlag(vid.EMF_ZWRITE_ENABLE, false)
+	pass:setFlag(vid.EMF_FRONT_FACE_CCW, true)
+	pass:setFlag(vid.EMF_FOG_ENABLE, false)
+	pass:setFlag(vid.EMF_GOURAUD_SHADING, false)
+	pass.Layers[0]:setTexture(MyRT:getColorTexture(0))
+	pass.Layers[1]:setTexture(MyRT:getColorTexture(1))
+	pass.Layers[2]:setTexture(MyRT:getColorTexture(2))
+	pass:setGPUProgram(dsProg)
 end
 
 ----------------------------------------------------------
@@ -1104,12 +1170,19 @@ while MyDevice:run() do
 
 			local msk = MyDriver:getColorMask()
 			local rt = MyDriver:getRenderTarget()
+			local renderPath = MyDriver:getRenderPath()
 			local fillMode = MyDriver:getPolygonFillMode()
+
+			local useDS = false
 
 			if MyDriver:setRenderTarget(MyRT) then
 
 				---------------------------------
 				-- render 3D into RT
+
+				if (useDS) then
+					MyDriver:setRenderPath(vid.ERP_DEFERRED_SHADING)
+				end
 
 				MyDriver:setColorMask(true, true, true, true)
 				MyDriver:clearColor(MyDriver:getBackgroundColor())
@@ -1119,6 +1192,8 @@ while MyDevice:run() do
 				for i = 0, vid.ERP_2D_PASS - 1 do
 					MyDriver:renderPass(i)
 				end
+
+				MyDriver:setRenderPath(renderPath)
 
 				MyDriver:setRenderTarget(rt)
 
@@ -1131,6 +1206,22 @@ while MyDevice:run() do
 				viewport_f:set(0, 0, 1, 1)
 				rect_tc:set(0, 0, 1, 1)
 				MyDriver:render2DRect(rtmaterial, viewport_f, rect_tc)
+
+				if useDS then
+					viewport_f:set(0.1, 0.1, 0.4, 0.4)
+					MyDriver:render2DRect(rtmaterial1, viewport_f, rect_tc)
+
+					viewport_f:set(0.1, 0.4, 0.6, 0.9)
+
+					local lcnt = MyDriver:getDynamicLightsCount()
+					if lcnt > 1 then
+						-- global light
+						MyDriver:render2DRectWithLight(rtmaterialDS, viewport_f, rect_tc, 1)
+					end
+					for i = 2, lcnt - 1 do
+						MyDriver:render2DRectWithLight(rtmaterialDSSec, viewport_f, rect_tc, i)
+					end
+				end
 
 				-- render 2D + GUI
 				for i = vid.ERP_2D_PASS, vid.E_RENDER_PASS_COUNT - 1 do

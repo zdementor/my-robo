@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <Material name="paralax.material" >
 <Pass>
-<GPUProgram filename="gpu/Paralax.gpu" />
+<GPUProgram filename="null" />
 <Layer index="0" texture="rockwall.jpg" type="ETLT_DIFFUSE_MAP" rgb_scale="1" tc_gen="ETCGT_MANUAL_MAPPING" tc_addr="ETCAM_WRAP" tc_channel="0" filter="1" />
 <Layer index="3" texture="rockwall_height_nmap.tga" type="ETLT_NORMAL_MAP" rgb_scale="1" tc_gen="ETCGT_MANUAL_MAPPING" tc_addr="ETCAM_WRAP" tc_channel="0" filter="1" />
 <Flags qouraud_shading="1" zwrite_enable="1" back_face_culling="1" front_face_ccw="1" fog_enable="1" mip_map_off="0" blending="0" />
