@@ -1070,6 +1070,20 @@ if MyRT then
 	pass.Layers[0]:setTexture(MyRT:getColorTexture(2))
 end
 
+local rtmaterial3 = vid.SMaterial()
+if MyRT then
+	local pass = rtmaterial3:getPass(0)
+	pass:setDepthTest(vid.ECT_ALWAYS)
+	pass:setAlphaTest(vid.ECT_ALWAYS)
+	pass:setFlag(vid.EMF_BLENDING, false)
+	pass:setFlag(vid.EMF_BACK_FACE_CULLING, true)
+	pass:setFlag(vid.EMF_ZWRITE_ENABLE, false)
+	pass:setFlag(vid.EMF_FRONT_FACE_CCW, true)
+	pass:setFlag(vid.EMF_FOG_ENABLE, false)
+	pass:setFlag(vid.EMF_GOURAUD_SHADING, false)
+	pass.Layers[0]:setTexture(MyRT:getColorTexture(3))
+end
+
 local rtmaterialDS = vid.SMaterial()
 if MyRT then
 	local pass = rtmaterialDS:getPass(0)
@@ -1084,6 +1098,7 @@ if MyRT then
 	pass.Layers[0]:setTexture(MyRT:getColorTexture(0))
 	pass.Layers[1]:setTexture(MyRT:getColorTexture(1))
 	pass.Layers[2]:setTexture(MyRT:getColorTexture(2))
+	pass.Layers[3]:setTexture(MyRT:getColorTexture(3))
 	pass:setGPUProgram(dsProg)
 end
 
@@ -1102,6 +1117,7 @@ if MyRT then
 	pass.Layers[0]:setTexture(MyRT:getColorTexture(0))
 	pass.Layers[1]:setTexture(MyRT:getColorTexture(1))
 	pass.Layers[2]:setTexture(MyRT:getColorTexture(2))
+	pass.Layers[3]:setTexture(MyRT:getColorTexture(3))
 	pass:setGPUProgram(dsProg)
 end
 
@@ -1173,14 +1189,14 @@ while MyDevice:run() do
 			local renderPath = MyDriver:getRenderPath()
 			local fillMode = MyDriver:getPolygonFillMode()
 
-			local useDS = false
+			local useDS = IsDefferedRT(MyRT)
 
 			if MyDriver:setRenderTarget(MyRT) then
 
 				---------------------------------
 				-- render 3D into RT
 
-				if (useDS) then
+				if useDS then
 					MyDriver:setRenderPath(vid.ERP_DEFERRED_SHADING)
 				end
 
@@ -1210,6 +1226,9 @@ while MyDevice:run() do
 				if useDS then
 					viewport_f:set(0.1, 0.1, 0.4, 0.4)
 					MyDriver:render2DRect(rtmaterial1, viewport_f, rect_tc)
+
+					viewport_f:set(0.6, 0.1, 0.9, 0.4)
+					MyDriver:render2DRect(rtmaterial3, viewport_f, rect_tc)
 
 					viewport_f:set(0.1, 0.4, 0.6, 0.9)
 
