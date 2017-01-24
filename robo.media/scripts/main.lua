@@ -1015,7 +1015,7 @@ MyMatMgr:loadMaterialsFromDir(mat_dir, true, false)
 -- getting background material
 
 local dsProg = MyDriver:getGPUProgram(string.format("%s/%s",
-	MyResMgr:getCommonMediaDirFull(res.EMT_GPU_PROGRAMS), "Deferred.gpu"))
+	MyResMgr:getCommonMediaDirFull(res.EMT_GPU_PROGRAMS), "DS-Dynamic.gpu"))
 
 local robomaterial = vid.SMaterial()
 robomaterial:set(MyMatMgr:getMaterialByName("textures/robo_sfx/robo_title"))
