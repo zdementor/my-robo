@@ -1014,6 +1014,9 @@ MyMatMgr:loadMaterialsFromDir(mat_dir, true, false)
 
 -- getting background material
 
+local dsProgStatic = MyDriver:getGPUProgram(string.format("%s/%s",
+	MyResMgr:getCommonMediaDirFull(res.EMT_GPU_PROGRAMS), "DS-Static.gpu"))
+
 local dsProg = MyDriver:getGPUProgram(string.format("%s/%s",
 	MyResMgr:getCommonMediaDirFull(res.EMT_GPU_PROGRAMS), "DS-Dynamic.gpu"))
 
@@ -1084,9 +1087,9 @@ if MyRT then
 	pass.Layers[0]:setTexture(MyRT:getColorTexture(3))
 end
 
-local rtmaterialDS = vid.SMaterial()
+local rtmaterialDSStatic = vid.SMaterial()
 if MyRT then
-	local pass = rtmaterialDS:getPass(0)
+	local pass = rtmaterialDSStatic:getPass(0)
 	pass:setDepthTest(vid.ECT_ALWAYS)
 	pass:setAlphaTest(vid.ECT_ALWAYS)
 	pass:setFlag(vid.EMF_BLENDING, false)
@@ -1096,15 +1099,13 @@ if MyRT then
 	pass:setFlag(vid.EMF_FOG_ENABLE, false)
 	pass:setFlag(vid.EMF_GOURAUD_SHADING, false)
 	pass.Layers[0]:setTexture(MyRT:getColorTexture(0))
-	pass.Layers[1]:setTexture(MyRT:getColorTexture(1))
-	pass.Layers[2]:setTexture(MyRT:getColorTexture(2))
-	pass.Layers[3]:setTexture(MyRT:getColorTexture(3))
-	pass:setGPUProgram(dsProg)
+	pass.Layers[1]:setTexture(MyRT:getColorTexture(3))
+	pass:setGPUProgram(dsProgStatic)
 end
 
-local rtmaterialDSSec = vid.SMaterial()
+local rtmaterialDSDynamic = vid.SMaterial()
 if MyRT then
-	local pass = rtmaterialDSSec:getPass(0)
+	local pass = rtmaterialDSDynamic:getPass(0)
 	pass:setDepthTest(vid.ECT_ALWAYS)
 	pass:setAlphaTest(vid.ECT_ALWAYS)
 	pass:setFlag(vid.EMF_BLENDING, true)
@@ -1232,13 +1233,11 @@ while MyDevice:run() do
 
 					viewport_f:set(0.1, 0.4, 0.6, 0.9)
 
+					MyDriver:render2DRect(rtmaterialDSStatic, viewport_f, rect_tc)
+
 					local lcnt = MyDriver:getDynamicLightsCount()
-					if lcnt > 1 then
-						-- global light
-						MyDriver:render2DRectWithLight(rtmaterialDS, viewport_f, rect_tc, 1)
-					end
-					for i = 2, lcnt - 1 do
-						MyDriver:render2DRectWithLight(rtmaterialDSSec, viewport_f, rect_tc, i)
+					for i = 1, lcnt - 1 do
+						MyDriver:render2DRectWithLight(rtmaterialDSDynamic, viewport_f, rect_tc, i)
 					end
 				end
 
