@@ -66,12 +66,12 @@ OPTIONS =
 	LogLevel				= io.ELL_INFORMATION,
 	ConsoleLogLevel			= io.ELL_INFORMATION,
 	CacheShaders			= true,
-	RTFormat = nil,{
+	RTFormat = {
 		Colors = {
 			img.ECF_A8R8G8B8,      -- diffuse
-			img.ECF_A8R8G8B8,      -- normal
-			img.ECF_A32B32G32R32F, -- position
-			img.ECF_A8R8G8B8,      -- material
+--			img.ECF_A8R8G8B8,      -- normal
+--			img.ECF_A32B32G32R32F, -- position
+--			img.ECF_A8R8G8B8,      -- material
 		},
 		Depth = img.ECF_DEPTH24_STENCIL8
 	}
